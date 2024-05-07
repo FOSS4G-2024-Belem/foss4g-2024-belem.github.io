@@ -58,12 +58,31 @@ const menuItems = [
       },
     ],
   },
-    {
-    "label:en": "Call for papers",
-    "label:es": "Call for papers",
+  {
+    "label:en": "Call for Papers",
+    "label:es": "Call for Papers",
     "label:pt": "Chamada de trabalhos",
-    href: "/call-for-papers",
-   },
+    links: [
+      {
+        "label:en": "Call for Papers",
+        "label:es": "Call for papers",
+        "label:pt": "Chamada de trabalhos",
+        href: "/call-for-papers",
+      },
+      {
+        "label:en": "General Talks",
+        "label:es": "Call for papers",
+        "label:pt": "Chamada de trabalhos",
+        href: "/cfp/general-talks",
+      },
+      {
+        "label:en": "Workshops",
+        "label:es": "Call for papers",
+        "label:pt": "Chamada de trabalhos",
+        href: "/cfp/workshops",
+      },
+    ],
+  },
   {
     "label:en": "Map",
     "label:es": "Mapa",
@@ -297,9 +316,7 @@ export default function Header() {
                         // @ts-ignore
                         href={menuItem.href}
                         // @ts-ignore
-                        onClick={
-                          () => setIsMenuOpen(false)
-                        }
+                        onClick={() => setIsMenuOpen(false)}
                       >
                         <div
                           key={menuItem[labelLang]}
