@@ -60,24 +60,24 @@ const menuItems = [
   },
   {
     "label:en": "Call for Papers",
-    "label:es": "Call for Papers",
+    "label:es": "Llamado de Ponencias",
     "label:pt": "Chamada de trabalhos",
     links: [
       {
         "label:en": "Call for Papers",
-        "label:es": "Call for papers",
+        "label:es": "Llamado de Ponencias",
         "label:pt": "Chamada de trabalhos",
         href: "/call-for-papers",
       },
       {
         "label:en": "General Talks",
-        "label:es": "Call for papers",
+        "label:es": "Charlas Generales",
         "label:pt": "Chamada de trabalhos",
         href: "/cfp/general-talks",
       },
       {
         "label:en": "Workshops",
-        "label:es": "Call for papers",
+        "label:es": "Talleres",
         "label:pt": "Chamada de trabalhos",
         href: "/cfp/workshops",
       },

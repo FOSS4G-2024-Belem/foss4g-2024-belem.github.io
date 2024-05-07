@@ -8,9 +8,11 @@ export default function LanguageSwitcher({ onClick = () => {} }: any) {
   const { language, setLanguage } = useContext(LanguageContext);
   const router = useRouter();
 
-  const [currentPageLang, currentPageSlug] = router.asPath
+  const [currentPageLang, ...currentPageSlugParts] = router.asPath
     .split("/")
     .filter((part) => part !== "");
+  
+  const currentPageSlug = currentPageSlugParts.join("/")
 
   const currentPage = Object.values(intlHrefs).find(
     // @ts-ignore

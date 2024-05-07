@@ -111,6 +111,26 @@ export const intlHrefs = {
     es: "/contacto",
     pt: "/contactar-nos",
   },
+  "/call-for-papers": {
+    en: "/call-for-papers",
+    es: "/llamado-de-ponencias",
+    pt: "/contactar-nos",
+  },
+  "/cfp/academic-talks": {
+    en: "/cfp/academic",
+    es: "/cfp/charlas-academicas",
+    pt: "/contactar-nos",
+  },
+  "/cfp/general-talks": {
+    en: "/cfp/general-talks",
+    es: "/cfp/charlas-generales",
+    pt: "/contactar-nos",
+  },
+  "/cfp/workshops": {
+    en: "/cfp/workshops",
+    es: "/cfp/talleres",
+    pt: "/contactar-nos",
+  },
 };
 
 export const LanguageContext = createContext<{
