@@ -72,13 +72,13 @@ const menuItems = [
       {
         "label:en": "General Talks",
         "label:es": "Charlas Generales",
-        "label:pt": "Chamada de trabalhos",
+        "label:pt": "Palestras Gerais",
         href: "/cfp/general-talks",
       },
       {
         "label:en": "Workshops",
         "label:es": "Talleres",
-        "label:pt": "Chamada de trabalhos",
+        "label:pt": "Oficinas",
         href: "/cfp/workshops",
       },
     ],

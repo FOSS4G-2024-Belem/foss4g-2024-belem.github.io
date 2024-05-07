@@ -114,22 +114,22 @@ export const intlHrefs = {
   "/call-for-papers": {
     en: "/call-for-papers",
     es: "/llamado-de-ponencias",
-    pt: "/contactar-nos",
+    pt: "/chamada-para-trabalhos",
   },
   "/cfp/academic-talks": {
     en: "/cfp/academic",
     es: "/cfp/charlas-academicas",
-    pt: "/contactar-nos",
+    pt: "/cfp/palestras-academicas",
   },
   "/cfp/general-talks": {
     en: "/cfp/general-talks",
     es: "/cfp/charlas-generales",
-    pt: "/contactar-nos",
+    pt: "/cfp/palestras-gerais",
   },
   "/cfp/workshops": {
     en: "/cfp/workshops",
     es: "/cfp/talleres",
-    pt: "/contactar-nos",
+    pt: "/cfp/oficinas",
   },
 };
 
