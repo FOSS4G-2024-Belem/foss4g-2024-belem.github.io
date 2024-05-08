@@ -666,7 +666,7 @@ const getMapStyle = ({
         id: "venues",
         type: "symbol",
         source: "venues",
-        minzoom: 12,
+        minzoom: 11,
         layout: {
           "text-allow-overlap": true,
           "text-font": ["literal", ["Noto Sans SemiCondensed Regular"]],
