@@ -19,12 +19,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       </div>
     ),
     h4: ({ children }) => (
-      <div className="my-1 font-ubuntu text-xl leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl">
+      <div className="my-1 font-ubuntu text-2xl leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl">
         {children}
       </div>
     ),
     h5: ({ children }) => (
-      <div className="text-lg font-ubuntu leading-none tracking-tight text-gray-900 md:text-xl lg:text-2xl">
+      <div className="text-xl font-ubuntu leading-none tracking-tight text-gray-900 md:text-xl lg:text-2xl">
         {children}
       </div>
     ),
