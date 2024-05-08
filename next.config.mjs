@@ -9,7 +9,7 @@ const nextConfig = {
   env: {
     baseUrl: "https://rami-dv.github.io"
   },
-  basePath: undefined, // process.env.NODE_ENV == "production" ? "/foss4g-belem" : undefined,
+  basePath: undefined, //process.env.NODE_ENV == "production" ? "/foss4g-belem" : undefined,
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
 };
