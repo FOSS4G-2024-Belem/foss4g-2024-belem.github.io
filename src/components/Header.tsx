@@ -59,6 +59,12 @@ const menuItems = [
     ],
   },
   {
+    "label:en": "Map",
+    "label:es": "Mapa",
+    "label:pt": "Mapa",
+    href: "/map",
+  },
+  {
     "label:en": "Call for Papers",
     "label:es": "Llamado de Ponencias",
     "label:pt": "Chamada de trabalhos",
@@ -82,12 +88,6 @@ const menuItems = [
         href: "/cfp/workshops",
       },
     ],
-  },
-  {
-    "label:en": "Map",
-    "label:es": "Mapa",
-    "label:pt": "Mapa",
-    href: "/map",
   },
   {
     "label:en": "Registration",
