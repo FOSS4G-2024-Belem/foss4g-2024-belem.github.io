@@ -60,7 +60,7 @@ const enHomepagePhrases = {
   section4Card3Link: "https://hangarpa.com.br/",
   section5Text:
     "Do you want to become our sponsor? <br />Join us as an essential partner in this technological journey!",
-  section5Button1Link: "/sponsors",
+  section5Button1Link: "/foss4g-2024-sponsor-brochure.pdf",
   section5Button1Text: "Sponsor Brochure",
   section5Button2Link: "/contact",
   section5Button2Text: "Contact Us",
@@ -373,11 +373,11 @@ export default function HomePage({
               dangerouslySetInnerHTML={{ __html: t["section5Text"] }}
             ></div>
             <div className="flex items-center justify-center flex-col space-y-4 sm:space-y-8">
-              <IntlLink href={t["section5Button1Link"]}>
+              <a href={t["section5Button1Link"]}>
                 <div className="button inline-block bg-[#ff6600] uppercase text-white font-ubuntu px-10 py-3 ">
                   {t["section5Button1Text"]}
                 </div>
-              </IntlLink>
+              </a>
 
               <IntlLink href={t["section5Button2Link"]}>
                 <div className="button inline-block text-[#ff6600] uppercase bg-white font-ubuntu px-10 py-3 ">
