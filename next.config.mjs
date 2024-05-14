@@ -4,13 +4,18 @@ import withMDX from "@next/mdx";
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  
+
   images: {
     unoptimized: true,
-    
+  },
+  exportPathMap: async function (defaultPathMap) {
+    return {
+      ...defaultPathMap,
+      ...{ "/sponsors": { page: "/en/sponsors" } },
+    };
   },
   env: {
-    baseUrl: "https://2024.foss4g.org"
+    baseUrl: "https://2024.foss4g.org",
   },
   basePath: undefined, //process.env.NODE_ENV == "production" ? "/foss4g-belem" : undefined,
   reactStrictMode: true,
