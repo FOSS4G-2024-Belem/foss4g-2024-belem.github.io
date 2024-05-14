@@ -1,38 +1,83 @@
 import MdxLayout from "@/components/MDXLayout";
 import Heading from "@/components/Heading";
+import { ArrowHeading } from "@/components/Heading";
 import Image from "next/image";
 import Geochicas from "@/images/logo/geochicas.png";
 import Geolibres from "@/images/logo/geolibres.png";
 import MeninasDaGeo from "@/images/logo/meninas-da-geo.png";
 import OsGeoBrasil from "@/images/logo/osgeo-brasil.png";
 import OsGeoLogo from "@/images/logo/osgeo-logo.png";
+import Foss4g2022OpeningSession from "@/images/foss4g-2022/opening-session.jpg";
+import IntlLink from "@/components/IntlLink";
+import Link from "next/link";
 
 export const metadata = {
   title: "Patrocinadores",
-  description: "Lista de patrocinadores, organizadores y socios comunitarios en la Conferencia FOSS4G 2024 celebrada en Belém, Brasil, del 02 al 08 de diciembre de 2024",
+  description: "Lista de patrocinadores, organizadores y colaboradores comunitarios en la Conferencia FOSS4G 2024 celebrada en Belém, Brasil del 02 al 08 de diciembre de 2024",
 };
 
 <Heading bubble color="orange">
-  Organizadores
+  Patrocinadores de FOSS4G 2024
 </Heading>
-<SponsorGrid level={1} images={[OsGeoLogo, OsGeoBrasil, Geolibres]} />
 
-<Heading color="red">{"Patrocinadores Diamante"}</Heading>
+<div className="grid space-y-4 mt-4">
+  <div className="grid md:grid-cols-2 gap-4">  
+    <div>
+      <Image placeholder="blur" src={Foss4g2022OpeningSession} className="rounded-lg" />
+    </div>
+    <div className="">
+
+    #### ¿Por qué convertirse en patrocinador?
+
+    Organizado por OSGeo y con más de 15 años de experiencia, este encuentro anual internacional de entusiastas de la ubicación es el más grande del mundo para el software geoespacial.
+
+    FOSS4G reúne a desarrolladores, usuarios, tomadores de decisiones y observadores de un amplio espectro de organizaciones y campos de operación. Al apoyar FOSS4G, estará ayudando a hacer posible este encuentro internacional, además de aumentar la conciencia sobre su organización en nuestra gran comunidad geoespacial.
+
+    ¡Consulte nuestro <Link href="/foss4g-2024-sponsor-brochure.pdf">Folleto para Patrocinadores</Link> o <IntlLink href="/foss4g-2024-sponsor-brochure.pdf" >Contáctenos</IntlLink> para obtener más información!
+
+    <div class="flex gap-4 mt-4 justify-center sm:justify-normal">
+      <Link href="/foss4g-2024-sponsor-brochure.pdf" className="non-standard">
+        <div className="inline-block py-2 px-4 bg-f4g_orange text-white rounded-lg shadow-lg min-w-40 text-center">Folleto para Patrocinadores</div>
+      </Link>
+
+      <IntlLink href="/contact" className="non-standard">
+        <div className="inline-block py-2 px-4 text-f4g_green border border-f4g_green rounded-lg shadow-lg min-w-40 text-center">Contáctenos</div>
+      </IntlLink>
+    </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div className="border border-f4g_orange max-w-[800px] mx-auto my-8">
+  <div className="bg-f4g_orange font-ubuntu text-white text-xl text-center py-1">
+    Organizadores
+  </div>
+  
+  <div className="my-4">
+    <SponsorGrid level={1} images={[OsGeoLogo, OsGeoBrasil, Geolibres]} />
+  </div>
+</div>
+
+
+<ArrowHeading size={0}>Patrocinador Diamante</ArrowHeading>
 <SponsorGrid level={0} images={[null]} />
 
-<Heading color="red">{"Patrocinadores Platino"}</Heading>
+<ArrowHeading size={1}>{"Patrocinadores Platino"}</ArrowHeading>
 <SponsorGrid level={1} images={[null, null]} />
 
-<Heading color="red">{"Patrocinadores Oro"}</Heading>
+<ArrowHeading size={2}>{"Patrocinadores Oro"}</ArrowHeading>
 <SponsorGrid level={2} images={[null, null, null]} />
 
-<Heading color="red">{"Patrocinadores Plata"}</Heading>
+<ArrowHeading size={2}>{"Patrocinadores Plata"}</ArrowHeading>
 <SponsorGrid level={3} images={[null, null, null, null, null]} />
 
-<Heading color="red">{"Patrocinadores Bronce"}</Heading>
+<ArrowHeading size={2}>{"Patrocinadores Bronce"}</ArrowHeading>
 <SponsorGrid level={4} images={[null, null, null, null, null, null]} />
 
-<Heading color="orange">Socios Comunitarios</Heading>
+<ArrowHeading size={2} color="orange">Colaboradores Comunitarios</ArrowHeading>
 <SponsorGrid level={1} images={[Geochicas, MeninasDaGeo]} />
 
 export function SponsorGrid({level, images}) {
@@ -45,22 +90,22 @@ export function SponsorGrid({level, images}) {
     },
     1: {
       gap: "gap-3 sm:gap-8",
-      maxW: "max-w-40 6xl:max-w-72",
+      maxW: "max-w-40 6xl:max-w-60",
       text: "p-3 6xl:p-5 text-2xl 6xl:text-4xl leading-5"
     },
     2: {
       gap: "gap-2 sm:gap-6",
-      maxW: "max-w-40 6xl:max-w-60",
+      maxW: "max-w-24 6xl:max-w-60",
       text: "p-2 6xl:p-4 6xl:text-xl leading-4"
     },
     3: {
       gap: "gap-1 sm:gap-4",
-      maxW: "max-w-40 6xl:max-w-48",
+      maxW: "max-w-20 6xl:max-w-48",
       text: "p-1 6xl:p-3 text-sm 6xl:text-lg leading-4"
     },
     4: {
       gap: "gap-1 sm:gap-2",
-      maxW: "max-w-40 6xl:max-w-36",
+      maxW: "max-w-20 6xl:max-w-36",
       text: "text-xs 6xl:text-base leading-4"
     },
   }
@@ -73,7 +118,7 @@ export function SponsorGrid({level, images}) {
         <div key={idx} className={`flex ${classes["maxW"]} items-center justify-center`}>
           {img ? 
             <Image placeholder="blur" src={img} className="max-w-full h-auto" /> : 
-            <div className={`border font-ubuntu select-none border-gray-800 p-2 ${classes["text"]} rounded text-center text-gray-700`}>¡Tu Logotipo Aquí!</div>
+            <div className={`border font-ubuntu select-none border-gray-800 p-2 ${classes["text"]} rounded text-center text-gray-700`}>¡Tu Logo Aquí!</div>
             }
         </div>
       ))}
