@@ -3,8 +3,11 @@ import withMDX from "@next/mdx";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  trailingSlash: true,
+  
   images: {
     unoptimized: true,
+    
   },
   env: {
     baseUrl: "https://2024.foss4g.org"
