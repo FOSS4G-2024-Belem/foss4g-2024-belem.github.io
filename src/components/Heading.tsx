@@ -79,7 +79,7 @@ export function ArrowHeading({
       className={`flex my-6 sm:my-8 items-center font-ubuntu font-semibold ${text[color]} ${sizeClasses[size]}`}
     >
       <div className="px-2 sm:px-4"><span className="text-f4g_orange">&gt;&gt;&gt;</span> {children}</div>
-      <div className={`flex-1 border-t-4 ${borders[color]}`}></div>
+      <div className={`hidden flex-1 border-t-4 ${borders[color]}`}></div>
     </div>
   );
 }
