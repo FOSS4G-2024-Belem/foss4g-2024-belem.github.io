@@ -39,7 +39,7 @@ export default function LanguageSwitcher({ onClick = () => {} }: any) {
               key={lang["code"]}
               href={
                 // @ts-ignore
-                `/${lang["code"]}${currentPage?.[lang.code] ?? "en"}`
+                `/${lang["code"]}${currentPage?.[lang.code] ?? ""}`
               }
               onClick={() => {
                 onClick();
