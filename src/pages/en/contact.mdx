@@ -10,7 +10,7 @@ export const metadata = {
   description: "Contact information for FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024",
 };
 
-export function ContactTr({url, label}) {
+export function ContactTr({url, label, label2 = ""}) {
   return (
     <tr>
       <td className="p-2">
@@ -22,7 +22,7 @@ export function ContactTr({url, label}) {
         />
       </td>
       <td>
-        <a href={url} target="_blank" className="non-standard text-f4g_red underline underline-offset-4">{label}</a>
+        <a href={url} target="_blank" className="non-standard text-f4g_red underline underline-offset-4">{label}</a> {label2}
       </td>
     </tr>
   )
@@ -42,7 +42,8 @@ export function ContactTr({url, label}) {
 
     <table>
       <tbody>
-        <ContactTr url="mailto:info@foss4g.org" label="info@foss4g.org" />
+        <ContactTr url="mailto:info@foss4g.org" label="info@foss4g.org" label2="(General Questions)" />
+        <ContactTr url="mailto:sponsors@foss4g.org" label="sponsors@foss4g.org" label2="(Sponsorship Questions)" />
         <ContactTr url="https://lists.osgeo.org/mailman/listinfo/foss4g2024" label="FOSS4G 2024 Mailing List" />
         <ContactTr url="http://eepurl.com/gxPUJH" label="FOSS4G 2024 Newsletter" />
         <ContactTr url="https://t.me/foss4g" label="FOSS4G 2024 Telegram Group"/>
