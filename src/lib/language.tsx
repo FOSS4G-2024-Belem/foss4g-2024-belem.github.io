@@ -116,10 +116,10 @@ export const intlHrefs = {
     es: "/llamado-de-ponencias",
     pt: "/chamada-para-trabalhos",
   },
-  "/cfp/academic-talks": {
-    en: "/cfp/academic",
-    es: "/cfp/charlas-academicas",
-    pt: "/cfp/palestras-academicas",
+  "/cfp/academic-track": {
+    en: "/cfp/academic-track",
+    es: "/cfp/track-academico",
+    pt: "/cfp/trilha-academica",
   },
   "/cfp/general-talks": {
     en: "/cfp/general-talks",
