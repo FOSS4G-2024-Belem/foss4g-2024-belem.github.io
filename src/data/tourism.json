@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "tourism",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "icon": "estacao-das-docas",
+        "name": "Estação das Docas",
+        "label": "Estação das Docas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.5003947, -1.4488806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icon": "forte-do-castelo",
+        "name": "Forte do Castelo",
+        "label": "Forte do Castelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.5052661, -1.4542686]
+      }
+    }
+  ]
+}

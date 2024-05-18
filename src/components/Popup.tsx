@@ -65,7 +65,7 @@ export default function Popup({
           properties={feature.properties}
         />
       )}
-      {["venues", "osm"].includes(feature.source) && (
+      {["venues", "tourism"].includes(feature.source) && (
         <VenuePopupContent
           popupEmbeds={popupEmbeds}
           type={type}

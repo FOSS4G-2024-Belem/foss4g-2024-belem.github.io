@@ -34,7 +34,7 @@
         "icon": "hangar",
         "name": "Hangar",
         "label": "Hangar",
-        "sublabel": "Dec 04-06: Main Conference\nDec 04: Ice Breaker"
+        "sublabel": "Dec 04-06: Main Conference"
       },
       "geometry": {
         "type": "Point",

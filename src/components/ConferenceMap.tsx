@@ -13,7 +13,7 @@ import Popup from "@/components/Popup";
 import venuesGeoJson from "@/data/venues.json";
 import placesGeoJson from "@/data/places.json";
 import bairrosGeoJson from "@/data/bairros.json";
-import osmJson from "@/data/osm.json";
+import tourismGeoJson from "@/data/tourism.json";
 
 import { useState, useRef, useMemo } from "react";
 
@@ -145,25 +145,25 @@ const getMapStyle = ({
     select: selectedFeature,
   };
 
-  const osmGeoJson = {
-    name: "osm",
-    type: "FeatureCollection",
-    features: osmJson.elements.map((el) => {
-      const geom =
-        "center" in el
-          ? [el["center"]["lon"], el["center"]["lat"]]
-          : [el["lon"], el["lat"]];
+  // const osmGeoJson = {
+  //   name: "osm",
+  //   type: "FeatureCollection",
+  //   features: osmJson.elements.map((el) => {
+  //     const geom =
+  //       "center" in el
+  //         ? [el["center"]["lon"], el["center"]["lat"]]
+  //         : [el["lon"], el["lat"]];
 
-      return {
-        type: "Feature",
-        properties: el.tags,
-        geometry: {
-          type: "Point",
-          coordinates: geom,
-        },
-      };
-    }),
-  };
+  //     return {
+  //       type: "Feature",
+  //       properties: el.tags,
+  //       geometry: {
+  //         type: "Point",
+  //         coordinates: geom,
+  //       },
+  //     };
+  //   }),
+  // };
 
   return {
     version: 8,
@@ -213,10 +213,10 @@ const getMapStyle = ({
         attribution:
           '<a href="https://overturemaps.org" target="_blank">Overture Maps</a>',
       },
-      osm: {
+      tourism: {
         type: "geojson",
         data: applyFeatureStates(
-          osmGeoJson as NamedFeatureCollection,
+          tourismGeoJson as NamedFeatureCollection,
           featureState
         ),
       },
@@ -790,10 +790,10 @@ const getMapStyle = ({
       {
         id: "attractions",
         type: "symbol",
-        source: "osm",
+        source: "tourism",
         minzoom: 12,
         layout: {
-          "icon-image": "star",
+          "icon-image": ["get", "icon"],
           "icon-size": [
             "let",
             "multiplier",
@@ -812,14 +812,14 @@ const getMapStyle = ({
               ["linear"],
               ["zoom"],
               12,
-              ["*", ["var", "multiplier"], 0.2],
+              ["*", ["var", "multiplier"], 0.35],
               13,
-              ["*", ["var", "multiplier"], 0.25],
+              ["*", ["var", "multiplier"], 0.4],
               14,
-              ["*", ["var", "multiplier"], 0.3],
+              ["*", ["var", "multiplier"], 0.45],
             ],
           ],
-          "text-offset": [0, 1],
+          "text-offset": [0, 1.5],
           "text-field": ["step", ["zoom"], "", 12.1, ["get", "name"]],
           "text-font": ["literal", ["Noto Sans SemiCondensed Regular"]],
           "text-size": [
