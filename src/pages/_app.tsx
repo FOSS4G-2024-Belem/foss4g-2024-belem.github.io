@@ -38,11 +38,13 @@ export default function App({ Component, pageProps }: AppProps) {
       if (["en", "es", "pt"].includes(lang)) {
         // @ts-ignore
         setLanguage(lang);
+      } else {
+        setLanguage("en")
       }
     }
 
     setIsLoaded(true);
-  }, []);
+  }, [router.asPath]);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
