@@ -1,0 +1,80 @@
+import MdxLayout from "@/components/MDXLayout";
+import Heading from "@/components/Heading";
+import IntlLink from "@/components/IntlLink";
+
+export const metadata = {
+  title: "Trilha Acadêmica",
+  description:
+    "Informações sobre Trilha Acadêmica da Conferência FOSS4G 2024 realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024",
+  image: null,
+};
+
+<Heading bubble>Trilha Acadêmica</Heading>
+
+<div className="grid space-y-4 mt-4">
+  <div className="grid md:grid-cols-2 gap-4">  
+    <div className="">
+
+      #### Descrição Trilha Acadêmica
+      ---
+
+      Seguindo a tradição já estabelecida, o FOSS4G organiza uma Trilha Acadêmica que acontecerá durante os dias da Conferência. O Comitê Científico FOSS4G 2024 busca contribuições originais de pesquisa abordando temáticas geoespaciais incluindo, mas não limitado a: software de código aberto, hardware aberto, desenvolvimento de software aberto, ciência aberta, dados e sistemas abertos. Interoperabilidade, plataformas e serviços em nuvem abertos, educação aberta, cartografia participativa, gêmeos digitais, geoAI e aprendizado de máquina.
+
+      Artigos de todos os tipos são bem recebidos, incluindo resultados alcançados, estudos de caso, trabalhos em andamento, revisões e demonstrações. Desaconselhamos, no entanto, meras apresentações de tecnologia ou casos de uso sem justificar adequadamente a originalidade em relação ao estado da arte e sem novidades específicas. Além disso, a utilização de software geoespacial de código aberto deve ser devidamente destacada. Esperamos especialmente contribuições de estudantes de doutorado e pesquisadores.
+
+      Na avaliação das propostas, o <IntlLink href="/conference-committees">Comitê Científico</IntlLink> dará especial atenção à reprodutibilidade da pesquisa (quando aplicável). A reprodutibilidade é garantida quando os pesquisadores disponibilizam abertamente todos os artefatos (dados de entrada, metodologias e códigos computacionais) necessários para obtenção de resultados consistentes com o apresentado no artigo.  É importante que códigos computacionais sejam disponibilizados publicamente sob uma licença de código aberto.
+
+
+      #### Prazos
+      ---
+
+      - **Chamada para o Caminho Acadêmico**: 30 de maio de 2024.
+      - **Prazos Chamada aberta para trabalhos acadêmicos**: 30 de maio a 30 de junho de 2024
+      - **Anúncio dos trabalhos aceitos**: 5 de agosto de 2024
+      - **Envio dos trabalhos acadêmicos completos**: 30 de agosto de 2024
+
+    </div>
+
+    <div>
+
+    #### Como enviar um artigo
+    ---
+
+    **Etapa 1**:
+    Os autores são convidados a submeter resumos escritos em inglês com entre 800 e 1000 palavras que contenham detalhes suficientes para a sua avaliação, incluindo conceitos, metodologia e resultados. Devem destacar as razões pelas quais seriam interessantes para o público da Trilha Acadêmica do FOSS4G.
+
+    Os membros do Comitê Científico avaliarão o resumo submetido com base em sua originalidade e novidade científica, relevância para a comunidade FOSS4G, apresentação e clareza e qualidade geral. A reprodutibilidade será considerada entre os critérios de avaliação. 
+
+    **Etapa 2**:
+    Os autores de resumos selecionados deverão  submeter uma versão estendida do trabalho com suas contribuições originais ainda não publicadas. Devem ainda considerar as sugestões de melhorias apontadas pelo Comitê Científico na etapa 1.
+
+    As versões estendidas dos resumos aceitos não serão revisadas novamente. No entanto, eles serão verificados quanto à conformidade com o modelo (veja abaixo).  As diretrizes e modelos  para formatação das versões estendidas estarão disponíveis no site da FOSS4G.
+
+    #### Apresentação
+    ---
+
+    O programa da Trilha Acadêmica  incluirá apenas os trabalhos de autores que enviarem as versões  estendidas de seus resumos aceitos, e que que sigam o modelo de formatação indicado. Ou seja, não haverá nenhuma apresentação na Trilha Acadêmica que não seja de um trabalho submetido e aceito. 
+
+    Os autores devem se inscrever na conferência para apresentar seus trabalhos aceitos. Podemos aceitar até dois trabalhos por inscrição. Caso selecione esta opção e ambos os trabalhos (com apenas um autor inscrito no congresso) sejam aceitos, um será indicado para apresentação oral e o outro como pôster, dependendo de decisão posterior do comitê científico. Alternativamente, com base nas avaliações recebidas, você pode optar por apresentar os dois trabalhos por meio de pôsteres. Independentemente da situação (1 apresentação oral, 1 pôster ou 2 pôsteres), os autores deverão ter submetidos os dois trabalhos na Etapa 2.
+
+    #### Anais
+    ---
+
+    Os trabalhos aceitos e apresentados na Trilha Acadêmica serão publicados em Anais completos do FOSS4G 2024, até o primeiro dia da conferência.
+    </div>
+
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>;
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+
+}

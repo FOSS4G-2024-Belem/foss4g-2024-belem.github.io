@@ -1,0 +1,82 @@
+import MdxLayout from "@/components/MDXLayout";
+import Heading from "@/components/Heading";
+import IntlLink from "@/components/IntlLink";
+
+export const metadata = {
+  title: "Track Académico",
+  description:
+    "Información de Track Académico para la Conferencia FOSS4G 2024 celebrada en Belém, Brasil, del 02 al 08 de diciembre de 2024",
+  image: null,
+};
+
+<Heading bubble>Track Académico</Heading>
+
+<div className="grid space-y-4 mt-4">
+  <div className="grid md:grid-cols-2 gap-4">  
+    <div className="">
+
+      #### Academic Track Descripción
+      ---
+
+      Siguiendo una tradición establecida, FOSS4G organiza un Track Académico que tendrá lugar durante los días de la Conferencia. El Comité Científico de FOSS4G 2024 invita a contribuciones de investigación originales que abordan cualquier tema o dominio relacionado con el software geoespacial de código abierto, incluyendo (pero no limitado a) hardware abierto, desarrollo de software abierto, ciencia SIG abierta, datos y sistemas geoespaciales abiertos, intercambio de datos geoespaciales, plataformas y servicios geoespaciales abiertos en la nube, educación geoespacial abierta, cartografía participativa, gemelos digitales, geoAI y aprendizaje automático geoespacial. 
+
+      Se aceptan artículos de todo tipo, incluidos resultados obtenidos, estudios de caso, trabajos en curso, revisiones y demostraciones. Desaconsejamos, sin embargo, las meras presentaciones de tecnología o casos de uso sin justificar adecuadamente la originalidad frente al estado del arte científico y sin novedad particular. Además, los autores deben destacar adecuadamente el uso de software geoespacial de código abierto. Esperamos con especial interés las contribuciones de estudiantes de doctorado e investigadores. 
+
+      Al evaluar las propuestas, el Comité Científico prestará especial atención a la reproducibilidad de la investigación (cuando proceda). Los investigadores garantizan la reproducibilidad haciendo públicos todos los artefactos (datos de entrada, pasos computacionales, métodos y código) para lograr resultados coherentes. Y, cuando está disponible, el código se hace público bajo una licencia de código abierto.
+
+
+      #### Deadlines
+      ---
+
+      - **Apertura llamada de tracks académicos**: 30 de Mayo del 2024
+      - **Anuncio de los artículos aceptados**: 30 de Mayo al 30 de Junio del 2024
+      - **Publicación de los artículos aceptados**: 5 de Agosto del 2024
+      - **Envío de los trabajos académicos completos**: 30 de Agosto del 2024
+
+    </div>
+
+    <div>
+
+    #### Proceso de presentación
+    ---
+
+    **Paso 1**:
+    
+    Se invita a los autores a enviar resúmenes escritos en inglés que tengan entre 800 y 1000 palabras y que contengan suficientes detalles para su evaluación, incluyendo los conceptos, la metodología y los resultados, destacando las razones por las que serían interesantes para el público del FOSS4G Academic Track.
+
+    Los miembros del Comité Científico evaluarán el resumen presentado en función de su originalidad/novedad científica, relevancia para la comunidad FOSS4G, presentación/claridad y calidad general. La reproducibilidad se tendrá en cuenta entre los criterios de evaluación. 
+
+    **Paso 2**:
+
+    Los autores de los resúmenes aceptados deberán presentar una versión ampliada de su trabajo teniendo en cuenta los comentarios y sugerencias recibidos en el Paso 1.  
+
+    No revisaremos de nuevo las versiones ampliadas de los resúmenes aceptados. Sin embargo, las comprobaremos según las directrices de formato. En el sitio web de FOSS4G estarán disponibles plantillas para dar formato a los trabajos.
+
+    #### Presentación
+    ---
+
+    El programa del track académico sólo incluirá charlas o pósters de autores que presenten trabajos ampliados que se ajusten a la plantilla. En otras palabras, no es posible realizar una presentación en el track académico sin presentar un trabajo.
+
+    Los autores deberán inscribirse en la conferencia para poder presentar sus trabajos aceptados. Podemos aceptar hasta dos ponencias por inscripción. Si selecciona esta opción y ambos resúmenes (con un solo autor inscrito en la conferencia) reciben aceptación, uno se indicará para presentación oral y el otro como póster, dependiendo de nuestra decisión en una fase posterior. Alternativamente, en función de las revisiones, puede optar por presentar ambas propuestas mediante póster. Independientemente de la situación (1 presentación oral, 1 póster o 2 pósters), los autores deberán redactar dos comunicaciones para el paso 2.
+
+
+    #### Actas 
+    ---
+    Los trabajos aceptados y presentados en la Vía Académica serán publicados en las Actas completas de FOSS4G 2024, hasta el primer día de la conferencia.
+    </div>
+
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>;
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+
+}
