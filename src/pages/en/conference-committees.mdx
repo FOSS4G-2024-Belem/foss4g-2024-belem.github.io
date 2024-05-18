@@ -76,6 +76,7 @@ export const metadata = {
 </div>
 
 <Heading color="red">Local Committee</Heading>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["loc"].map((person) => (
     <PhotoBubble committee="loc" person={person} key={person["name"]} />
@@ -83,6 +84,16 @@ export const metadata = {
 </div>
 
 <Heading color="orange">Academic Committee</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### About the Academic Committee
+
+  The Academic Committee is the backbone that ensures its excellence and relevance. This group of experts plays a fundamental role in ensuring the quality and academic rigor of the designated track. Their work goes beyond reviewing proposals and selecting speakers.
+  
+  They are responsible for ensuring that each presentation and session reflects the latest research, advances and trends in the field. The Academic Committee not only validates the content, but also encourages interdisciplinarity and diversity of perspectives, thus building a track that promotes and drives progress in the academic community.
+
+</div>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["academic"].map((person) => (
     <PhotoBubble committee="academic" person={person} key={person["name"]} />
@@ -90,6 +101,15 @@ export const metadata = {
 </div>
 
 <Heading color="green">Program Committee</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### About the Program Committee
+
+  At the heart of every successful conference lies a dedicated and enthusiastic team: the program creation committee. This group of professionals and volunteers carefully curates every detail, fusing innovation with experience to offer a better version for attendees.
+
+  Their work not only translates into the diversity of topics addressed, but also in the careful selection of speakers and panels that will inspire, inform and connect participants. Their tireless dedication is the cornerstone that elevates each edition of the conference to new heights.
+</div>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["program"].map((person) => (
     <PhotoBubble committee="program" person={person} key={person["name"]} />
@@ -97,6 +117,15 @@ export const metadata = {
 </div>
 
 <Heading color="blue">Sponsor Committee</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### About the Sponsor Committee
+
+  Imagine a scenario where innovation and collaboration intertwine in an open source and geospatial technology environment. At a FOSS4G (Free and Open Source Software for Geospatial) conference, the Sponsor Committee plays a crucial role in bringing together companies, organizations and open source software enthusiasts to support and empower this vibrant community.
+  
+  From securing the necessary financial backing for the organization of the event to facilitating networking opportunities and visibility for sponsors, this committee creates a vital bridge between the open source community and the business world, promoting innovation, knowledge sharing and continued growth in the field of geospatial technology.
+</div>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["sponsor"].map((person) => (
     <PhotoBubble committee="sponsor" person={person} key={person["name"]} />

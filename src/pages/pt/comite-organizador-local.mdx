@@ -14,7 +14,7 @@ import Carousel from "@/components/Carousel";
 export const metadata = {
   title: "Comitês da Conferência",
   description:
-    "Visão geral dos vários comitês da Conferência FOSS4G 2024 realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024, incluindo os comitês Local, Acadêmico, de Programação e de Patrocinadores.",
+    "Visão geral dos diversos comitês da Conferência FOSS4G 2024 realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024, incluindo os comitês Local, Acadêmico, de Programa e de Patrocinadores.",
   image: Foss4gAr2,
 };
 
@@ -50,32 +50,33 @@ export const metadata = {
     #### Colaboração Internacional
     ---
 
-    Para coordenar um evento da magnitude do FOSS4G 2024, foi formada uma colaboração internacional entre duas organizações:
+    Para coordenar um evento de tal magnitude do FOSS4G 2024, foi formada uma colaboração internacional entre duas organizações:
 
-    - <span className="underline underline-offset-4">Capítulo Local OSGeo do Brasil</span>
+    - <span className="underline underline-offset-4">Capítulo Local da OSGeo do Brasil</span>
     - <span className="underline underline-offset-4">Asociación Civil Geolibres Argentina</span>
 
-    Esses grupos, além de uma equipe distribuída de voluntários apaixonados por todo o continente, estão trabalhando arduamente para sediar um evento FOSS4G de sucesso em Belém.
+    Esses grupos, além de uma equipe distribuída de voluntários apaixonados por todo o continente, estão trabalhando arduamente para sediar um evento de sucesso do FOSS4G em Belém.
 
-    Abaixo, há mais informações sobre os grupos envolvidos e os membros individuais dos vários comitês da conferência.
+    Abaixo, há mais informações sobre os grupos envolvidos e os membros individuais dos diversos comitês da conferência.
 
     ##### OSGeo Brasil
     ---
-    A partir do início dos anos 2000, os usuários brasileiros fizeram contribuições significativas para projetos de software geoespacial de código aberto, incluindo o desenvolvimento de ferramentas baseadas em OSGeo, como QGIS, GRASS GIS, GeoServer e outros.
+    Desde o início dos anos 2000, os usuários brasileiros têm feito contribuições significativas para projetos de software geoespacial de código aberto, incluindo o desenvolvimento de ferramentas baseadas em OSGeo como QGIS, GRASS GIS, GeoServer e outros.
 
-    Em 2024, após muitos anos de organização informal, o OSGeo Brasil finalmente se tornou um Capítulo Local oficial do OSGeo.
+    Em 2024, após muitos anos de organização de forma informal, o OSGeo Brasil finalmente se tornou um Capítulo Local oficial do OSGeo.
 
     ##### Geolibres Argentina
     ---
 
-    Geolibres Argentina é uma associação civil criada em 2018 para promover a adoção de padrões geográficos e o uso de software livre e de código aberto, além de fornecer suporte jurídico para comunidades relacionadas.
+    A Geolibres Argentina é uma associação civil criada em 2018 com o objetivo de promover a adoção de padrões geográficos e o uso de software livre e de código aberto, além de fornecer suporte legal a comunidades relacionadas.
 
-    Embora não seja um capítulo do OSGeo, seus objetivos e atividades estão estreitamente alinhados com o OSGeo.
+    Embora não seja um capítulo da OSGeo, seus objetivos e atividades estão intimamente alinhados com os da OSGeo.
 
   </div>
 </div>
 
 <Heading color="red">Comitê Local</Heading>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["loc"].map((person) => (
     <PhotoBubble committee="loc" person={person} key={person["name"]} />
@@ -83,13 +84,32 @@ export const metadata = {
 </div>
 
 <Heading color="orange">Comitê Acadêmico</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### Sobre o Comitê Acadêmico
+
+  O Comitê Acadêmico é o pilar que garante sua excelência e relevância. Esse grupo de especialistas desempenha um papel fundamental em garantir a qualidade e o rigor acadêmico da trilha designada. Seu trabalho vai além da revisão de propostas e seleção de palestrantes.
+  
+  Eles são responsáveis por garantir que cada apresentação e sessão reflita as últimas pesquisas, avanços e tendências no campo. O Comitê Acadêmico não apenas valida o conteúdo, mas também incentiva a interdisciplinaridade e a diversidade de perspectivas, construindo assim uma trilha que promova e impulsione o progresso na comunidade acadêmica.
+
+</div>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["academic"].map((person) => (
     <PhotoBubble committee="academic" person={person} key={person["name"]} />
   ))}
 </div>
 
-<Heading color="green">Comitê de Programação</Heading>
+<Heading color="green">Comitê de Programa</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### Sobre o Comitê de Programa
+
+  No coração de cada conferência bem-sucedida está uma equipe dedicada e entusiasmada: o comitê de criação do programa. Esse grupo de profissionais e voluntários cuida cuidadosamente de cada detalhe, fundindo inovação com experiência para oferecer uma versão melhor para os participantes.
+
+  Seu trabalho não apenas se traduz na diversidade de tópicos abordados, mas também na seleção cuidadosa de palestrantes e painéis que irão inspirar, informar e conectar os participantes. Sua dedicação incansável é a pedra angular que eleva cada edição da conferência a novas alturas.
+</div>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["program"].map((person) => (
     <PhotoBubble committee="program" person={person} key={person["name"]} />
@@ -97,6 +117,15 @@ export const metadata = {
 </div>
 
 <Heading color="blue">Comitê de Patrocinadores</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### Sobre o Comitê de Patrocinadores
+
+  Imagine um cenário onde a inovação e a colaboração se entrelaçam em um ambiente de tecnologia geoespacial de código aberto. Em uma conferência FOSS4G (Software Livre e de Código Aberto para Geoespacial), o Comitê de Patrocinadores desempenha um papel crucial ao reunir empresas, organizações e entusiastas de software de código aberto para apoiar e fortalecer esta vibrante comunidade.
+  
+  Desde garantir o respaldo financeiro necessário para a organização do evento até facilitar oportunidades de networking e visibilidade para os patrocinadores, este comitê cria uma ponte vital entre a comunidade de código aberto e o mundo empresarial, promovendo inovação, compartilhamento de conhecimento e crescimento contínuo no campo da tecnologia geoespacial.
+</div>
+
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["sponsor"].map((person) => (
     <PhotoBubble committee="sponsor" person={person} key={person["name"]} />
