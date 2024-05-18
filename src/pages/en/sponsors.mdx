@@ -7,6 +7,8 @@ import Geolibres from "@/images/logo/geolibres.png";
 import MeninasDaGeo from "@/images/logo/meninas-da-geo.png";
 import OsGeoBrasil from "@/images/logo/osgeo-brasil.png";
 import OsGeoLogo from "@/images/logo/osgeo-logo.png";
+import SponsorGrid from "@/components/SponsorGrid";
+import QgisBrasil from "@/images/logo/qgis-brasil.png";
 import Foss4g2022OpeningSession from "@/images/foss4g-2022/opening-session.jpg";
 import IntlLink from "@/components/IntlLink";
 import Link from "next/link";
@@ -34,7 +36,7 @@ export const metadata = {
 
     FOSS4G brings together developers, users, decision-makers and observers from a broad spectrum of organizations and fields of operation. By supporting FOSS4G you will be helping make this international encounter possible, while also raising awareness for your organization in our large geospatial community.
 
-    Check out our <Link href="/foss4g-2024-sponsor-brochure.pdf">Sponsor Brochure</Link> or <IntlLink href="/foss4g-2024-sponsor-brochure.pdf" >Contact Us</IntlLink> for more information!
+    Check out our <Link href="/foss4g-2024-sponsor-brochure.pdf">Sponsor Brochure</Link> or <IntlLink href="/contact" >Contact Us</IntlLink> for more information!
 
     <div class="flex gap-4 mt-4 justify-center sm:justify-normal">
       <Link href="/foss4g-2024-sponsor-brochure.pdf" className="non-standard">
@@ -79,53 +81,8 @@ export const metadata = {
 <SponsorGrid level={4} images={[null, null, null, null, null, null]} />
 
 <ArrowHeading size={2} color="orange">Community Partners</ArrowHeading>
-<SponsorGrid level={1} images={[Geochicas, MeninasDaGeo]} />
+<SponsorGrid level={1} images={[Geochicas, MeninasDaGeo, QgisBrasil]} />
 
-export function SponsorGrid({level, images}) {
-
-  const levelMap = {
-    0: {
-      gap: "gap-4 6xl:gap-10",
-      maxW: "",
-      text: "p-4 6xl:p-6 text-4xl 6xl:text-6xl leading-5"
-    },
-    1: {
-      gap: "gap-3 sm:gap-8",
-      maxW: "max-w-40 6xl:max-w-60",
-      text: "p-3 6xl:p-5 text-2xl 6xl:text-4xl leading-5"
-    },
-    2: {
-      gap: "gap-2 sm:gap-6",
-      maxW: "max-w-24 6xl:max-w-60",
-      text: "p-2 6xl:p-4 6xl:text-xl leading-4"
-    },
-    3: {
-      gap: "gap-1 sm:gap-4",
-      maxW: "max-w-20 6xl:max-w-48",
-      text: "p-1 6xl:p-3 text-sm 6xl:text-lg leading-4"
-    },
-    4: {
-      gap: "gap-1 sm:gap-2",
-      maxW: "max-w-20 6xl:max-w-36",
-      text: "text-xs 6xl:text-base leading-4"
-    },
-  }
-
-  const classes = levelMap[level];
-
-  return (
-    <div className={`flex flex-wrap items-center justify-center ${classes["gap"]}`}>
-      {images.map((img, idx) => (
-        <div key={idx} className={`flex ${classes["maxW"]} items-center justify-center`}>
-          {img ? 
-            <Image placeholder="blur" src={img} className="max-w-full h-auto" /> : 
-            <div className={`border font-ubuntu select-none border-gray-800 p-2 ${classes["text"]} rounded text-center text-gray-700`}>Your Logo Here!</div>
-            }
-        </div>
-      ))}
-    </div>
-  )
-}
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>

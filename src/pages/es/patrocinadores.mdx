@@ -1,12 +1,14 @@
 import MdxLayout from "@/components/MDXLayout";
 import Heading from "@/components/Heading";
-import { ArrowHeading } from "@/components/Heading";
+import {ArrowHeading} from "@/components/Heading";
 import Image from "next/image";
 import Geochicas from "@/images/logo/geochicas.png";
 import Geolibres from "@/images/logo/geolibres.png";
 import MeninasDaGeo from "@/images/logo/meninas-da-geo.png";
 import OsGeoBrasil from "@/images/logo/osgeo-brasil.png";
 import OsGeoLogo from "@/images/logo/osgeo-logo.png";
+import SponsorGrid from "@/components/SponsorGrid";
+import QgisBrasil from "@/images/logo/qgis-brasil.png";
 import Foss4g2022OpeningSession from "@/images/foss4g-2022/opening-session.jpg";
 import IntlLink from "@/components/IntlLink";
 import Link from "next/link";
@@ -15,6 +17,7 @@ export const metadata = {
   title: "Patrocinadores",
   description: "Lista de patrocinadores, organizadores y colaboradores comunitarios en la Conferencia FOSS4G 2024 celebrada en Belém, Brasil del 02 al 08 de diciembre de 2024",
 };
+
 
 <Heading bubble color="orange">
   Patrocinadores de FOSS4G 2024
@@ -29,15 +32,15 @@ export const metadata = {
 
     #### ¿Por qué convertirse en patrocinador?
 
-    Organizado por OSGeo y con más de 15 años de experiencia, este encuentro anual internacional de entusiastas de la ubicación es el más grande del mundo para el software geoespacial.
+    Organizado por OSGeo y con más de 15 años de experiencia, este encuentro anual internacional de entusiastas de la ubicación es la mayor reunión mundial para software geoespacial.
 
-    FOSS4G reúne a desarrolladores, usuarios, tomadores de decisiones y observadores de un amplio espectro de organizaciones y campos de operación. Al apoyar FOSS4G, estará ayudando a hacer posible este encuentro internacional, además de aumentar la conciencia sobre su organización en nuestra gran comunidad geoespacial.
+    FOSS4G reúne a desarrolladores, usuarios, tomadores de decisiones y observadores de un amplio espectro de organizaciones y campos de operación. Al apoyar a FOSS4G, estará ayudando a hacer posible este encuentro internacional, al tiempo que aumenta la conciencia sobre su organización en nuestra gran comunidad geoespacial.
 
-    ¡Consulte nuestro <Link href="/foss4g-2024-sponsor-brochure.pdf">Folleto para Patrocinadores</Link> o <IntlLink href="/foss4g-2024-sponsor-brochure.pdf" >Contáctenos</IntlLink> para obtener más información!
+    ¡Consulte nuestro <Link href="/foss4g-2024-sponsor-brochure.pdf">Folleto de Patrocinadores</Link> o <IntlLink href="/contact" >Contáctenos</IntlLink> para obtener más información!
 
     <div class="flex gap-4 mt-4 justify-center sm:justify-normal">
       <Link href="/foss4g-2024-sponsor-brochure.pdf" className="non-standard">
-        <div className="inline-block py-2 px-4 bg-f4g_orange text-white rounded-lg shadow-lg min-w-40 text-center">Folleto para Patrocinadores</div>
+        <div className="inline-block py-2 px-4 bg-f4g_orange text-white rounded-lg shadow-lg min-w-40 text-center">Folleto de Patrocinadores</div>
       </Link>
 
       <IntlLink href="/contact" className="non-standard">
@@ -78,53 +81,8 @@ export const metadata = {
 <SponsorGrid level={4} images={[null, null, null, null, null, null]} />
 
 <ArrowHeading size={2} color="orange">Colaboradores Comunitarios</ArrowHeading>
-<SponsorGrid level={1} images={[Geochicas, MeninasDaGeo]} />
+<SponsorGrid level={1} images={[Geochicas, MeninasDaGeo, QgisBrasil]} />
 
-export function SponsorGrid({level, images}) {
-
-  const levelMap = {
-    0: {
-      gap: "gap-4 6xl:gap-10",
-      maxW: "",
-      text: "p-4 6xl:p-6 text-4xl 6xl:text-6xl leading-5"
-    },
-    1: {
-      gap: "gap-3 sm:gap-8",
-      maxW: "max-w-40 6xl:max-w-60",
-      text: "p-3 6xl:p-5 text-2xl 6xl:text-4xl leading-5"
-    },
-    2: {
-      gap: "gap-2 sm:gap-6",
-      maxW: "max-w-24 6xl:max-w-60",
-      text: "p-2 6xl:p-4 6xl:text-xl leading-4"
-    },
-    3: {
-      gap: "gap-1 sm:gap-4",
-      maxW: "max-w-20 6xl:max-w-48",
-      text: "p-1 6xl:p-3 text-sm 6xl:text-lg leading-4"
-    },
-    4: {
-      gap: "gap-1 sm:gap-2",
-      maxW: "max-w-20 6xl:max-w-36",
-      text: "text-xs 6xl:text-base leading-4"
-    },
-  }
-
-  const classes = levelMap[level];
-
-  return (
-    <div className={`flex flex-wrap items-center justify-center ${classes["gap"]}`}>
-      {images.map((img, idx) => (
-        <div key={idx} className={`flex ${classes["maxW"]} items-center justify-center`}>
-          {img ? 
-            <Image placeholder="blur" src={img} className="max-w-full h-auto" /> : 
-            <div className={`border font-ubuntu select-none border-gray-800 p-2 ${classes["text"]} rounded text-center text-gray-700`}>¡Tu Logo Aquí!</div>
-            }
-        </div>
-      ))}
-    </div>
-  )
-}
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>
