@@ -48,6 +48,7 @@ export default function SponsorGrid({
         >
           {img ? (
             <Image
+              alt={""}
               placeholder="blur"
               src={img}
               className={`block ${classes["maxW"]} object-scale-down`}
