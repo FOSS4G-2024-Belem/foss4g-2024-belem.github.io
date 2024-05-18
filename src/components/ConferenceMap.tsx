@@ -342,7 +342,15 @@ const getMapStyle = ({
         maxzoom: 20,
         paint: {
           "fill-color": "#cccccc",
-          "fill-opacity": 1,
+          "fill-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            14,
+            0,
+            14.5,
+            1,
+          ],
         },
       },
       {
@@ -554,7 +562,7 @@ const getMapStyle = ({
         id: "places",
         type: "symbol",
         source: "places",
-        minzoom: 13,
+        minzoom: 14,
         layout: {
           "symbol-sort-key": ["-", 1, ["get", "confidence"]],
           "icon-image": "{category}",
@@ -628,9 +636,9 @@ const getMapStyle = ({
             "interpolate",
             ["exponential", 1],
             ["zoom"],
-            13,
+            14,
             0,
-            13.5,
+            14.5,
             1,
           ],
         },
