@@ -1,8 +1,10 @@
-import EstacaoDasDocas from "@/images/belem/estacao-das-docas.jpg";
+import Photo from "@/images/belem/estacao-das-docas.jpg";
 import Image from "next/image";
 
 <div>
-  <Image placeholder="blur" src={EstacaoDasDocas} className="rounded-lg w-full aspect-4/3" />
+  <div className="rounded-lg w-full aspect-4/3 overflow-hidden">
+    <Image placeholder="blur" src={Photo} className="w-full h-full object-cover" />
+  </div>
   #### Estación das Docas
   ---
 

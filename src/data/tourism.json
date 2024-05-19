@@ -25,6 +25,30 @@
         "type": "Point",
         "coordinates": [-48.5052661, -1.4542686]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icon": "mangal-das-garcas",
+        "name": "Mangal das Garças",
+        "label": "Mangal das Garças"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.50578, -1.46509]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icon": "palacete-bolonha",
+        "name": "Palacete Bolonha",
+        "label": "Palacete Bolonha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.49088, -1.45199]
+      }
     }
   ]
 }
