@@ -74,6 +74,32 @@ export default function GlobeMap() {
         arcEndLat={(d) => +d.dstAirport[1]}
         // @ts-ignore
         arcEndLng={(d) => +d.dstAirport[0]}
+        // arcDashLength={0.005}
+        // arcDashGap={0.005}
+        // arcDashInitialGap={() => 0}
+        // arcDashAnimateTime={20000}
+        // @ts-ignore
+        arcColor={d => "#d86e39"}
+        arcsTransitionDuration={0}
+
+        labelsData={Airports.features}
+        // @ts-ignore
+        labelLat={d => +d.geometry.coordinates[1]}
+        // @ts-ignore
+        labelLng={d => +d.geometry.coordinates[0]}
+        // @ts-ignore
+        labelText={d => d.properties.code}
+        // @ts-ignore
+        labelSize={d => 1}
+        // @ts-ignore
+        labelDotRadius={d => 0.5}
+        // @ts-ignore
+        labelColor={(d) => d.properties.code == "BEL"? '#ffffff': '#ffffff'}
+        // @ts-ignore
+        labelResolution={4}
+        // @ts-ignore
+        labelDotOrientation={d => "right"}
+
         // arcDashLength={1}
         // arcDashGap={0.6}
         // arcDashInitialGap={() => Math.random()}

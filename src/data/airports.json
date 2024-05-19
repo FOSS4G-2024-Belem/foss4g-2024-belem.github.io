@@ -35,7 +35,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "code": "GRU", "name": "São Paulo", "size": 0 },
+      "properties": { "code": "GRU", "name": "Sao Paulo", "size": 0 },
       "geometry": {
         "type": "Point",
         "coordinates": [-46.481630, -23.437219]
@@ -43,7 +43,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "code": "BSB", "name": "Brasília", "size": 0 },
+      "properties": { "code": "BSB", "name": "Brasilia", "size": 0 },
       "geometry": {
         "type": "Point",
         "coordinates": [-47.921629, -15.869458]
@@ -91,7 +91,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "code": "BEL", "name": "Belém", "size": 1 },
+      "properties": { "code": "BEL", "name": "Belem", "size": 1 },
       "geometry": {
         "type": "Point",
         "coordinates": [-48.480280, -1.382665]
