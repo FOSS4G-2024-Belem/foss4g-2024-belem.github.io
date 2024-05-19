@@ -180,7 +180,7 @@ const getMapStyle = ({
         attribution:
           '<a href="https://github.com/protomaps/basemaps" target="_blank">Protomaps</a> | <a href="https://openstreetmap.org" target="_blank">OpenStreetMap</a>',
         url: "pmtiles://http://{basePath}/map/tiles/protomaps.pmtiles",
-        minzoom: 9,
+        minzoom: 10,
       },
       overture: {
         type: "vector",
@@ -196,6 +196,12 @@ const getMapStyle = ({
         attribution: "© ESA WorldCover 2021",
         minzoom: 8,
         maxzoom: 12,
+      },
+      belem1868: {
+        type: "raster",
+        url: "pmtiles://http://{basePath}/map/tiles/belem-1868.pmtiles",
+        minzoom: 4,
+        maxzoom: 8,
       },
       venues: {
         type: "geojson",
@@ -282,6 +288,7 @@ const getMapStyle = ({
             "#80deea",
           ],
         },
+        minzoom: 10,
       },
       {
         id: "bairros-fill",
@@ -884,6 +891,13 @@ const getMapStyle = ({
         },
         filter: ["==", "iata", "BEL"],
       },
+      {
+        id: "belem-1868",
+        type: "raster",
+        source: "belem1868",
+        minzoom: 4,
+        maxzoom: 8,
+      }
     ],
   };
 };
