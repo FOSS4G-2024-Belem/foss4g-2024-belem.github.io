@@ -202,6 +202,7 @@ const getMapStyle = ({
         url: "pmtiles://http://{basePath}/map/tiles/belem-1868.pmtiles",
         minzoom: 4,
         maxzoom: 8,
+        tileSize: 512
       },
       venues: {
         type: "geojson",
@@ -809,6 +810,7 @@ const getMapStyle = ({
         minzoom: 12,
         layout: {
           "icon-image": ["get", "icon"],
+          "icon-ignore-placement": true,
           "icon-size": [
             "let",
             "multiplier",
@@ -837,6 +839,7 @@ const getMapStyle = ({
           "text-offset": [0, 1.5],
           "text-field": ["step", ["zoom"], "", 12.1, ["get", "name"]],
           "text-font": ["literal", ["Noto Sans SemiCondensed Regular"]],
+          "text-ignore-placement": true,
           "text-size": [
             "let",
             "multiplier",
