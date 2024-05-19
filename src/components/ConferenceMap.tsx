@@ -220,6 +220,22 @@ const getMapStyle = ({
         attribution:
           '<a href="https://overturemaps.org" target="_blank">Overture Maps</a>',
       },
+      belemLabel: {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: [
+            {
+              type: "Feature",
+              properties: {},
+              geometry: {
+                type: "Point",
+                coordinates: [-48.4764625, -1.4519607],
+              },
+            },
+          ],
+        },
+      },
       tourism: {
         type: "geojson",
         data: applyFeatureStates(
@@ -298,7 +314,15 @@ const getMapStyle = ({
         minzoom: 12,
         paint: {
           "fill-color": "#d86e39",
-          "fill-opacity": 0.3,
+          "fill-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            12,
+            0,
+            12.5,
+            0.3,
+          ],
         },
       },
       {
@@ -539,8 +563,17 @@ const getMapStyle = ({
         minzoom: 12,
         paint: {
           "line-color": "#d86e39",
-          "line-opacity": 0.8,
+          "line-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            12,
+            0,
+            12.5,
+            0.8,
+          ],
           "line-width": 1.5,
+
         },
       },
       {
@@ -652,6 +685,39 @@ const getMapStyle = ({
         },
       },
       {
+        id: "belem-label",
+        type: "symbol",
+        source: "belemLabel",
+        minzoom: 10,
+        maxzoom: 13.5,
+        layout: {
+          "text-font": ["literal", ["Noto Sans SemiCondensed Regular"]],
+          "text-field": "Belém",
+          "text-size": 40,
+          "text-ignore-placement": true,
+          "text-allow-overlap": true
+        },
+        paint: {
+          "text-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            10,
+            0,
+            10.5,
+            1,
+            13,
+            1,
+            13.5,
+            0
+          ],
+          "text-color": "#552f27",
+          "text-halo-width": 2,
+          "text-halo-blur": 0.5,
+          "text-halo-color": "rgba(255,255,255,0.8)",
+        },
+      },
+      {
         id: "bairros-labels",
         type: "symbol",
         source: "protomaps",
@@ -667,6 +733,15 @@ const getMapStyle = ({
           "text-halo-color": "#fff",
           "text-halo-width": 2,
           "text-halo-blur": 0.5,
+          "text-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            12,
+            0,
+            12.5,
+            1,
+          ]
         },
         filter: [
           "in",
