@@ -4,23 +4,7 @@ import { MapGeoJSONFeature } from "maplibre-gl";
 import { useState, useEffect, useRef } from "react";
 import { Popup as MapPopup, SymbolLayer } from "react-map-gl/maplibre";
 
-import BeiraRio from "@/pages/en/venue/_beira-rio.mdx";
-import Hangar from "@/pages/en/venue/_hangar.mdx";
-import Ifpa from "@/pages/en/venue/_ifpa.mdx";
-import ForteDoCastelo from "@/pages/en/visiting-belem/_forte-do-castelo.mdx";
-import EstacaoDasDocas from "@/pages/en/visiting-belem/_estacao-das-docas.mdx";
-import MangalDasGarcas from "@/pages/en/visiting-belem/_mangal-das-garcas.mdx";
-import PalaceteBolonha from "@/pages/en/visiting-belem/_palacete-bolonha.mdx";
-
-const PopupEmbeds = {
-  "Beira-Rio Hotel": BeiraRio,
-  Hangar: Hangar,
-  "IFPA Belém": Ifpa,
-  "Forte do Castelo": ForteDoCastelo,
-  "Estação das Docas": EstacaoDasDocas,
-  "Mangal das Garças": MangalDasGarcas,
-  "Palacete Bolonha": PalaceteBolonha
-};
+const PopupEmbeds = {};
 
 export default function Popup({
   popupEmbeds = {},
@@ -98,7 +82,7 @@ function VenuePopupContent({
       }
     >
       {/* @ts-ignore */}
-      {properties?.["name"] in PopupEmbeds && <PopupEmbed isEmbed={true} />}
+      {properties?.["name"] in popupEmbeds && <PopupEmbed isEmbed={true} />}
     </div>
   );
 }
