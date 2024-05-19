@@ -17,6 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
   const isHomePage = router.asPath == "/";
   const metadata = pageProps?.metadata;
 
+  console.log(router.asPath);
+
   useEffect(() => {
     if (router.asPath == "/") {
       const lang = navigator.language.split("-")[0].toLowerCase();
@@ -39,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
         // @ts-ignore
         setLanguage(lang);
       } else {
-        setLanguage("en")
+        setLanguage("en");
       }
     }
 
@@ -78,7 +80,10 @@ export default function App({ Component, pageProps }: AppProps) {
               {/* image */}
               {metadata["image"] ? (
                 <>
-                  <meta property="og:image" content={`${process.env.baseUrl}${metadata["image"].src}`} />
+                  <meta
+                    property="og:image"
+                    content={`${process.env.baseUrl}${metadata["image"].src}`}
+                  />
                   <meta
                     name="twitter:image"
                     content={`${process.env.baseUrl}${metadata["image"].src}`}
@@ -86,7 +91,10 @@ export default function App({ Component, pageProps }: AppProps) {
                 </>
               ) : (
                 <>
-                  <meta property="og:image" content={`${process.env.baseUrl}${Foss4g2024Logo.src}`} />
+                  <meta
+                    property="og:image"
+                    content={`${process.env.baseUrl}${Foss4g2024Logo.src}`}
+                  />
                   <meta
                     name="twitter:image"
                     content={`${process.env.baseUrl}${Foss4g2024Logo.src}`}
@@ -108,7 +116,9 @@ export default function App({ Component, pageProps }: AppProps) {
               <div className="relative z-20">
                 <Component {...pageProps} />
               </div>
-              <Footer />
+              {!["/en/map/", "/es/mapa/", "/pt/mapa/"].includes(router.asPath) && (
+                <Footer />
+              )}
             </>
           )}
         </Transition>
