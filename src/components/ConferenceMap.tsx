@@ -202,7 +202,7 @@ const getMapStyle = ({
         url: "pmtiles://http://{basePath}/map/tiles/belem-1868.pmtiles",
         minzoom: 4,
         maxzoom: 8,
-        tileSize: 512
+        tileSize: 512,
       },
       venues: {
         type: "geojson",
@@ -801,6 +801,24 @@ const getMapStyle = ({
           "text-halo-width": 2,
           "text-halo-blur": 1,
           "text-halo-color": "rgba(255,255,255,0.8)",
+          "text-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            11,
+            0,
+            11.5,
+            1,
+          ],
+          "icon-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            11,
+            0,
+            11.5,
+            1,
+          ],
         },
       },
       {
@@ -871,6 +889,15 @@ const getMapStyle = ({
           "text-halo-width": 2,
           "text-halo-blur": 1,
           "text-halo-color": "rgba(255,255,255,0.8)",
+          "icon-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            12,
+            0,
+            12.5,
+            1,
+          ],
         },
       },
       {
@@ -900,7 +927,7 @@ const getMapStyle = ({
         source: "belem1868",
         minzoom: 4,
         maxzoom: 8,
-      }
+      },
     ],
   };
 };
