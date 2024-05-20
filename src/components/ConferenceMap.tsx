@@ -230,7 +230,7 @@ const getMapStyle = ({
               properties: {},
               geometry: {
                 type: "Point",
-                coordinates: [-48.4764625, -1.4519607],
+                coordinates: [-48.4764625, -1.4529607],
               },
             },
           ],
@@ -394,6 +394,42 @@ const getMapStyle = ({
           ],
         },
       },
+      {
+        id: "foss4g-logo",
+        type: "symbol",
+        source: "belemLabel",
+        minzoom: 11,
+        maxzoom: 13.5,
+        layout: {
+          "icon-image": "foss4g-logo",
+          "icon-ignore-placement": true,
+          "icon-allow-overlap": true,
+          "icon-optional": false,
+          "icon-size": [
+            "interpolate",
+            ["exponential", 1.3],
+            ["zoom"],
+            10,
+            0.01,
+            13.5,
+            0.75,
+          ],
+        },
+        paint: {
+          "icon-opacity": [
+            "interpolate",
+            ["exponential", 0.9],
+            ["zoom"],
+            11,
+            0,
+            11.5,
+            0.6,
+            13.5,
+            0,
+          ],
+        },
+      },
+
       {
         id: "roads_other",
         type: "line",
@@ -564,7 +600,6 @@ const getMapStyle = ({
           ],
         },
       },
-
       {
         id: "bairros-border",
         type: "line",
@@ -582,7 +617,6 @@ const getMapStyle = ({
             0.8,
           ],
           "line-width": 1.5,
-
         },
       },
       {
@@ -697,32 +731,32 @@ const getMapStyle = ({
         id: "belem-label",
         type: "symbol",
         source: "belemLabel",
-        minzoom: 10,
+        minzoom: 11,
         maxzoom: 13.5,
         layout: {
           "text-font": ["literal", ["Noto Sans SemiCondensed Regular"]],
           "text-field": "Belém",
           "text-size": 40,
           "text-ignore-placement": true,
-          "text-allow-overlap": true
+          "text-allow-overlap": true,
         },
         paint: {
           "text-opacity": [
             "interpolate",
             ["exponential", 1],
             ["zoom"],
-            10,
+            11,
             0,
-            10.5,
+            11.5,
             1,
             13,
             1,
             13.5,
-            0
+            0,
           ],
           "text-color": "#552f27",
-          "text-halo-width": 2,
-          "text-halo-blur": 0.5,
+          "text-halo-width": 4,
+          "text-halo-blur": 2,
           "text-halo-color": "rgba(255,255,255,0.8)",
         },
       },
@@ -750,7 +784,7 @@ const getMapStyle = ({
             0,
             12.5,
             1,
-          ]
+          ],
         },
         filter: [
           "in",
