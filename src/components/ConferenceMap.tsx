@@ -93,6 +93,7 @@ export default function Map({
     <MapLibreMap
       ref={mapRef}
       minZoom={2}
+      hash={true}
       maxZoom={20}
       initialViewState={{
         bounds: [-48.508521, -1.481578, -48.437068, -1.410125],
@@ -399,7 +400,7 @@ const getMapStyle = ({
         type: "symbol",
         source: "belemLabel",
         minzoom: 10,
-        maxzoom: 13.5,
+        maxzoom: 15.5,
         layout: {
           "icon-image": "foss4g-logo",
           "icon-ignore-placement": true,
@@ -407,27 +408,27 @@ const getMapStyle = ({
           "icon-optional": false,
           "icon-size": [
             "interpolate",
-            ["exponential", 1.5],
+            ["exponential", 2],
             ["zoom"],
-            0,
-            0.01,
-            9,
-            0.005,
-            13.5,
-            0.75,
+            10,
+            0.1,
+            15.5,
+            4,
           ],
         },
         paint: {
           "icon-opacity": [
             "interpolate",
-            ["exponential", 0.9],
+            ["exponential", 0.8],
             ["zoom"],
-            9,
-            0,
-            11.5,
-            0.6,
-            12.5,
-            0,
+            10,
+            1,
+            11,
+            1,
+            13,
+            0.4,
+            14,
+            0.04,
           ],
         },
       },
