@@ -1,0 +1,202 @@
+import Image from "next/image";
+import Carousel from "@/components/Carousel";
+import Heading from "@/components/Heading";
+import MdxLayout from "@/components/MDXLayout";
+
+import Foss4gAr from "@/images/foss4g-ar/foss4g-ar2.jpg";
+import SotmAr from "@/images/foss4g-ar/foss4g-ar7.jpg";
+
+import SotmBrasil1 from "@/images/sotm/sotm-brasil1.jpg";
+import SotmBrasil2 from "@/images/sotm/sotm-brasil2.jpg";
+import SotmBrasil3 from "@/images/sotm/sotm-brasil3.jpg";
+
+import SotmLatam1 from "@/images/sotm/sotm-latam1.jpg";
+import SotmLatam2 from "@/images/sotm/sotm-latam2.jpg";
+
+import ForGis1 from "@/images/4gis/4gis1.jpg";
+import ForGis2 from "@/images/4gis/4gis2.jpg";
+import ForGis3 from "@/images/4gis/4gis3.jpg";
+
+export const metadata = {
+  title: "About FOSS4G in Belém",
+  description:
+    "Information on the FOSS4G Conference's focus on LATAM and Belém Brasil for the FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024",
+  image: Foss4gAr
+};
+
+<Carousel
+  captions={true}
+  images={[
+    {
+      image: Foss4gAr,
+      caption:
+        "FOSS4G Argentina 2021",
+    },
+    {
+      image: SotmBrasil3,
+      caption:
+        "State of the Map Brasil 2023",
+    },
+    {
+      image: SotmAr,
+      caption:
+        "State of the Map Argentina 2017",
+    },
+    {
+      image: ForGis2,
+      caption:
+        "FOSS.4GIS.GOV 2018 Brasil",
+    },
+    {
+      image: SotmLatam1,
+      caption:
+        "State of the Map LATAM 2016",
+    },
+    {
+      image: SotmBrasil2,
+      caption:
+        "State of the Map Brasil 2023",
+    },
+    {
+      image: SotmLatam2,
+      caption:
+        "State of the Map LATAM 2016",
+    },
+    {
+      image: ForGis1,
+      caption:
+        "FOSS.4GIS.GOV 2018 Brasil",
+    },
+  ]}
+  autoplay={true}
+  autoplayDelay={5000}
+/>
+
+<div className="grid space-y-4 mt-4">
+  <div className="grid md:grid-cols-2 md:space-x-4">  
+    <div className="flex flex-col space-y-4">
+      <div className="">
+        #### FOSS4G Conference
+        ---
+        
+        FOSS4G is the acronym for Free and Open Source Software for Geospatial. It is the annual recurring global event hosted by [OSGeo](https://www.osgeo.org/), the non-profit organization that supports and promotes the collaborative development of free and open source geographic technologies and open geospatial data.
+        
+        The conference covers all kinds of topics related to geospatial information and earth observation openness from Software development to Transition to FOSS4G, Use cases and applications, Education and research and Open data.
+
+        This event is for all kinds of people interested in sharing experiences about maps, from developers who write code to users of geomatics software, people who make decisions, researchers, students and anyone who wants to learn, share and meet like GIS interested people.
+
+        It attracts over 1,000 practitioners and advocates for free and open source software for geospatial and the tendency is to increase this number every year. It is the main meeting place and educational outreach opportunity for OSGeo members, supporters and newcomers - to share and learn from one another in presentations, hands-on workshops and a conference exhibition.
+
+        For appreciating the quality and variety of the presentations, you can watch video recordings of past FOSS4G events on the [FOSS4G YouTube channel](https://www.youtube.com/c/FOSS4G/)
+
+        #### Who hosts the event?
+        ---
+
+        FOSS4G is hosted by the Open Source Geospatial Foundation (OSGeo), in collaboration with the local community. OSGeo was founded to support and build the highest-quality open source geospatial software, and is the host of the annual FOSS4G global event.
+
+        The foundation's goal is to encourage the use and collaborative development of community-led projects, data development and education. Many important open source geospatial projects live under the [OSGeo umbrella](https://www.osgeo.org/).
+
+      </div>
+      <div>
+
+
+      </div>
+
+    </div>
+    <div className="flex flex-col space-y-4">
+      <div>
+        #### Who attends FOSS4G?
+        ---
+
+        Conference attendees are:
+        - Developers and Users of GeoSpatial Software
+        - Technical Leaders
+        - Private Companies
+        - Governmental Organizations
+        - Non-Governmental Organizations (NGO)
+        - Teachers and Education Professionals
+        - Scientific Communities and Researchers
+      </div>
+
+      <div>
+      #### What kind of topics are discussed?
+      ---
+
+      - Software status, new software/project development, benchmarking
+      - FOSS4G implementations in strategic application domains: land management, crisis/disaster response, smart cities, population mapping, climate change, ocean and marine monitoring, etc.
+      - Data visualization: spatial analysis, manipulation and visualization of geospatial data
+      - Data collection, data sharing, data science, open data, big data, data exploitation platforms
+      - Sensors, remote sensing, laser-scanning, structure from motion
+      - New trends: IoT, Indoor mapping, drones - UAV (unmanned aerial vehicle)-, Artificial intelligence - machine learning, deep learning-, geospatial data structures
+      - Open and reproducible science
+      - Standards, interoperability, SDIs
+      - Community & participatory FOSS4G
+      - FOSS4G at governmental institutions
+      - FOSS4G in education
+      - Business products powered by FOSS4G
+
+      </div>
+    </div>
+
+  </div>
+
+<Heading bubble color="orange">
+  FOSS4G 2024 in Belém
+</Heading>
+
+  <div className="grid md:grid-cols-2 md:space-x-4">
+    <div className="flex flex-col space-y-4">
+      <div className="">
+
+        <div className="w-full">
+        <Carousel
+          images={[
+            {
+              image: Foss4gAr,
+              caption:
+                "FOSS4G AR 2017 in Buenos Aires, Argentina"
+            }
+          ]}
+          autoplay={true}
+          autoplayDelay={5000}
+        />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        #### FOSS4G in Latin America
+        ---
+
+        For the first time in history, the FOSS4G conference will be held presentially in Latin America, and we are extremely excited to host our international community of geospatial colleagues here in Belém, Brazil.
+
+        The use of Free and Open Source Geospatial software has had a long history here, with organic communities popping up in many countries across the continent in order to support and promote its use.
+
+        However, even with the wide usage of FOSS4G software in Latin America, historically the representation of Latin Americans has been quite low at FOSS4G conferences.
+        
+        By hosting the FOSS4G conference in South America, we are hoping to reverse that trend and serve as a meeting place for like-minded geospatial people across the continent and across the globe.
+
+        #### Focus on Belém do Pará, Brazil.
+        ---
+
+        As Belém is one of the regional capitals of the Amazon, numerous NGOs and government organizations have their headquarters to carry out spatial data collection and analysis for sustainability purposes. These projects are related to the fight against deforestation or the empowerment of indigenous communities with geospatial software adapted to their needs.
+        
+        Our objective is to bring the indigenous agenda closer and make it present at this event. Another of our objectives as a conference is to generate a safe space to reduce the gender gap in the geospatial field, seeking the participation of women and dissidents.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+
+}
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}
