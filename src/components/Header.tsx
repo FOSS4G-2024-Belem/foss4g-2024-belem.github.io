@@ -78,13 +78,13 @@ const menuItems = [
       {
         "label:en": "General Talks",
         "label:es": "Charlas Generales",
-        "label:pt": "Trilha Academica",
+        "label:pt": "Palestras Gerais",
         href: "/cfp/general-talks",
       },
       {
         "label:en": "Academic Track",
         "label:es": "Track Académico",
-        "label:pt": "Palestras Gerais",
+        "label:pt": "Trilha Academica",
         href: "/cfp/academic-track",
       },
       {
