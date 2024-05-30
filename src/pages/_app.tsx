@@ -17,8 +17,6 @@ export default function App({ Component, pageProps }: AppProps) {
   const isHomePage = router.asPath == "/";
   const metadata = pageProps?.metadata;
 
-  console.log(router.asPath);
-
   useEffect(() => {
     if (router.asPath == "/") {
       const lang = navigator.language.split("-")[0].toLowerCase();
