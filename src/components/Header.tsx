@@ -82,6 +82,12 @@ const menuItems = [
         href: "/cfp/general-talks",
       },
       {
+        "label:en": "Academic Track",
+        "label:es": "Track Académico",
+        "label:pt": "Trilha Academica",
+        href: "/cfp/academic-track",
+      },
+      {
         "label:en": "Workshops",
         "label:es": "Talleres",
         "label:pt": "Oficinas",
