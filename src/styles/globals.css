@@ -8,6 +8,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: 100vh;
+    max-height: -webkit-fill-available !important;
+  }
+}
+
 html, body, #__next {
   width: 100%;
   height: 100%;
