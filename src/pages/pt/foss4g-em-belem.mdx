@@ -1,0 +1,205 @@
+import Image from "next/image";
+import Carousel from "@/components/Carousel";
+import Heading from "@/components/Heading";
+import MdxLayout from "@/components/MDXLayout";
+
+import Foss4gAr from "@/images/foss4g-ar/foss4g-ar2.jpg";
+import SotmAr from "@/images/foss4g-ar/foss4g-ar7.jpg";
+
+import SotmBrasil1 from "@/images/sotm/sotm-brasil1.jpg";
+import SotmBrasil2 from "@/images/sotm/sotm-brasil2.jpg";
+import SotmBrasil3 from "@/images/sotm/sotm-brasil3.jpg";
+
+import SotmLatam1 from "@/images/sotm/sotm-latam1.jpg";
+import SotmLatam2 from "@/images/sotm/sotm-latam2.jpg";
+
+import ForGis1 from "@/images/4gis/4gis1.jpg";
+import ForGis2 from "@/images/4gis/4gis2.jpg";
+import ForGis3 from "@/images/4gis/4gis3.jpg";
+
+export const metadata = {
+  title: "Sobre o FOSS4G em Belém",
+  description:
+    "Informações sobre o foco da Conferência FOSS4G na LATAM e em Belém, Brasil, para a Conferência FOSS4G 2024 realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024",
+  image: Foss4gAr
+};
+
+<Carousel
+  captions={true}
+  images={[
+    {
+      image: Foss4gAr,
+      caption:
+        "FOSS4G Argentina 2021",
+    },
+    {
+      image: SotmBrasil3,
+      caption:
+        "State of the Map Brasil 2023",
+    },
+    {
+      image: SotmAr,
+      caption:
+        "State of the Map Argentina 2017",
+    },
+    {
+      image: ForGis2,
+      caption:
+        "FOSS.4GIS.GOV 2018 Brasil",
+    },
+    {
+      image: SotmLatam1,
+      caption:
+        "State of the Map LATAM 2016",
+    },
+    {
+      image: SotmBrasil2,
+      caption:
+        "State of the Map Brasil 2023",
+    },
+    {
+      image: SotmLatam2,
+      caption:
+        "State of the Map LATAM 2016",
+    },
+    {
+      image: ForGis1,
+      caption:
+        "FOSS.4GIS.GOV 2018 Brasil",
+    },
+  ]}
+  autoplay={true}
+  autoplayDelay={5000}
+/>
+
+<div className="grid space-y-4 mt-4">
+  <div className="grid md:grid-cols-2 md:space-x-4">  
+    <div className="flex flex-col space-y-4">
+      <div className="">
+
+        #### FOSS4G na América Latina (LATAM)
+        ---
+
+        Pela primeira vez na história, a conferência FOSS4G será realizada presencialmente na América Latina, e estamos extremamente animados em receber nossa comunidade internacional de colegas geoespaciais aqui em Belém, Brasil.
+
+        O uso de software geoespacial livre e de código aberto tem uma longa história aqui, com comunidades orgânicas surgindo em muitos países do continente para apoiar e promover seu uso.
+
+        No entanto, mesmo com o amplo uso do software FOSS4G na América Latina, historicamente, a representação dos latino-americanos tem sido bastante baixa nas conferências FOSS4G.
+        
+        Ao sediar a conferência FOSS4G na América do Sul, esperamos reverter essa tendência e servir como um ponto de encontro para pessoas geoespaciais com ideias semelhantes em todo o continente e em todo o mundo.
+
+        #### Importância do FOSS4G na LATAM
+        ---
+        
+        A conferência internacional FOSS4G, focada em software de código aberto para aplicações geoespaciais, oferece uma plataforma inestimável para a LATAM. Ao reunir especialistas de todo o mundo e promover a troca de conhecimentos e experiências, o FOSS4G impulsiona o desenvolvimento e a adoção de tecnologias geoespaciais de ponta na região.
+        
+        Isso não apenas promove a inovação local em áreas como agricultura, gestão ambiental e planejamento urbano, mas também fortalece a colaboração e a rede de contatos entre profissionais latino-americanos e a comunidade global de GIS de código aberto, promovendo assim um ecossistema mais robusto e conectado para o crescimento sustentável.
+
+        Em comparação com outras regiões do mundo, a ocorrência de conferências FOSS4G na LATAM é limitada. Isso se deve principalmente aos fatores econômicos de hospedar uma grande conferência e à inacessibilidade dos custos de viagem para que indivíduos possam participar.
+
+        Os organizadores do FOSS4G 2024 estão entusiasmados por terem sido selecionados para a conferência internacional FOSS4G deste ano e pela rara oportunidade de unir uma variedade diversificada de participantes neste canto do mundo.
+      </div>
+      <div>
+{/* 
+      #### Comunidades
+      ---
+
+      As comunidades geoespaciais na América Latina surgem de várias maneiras, mas geralmente derivam da necessidade de colaboração e cooperação entre profissionais, acadêmicos, empresas e entidades governamentais interessadas no domínio geoespacial. Essas comunidades se reúnem devido à necessidade de abordar questões ambientais e sociais na região.
+
+      Na América Latina e no Caribe, existem muitas comunidades relacionadas a questões geoespaciais, software de código aberto (FOSS), dados abertos, infraestrutura de dados espaciais (SDI), pesquisa acadêmica, redução da lacuna de gênero em tecnologia e muito mais. 
+
+      Aqui está uma lista de algumas das comunidades existentes:
+
+      - Youthmappers: Comunidade global de estudantes, pesquisadores, educadores e acadêmicos que utilizam tecnologias geoespaciais públicas para destacar e abordar diretamente desafios de desenvolvimento em todo o mundo. YouthMappers foi concebido para atender à demanda por acesso aberto a dados geoespaciais em todo o mundo.
+      - @LetGirlsMap : Uma campanha de apoio a questões de mulheres e meninas, trabalhando para criar comunidades de mapeamento inclusivas para estudantes de cartografia em todo o mundo.
+      - LAC HUB - HOT @maphublac: Mapeamento aberto para desenvolvimento inclusivo e sustentável na LATAM e Caribe. LAC Hub: @hotosm.
+      - GeochicasOSM @GeochicasOSM: Grupo de mulheres mapeadoras do OpenStreetMap e OSGeo. Eles trabalham para reduzir a lacuna de gênero.
+
+     - Comunidades do OpenStreetMap na América Latina: 
+        - Argentina: Telegram @OSM_ar
+        - Brasil: Telegram @OSMBrasil_Comunidade
+        - Bolívia: Telegram @osmbolivia 
+        - Chile: Telegram @OSMcl @osmCL
+        - Colômbia: Telegram @osmco @opentreetmapco
+        - Costa Rica: Telegram @OSMCostaRica
+        - Cuba: Telegram @OSM_Cuba
+        - Equador: Telegram @MappingEcuador
+        - Guatemala: Telegram @openstreetmapGT
+        - México: Telegram @osm_mx @openstreetmapMX 
+        - Nicarágua: Telegram @MapaNica @osm_ni.
+        - @yekastreetmga: Coletivos de cartografia reunindo geodados abertos. Colaboradores do OpenStreetMap e antigos do HOT, capítulo para Nicarágua. 
+        - Panamá: Telegram @Comunidad_OSM_Panama Telegram @OpenstreetmapPanama
+        - Paraguai: Telegram @osm_py
+        - Peru: Telegram @osmpe
+        - Venezuela: Telegram @OSMVe
+        - Mapeadoreslivres UFPR: O Projeto de Mapeadores Livres foi o primeiro capítulo da Rede YouthMappers no Brasil. Esta rede, que agora inclui mais de 260 universidades em 65 países, tem como objetivo construir uma rede internacional de cartógrafos voluntários focados em temas como mapeamento humanitário e desenvolvimento sustentável.
+        - Openmapchile: OMCh usa, facilita, experimenta, desenvolve e promove soluções geoespaciais com base em dados e padrões abertos, com software livre e de código aberto.
+        - Mapazonia: Eles criam os melhores e mais gratuitos mapas da Amazônia.
+        - @centroGeo_: Centro de Pesquisa Pública integrado ao sistema CONAHCYT.
+      - Comunidades IDE na América Latina: 
+        - @ide_argentina:  infraestrutura de dados espaciais (SDI) da Argentina
+        - @IDE_Chile: Eles coordenam instituições públicas para democratizar informações geoespaciais no Chile.
+        - @geobolivia: Portal de Mapeamento do Estado Plurinacional da Bolívia, promovendo dados abertos (Open Data), Nodo Iniciador de SDI. 
+      - Comunidades QGIS: 
+        - Equador: @qgisecuador
+        - Brasil: @qgis_br
+        - Peru: @qgispe 
+        - Colômbia: @qgiscolombia
+      - Mais comunidades: 
+        - @geoinquietosarg: Um grupo de pessoas que promovem encontros locais informais com o objetivo de compartilhar preocupações no campo da geoinformática da Argentina.
+        - @comunidad_sig: Oportunidades e notícias sobre sistemas de informações geográficas e cadastro.
+        - @lasdesistemas: Organizadores do @femitconf. Comunidade transfeminista de sistemas que trabalha para tornar visíveis e empoderar mulheres, lésbicas, trans e pessoas não binárias.
+        - @LinuxChix Argentina: Comunidade para tornar as mulheres visíveis no mundo GNU/Linux e FOSS, e para todos que ajudam a reduzir a lacuna de gênero.
+        - @geoinfinita: Site para disseminação de geografia e mapas, também disponível em podcasts, Telegram e Instagram.
+        - @escueladedatos: Cursos e materiais gratuitos para gerenciamento de dados. Eles mapeiam histórias de sucesso na região.
+        - @socialtic: Pesquisa, treinamento e apoio no uso estratégico de tecnologia digital para fins sociais.
+
+      - Alguns encontros destacados: 
+        - https://2023.abrelatam.org/
+        - https://flisol.info/ 
+        - https://www.vialibre.org.ar
+        - https://ac.python.org.ar/
+        - https://2021.foss4g.org/ */}
+      </div>
+
+    </div>
+    <div className="flex flex-col space-y-4">
+      <div>
+        #### Importância do FOSS4G em Belém
+        ---
+
+        O Brasil sempre foi um ponto focal para atividades geoespaciais. Ele abriga numerosas comunidades, e da Argentina, conhecemos muitos colegas com os quais estamos em contato. A ideia nasceu não apenas por causa da importância de Belém como centro da Amazônia, mas também devido à sua agenda política, comunitária e de diversidade.
+
+        Como Belém é uma das capitais regionais da Amazônia, inúmeras ONGs e organizações governamentais têm sua sede para realizar coleta e análise de dados espaciais para fins de sustentabilidade. Esses projetos estão relacionados à luta contra o desmatamento ou ao empoderamento de comunidades indígenas com software geoespacial adaptado às suas necessidades.
+
+        Nosso objetivo é aproximar a agenda indígena e torná-la presente neste evento. Outro de nossos objetivos como conferência é gerar um espaço seguro para reduzir a lacuna de gênero no campo geoespacial, buscando a participação de mulheres e dissidentes.
+
+        A COP25 no próximo ano em Belém, Brasil, será uma oportunidade crucial para os líderes mundiais e a comunidade internacional intensificarem os esforços para enfrentar as mudanças climáticas, promovendo uma economia de baixo carbono e resiliente ao clima. A cúpula deverá gerar discussões, compromissos renovados e ações concretas para enfrentar esse desafio urgente. 
+        
+        Além disso, a recente Cúpula da Amazônia em Belém reuniu líderes regionais, especialistas ambientais, comunidades indígenas e representantes de organizações internacionais para abordar questões como desmatamento, biodiversidade e direitos indígenas na região, buscando estabelecer estratégias e compromissos para proteger e preservar esse ecossistema vital.
+
+        A importância do FOSS4G em Belém, Brasil, reside em seu potencial para impulsionar o desenvolvimento tecnológico e a inovação no campo de sistemas de informação geográfica. Este evento oferece uma plataforma para colaboração, troca de conhecimentos e promoção de soluções de software de código aberto no domínio geoespacial, o que pode fortalecer a infraestrutura digital, promover o acesso a informações geoespaciais e contribuir para o desenvolvimento sustentável da região amazônica e além.
+
+        Em 2023, vimos a oportunidade de apresentar a proposta à OSGeo, para solicitar a realização desta conferência em Belém. Foi assim que nos escolheram, e aqui estamos, construindo essa maravilhosa experiência com a comunidade.
+
+      </div>
+
+      <div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+
+}
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}

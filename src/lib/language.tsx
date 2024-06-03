@@ -131,6 +131,11 @@ export const intlHrefs = {
     es: "/cfp/talleres",
     pt: "/cfp/oficinas",
   },
+  "/foss4g-in-belem": {
+    en: "/foss4g-in-belem",
+    es: "/foss4g-en-belem",
+    pt: "/foss4g-em-belem",
+  }
 };
 
 export const LanguageContext = createContext<{

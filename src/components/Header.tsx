@@ -33,6 +33,12 @@ const menuItems = [
         href: "/about",
       },
       {
+        "label:en": "FOSS4G in Belém",
+        "label:es": "FOSS4G en Belém",
+        "label:pt": "FOSS4G em Belém",
+        href: "/foss4g-in-belem",
+      },
+      {
         "label:en": "Conference Committees",
         "label:es": "Comité Organizador Local",
         "label:pt": "Comitê Organizador Local",
