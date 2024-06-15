@@ -1,6 +1,7 @@
 import MdxLayout from "@/components/MDXLayout";
 import TicketPricesTable from "@/components/TicketPricesTable";
 import Heading from "@/components/Heading";
+import IntlLink from "@/components/IntlLink";
 
 export const metadata = {
   title: "Buy Tickets",
@@ -12,7 +13,7 @@ export const metadata = {
   Buy FOSS4G 2024 Tickets
 </Heading>
 
-<div className="text-lg md:text-2xl text-center">
+<div className="md:text-2xl text-center">
   <p>
     🎉 Tickets are now available for the most anticipated conference of the
     year! 🎉
@@ -25,7 +26,7 @@ export const metadata = {
 </div>
 
 <div className="text-center">
-  <div className="inline-block text-f4g_orange font-bold text-lg tracking-[0.4rem] md:text-4xl">
+  <div className="inline-block text-f4g_orange font-bold tracking-[0.4rem] md:text-4xl">
     &gt;&gt;&gt;
   </div>
   <a
@@ -37,12 +38,12 @@ export const metadata = {
       {"Click here to buy tickets!"}
     </button>
   </a>
-  <div className="inline-block text-f4g_orange font-bold text-lg tracking-[0.4rem] md:text-4xl">
+  <div className="inline-block text-f4g_orange font-bold tracking-[0.4rem] md:text-4xl">
     &lt;&lt;&lt;
   </div>
 </div>
 
-<div className="grid grid-cols-1 sm:grid-cols-2 sm:space-x-4 mt-8">
+<div className="grid grid-cols-1 sm:grid-cols-2 sm:space-x-4 mt-8 space-y-4">
   <div className="">
     ##### Conference tickets
     ---
@@ -58,11 +59,15 @@ export const metadata = {
 
     ##### Ticket Costs
     ---
+
+    <div className="text-sm my-2">**Conference tickets are priced in Brazilian Reals (BRL)**. We have included the prices converted approximately to USD in the table below, for the convenience of our international guests.</div>
+
     <TicketPricesTable />
 
     <div className="italic text-sm my-2">Please note that tickets are subject to availability, when they are sold out, you will be able to see it in the purchase system, as well as we will communicate it on social networks. You will have the possibility to get on the waiting list, but this does not guarantee access to the ticket.</div>
 
     ##### What is not included in the ticket?
+    ---
 
     The ticket does **not** include the purchase of workshops. 
 
@@ -84,7 +89,7 @@ export const metadata = {
 
     If you wish to come with a companion to the Gala Dinner, you have the possibility to add a ticket to that particular event.
 
-    On December 3rd is the Geochicas & Meninas da Geo take Belém! event, we invite you to participate, check the agenda. Registration will be in advance. 
+    On December 3rd is the Geochicas & Meninas da Geo take Belém! event, we invite you to participate, check the agenda. Registration <IntlLink href="/additional-events">will be in advance</IntlLink>. 
 
     On December 6th we will have the general sessions and the Closing of the Conference, we will make the closing speech with some surprises, acknowledgements, Sol Katz award.
 
@@ -95,6 +100,8 @@ export const metadata = {
     If you are a FOSS4G sponsor, check the table in the sponsors brochure to see if you are entitled to tickets for the B2B, if not, you can purchase a ticket separately.
 
     ##### Do you have any questions about your ticket?
+    ---
+    
     Send us your question to [register@foss4g.org](mailto:register@foss4g.org), it is important that you take into account the return policies on the website. 
 
   </div>

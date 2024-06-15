@@ -1,0 +1,121 @@
+import MdxLayout from "@/components/MDXLayout";
+import TicketPricesTable from "@/components/TicketPricesTable";
+import Heading from "@/components/Heading";
+import IntlLink from "@/components/IntlLink";
+
+export const metadata = {
+  title: "Comprar Entrada",
+  description:
+    "Comprar entradas para la Conferencia FOSS4G 2024 celebrada en Belém, Brasil del 02 al 08 de diciembre de 2024",
+};
+
+<Heading color="orange" bubble>
+  Comprar Entradas FOSS4G 2024
+</Heading>
+
+<div className="md:text-2xl text-center">
+  <p>
+    🎉 ¡Ya están disponibles las entradas para la conferencia más esperada del año! 🎉
+  </p>
+  <p>
+    🚀 No pierdas la oportunidad de inspirarte y aprender de los mejores expertos. 🚀
+  </p>
+  <p>🔒 ¡Asegura tu lugar ahora y sé parte de este evento único! 🔒</p>
+</div>
+
+<div className="text-center">
+  <div className="inline-block text-f4g_orange font-bold tracking-[0.4rem] md:text-4xl">
+    &gt;&gt;&gt;
+  </div>
+  <a
+    href="https://payment.2024.foss4g.org/OSGeo-Brasil/foss4g.2024/"
+    target="_blank"
+    className="non-standard"
+  >
+    <button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-4xl font-ubuntu mx-1 md:mx-3 my-3">
+      {"Compra tus entradas aquí!"}
+    </button>
+  </a>
+  <div className="inline-block text-f4g_orange font-bold tracking-[0.4rem] md:text-4xl">
+    &lt;&lt;&lt;
+  </div>
+</div>
+
+<div className="grid grid-cols-1 sm:grid-cols-2 sm:space-x-4 mt-8 space-y-4">
+  <div className="">
+    ##### Entradas para la conferencia
+    ---
+
+    Las entradas para la conferencia principal están en período de descuento (Early bird), aproveche esta oportunidad!
+
+    Tenemos tickets adaptados a las distintas regiones:
+    - Si sos de Brasil seleccione el ticket para tu región;
+    - Si es de Argentina, seleccione el ticket para tu región;
+    - Si es de cualquier país de América Latina y el Caribe,  seleccione e ticket regional 
+    - Si es de un país de fuera de América Latina y el Caribe, seleccione el ticket internacional. 
+    - Si sos speaker de la conferencia, seleccioná el “Speakers Ticket”, este ticket especial es para darte las gracias por tu colaboración.
+
+    ##### Costos de Entradas
+    ---
+
+    <div className="text-sm my-2">**Las entradas para la conferencia están expresadas en reales brasileños (BRL)**. Hemos incluido los precios convertidos aproximadamente a USD en la tabla siguiente, para comodidad de nuestros invitados internacionales.</div>
+
+    <TicketPricesTable />
+
+    <div className="italic text-sm my-2">Se recuerda que los tickets están sujetos a disponibilidad, cuando estén agotados, podrás verlo en el sistema de compra, como también lo comunicaremos en redes sociales. Tendrás la posibilidad de anotarte en la lista de espera, pero esto último no garantiza el acceso al ticket.</div>
+
+    ##### ¿Qué no incluye el ticket?
+    ---
+
+    El ticket no incluye la compra de workshops. 
+
+    Los talleres se desarrollarán los días 2 y 3 de diciembre, existirán talleres de 2 y de 4 horas. Te recomendamos que lleves tu computadora. Con la compra de un ticket de workshops Incluye el almuerzo y el cofee break.
+
+    Si deseas comprar un acceso a otro workshop podes hacerlo con el ticket workshop. 
+ 
+  </div>
+  <div>
+    ##### ¿Qué incluye un ticket?
+    ---
+
+    - **Conferencia FOSS4G**
+
+    La conferencia incluye el opening en donde el equipo local se presentará ante el público, a través de un discurso darán a conocer la maravillosa comunidad y ciudad de Belém y Brasil. Luego continuaremos con ponentes principales y con sesiones especiales de los sponsors que apoyan a esta conferencia. Luego seguiremos el cronograma con las charlas de la comunidad. Las charlas se realizan desde el 3 al 5 de Diciembre, incluye los cofee breaks y el almuerzo. 
+
+    - **Eventos Sociales**
+
+    También incluye los eventos sociales: el Ice Breaker que se desarrolla el día 3 de Diciembre en el Hangar como también la Gala Dinner, el día 4 de Diciembre, solo incluye el pase a todos eventos aquella persona que haya adquirido el ticket general.
+
+    Si deseas venir con un acompañante a la Gala Dinner, tienes la posibilidad de añadir un ticket a ese evento en particular.
+
+    El día 3 de Diciembre es el evento Geochicas & Meninas da Geo toman Belém!, te invitamos a participar, chequea la agenda!. La inscripción <IntlLink href="/additional-events">será por seaparado</IntlLink>.
+
+    El día 6 de Diciembre tendremos las sesiones generales y el Cierre de la Conferencia, haremos el discurso de cierre con algunas sorpresas, agradecimientos, entrega de premio Sol Katz.
+
+    - **Code Sprint**
+
+    El CodeSprint se desarrolla los días 7 y 8 de Diciembre, durante el codesprint los participantes participan en sesiones intensivas de codificación, concentrándose en proyectos o tareas específicas. Las tareas en las que trabajan las determinan los propios participantes, que proponen sprints de código y también se ofrecen a colaborar en otros proyectos. Estos serán gestionados por coordinadores/as, donde la inscripción será a parte, cuando esté disponible <IntlLink href="/additional-events">podes anotarte aqui</IntlLink>. 
+
+    Si sos sponsor de la FOSS4G chequea en la tabla del brochure de sponsors si te corresponden entradas para el B2B, si no es así podes adquirir un ticket a parte. 
+
+
+    ##### ¿Tenes alguna duda sobre tu ticket?
+    ---
+
+    Envianos tu consulta a [register@foss4g.org](mailto:register@foss4g.org), Es importante que tengas en cuenta las políticas de devolución en la página web.
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>;
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+
+
+}

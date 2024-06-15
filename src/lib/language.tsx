@@ -140,6 +140,11 @@ export const intlHrefs = {
     en: "/cancellation-policy",
     es: "/politicas-de-cancelacion",
     pt: "/politica-de-cancelamento",
+  },
+  "/buy-tickets": {
+    en: "/buy-tickets",
+    es: "/comprar-entrada",
+    pt: "/comprar-ingresso",
   }
 };
 
