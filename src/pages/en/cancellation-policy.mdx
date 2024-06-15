@@ -1,0 +1,56 @@
+import Heading from "@/components/Heading";
+import MdxLayout from "@/components/MDXLayout";
+
+export const metadata = {
+  title: "Cancellation Policy",
+  description: "Cancellation Policy for the FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024"
+}
+
+<Heading color="red" bubble>Cancellation Policy</Heading>
+
+<div className="grid grid-cols-1 sm:grid-cols-2 sm:space-x-4 mt-8">
+  <div className="flex-row space-y-6">
+    ##### Ticket and Participation Cancellation Guidelines for FOSS4G 2024 Belém
+
+    Tickets for FOSS4G 2024 Belém are purchased by individuals, entities, agencies, or public entities, regardless of their legal form, hereinafter referred to as the 'PURCHASER'. Each ticket is associated with a 'PARTICIPANT', who will be the individual using the ticket. Tickets are sold by OSGeo Brazil, hereinafter referred to as the 'ORGANIZER', on behalf of the OSGeo Foundation. The ORGANIZER is responsible for the event and its conditions are subject to the determinations of the ORGANIZER. The purchase confirmation is subject to the confirmation of the associated monetary transaction. A ticket that does not have a valid monetary transaction associated with it will automatically be considered invalid.
+
+    ##### Cancellation Conditions
+    All these terms and conditions are governed by the laws of Brazil and any disputes arising from any transaction will be subject exclusively to the jurisdiction of Brazilian courts. No exchanges, refunds, cancellations, or returns of purchased tickets will be accepted, except under the conditions established by the ORGANIZER.
+
+    If the PARTICIPANT does not inform OSGeo Brazil about the cancellation request, in addition to not receiving a refund for the registration fee or other included fees, it will not be converted into credit for participation in future events.
+
+    ##### By the Purchaser
+    The inability of the PARTICIPANT to attend the event or errors in the purchase will not be valid reasons for a full refund of the ticket value.
+    
+    The refund policy in case of cancellation by participants will be as follows:
+    - Between 7 and 6 months before the event: 50% of the ticket value will be refunded.
+    - Between 6 and 4 months before the event: 25% of the ticket value will be refunded.
+    - Less than 4 months before the event: no refund will be given.
+
+    It is possible to change the PARTICIPANT's data free of charge by contacting the organization up to one month before the event. Refunds will be processed and issued up to 60 days after the conference.
+  </div>
+  <div className="flex-row space-y-6">
+    ##### By the Organizer
+    The ORGANIZER reserves the right to cancel and/or nullify any purchase that contains incorrect and/or incomplete information from the purchaser. The illegal resale (or attempted illegal resale) of a ticket constitutes grounds for the total cancellation of the ticket without refund or any other compensation. The use of a ticket by anyone other than the PARTICIPANT will also be grounds for cancellation of the ticket without refund or any other form of compensation. If for any reason the date or time of the event is changed, the purchased tickets will be valid for the final date and time determined by the ORGANIZER.
+
+    Event activities (times and dates) may be altered by the organizers at any time, without prior notice or any other condition, especially due to force majeure, unforeseen circumstances, Covid-19 pandemic and variants, and/or other determinations from administrative, governmental authorities, and the Judiciary.
+
+    ##### Event Cancellation Due to Unforeseen Circumstances
+    In the unlikely event that FOSS4G 2024 cannot be held in whole or in part due to any event beyond the control of the Organizers or due to force majeure (such as riots, disasters, fires, explosions, accidents, floods, earthquakes, sabotage, strikes, pandemics, acts of any government, etc.), the Conference Organizers will not be responsible for any damages, costs, or losses incurred, such as registration fees or any other direct or indirect damages or consequential damages.
+
+    ##### Contact
+    The PARTICIPANT must submit their cancellation request by contacting the Customer Service via email at [register@foss4g.org](mailto:register@foss4g.org). Regardless of the method of request, the cancellation deadlines mentioned in the previous section must be observed.
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}

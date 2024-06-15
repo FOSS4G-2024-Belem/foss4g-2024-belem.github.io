@@ -1,0 +1,58 @@
+import Heading from "@/components/Heading";
+import MdxLayout from "@/components/MDXLayout";
+
+export const metadata = {
+  title: "Políticas de Cancelación",
+  description: "Políticas de Cancelación para la Conferencia FOSS4G 2024 celebrada en Belém, Brasil, del 02 al 08 de diciembre de 2024"
+}
+
+<Heading color="red" bubble>Políticas de Cancelación</Heading>
+
+<div className="grid grid-cols-1 sm:grid-cols-2 sm:space-x-4 mt-8">
+  <div className="flex-row space-y-6">
+    ##### Directrices para la Cancelación de Entradas y Participaciones en FOSS4G 2024 Belém
+
+    Las entradas para FOSS4G 2024 Belém son adquiridas por personas físicas, organizaciones, organismos o entidades públicas, independientemente de su forma jurídica, en adelante denominados "COMPRADORES". Cada entrada está asociada a un "PARTICIPANTE", que será la persona física usuaria de la entrada. Las entradas son vendidas por OSGeo Brasil, en adelante "ORGANIZADOR", en nombre de la Fundación OSGeo. El ORGANIZADOR es responsable por el evento a ser realizado y sus condiciones están sujetas a sus determinaciones. La confirmación de la compra está sujeta a la confirmación de la transacción monetaria asociada. Una entrada que no tenga asociada una transacción monetaria válida se considerará automáticamente inválida.
+
+    ##### Condiciones de Cancelación
+    Todos estos términos y condiciones están regidos por las leyes de Brasil y cualquier disputa derivada de cualquier transacción estará sujeta exclusivamente a la jurisdicción de los tribunales brasileños. No se aceptarán cambios, reembolsos, cancelaciones o devoluciones de las entradas adquiridas, excepto bajo las condiciones establecidas por la ORGANIZADORA.
+
+    Si el PARTICIPANTE no comunica a OSGeo Brasil sobre la solicitud de cancelación, además de no haber devolución del valor de la tasa de inscripción u otras tasas incluídas, la misma no será convertida en crédito para participación en eventos futuros.
+
+
+    ##### Por el Comprador
+    La imposibilidad de asistir al evento por parte del PARTICIPANTE o el error en la compra no serán motivos válidos para la devolución íntegra del precio de la entrada.
+    
+    La política de reembolso en caso de cancelación por parte de los participantes será la siguiente:
+    
+    - Entre 7 y 6 meses antes del evento: se reembolsará el 50% del precio de la entrada.
+    - Entre 6 y 4 meses antes del inicio del evento: se reembolsará el 25% del precio.
+    - Menos de 4 meses antes del comienzo del evento: no se efectuará ningún reembolso.
+
+    Es posible modificar gratuitamente los datos del PARTICIPANTE poniéndose en contacto con la organización hasta un mes antes del evento. Los reembolsos se tramitarán y emitirán hasta 60 días después de la conferencia.
+  </div>
+  <div className="flex-row space-y-6">
+    ##### Por el Organizador
+    El ORGANIZADOR se reserva el derecho de cancelar y/o anular cualquier compra que contenga información incorrecta y/o incompleta del comprador. La reventa ilegal (o intento de reventa ilegal) de una entrada constituye motivo de anulación total de la misma sin derecho a reembolso ni a ninguna otra forma de compensación. El uso de una entrada por cualquier persona que no sea el PARTICIPANTE también será motivo de cancelación de dicha entrada sin reembolso ni ninguna otra forma de compensación. Si por cualquier motivo o causa se modificara la fecha u hora del evento, las entradas adquiridas serán válidas para la fecha y hora que determine el ORGANIZADOR.
+
+    Las actividades del evento (horarios y fechas) podrán ser alteradas por los organizadores en cualquier momento, sin previo aviso ni condición alguna, especialmente por causas de fuerza mayor, caso fortuito, pandemias derivadas de Covid-19 y variantes, y/u otras determinaciones derivadas de autoridades administrativas, gubernamentales y judiciales.
+
+    ##### Cancelación del Evento Debido a Circunstancias Imprevistas
+    En el improbable caso de que FOSS4G 2024 no pueda celebrarse en su totalidad o en parte debido a cualquier acontecimiento fuera del control de los Organizadores o de fuerza mayor (como disturbios, catástrofes, incendios, explosiones, accidentes, inundaciones, terremotos, sabotajes, huelgas, pandemias, actos de cualquier gobierno, etc.), los Organizadores de la Conferencia no serán responsables de ningún daño, coste o pérdida incurridos, como las tasas de inscripción o cualquier otro daño directo o indirecto o daños consecuentes.
+
+    ##### Contacto
+    El PARTICIPANTE debe enviar su solicitud de cancelación contactando al Servicio de Atención al Cliente a través del correo electrónico: [register@foss4g.org](mailto:register@foss4g.org). Cualquiera que sea el método de solicitud, deben observarse los plazos de cancelación informados en el apartado anterior.
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}

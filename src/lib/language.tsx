@@ -135,6 +135,11 @@ export const intlHrefs = {
     en: "/foss4g-in-belem",
     es: "/foss4g-en-belem",
     pt: "/foss4g-em-belem",
+  },
+  "/cancellation-policy": {
+    en: "/cancellation-policy",
+    es: "/politicas-de-cancelacion",
+    pt: "/politica-de-cancelamento",
   }
 };
 
