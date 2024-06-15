@@ -1,0 +1,21 @@
+import MdxLayout from "@/components/MDXLayout";
+import TicketPricesTable from "@/components/TicketPricesTable";
+
+export const metadata = {
+  title: "Buy Tickets",
+  description: "Buy tickets for FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024",
+};
+
+<TicketPricesTable />
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>;
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}
