@@ -8,8 +8,8 @@ const i18nEnglish = {
   "Local (Argentina)": "Local (Argentina)",
   "Regional": "Regional",
   "International": "International",
-  "Ticket B2B": "Ticket B2B",
-  "Gala Dinner": "Gala Dinner",
+  "B2B Ticket": "B2B Ticket",
+  "Gala Dinner Extra": "Gala Dinner Extra",
   "Excursion Belém do Pará": "Excursion Belém do Pará",
   "Speakers Ticket": "Speakers Ticket",
   "Early Bird": "Early Bird",
@@ -17,11 +17,11 @@ const i18nEnglish = {
 }
 
 function USD({v} : { v: number} ) {
-  return <><span className="text-gray-800 text-xs">US$ </span>{v}</>
+  return <><div className="text-gray-800 text-xs md:inline-block md:pr-1">US$ </div>{v}</>
 }
 
 function BRL({v} : { v: number} ) {
-  return <><span className="text-gray-800 text-xs">R$ </span>{v}</>
+  return <><div className="text-gray-800 text-xs md:inline-block md:pr-1">R$ </div>{v}</>
 }
 
 export default function TicketPricesTable({i18n = i18nEnglish} : {i18n: typeof i18nEnglish}) {
@@ -87,6 +87,15 @@ export default function TicketPricesTable({i18n = i18nEnglish} : {i18n: typeof i
         <td className="px-2 py-1">-</td>
       </tr>
       <tr className="border-b border-gray-300">
+        <td colSpan={5}>
+          <div className="flex items-center my-2">
+            <div className="flex-1 border-gray-400 border-t mx-4"></div>
+            <div className="font-bold text-gray-900">Optional Addons</div>
+            <div className="flex-1 border-gray-400 border-t mx-4"></div>
+          </div>
+        </td>
+      </tr>
+      <tr className="border-b border-gray-300">
         <td className="px-2 py-1">{i18n["Workshop"]}</td>
         <td className="px-2 py-1"><USD v={49} /></td>
         <td className="px-2 py-1"><USD v={69} /></td>
@@ -94,14 +103,14 @@ export default function TicketPricesTable({i18n = i18nEnglish} : {i18n: typeof i
         <td className="px-2 py-1"><BRL v={371} /></td>
       </tr>
       <tr className="border-b border-gray-300">
-        <td className="px-2 py-1">{i18n["Ticket B2B"]}</td>
+        <td className="px-2 py-1">{i18n["B2B Ticket"]}</td>
         <td className="px-2 py-1">-</td>
         <td className="px-2 py-1"><USD v={20} /></td>
         <td className="px-2 py-1">-</td>
         <td className="px-2 py-1"><BRL v={100} /></td>
       </tr>
       <tr className="border-b border-gray-300">
-        <td className="px-2 py-1">{i18n["Gala Dinner"]}</td>
+        <td className="px-2 py-1">{i18n["Gala Dinner Extra"]}</td>
         <td className="px-2 py-1">-</td>
         <td className="px-2 py-1"><USD v={50} /></td>
         <td className="px-2 py-1">-</td>
