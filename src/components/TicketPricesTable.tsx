@@ -1,21 +1,6 @@
 import { LanguageContext } from "@/lib/language";
 import { useContext } from "react";
 
-const i18nEnglish = {
-  "Ticket Type": "Ticket Type",
-  "Workshop": "Workshop",
-  "Local (Brazil)": "Local (Brazil)",
-  "Local (Argentina)": "Local (Argentina)",
-  "Regional": "Regional",
-  "International": "International",
-  "B2B Ticket": "B2B Ticket",
-  "Gala Dinner Extra": "Gala Dinner Extra",
-  "Excursion Belém do Pará": "Excursion Belém do Pará",
-  "Speakers Ticket": "Speakers Ticket",
-  "Early Bird": "Early Bird",
-  "Full Price": "Full Price"
-}
-
 function USD({v} : { v: number} ) {
   return <><div className="text-gray-800 text-xs md:inline-block md:pr-1">US$ </div>{v}</>
 }
@@ -24,9 +9,55 @@ function BRL({v} : { v: number} ) {
   return <><div className="text-gray-800 text-xs md:inline-block md:pr-1">R$ </div>{v}</>
 }
 
-export default function TicketPricesTable({i18n = i18nEnglish} : {i18n: typeof i18nEnglish}) {
+export default function TicketPricesTable() {
   const { language } = useContext(LanguageContext)
 
+  const i18nAll = {
+    "en": {
+      "Ticket Type": "Ticket Type",
+      "Workshop": "Workshop",
+      "Local (Brazil)": "Local (Brazil)",
+      "Local (Argentina)": "Local (Argentina)",
+      "Regional": "Regional",
+      "International": "International",
+      "B2B Ticket": "B2B Ticket",
+      "Gala Dinner Extra": "Gala Dinner Extra",
+      "Excursion Belém do Pará": "Excursion Belém do Pará",
+      "Speakers Ticket": "Speakers Ticket",
+      "Early Bird": "Early Bird",
+      "Full Price": "Full Price"
+    },
+    "es": {
+      "Ticket Type": "Tipo de Entrada",
+      "Workshop": "Workshop",
+      "Local (Brazil)": "Local (Brasil)",
+      "Local (Argentina)": "Local (Argentina)",
+      "Regional": "Regional",
+      "International": "Internacional",
+      "B2B Ticket": "B2B Ticket",
+      "Gala Dinner Extra": "Gala Dinner Extra",
+      "Excursion Belém do Pará": "Excursion Belém do Pará",
+      "Speakers Ticket": "Speakers Ticket",
+      "Early Bird": "Early Bird",
+      "Full Price": "Full Price"
+    },
+    "pt": {
+      "Ticket Type": "Tipo de Ingresso",
+      "Workshop": "Workshop",
+      "Local (Brazil)": "Local (Brasil)",
+      "Local (Argentina)": "Local (Argentina)",
+      "Regional": "Regional",
+      "International": "Internacional",
+      "B2B Ticket": "B2B Ticket",
+      "Gala Dinner Extra": "Gala Dinner Extra",
+      "Excursion Belém do Pará": "Excursion Belém do Pará",
+      "Speakers Ticket": "Speakers Ticket",
+      "Early Bird": "Early Bird",
+      "Full Price": "Full Price"
+    },
+  }
+
+  const i18n = i18nAll[language as "en"| "es" | "pt"];
 
   return <table className="border-collapse border-spacing-x-2">
     <thead>
