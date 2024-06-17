@@ -33,8 +33,8 @@ const enHomepagePhrases = {
   section2ButtonText: "Learn More",
   section2ButtonLink: "/about",
   section3Heading: "Register for the event",
-  section3ButtonLink: "",
-  section3ButtonText: "Coming Soon!",
+  section3ButtonLink: "/buy-tickets",
+  section3ButtonText: "Buy Tickets!",
   section3Link1Link: "/code-of-conduct",
   section3Link1Text: "Code of Conduct",
   section3Link2Link: "/visiting-belem",
@@ -221,7 +221,7 @@ export default function HomePage({
                       {t["section3ButtonText"]}
                     </div>
                   ) : (
-                    <IntlLink href={t["section3ButtonLink"]}>
+                    <IntlLink href={t["section3ButtonLink"]} className="non-standard">
                       <div className="button text-2xl uppercase [font-weight:500] font-ubuntu text-[#ee6f2e] bg-white rounded px-10 py-4">
                         {t["section3ButtonText"]}
                       </div>
