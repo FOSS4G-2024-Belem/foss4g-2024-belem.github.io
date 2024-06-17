@@ -107,6 +107,18 @@ const menuItems = [
     "label:pt": "Inscrição",
     links: [
       {
+        "label:en": "Buy Tickets",
+        "label:es": "Comprar Entradas",
+        "label:pt": "Comprar Ingressos",
+        href: "/buy-tickets",
+      },
+      {
+        "label:en": "Cancellation Policy",
+        "label:es": "Políticas de Cancelación",
+        "label:pt": "Políticas de Cancelamento",
+        href: "/cancellation-policy",
+      },
+      {
         "label:en": "Visa Info",
         "label:es": "Info Sobre Visa",
         "label:pt": "Info Sobre Visto",
