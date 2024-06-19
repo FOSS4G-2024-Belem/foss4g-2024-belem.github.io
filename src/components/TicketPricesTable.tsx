@@ -23,7 +23,6 @@ export default function TicketPricesTable() {
       "B2B Ticket": "B2B Ticket",
       "Gala Dinner Extra": "Gala Dinner Extra",
       "Excursion Belém do Pará": "Excursion Belém do Pará",
-      "Speakers Ticket": "Speakers Ticket",
       "Early Bird": "Early Bird",
       "Full Price": "Full Price"
     },
@@ -37,7 +36,6 @@ export default function TicketPricesTable() {
       "B2B Ticket": "B2B Ticket",
       "Gala Dinner Extra": "Gala Dinner Extra",
       "Excursion Belém do Pará": "Excursion Belém do Pará",
-      "Speakers Ticket": "Speakers Ticket",
       "Early Bird": "Early Bird",
       "Full Price": "Full Price"
     },
@@ -51,7 +49,6 @@ export default function TicketPricesTable() {
       "B2B Ticket": "B2B Ticket",
       "Gala Dinner Extra": "Gala Dinner Extra",
       "Excursion Belém do Pará": "Excursion Belém do Pará",
-      "Speakers Ticket": "Speakers Ticket",
       "Early Bird": "Early Bird",
       "Full Price": "Full Price"
     },
@@ -109,13 +106,6 @@ export default function TicketPricesTable() {
         <td className="px-2 py-1"><USD v={468} /></td>
         <td className="px-2 py-1"><BRL v={1877} /></td>
         <td className="px-2 py-1"><BRL v={2517} /></td>
-      </tr>
-      <tr className="border-b border-gray-300">
-        <td className="px-2 py-1">{i18n["Speakers Ticket"]}</td>
-        <td className="px-2 py-1"><USD v={100} /></td>
-        <td className="px-2 py-1">-</td>
-        <td className="px-2 py-1"><BRL v={538} /></td>
-        <td className="px-2 py-1">-</td>
       </tr>
       <tr className="border-b border-gray-300">
         <td colSpan={5}>
