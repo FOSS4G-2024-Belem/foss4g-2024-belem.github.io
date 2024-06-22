@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import DefaultTheme from "tailwindcss/defaultTheme";
 import HeadlessUI from "@headlessui/tailwindcss";
+import DaisyUI from "daisyui";
 import withMT from "@material-tailwind/react/utils/withMT";
 
 const config: Config = {
@@ -10,6 +11,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  daisyui: {
+    themes: ["light"],
+    base: false
+  },
   theme: {
     extend: {
       aspectRatio: {
@@ -37,6 +42,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [HeadlessUI],
+  plugins: [HeadlessUI, DaisyUI],
 };
 export default withMT(config);
