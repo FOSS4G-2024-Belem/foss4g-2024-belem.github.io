@@ -54,7 +54,7 @@ export default function SponsorGrid({
                 tabIndex={0}
                 placeholder="blur"
                 src={sponsors[sponsorName]["logo"]}
-                className={`block ${classes["maxW"]} object-scale-down`}
+                className={`block ${classes["maxW"]} object-scale-down grayscale hover:grayscale-0`}
               />
               {sponsors[sponsorName]["statement"] && (
                 <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg mb-6 text-sm md:text-base w-full md:w-[300px] left-1/2 transform -translate-x-1/2">
