@@ -57,7 +57,7 @@ export default function SponsorGrid({
                 className={`block ${classes["maxW"]} object-scale-down`}
               />
               {sponsors[sponsorName]["statement"] && (
-                <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg w-96 mb-6 left-1/2 transform -translate-x-1/2">
+                <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg mb-6 text-sm md:text-base w-full md:w-[300px] left-1/2 transform -translate-x-1/2">
                   {sponsors[sponsorName]["statement"]}
                 </div>
               )}
