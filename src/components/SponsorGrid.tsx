@@ -1,11 +1,12 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+import { sponsors } from "@/lib/sponsors";
 
 export default function SponsorGrid({
   level,
-  images,
+  sponsorNames,
 }: {
   level: 0 | 1 | 2 | 3 | 4;
-  images: StaticImageData[];
+  sponsorNames: Array<keyof typeof sponsors | null>;
 }) {
   const levelMap = {
     0: {
@@ -41,18 +42,26 @@ export default function SponsorGrid({
     <div
       className={`flex flex-wrap items-center justify-center ${classes["gap"]}`}
     >
-      {images.map((img, idx) => (
+      {sponsorNames.map((sponsorName, idx) => (
         <div
           key={idx}
           className={`flex ${classes["maxW"]} items-center justify-center`}
         >
-          {img ? (
-            <Image
-              alt={""}
-              placeholder="blur"
-              src={img}
-              className={`block ${classes["maxW"]} object-scale-down`}
-            />
+          {sponsorName ? (
+            <div className="dropdown dropdown-hover dropdown-top hover:cursor-pointer">
+              <Image
+                alt={`${sponsorName} logo`}
+                tabIndex={0}
+                placeholder="blur"
+                src={sponsors[sponsorName]["logo"]}
+                className={`block ${classes["maxW"]} object-scale-down`}
+              />
+              {sponsors[sponsorName]["statement"] && (
+                <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg w-96 mb-6 left-1/2 transform -translate-x-1/2">
+                  {sponsors[sponsorName]["statement"]}
+                </div>
+              )}
+            </div>
           ) : (
             <div
               className={`border font-ubuntu select-none border-gray-800 p-2 ${classes["text"]} rounded text-center text-gray-700`}

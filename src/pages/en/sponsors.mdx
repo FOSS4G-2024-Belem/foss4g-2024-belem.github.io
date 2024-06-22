@@ -2,13 +2,7 @@ import MdxLayout from "@/components/MDXLayout";
 import Heading from "@/components/Heading";
 import {ArrowHeading} from "@/components/Heading";
 import Image from "next/image";
-import Geochicas from "@/images/logo/geochicas.png";
-import Geolibres from "@/images/logo/geolibres.png";
-import MeninasDaGeo from "@/images/logo/meninas-da-geo.png";
-import OsGeoBrasil from "@/images/logo/osgeo-brasil.png";
-import OsGeoLogo from "@/images/logo/osgeo-logo.png";
 import SponsorGrid from "@/components/SponsorGrid";
-import QgisBrasil from "@/images/logo/qgis-brasil.png";
 import Foss4g2022OpeningSession from "@/images/foss4g-2022/opening-session.jpg";
 import IntlLink from "@/components/IntlLink";
 import Link from "next/link";
@@ -60,28 +54,28 @@ export const metadata = {
   </div>
   
   <div className="my-4">
-    <SponsorGrid level={1} images={[OsGeoLogo, OsGeoBrasil, Geolibres]} />
+    <SponsorGrid level={1} sponsorNames={["osgeo", "osgeobrasil", "geolibres"]} />
   </div>
 </div>
 
 
 <ArrowHeading size={0}>Diamond Sponsor</ArrowHeading>
-<SponsorGrid level={0} images={[null]} />
+<SponsorGrid level={0} sponsorNames={[null]} />
 
 <ArrowHeading size={1}>{"Platinum Sponsors"}</ArrowHeading>
-<SponsorGrid level={1} images={[null, null]} />
+<SponsorGrid level={1} sponsorNames={["google", null]} />
 
 <ArrowHeading size={2}>{"Gold Sponsors"}</ArrowHeading>
-<SponsorGrid level={2} images={[null, null, null]} />
+<SponsorGrid level={2} sponsorNames={[null, null, null]} />
 
 <ArrowHeading size={2}>{"Silver Sponsors"}</ArrowHeading>
-<SponsorGrid level={3} images={[null, null, null, null, null]} />
+<SponsorGrid level={3} sponsorNames={[null, null, null, null, null]} />
 
 <ArrowHeading size={2}>{"Bronze Sponsors"}</ArrowHeading>
-<SponsorGrid level={4} images={[null, null, null, null, null, null]} />
+<SponsorGrid level={4} sponsorNames={[null, null, null, null, null, null]} />
 
 <ArrowHeading size={2} color="orange">Community Partners</ArrowHeading>
-<SponsorGrid level={1} images={[Geochicas, MeninasDaGeo, QgisBrasil]} />
+<SponsorGrid level={1} sponsorNames={["geochicas", "meninasdageo", "qgisbrasil"]} />
 
 
 export default function MDXPage({ children }) {
