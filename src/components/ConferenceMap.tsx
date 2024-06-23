@@ -318,6 +318,16 @@ const getMapStyle = ({
         minzoom: 10,
       },
       {
+        id: "worldcover-pattern",
+        type: "fill",
+        source: "worldcover",
+        "source-layer": "worldcover",
+        paint: {
+          "fill-pattern": "pattern0"
+        },
+        filter: ["==", ["get", "class"], 80]
+      },
+      {
         id: "bairros-fill",
         type: "fill",
         source: "bairros",
@@ -364,15 +374,6 @@ const getMapStyle = ({
             18,
             30,
           ],
-        },
-      },
-      {
-        id: "water",
-        type: "fill",
-        source: "protomaps",
-        "source-layer": "water",
-        paint: {
-          "fill-color": "#80deea",
         },
       },
       {
