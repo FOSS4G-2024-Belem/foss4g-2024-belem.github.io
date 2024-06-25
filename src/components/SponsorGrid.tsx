@@ -92,13 +92,18 @@ export default function SponsorGrid({
                 )}
               </div>
               <div className="hidden md:block dropdown dropdown-hover dropdown-top hover:cursor-pointer">
-                <Image
-                  alt={`${sponsorName} logo`}
-                  tabIndex={0}
-                  placeholder="blur"
-                  src={sponsors[sponsorName]["logo"]}
-                  className={`block ${classes["maxW"]} object-scale-down grayscale hover:grayscale-0`}
-                />
+                <a
+                  href={sponsors[sponsorName]["website"] ?? undefined}
+                  target="_blank"
+                >
+                  <Image
+                    alt={`${sponsorName} logo`}
+                    tabIndex={0}
+                    placeholder="blur"
+                    src={sponsors[sponsorName]["logo"]}
+                    className={`block ${classes["maxW"]} object-scale-down grayscale hover:grayscale-0`}
+                  />
+                </a>
                 {sponsors[sponsorName]["statement"] && (
                   <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg mb-6 text-sm md:text-base w-full md:w-[300px] left-1/2 transform -translate-x-1/2">
                     {sponsors[sponsorName]["statement"]}
