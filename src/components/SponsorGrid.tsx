@@ -48,20 +48,64 @@ export default function SponsorGrid({
           className={`flex ${classes["maxW"]} items-center justify-center`}
         >
           {sponsorName ? (
-            <div className="dropdown dropdown-hover dropdown-top hover:cursor-pointer">
-              <Image
-                alt={`${sponsorName} logo`}
-                tabIndex={0}
-                placeholder="blur"
-                src={sponsors[sponsorName]["logo"]}
-                className={`block ${classes["maxW"]} object-scale-down grayscale hover:grayscale-0`}
-              />
-              {sponsors[sponsorName]["statement"] && (
-                <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg mb-6 text-sm md:text-base w-full md:w-[300px] left-1/2 transform -translate-x-1/2">
-                  {sponsors[sponsorName]["statement"]}
-                </div>
-              )}
-            </div>
+            <>
+              <div className="md:hidden">
+                <label htmlFor={`modal-${sponsorName}`}>
+                  <Image
+                    alt={`${sponsorName} logo`}
+                    tabIndex={0}
+                    placeholder="blur"
+                    src={sponsors[sponsorName]["logo"]}
+                    className={`block ${classes["maxW"]} object-scale-down grayscale hover:grayscale-0`}
+                  />
+                </label>
+                {sponsors[sponsorName]["statement"] && (
+                  <>
+                    <input
+                      type="checkbox"
+                      id={`modal-${sponsorName}`}
+                      className="modal-toggle"
+                    />
+                    <div className="modal" role="dialog">
+                      <div className="modal-box">
+                        <Image
+                          alt={`${sponsorName} logo`}
+                          tabIndex={0}
+                          placeholder="blur"
+                          src={sponsors[sponsorName]["logo"]}
+                          className="mb-3"
+                        />
+                        {sponsors[sponsorName]["statement"] && (
+                          <div className="">
+                            {sponsors[sponsorName]["statement"]}
+                          </div>
+                        )}
+                      </div>
+                      <label
+                        className="modal-backdrop"
+                        htmlFor={`modal-${sponsorName}`}
+                      >
+                        Close
+                      </label>
+                    </div>
+                  </>
+                )}
+              </div>
+              <div className="hidden md:block dropdown dropdown-hover dropdown-top hover:cursor-pointer">
+                <Image
+                  alt={`${sponsorName} logo`}
+                  tabIndex={0}
+                  placeholder="blur"
+                  src={sponsors[sponsorName]["logo"]}
+                  className={`block ${classes["maxW"]} object-scale-down grayscale hover:grayscale-0`}
+                />
+                {sponsors[sponsorName]["statement"] && (
+                  <div className="dropdown-content bg-white rounded-lg p-3 shadow-lg mb-6 text-sm md:text-base w-full md:w-[300px] left-1/2 transform -translate-x-1/2">
+                    {sponsors[sponsorName]["statement"]}
+                  </div>
+                )}
+              </div>
+            </>
           ) : (
             <div
               className={`border font-ubuntu select-none border-gray-800 p-2 ${classes["text"]} rounded text-center text-gray-700`}
