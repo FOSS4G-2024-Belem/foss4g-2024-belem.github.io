@@ -150,6 +150,6 @@ export default function TicketPricesTable() {
         </tr>
       </tbody>
     </table>
-    <div className="italic text-sm mt-2">* {i18n["Early Bird Dates"]}</div>
+    <div className="font-bold mt-2">* {i18n["Early Bird Dates"]}</div>
   </>
 }
