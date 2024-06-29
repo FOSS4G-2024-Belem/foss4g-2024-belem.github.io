@@ -1,0 +1,61 @@
+import Committees from "@/data/committees.json";
+import Heading from "@/components/Heading";
+import Foss4gAr2 from "@/images/foss4g-ar/foss4g-ar2.jpg";
+
+
+import PhotoBubble from "@/components/PhotoBubble";
+import MdxLayout from "@/components/MDXLayout";
+
+export const metadata = {
+  title: "Comitê Acadêmico",
+  description:
+    "Informação do Comitê Acadêmico da Conferência FOSS4G 2024 realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024",
+  image: Foss4gAr2,
+};
+
+<Heading bubble color="orange">Comitê Acadêmico</Heading>
+
+<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
+  ##### Sobre o Comitê Acadêmico
+
+  O Comitê Acadêmico é o pilar que garante sua excelência e relevância. Esse grupo de especialistas desempenha um papel fundamental em garantir a qualidade e o rigor acadêmico da trilha designada. Seu trabalho vai além da revisão de propostas e seleção de palestrantes.
+  
+  Eles são responsáveis por garantir que cada apresentação e sessão reflita as últimas pesquisas, avanços e tendências no campo. O Comitê Acadêmico não apenas valida o conteúdo, mas também incentiva a interdisciplinaridade e a diversidade de perspectivas, construindo assim uma trilha que promova e impulsione o progresso na comunidade acadêmica.
+
+</div>
+
+
+<div className="grid grid-cols-2 sm:grid-cols-2 sm:space-x-1 mx-auto md:max-w-[600px]">
+  {Committees["academic"].filter((person) => ["Chair", "Co-Chair"].includes(person["role"])).map((person) => (
+    <PhotoBubble committee="academic" person={person} key={person["name"]} />
+  ))}
+</div>
+
+
+<Heading color="red">Membros do Comitê</Heading>
+
+<div className="grid grid-cols-2 sm:grid-cols-5 sm:space-x-1">
+  {Committees["academic"].filter((person) => ["Member Comitte"].includes(person["role"])).map((person) => (
+    <PhotoBubble committee="academic" showRole={false} person={person} key={person["name"]} />
+  ))}
+</div>
+
+<Heading color="red">Membros Revisores</Heading>
+
+<div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
+  {Committees["academic"].filter((person) => ["Member Review"].includes(person["role"])).map((person) => (
+    <PhotoBubble committee="academic" showRole={false} person={person} key={person["name"]} />
+  ))}
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+
+}
+export async function getStaticProps() {
+return {
+props: {
+metadata
+},
+}
+}

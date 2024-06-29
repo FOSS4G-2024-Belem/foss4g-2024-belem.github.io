@@ -83,23 +83,6 @@ export const metadata = {
   ))}
 </div>
 
-<Heading color="orange">Comitê Acadêmico</Heading>
-
-<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
-  ##### Sobre o Comitê Acadêmico
-
-  O Comitê Acadêmico é o pilar que garante sua excelência e relevância. Esse grupo de especialistas desempenha um papel fundamental em garantir a qualidade e o rigor acadêmico da trilha designada. Seu trabalho vai além da revisão de propostas e seleção de palestrantes.
-  
-  Eles são responsáveis por garantir que cada apresentação e sessão reflita as últimas pesquisas, avanços e tendências no campo. O Comitê Acadêmico não apenas valida o conteúdo, mas também incentiva a interdisciplinaridade e a diversidade de perspectivas, construindo assim uma trilha que promova e impulsione o progresso na comunidade acadêmica.
-
-</div>
-
-<div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
-  {Committees["academic"].map((person) => (
-    <PhotoBubble committee="academic" person={person} key={person["name"]} />
-  ))}
-</div>
-
 <Heading color="green">Comitê de Programa</Heading>
 
 <div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
