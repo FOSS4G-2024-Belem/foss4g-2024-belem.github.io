@@ -7,20 +7,22 @@ import PhotoBubble from "@/components/PhotoBubble";
 import MdxLayout from "@/components/MDXLayout";
 
 export const metadata = {
-  title: "Academic Committee",
+  title: "Comité Académico",
   description:
-    "Information about the Academic Committee of FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024.",
+    "Información sobre el comité académico de la Conferencia FOSS4G 2024 celebrada en Belém, Brasil, del 02 al 08 de diciembre de 2024.",
   image: Foss4gAr2,
 };
 
-<Heading bubble color="orange">Academic Committee</Heading>
+<Heading bubble color="orange">Comité Académico</Heading>
 
 <div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
-  ##### About the Academic Committee
+  ##### Sobre el Comité Académico
 
-  The Academic Committee is the backbone that ensures its excellence and relevance. This group of experts plays a fundamental role in ensuring the quality and academic rigor of the designated track. Their work goes beyond reviewing proposals and selecting speakers.
-  
-  They are responsible for ensuring that each presentation and session reflects the latest research, advances and trends in the field. The Academic Committee not only validates the content, but also encourages interdisciplinarity and diversity of perspectives, thus building a track that promotes and drives progress in the academic community.
+  El Comité Académico es el pilar que garantiza su excelencia y relevancia. Este grupo de expertos desempeña un papel fundamental en asegurar la calidad y el rigor académico de la pista designada.
+
+  Su trabajo va más allá de revisar propuestas y seleccionar ponentes. Son responsables de asegurar que cada presentación y sesión refleje las últimas investigaciones, avances y tendencias en el campo.
+
+  El Comité Académico no solo valida el contenido, sino que también fomenta la interdisciplinariedad y la diversidad de perspectivas, construyendo así una pista que promueva y impulse el progreso en la comunidad académica.
 
 </div>
 
@@ -32,7 +34,7 @@ export const metadata = {
 </div>
 
 
-<Heading color="red">Committee Members</Heading>
+<Heading color="red">Miembros de Committee</Heading>
 
 <div className="grid grid-cols-2 sm:grid-cols-5 sm:space-x-1">
   {Committees["academic"].filter((person) => ["Member Comitte"].includes(person["role"])).map((person) => (
@@ -40,7 +42,7 @@ export const metadata = {
   ))}
 </div>
 
-<Heading color="red">Review Members</Heading>
+<Heading color="red">Miembros de Revisión</Heading>
 
 <div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
   {Committees["academic"].filter((person) => ["Member Review"].includes(person["role"])).map((person) => (

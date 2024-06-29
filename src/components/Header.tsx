@@ -45,6 +45,12 @@ const menuItems = [
         href: "/conference-committees",
       },
       {
+        "label:en": "Academic Committee",
+        "label:es": "Comité Academico",
+        "label:pt": "Comitê Acadêmico",
+        href: "/academic-committee",
+      },
+      {
         "label:en": "Frequently Asked Questions (FAQ)",
         "label:es": "Preguntas Frecuentes (FAQ)",
         "label:pt": "Perguntas Frequentes (FAQ)",

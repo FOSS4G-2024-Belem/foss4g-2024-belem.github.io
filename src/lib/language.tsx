@@ -145,6 +145,11 @@ export const intlHrefs = {
     en: "/buy-tickets",
     es: "/comprar-entrada",
     pt: "/comprar-ingresso",
+  },
+  "/academic-committee": {
+    en: "/academic-committee",
+    es: "/comite-academico",
+    pt: "/comite-academico"
   }
 };
 

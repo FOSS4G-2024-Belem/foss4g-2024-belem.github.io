@@ -8,6 +8,7 @@ import Foss4gAr4 from "@/images/foss4g-ar/foss4g-ar4.jpg";
 import Foss4gAr5 from "@/images/foss4g-ar/foss4g-ar5.jpg";
 import Foss4gAr6 from "@/images/foss4g-ar/foss4g-ar6.jpg";
 import MdxLayout from "@/components/MDXLayout";
+import PhotoBubble from "@/components/PhotoBubble";
 import { useRouter } from "next/router";
 import Carousel from "@/components/Carousel";
 
@@ -83,25 +84,6 @@ export const metadata = {
   ))}
 </div>
 
-<Heading color="orange">Comité Académico</Heading>
-
-<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
-  ##### Sobre el Comité Académico
-
-  El Comité Académico es el pilar que garantiza su excelencia y relevancia. Este grupo de expertos desempeña un papel fundamental en asegurar la calidad y el rigor académico de la pista designada.
-
-  Su trabajo va más allá de revisar propuestas y seleccionar ponentes. Son responsables de asegurar que cada presentación y sesión refleje las últimas investigaciones, avances y tendencias en el campo.
-
-  El Comité Académico no solo valida el contenido, sino que también fomenta la interdisciplinariedad y la diversidad de perspectivas, construyendo así una pista que promueva y impulse el progreso en la comunidad académica.
-
-</div>
-
-<div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
-  {Committees["academic"].map((person) => (
-    <PhotoBubble committee="academic" person={person} key={person["name"]} />
-  ))}
-</div>
-
 <Heading color="green">Comité de Programa</Heading>
 
 <div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
@@ -133,37 +115,6 @@ export const metadata = {
     <PhotoBubble committee="sponsor" person={person} key={person["name"]} />
   ))}
 </div>
-
-export const PhotoBubble = ({person, committee, ...otherProps}) => {
-  const basePath = useRouter().basePath;
-  const imgUrl = `${basePath ?? ""}/images/committees/${committee}/${slugify(person['name'])}.jpg`
-
-const border = {
-"loc": "border-f4g_red",
-"academic": "border-f4g_orange",
-"program": "border-f4g_green",
-"sponsor": "border-f4g_blue"
-}
-
-return (
-
-<div key={person['name']} {...otherProps}>
-<div className={`aspect-square rounded-full hover:cursor-default border-4 ${border[committee]} overflow-hidden m-1 sm:m-2`}>
-<img width="512" height="512" src={imgUrl} alt={person['name']} />
-</div>
-<div className="text-ubuntu text-center">{person['name']}</div>
-{person['role'] && <div className="text-ubuntu text-center text-xs">{person['role']}</div>}
-
-  </div>
-  )
-
-}
-
-export function slugify(str) {
-  return str
-    .toLocaleLowerCase()
-    .replace(/\s/g, "-");
-}
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>
