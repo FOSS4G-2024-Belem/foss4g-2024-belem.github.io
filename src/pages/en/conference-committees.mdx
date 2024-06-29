@@ -8,6 +8,7 @@ import Foss4gAr4 from "@/images/foss4g-ar/foss4g-ar4.jpg";
 import Foss4gAr5 from "@/images/foss4g-ar/foss4g-ar5.jpg";
 import Foss4gAr6 from "@/images/foss4g-ar/foss4g-ar6.jpg";
 import MdxLayout from "@/components/MDXLayout";
+import PhotoBubble from "@/components/PhotoBubble";
 import { useRouter } from "next/router";
 import Carousel from "@/components/Carousel";
 
@@ -83,22 +84,6 @@ export const metadata = {
   ))}
 </div>
 
-<Heading color="orange">Academic Committee</Heading>
-
-<div className="mx-auto w-full max-w-[720px] my-4 6xl:my-8">
-  ##### About the Academic Committee
-
-  The Academic Committee is the backbone that ensures its excellence and relevance. This group of experts plays a fundamental role in ensuring the quality and academic rigor of the designated track. Their work goes beyond reviewing proposals and selecting speakers.
-  
-  They are responsible for ensuring that each presentation and session reflects the latest research, advances and trends in the field. The Academic Committee not only validates the content, but also encourages interdisciplinarity and diversity of perspectives, thus building a track that promotes and drives progress in the academic community.
-
-</div>
-
-<div className="grid grid-cols-3 sm:grid-cols-6 sm:space-x-1">
-  {Committees["academic"].map((person) => (
-    <PhotoBubble committee="academic" person={person} key={person["name"]} />
-  ))}
-</div>
 
 <Heading color="green">Program Committee</Heading>
 
@@ -131,37 +116,6 @@ export const metadata = {
     <PhotoBubble committee="sponsor" person={person} key={person["name"]} />
   ))}
 </div>
-
-export const PhotoBubble = ({person, committee, ...otherProps}) => {
-  const basePath = useRouter().basePath;
-  const imgUrl = `${basePath ?? ""}/images/committees/${committee}/${slugify(person['name'])}.jpg`
-
-const border = {
-"loc": "border-f4g_red",
-"academic": "border-f4g_orange",
-"program": "border-f4g_green",
-"sponsor": "border-f4g_blue"
-}
-
-return (
-
-<div key={person['name']} {...otherProps}>
-<div className={`aspect-square rounded-full hover:cursor-default border-4 ${border[committee]} overflow-hidden m-1 sm:m-2`}>
-<img width="512" height="512" src={imgUrl} alt={person['name']} />
-</div>
-<div className="text-ubuntu text-center">{person['name']}</div>
-{person['role'] && <div className="text-ubuntu text-center text-xs">{person['role']}</div>}
-
-  </div>
-  )
-
-}
-
-export function slugify(str) {
-  return str
-    .toLocaleLowerCase()
-    .replace(/\s/g, "-");
-}
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>

@@ -2,269 +2,520 @@
   "loc": [
     {
       "name": "Tatiana Pará",
-      "role": "Conference Chair"
+      "role": "Conference Chair",
+      "photo": true
     },
     {
       "name": "Andrea Trovant",
-      "role": "Conference Co-Chair"
+      "role": "Conference Co-Chair",
+      "photo": true
     },
     {
       "name": "Ariel Anthieni",
-      "role": "Logistic Committee"
+      "role": "Logistic Committee",
+      "photo": true
     },
     {
       "name": "Lubia Vinhas",
-      "role": "Academic Track Chair"
+      "role": "Academic Track Chair",
+      "photo": true
     },
     {
       "name": "Rodrigo Smarzaro",
-      "role": "Program Chair"
+      "role": "Program Chair",
+      "photo": true
     },
     {
       "name": "Selene Yang",
-      "role": "Diversity Team Chair"
+      "role": "Diversity Team Chair",
+      "photo": true
     },
     {
       "name": "Miriam Gonzalez",
-      "role": "Diversity Team Co-Chair"
+      "role": "Diversity Team Co-Chair",
+      "photo": true
     },
     {
       "name": "Carmen Diez",
-      "role": "Diversity Team"
+      "role": "Diversity Team",
+      "photo": true
     },
     {
       "name": "Narcélio De Sá Pereira",
-      "role": "Communication Chair"
+      "role": "Communication Chair",
+      "photo": true
     },
     {
       "name": "Sidney Schaberle Goveia",
-      "role": "Communication Co-Chair"
+      "role": "Communication Co-Chair",
+      "photo": true
     },
     {
       "name": "Kauê de Moraes",
-      "role": "Communication Team"
+      "role": "Communication Team",
+      "photo": true
     },
     {
       "name": "Carlos Tamasauskas",
-      "role": "Fincance Committee"
+      "role": "Fincance Committee",
+      "photo": true
     },
     {
       "name": "George Porto Ferreira",
-      "role": "Sponsorship Chair"
+      "role": "Sponsorship Chair",
+      "photo": true
     },
     {
       "name": "Leandro França",
-      "role": "Sponsorship Co-Chair"
+      "role": "Sponsorship Co-Chair",
+      "photo": true
     },
     {
       "name": "Horacio Castellaro",
-      "role": "Sponsorship Team"
+      "role": "Sponsorship Team",
+      "photo": true
     },
     {
       "name": "Felipe Barros",
-      "role": "IT Team Chair"
+      "role": "IT Team Chair",
+      "photo": true
     },
     {
       "name": "Carlos Eduardo Mota",
-      "role": "IT Team Co-Chair"
+      "role": "IT Team Co-Chair",
+      "photo": true
     },
     {
       "name": "Rami DV",
-      "role": "IT Team"
+      "role": "IT Team",
+      "photo": true
     },
     {
       "name": "Walter Shilman",
-      "role": "IT Team"
+      "role": "IT Team",
+      "photo": true
     },
     {
       "name": "Martin Dell Oro",
-      "role": "Communication Team"
+      "role": "Communication Team",
+      "photo": true
     },
     {
       "name": "Luiz Motta",
-      "role": "Articulador com Governo"
+      "role": "Articulador com Governo",
+      "photo": true
     },
     {
       "name": "Maria Lima",
-      "role": "Communication Team"
+      "role": "Communication Team",
+      "photo": true
     },
     {
       "name": "Rayssa Gomes",
-      "role": "Communication Team"
+      "role": "Communication Team",
+      "photo": true
     }
   ],
   "program": [
     {
       "name": "Rodrigo Smarzaro",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Walkiria Melo",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Rosa Aguilar",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Leticia Claro",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Carlos Grohman",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Luca Delucchi",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Danilo Melo",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Patricia Alvez",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Hermínio Sabino",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Aline Graziedei",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Helton Nogueira",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Andrés Velástegui",
-      "role": null
+      "role": null,
+      "photo": true
     }
   ],
   "academic": [
     {
       "name": "Lubia Vinhas",
-      "role": null
-    },
-    {
-      "name": "Ana Carol Vizitim",
-      "role": null
-    },
-    {
-      "name": "Sergio Acosta y Lara",
-      "role": null
+      "role": "Chair",
+      "org": "Instituto Nacional de Pesquisas Espaciais",
+      "photo": true
     },
     {
       "name": "Silvana Camboim",
-      "role": null
+      "role": "Co-Chair",
+      "org": "UFPR",
+      "photo": true
     },
     {
-      "name": "Gustavo Baptista",
-      "role": null
+      "name": "Ana Carolina Vizintim Fernandes Barros",
+      "role": "Member Comitte",
+      "org": "Klarz - Estratégia & Inteligência",
+      "photo": true
     },
     {
-      "name": "Jamer Andrade da Costa",
-      "role": null
+      "name": "Sergio Acosta y Lara",
+      "role": "Member Comitte",
+      "org": "Comunidad gvSIG Uruguay",
+      "photo": true
     },
     {
-      "name": "Patricia Alvez",
-      "role": null
+      "name": "Patricia Alves",
+      "role": "Member Comitte",
+      "org": "UnB",
+      "photo": true
     },
     {
       "name": "Tahisa Kuck",
-      "role": null
+      "role": "Member Comitte",
+      "org": "Instituto de Estudos Avançados",
+      "photo": true
     },
     {
-      "name": "Ana Larissa de Freitas",
-      "role": null
-    },
-    {
-      "name": "Patricia Iribarrem",
-      "role": null
+      "name": "Ana Larissa Ribeiro de Freitas",
+      "role": "Member Comitte",
+      "org": "Instituto Nacional de Pesquisas Espaciais",
+      "photo": true
     },
     {
       "name": "Carlos Grohman",
-      "role": null
-    },
-    {
-      "name": "Leticia Claro",
-      "role": null
+      "role": "Member Comitte",
+      "org": "USP",
+      "photo": true
     },
     {
       "name": "Denize Monteiro dos Anjos",
-      "role": null
+      "role": "Member Comitte",
+      "org": "UFPB",
+      "photo": true
     },
     {
       "name": "Vanessa Brum Bastos",
-      "role": null
-    },
-    {
-      "name": "Andrés Velástegui",
-      "role": null
+      "role": "Member Comitte",
+      "org": "University of Canterbury",
+      "photo": true
     },
     {
       "name": "Taíssa Caroline Silva Rodrigues",
-      "role": null
+      "role": "Member Comitte",
+      "org": "Universidade Estadual da Região Tocantina do Maranhão",
+      "photo": true
     },
     {
       "name": "Mariana Buzzi",
-      "role": null
+      "role": "Member Comitte",
+      "org": "Universidad Nacional de la Patagonia San Juan Bosco",
+      "photo": true
     },
     {
       "name": "Gilberto Camara",
-      "role": null
+      "role": "Member Comitte",
+      "org": "Instituto Nacional de Pesquisas Espaciais",
+      "photo": true
     },
     {
       "name": "Rodrigo Smarzaro",
-      "role": null
+      "role": "Member Comitte",
+      "org": "UFV",
+      "photo": true
     },
     {
       "name": "Danilo Heitor Caires Tinoco Bisneto Melo",
-      "role": null
+      "role": "Member Review",
+      "org": "UFBA",
+      "photo": true
+    },
+    {
+      "name": "Bianca Federici",
+      "role": "Member Review",
+      "org": "Universitá di Genova",
+      "photo": false
     },
     {
       "name": "Maria Antonia Brovelli",
-      "role": null
+      "role": "Member Review",
+      "org": "Politecnico de Milano",
+      "photo": true
     },
     {
       "name": "Codrina Ilie",
-      "role": null
+      "role": "Member Review",
+      "org": "TerraSigna",
+      "photo": true
     },
     {
       "name": "Paula Moraga",
-      "role": null
+      "role": "Member Review",
+      "org": "King Abdullah University of Science and Technology (KAUST)",
+      "photo": true
     },
     {
       "name": "Karine R Ferreira",
-      "role": null
+      "role": "Member Review",
+      "org": "INPE",
+      "photo": true
+    },
+    {
+      "name": "Markus Neteler",
+      "role": "Member Review",
+      "org": "Mundialis",
+      "photo": true
+    },
+    {
+      "name": "Edzer Pebesma",
+      "role": "Member Review",
+      "org": "University of Münster",
+      "photo": true
+    },
+    {
+      "name": "Jakub Nowosad",
+      "role": "Member Review",
+      "org": "Adam Mickiewicz University",
+      "photo": true
+    },
+    {
+      "name": "Krzysztof Dyba",
+      "role": "Member Review",
+      "org": "Adam Mickiewicz University",
+      "photo": true
+    },
+    {
+      "name": "Clodoveu Davis",
+      "role": "Member Review",
+      "org": "UFMG",
+      "photo": true
+    },
+    {
+      "name": "Victor N. Sunday",
+      "role": "Member Review",
+      "org": "University of Port Harcourt",
+      "photo": true
+    },
+    {
+      "name": "Rajat Shinde",
+      "role": "Member Review",
+      "org": "IIT Bombay",
+      "photo": true
+    },
+    {
+      "name": "Jakub Trojan",
+      "role": "Member Review",
+      "org": "Univerzita Tomáše Bati ve Zlíně",
+      "photo": true
+    },
+    {
+      "name": "Tunde K",
+      "role": "Member Review",
+      "org": "",
+      "photo": false
+    },
+    {
+      "name": "Andy Anderson",
+      "role": "Member Review",
+      "org": "University of Massachusetts Amherst",
+      "photo": false
+    },
+    {
+      "name": "Peter Löwe",
+      "role": "Member Review",
+      "org": "WZB Berlin Social Science Center",
+      "photo": true
+    },
+    {
+      "name": "Romel Vázquez Rodríguez",
+      "role": "Member Review",
+      "org": "Universidad Central \"Marta Abreu\" de las Villas",
+      "photo": true
+    },
+    {
+      "name": "Emerson Figueiredo Leite",
+      "role": "Member Review",
+      "org": "Universidade Federal de Mato Grosso do Sul - CPAQ, Aquidauana - MS",
+      "photo": true
+    },
+    {
+      "name": "Artur José Freire Gil",
+      "role": "Member Review",
+      "org": "University of the Azores",
+      "photo": true
+    },
+    {
+      "name": "Ivana Ivánová",
+      "role": "Member Review",
+      "org": "Curtin University",
+      "photo": true
+    },
+    {
+      "name": "Kavita Mitkari",
+      "role": "Member Review",
+      "org": "University of Wisconsin-Madison",
+      "photo": true
+    },
+    {
+      "name": "André da Silva Mano",
+      "role": "Member Review",
+      "org": "ITC - Faculty of Geo-information Science and Earth Observation da Universidade de Twente",
+      "photo": true
+    },
+    {
+      "name": "Ana Claudia dos Santos Luciano",
+      "role": "Member Review",
+      "org": "USP",
+      "photo": true
+    },
+    {
+      "name": "Bruno Leonardo Gonçalves e Castro",
+      "role": "Member Review",
+      "org": "Universidade do Estado da Bahia",
+      "photo": true
+    },
+    {
+      "name": "Nick Bearman",
+      "role": "Member Review",
+      "org": "Geo Spatial Training Solutions",
+      "photo": true
+    },
+    {
+      "name": "Nikolov Hora",
+      "role": "Member Review",
+      "org": "Departamento de RSS, SRTI-BAS",
+      "photo": true
+    },
+    {
+      "name": "Gresa Neziri",
+      "role": "Member Review",
+      "org": "SpaceSyntaKs",
+      "photo": true
+    },
+    {
+      "name": "Fabiano Peixoto Freiman",
+      "role": "Member Review",
+      "org": "UFBA",
+      "photo": true
+    },
+    {
+      "name": "Eduardo Rodrigues Viana de Lima",
+      "role": "Member Review",
+      "org": "UFPB",
+      "photo": true
+    },
+    {
+      "name": "Fernando Benitez",
+      "role": "Member Review",
+      "org": "University of St Andrews",
+      "photo": false
+    },
+    {
+      "name": "Grant McKenzie",
+      "role": "Member Review",
+      "org": "McGill University",
+      "photo": false
+    },
+    {
+      "name": "Nimalika Fernando",
+      "role": "Member Review",
+      "org": "Curtin University",
+      "photo": true
+    },
+    {
+      "name": "Marco Ciolli",
+      "role": "Member Review",
+      "org": "Università di Trento",
+      "photo": true
+    },
+    {
+      "name": "Marco Minghini",
+      "role": "Member Review",
+      "org": "JRC",
+      "photo": true
+    },
+    {
+      "name": "Sonaira Souza da Silva",
+      "role": "Member Review",
+      "org": "Universidade Federal do Acre",
+      "photo": true
+    },
+    {
+      "name": "Bianca Pinho",
+      "role": "Member Review",
+      "org": "Instituto Federal de Educação, Ciência e Tecnologia do Pará (IFPA)",
+      "photo": false
     }
   ],
   "sponsor": [
     {
       "name": "Horacio Castellaro",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Leandro Franca",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Steven Feldman",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Walkiria Melo",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "George Porto Ferreira",
-      "role": null
+      "role": null,
+      "photo": true
     },
     {
       "name": "Dennis Bauszus",
-      "role": null
+      "role": null,
+      "photo": true
     }
   ]
 }
