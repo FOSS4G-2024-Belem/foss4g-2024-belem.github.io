@@ -743,7 +743,7 @@ const getMapStyle = ({
         source: "loding",
         minzoom: 13.5,
         layout: {
-          "icon-image": "hotel",
+          "icon-image": "hotel-suggested",
           "icon-size": [
             "let",
             "multiplier",
@@ -809,8 +809,8 @@ const getMapStyle = ({
         },
         paint: {
           "text-halo-width": 1,
-          "text-halo-blur": 0.5,
-          "text-halo-color": "rgba(255,255,255,0.8)",
+          "text-halo-blur": 0.9,
+          "text-halo-color": "rgba(243,232,255,0.8)",
           "icon-opacity": [
             "interpolate",
             ["exponential", 1],
