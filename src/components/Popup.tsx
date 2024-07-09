@@ -239,13 +239,6 @@ function LodgingPopupContent({
           </tr>
 
           <tr>
-            <td className="align-top leading-4 font-bold">Booking</td>
-            <td className="max-w-40 leading-4 overflow-ellipsis overflow-hidden whitespace-nowrap">
-              <a href={properties["booking"]}>{properties["booking"]}</a>
-            </td>
-          </tr>
-
-          <tr>
             <td className="align-top leading-4 font-bold">Lat/Lon</td>
             <td className="max-w-40 leading-4 overflow-ellipsis overflow-hidden whitespace-nowrap">
               {`${lonLat[1].toPrecision(6)},${lonLat[0].toPrecision(6)}`}

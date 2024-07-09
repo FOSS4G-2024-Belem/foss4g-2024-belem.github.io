@@ -805,7 +805,6 @@ const getMapStyle = ({
               ["*", ["var", "multiplier"], 14],
             ],
           ],
-          "text-allow-overlap": true,
           "icon-allow-overlap": true,
         },
         paint: {
