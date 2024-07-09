@@ -10,7 +10,7 @@
         "phone": "+55 91 3182-3700",
         "website": "https://all.accor.com/hotel/B9K6/index.en.shtml",
         "booking": "https://www.booking.com/hotel/br/tulip-inn-hangar.html",
-        "price": "$75-100",
+
         "category": "hotel"
       },
       "geometry": { "type": "Point", "coordinates": [-48.4579383, -1.4246265] }
@@ -23,7 +23,7 @@
         "phone": "+55 91 3355-7372",
         "website": "http://www.hotelhangar.com.br",
         "booking": "https://www.booking.com/hotel/br/hangar.html",
-        "price": "$45-50",
+
         "category": "hotel"
       },
       "geometry": { "type": "Point", "coordinates": [-48.457803, -1.42517] }
@@ -36,10 +36,23 @@
         "phone": "+55 91 98540-3441",
         "website": "https://hangar-house.hoteis-nortedobrasil.com/en/",
         "booking": "https://www.booking.com/hotel/br/hangar-house.en-gb.html",
-        "price": "$25-35",
+
         "category": "hostel"
       },
       "geometry": { "type": "Point", "coordinates": [-48.45935, -1.42665] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangalô Belém",
+        "address": "Passagem Lindolfo Collor, 118",
+        "phone": "+55 91 3038-7782",
+        "website": "https://bangalobelem.ueniweb.com/",
+        "booking": "https://bangalobelem.ueniweb.com/",
+
+        "category": "hotel"
+      },
+      "geometry": { "type": "Point", "coordinates": [-48.453377, -1.430770] }
     }
   ]
 }
