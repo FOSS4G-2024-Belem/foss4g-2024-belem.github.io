@@ -12,6 +12,7 @@ import Popup from "@/components/Popup";
 
 import venuesGeoJson from "@/data/venues.json";
 import placesGeoJson from "@/data/places.json";
+import lodingGeoJson from "@/data/lodging.json";
 import bairrosGeoJson from "@/data/bairros.json";
 import tourismGeoJson from "@/data/tourism.json";
 
@@ -45,7 +46,7 @@ export default function Map({
 
     const clickedFeat = mapRef.current
       .queryRenderedFeatures(e.point, {
-        layers: ["attractions", "venues", "places"],
+        layers: ["attractions", "venues", "places", "lodging"],
       })?.[0]
       ?.toJSON();
 
@@ -76,7 +77,7 @@ export default function Map({
 
     const mouseoverFeat = mapRef.current
       .queryRenderedFeatures(e.point, {
-        layers: ["attractions", "venues", "places"],
+        layers: ["attractions", "venues", "places", "lodging"],
       })?.[0]
       ?.toJSON();
 
@@ -220,6 +221,13 @@ const getMapStyle = ({
         ),
         attribution:
           '<a href="https://overturemaps.org" target="_blank">Overture Maps</a>',
+      },
+      loding: {
+        type: "geojson",
+        data: applyFeatureStates(
+          lodingGeoJson as NamedFeatureCollection,
+          featureState
+        )
       },
       belemLabel: {
         type: "geojson",
@@ -650,7 +658,7 @@ const getMapStyle = ({
         id: "places",
         type: "symbol",
         source: "places",
-        minzoom: 14.5,
+        minzoom: 14,
         layout: {
           "symbol-sort-key": ["-", 1, ["get", "confidence"]],
           "icon-image": "{category}",
@@ -671,9 +679,7 @@ const getMapStyle = ({
               "interpolate",
               ["linear"],
               ["zoom"],
-              13,
-              ["*", ["var", "multiplier"], 0.1],
-              14,
+              14.5,
               ["*", ["var", "multiplier"], 0.12],
               15,
               ["*", ["var", "multiplier"], 0.15],
@@ -709,7 +715,7 @@ const getMapStyle = ({
               ["zoom"],
               13,
               ["*", ["var", "multiplier"], 7],
-              14,
+              14.5,
               ["*", ["var", "multiplier"], 10],
               15,
               ["*", ["var", "multiplier"], 12],
@@ -727,6 +733,91 @@ const getMapStyle = ({
             14,
             0,
             14.5,
+            1,
+          ],
+        },
+      },
+      {
+        id: "lodging",
+        type: "symbol",
+        source: "loding",
+        minzoom: 13.5,
+        layout: {
+          "icon-image": "hotel",
+          "icon-size": [
+            "let",
+            "multiplier",
+            [
+              "case",
+              [
+                "any",
+                ["==", ["get", "hover"], 1],
+                ["==", ["get", "select"], 1],
+              ],
+              1.2,
+              1,
+            ],
+            [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              9,
+              ["*", ["var", "multiplier"], 0.15],
+              11,
+              ["*", ["var", "multiplier"], 0.2],
+              13,
+              ["*", ["var", "multiplier"], 0.2],
+            ],
+          ],
+          "text-anchor": "left",
+          "text-offset": [1.2, 0],
+          "text-max-width": 100,
+          "text-field": [
+            "step",
+            ["zoom"],
+            "",
+            13.5,
+            ["get", "name"]
+          ],
+          "text-font": ["literal", ["Noto Sans SemiCondensed Regular"]],
+          "text-size": [
+            "let",
+            "multiplier",
+            [
+              "case",
+              [
+                "any",
+                ["==", ["get", "hover"], 1],
+                ["==", ["get", "select"], 1],
+              ],
+              1.8,
+              1,
+            ],
+            [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              9,
+              ["*", ["var", "multiplier"], 7],
+              11,
+              ["*", ["var", "multiplier"], 10],
+              13,
+              ["*", ["var", "multiplier"], 14],
+            ],
+          ],
+          "text-allow-overlap": true,
+        },
+        paint: {
+          "text-halo-width": 1,
+          "text-halo-blur": 0.5,
+          "text-halo-color": "rgba(255,255,255,0.8)",
+          "icon-opacity": [
+            "interpolate",
+            ["exponential", 1],
+            ["zoom"],
+            13.5,
+            0,
+            14,
             1,
           ],
         },
