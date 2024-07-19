@@ -6,6 +6,8 @@ import OsGeoLogo from "@/images/logo/osgeo-logo.png";
 import QgisBrasil from "@/images/logo/qgis-brasil.png";
 
 import GoogleLogo from "@/images/logo/google.png";
+import SourcepoleLogo from "@/images/logo/Sourcepole.png";
+import DevSeedLogo from "@/images/logo/DevelopmentSeed.png";
 
 export const sponsors = {
   osgeo: {
@@ -47,6 +49,27 @@ export const sponsors = {
         freely available, it enables and encourages collaboration and the
         development of technology. <br />
         <a href='https://opensource.google/' target="_blank">https://opensource.google/</a>
+      </div>
+    ),
+  },
+  sourcepole: {
+    logo: SourcepoleLogo,
+    website: "https://qgiscloud.com/",
+    statement: (
+      <div>
+        Advanced online GIS mapping with QGIS Cloud and QGIS Desktop <br />
+        QIGS cloud is your personal spatial data infrastructure (SDI) on the internet. Publish your QGIS projects as maps and data. Share spatial data with others. And all this very easily, without server, infrastructure or expert knowledge. If you know QGIS Desktop, then you know QGIS Cloud. Simply install the QGIS Cloud plugin from the official QGIS plugin repository and you are ready to go.<br />
+        <a href='https://qgiscloud.com/' target="_blank">https://qgiscloud.com/</a>
+      </div>
+    ),
+  },
+  devseed: {
+    logo: DevSeedLogo,
+    website: "https://developmentseed.org/",
+    statement: (
+      <div>
+        At Development Seed, we are leveraging massive earth data, cloud computing, geospatial AI, and thoughtful product development to make earth data more accessible to everyone by providing a clearer view of rapidly changing planet.<br />
+        <a href='https://developmentseed.org/' target="_blank">https://developmentseed.org/</a>
       </div>
     ),
   },
