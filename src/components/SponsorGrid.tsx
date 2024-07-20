@@ -36,6 +36,9 @@ export default function SponsorGrid({
     },
   };
 
+  // just make level 4 level 3
+  levelMap[4] = levelMap[3];
+
   const classes = levelMap[level];
 
   return (
