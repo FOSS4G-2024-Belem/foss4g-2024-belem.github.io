@@ -8,6 +8,7 @@ import QgisBrasil from "@/images/logo/qgis-brasil.png";
 import GoogleLogo from "@/images/logo/google.png";
 import SourcepoleLogo from "@/images/logo/Sourcepole.png";
 import DevSeedLogo from "@/images/logo/DevelopmentSeed.png";
+import GeoOneLogo from "@/images/logo/GeoOne.png";
 
 export const sponsors = {
   osgeo: {
@@ -70,6 +71,16 @@ export const sponsors = {
       <div>
         At Development Seed, we are leveraging massive earth data, cloud computing, geospatial AI, and thoughtful product development to make earth data more accessible to everyone by providing a clearer view of rapidly changing planet.<br />
         <a href='https://developmentseed.org/' target="_blank">https://developmentseed.org/</a>
+      </div>
+    ),
+  },
+  geoone: {
+    logo: GeoOneLogo,
+    website: "https://geoone.com.br/",
+    statement: (
+      <div>
+        GeoOne develops and disseminates open-source software solutions for engineering and land regularization, empowering professionals in geoprocessing and GIS.<br/>
+        <a href='https://geoone.com.br/' target="_blank">https://geoone.com.br/</a>
       </div>
     ),
   },
