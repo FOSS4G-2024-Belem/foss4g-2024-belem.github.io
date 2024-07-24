@@ -39,6 +39,11 @@ export default function SponsorGrid({
       maxW: "max-w-[225px]",
       text: "text-xs 6xl:text-base leading-4",
     },
+    5: {
+      gap: "gap-3 sm:gap-2",
+      maxW: "max-w-[150px]",
+      text: "text-xs 6xl:text-base leading-4",
+    },
   };
 
   const classes = levelMap[level];
