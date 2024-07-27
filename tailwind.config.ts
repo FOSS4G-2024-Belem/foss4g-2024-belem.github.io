@@ -10,6 +10,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@rami-dv/mapajoara/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   daisyui: {
     themes: ["light"],
