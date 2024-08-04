@@ -85,7 +85,7 @@ export const sponsors = {
       </div>
     ),
   },
-  scoon: {
+  sccon: {
     logo: scconLogo,
     website: "https://www.sccon.com.br/",
     statement: (
