@@ -9,6 +9,7 @@ import GoogleLogo from "@/images/logo/google.png";
 import SourcepoleLogo from "@/images/logo/Sourcepole.png";
 import DevSeedLogo from "@/images/logo/DevelopmentSeed.png";
 import GeoOneLogo from "@/images/logo/GeoOne.png";
+import scconLogo from "@/images/logo/sccon.png";
 
 export const sponsors = {
   osgeo: {
@@ -81,6 +82,16 @@ export const sponsors = {
       <div>
         GeoOne develops and disseminates open-source software solutions for engineering and land regularization, empowering professionals in geoprocessing and GIS.<br/>
         <a href='https://geoone.com.br/' target="_blank">https://geoone.com.br/</a>
+      </div>
+    ),
+  },
+  scoon: {
+    logo: scconLogo,
+    website: "https://www.sccon.com.br/",
+    statement: (
+      <div>
+        O poder de ver e medir as mudanças.<br/>
+        <a href='https://www.sccon.com.br/' target="_blank">https://www.sccon.com.br/</a>
       </div>
     ),
   },
