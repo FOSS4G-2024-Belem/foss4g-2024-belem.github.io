@@ -60,7 +60,7 @@ export const sponsors = {
     statement: (
       <div>
         Advanced online GIS mapping with QGIS Cloud and QGIS Desktop <br />
-        QIGS Cloud is your personal spatial data infrastructure (SDI) on the internet. Publish your QGIS projects as maps and data. Share spatial data with others. And all this very easily, without server, infrastructure or expert knowledge. If you know QGIS Desktop, then you know QGIS Cloud. Simply install the QGIS Cloud plugin from the official QGIS plugin repository and you are ready to go.<br />
+        QGIS Cloud is your personal spatial data infrastructure (SDI) on the internet. Publish your QGIS projects as maps and data. Share spatial data with others. And all this very easily, without server, infrastructure or expert knowledge. If you know QGIS Desktop, then you know QGIS Cloud. Simply install the QGIS Cloud plugin from the official QGIS plugin repository and you are ready to go.<br />
         <a href='https://qgiscloud.com/' target="_blank">https://qgiscloud.com/</a>
       </div>
     ),
