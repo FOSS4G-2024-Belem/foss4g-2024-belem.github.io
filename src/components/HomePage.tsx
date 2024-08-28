@@ -20,6 +20,8 @@ import OsGeoLogo from "@/images/logo/osgeo-logo.png";
 import Countdown from "react-countdown";
 import Image from "next/image";
 import IntlLink from "@/components/IntlLink";
+import Heading from "@/components/Heading";
+import Keynotes from "@/components/Keynotes";
 
 const enHomepagePhrases = {
   section1Date: "02-08 December 2024",
@@ -52,8 +54,7 @@ const enHomepagePhrases = {
   section4Card2Heading: "SOTM LATAM 2024",
   section4Card2Text:
     "State of the Map LATAM will be held in Belém 07-08 December, after the main conference!",
-  section4Card2Link:
-    "https://2024.osmlatam.org/",
+  section4Card2Link: "https://2024.osmlatam.org/",
   section4Card3Heading: "FOSS4G Venue Chosen",
   section4Card3Text:
     "FOSS4G 2024 Belém will be held at HANGAR Convention Center!",
@@ -66,6 +67,8 @@ const enHomepagePhrases = {
   section5Button2Text: "Contact Us",
   section6Organizers: "Organizers",
   section6CommunityPartners: "Community Partners",
+  keynotes: "Conference Keynotes",
+  keynotesBioText: "(click here to read biography)"
 };
 
 export default function HomePage({
@@ -221,7 +224,10 @@ export default function HomePage({
                       {t["section3ButtonText"]}
                     </div>
                   ) : (
-                    <IntlLink href={t["section3ButtonLink"]} className="non-standard">
+                    <IntlLink
+                      href={t["section3ButtonLink"]}
+                      className="non-standard"
+                    >
                       <div className="button text-2xl uppercase [font-weight:500] font-ubuntu text-[#ee6f2e] bg-white rounded px-10 py-4">
                         {t["section3ButtonText"]}
                       </div>
@@ -283,7 +289,14 @@ export default function HomePage({
           </div>
         </div>
       </section>
-
+      <section className="flex items-center justify-center my-12">
+        <div className="relative w-full max-w-6xl">
+          <Heading>{t['keynotes']}</Heading>
+          <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-3 sm:gap-10">
+            <Keynotes bioText={t['keynotesBioText']} />
+          </div>
+        </div>
+      </section>
       <section className="flex items-center justify-center my-12">
         <div className="relative w-full max-w-6xl">
           <Image
