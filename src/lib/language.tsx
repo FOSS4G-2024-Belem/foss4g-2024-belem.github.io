@@ -149,8 +149,13 @@ export const intlHrefs = {
   "/academic-committee": {
     en: "/academic-committee",
     es: "/comite-academico",
-    pt: "/comite-academico"
-  }
+    pt: "/comite-academico",
+  },
+  "/keynotes": {
+    en: "/keynotes",
+    es: "/keynotes",
+    pt: "/keynotes",
+  },
 };
 
 export const LanguageContext = createContext<{
