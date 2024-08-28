@@ -5,6 +5,9 @@ import DaisyUI from "daisyui";
 import withMT from "@material-tailwind/react/utils/withMT";
 
 const config: Config = {
+  future: {
+    hoverOnlyWhenSupported: true
+  },
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,6 +20,7 @@ const config: Config = {
     base: false
   },
   theme: {
+    
     extend: {
       aspectRatio: {
         "4/3": "4 / 3",
