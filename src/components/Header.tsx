@@ -150,6 +150,12 @@ const menuItems = [
         href: "/schedule",
       },
       {
+        "label:en": "Keynotes",
+        "label:es": "Keynotes",
+        "label:pt": "Keynotes",
+        href: "/keynotes",
+      },
+      {
         "label:en": "Additional Events",
         "label:es": "Eventos Adicionales",
         "label:pt": "Eventos Adicionais",
