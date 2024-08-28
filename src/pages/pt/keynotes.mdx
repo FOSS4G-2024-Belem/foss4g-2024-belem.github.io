@@ -1,0 +1,100 @@
+import Committees from "@/data/committees.json";
+import Image from "next/image";
+import Heading from "@/components/Heading";
+import MdxLayout from "@/components/MDXLayout";
+import Keynotes from "@/components/Keynotes";
+import { useRouter } from "next/router";
+
+export const metadata = {
+  title: "Keynotes",
+  description:
+    "Informações sobre keynotes da Conferência FOSS4G 2024 realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024",
+};
+
+export const keynotes = [
+  {
+    name: "Ariel Anthieni",
+    image: "/images/committees/loc/ariel-anthieni.jpg",
+    bio: (
+      <div>
+      Ariel Anthieni é um dos principais especialistas em tecnologia da informação geoespacial com um sólido histórico de mais de duas décadas. Ele é membro do Conselho da OSGeo, onde atua como vice-presidente para a América Latina e é presidente do Comitê da OSGeo para a ONU. Nessas funções, ele lidera iniciativas que promovem a colaboração global e o uso de tecnologias geoespaciais para enfrentar desafios globais. Além disso, ele é presidente da Geolibres, uma organização dedicada à promoção e ao desenvolvimento de tecnologias geoespaciais gratuitas na Argentina.
+      <br />
+      <br />
+        Como CEO da Kan Territory & IT, ele levou sua paixão por tecnologias geoespaciais e dados abertos a novos patamares. Com notável experiência em administração pública, ele ocupou cargos importantes, como o de Gerente de Engenharia de Dados no Governo da Cidade de Buenos Aires, onde liderou projetos de integração de sistemas para a tomada de decisões territoriais. Seu foco no uso de dados abertos e tecnologias geoespaciais tem sido um fator crucial para o desenvolvimento sustentável em economias emergentes.
+
+      </div>
+    ),
+  },
+  {
+    name: "Céline Jacquin",
+    image: "/images/celine-jacquin.jpg",
+    bio: (
+      <div>
+        Céline Jacquin é geógrafa pela Sorbonne e planejadora urbana pela Universidade Paris-Est (França). Ela esteve envolvida em pesquisa e desenvolvimento de projetos urbanos sobre habitação, mobilidade diária, governo aberto, com uma perspectiva de gênero e promoção de informações geográficas voluntárias. Liderou estratégias de pesquisa, governança, análise de dados para tomada de decisões, avaliação e capacitação de cidadãos de diferentes instituições, como o World Resource Institute, o Conselho Nacional de Ciência e Tecnologia e o Instituto Nacional de Estatística e Geografia do México, e, paralelamente, como ativista de dados por meio do OpenStreetMap, Geochicas e outras comunidades de voluntários. Atualmente, ela é gerente sênior da equipe humanitária do OpenStreetmap para a América Latina.
+      </div>
+    ),
+  },
+  {
+    name: "Gilberto Câmara",
+    image: "/images/committees/academic/gilberto-camara.jpg",
+    bio: (
+      <div>
+        O Prof. Gilberto Camara é reconhecido internacionalmente por promover o acesso gratuito a dados geoespaciais e o monitoramento por satélite do desmatamento na Amazônia; ele é afiliado ao Instituto Nacional de Pesquisas Espaciais (INPE) do Brasil, onde foi diretor (2006-2012). Gilberto publicou 180 artigos revisados por pares, citados 18.900 vezes. Foi diretor do Secretariado do GEO (2018-2021). É Doutor Honoris causa pela Universidade de Münster e recebeu o prêmio William T. Pecora (NASA/USGS).
+      </div>
+    ),
+  },
+  {
+    name: "Luiz Motta",
+    image: "/images/committees/loc/luiz-motta.jpg",
+    bio: (
+      <div>
+      Luiz Motta está ligado à tecnologia da informação desde muito cedo, tendo concluído um curso técnico em processamento de dados em 1984, aos 17 anos de idade, na cidade do Rio de Janeiro. Quando adolescente, sua paixão era a natureza, com uma forte ligação com as praias e montanhas de sua cidade. Por causa dessa paixão, decidiu estudar Engenharia Florestal e, durante sua graduação na Universidade Federal de Viçosa, no estado de Minas Gerais, desenvolveu software em seus projetos de pesquisa. Esses projetos resultaram posteriormente em uma tese de mestrado, uma das primeiras teses na área de Sistemas de Informações Geográficas (GIS), intitulada “Uso de um Sistema de Informações Geográficas na Otimização do Transporte Florestal” (1995).
+        <br />
+        <br />
+      Após deixar o meio acadêmico, trabalhou com SIG em um centro de pesquisa (Embrapa, 1996), empresas públicas (IEF-MG, 2001), consultorias ambientais e, finalmente, em 2003, realizou o sonho de sua vida ao ingressar na carreira de Analista Ambiental do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama). No Ibama, seu local de trabalho era na Amazônia, onde pôde ver como era feita a ocupação da região amazônica. Posteriormente, foi transferido para a sede do Ibama em Brasília (capital do Brasil), onde se dedicou ao desenvolvimento do Geoprocessamento na instituição. Seu trabalho teve alcance global, pois seus plugins e scripts de software GIS foram compartilhados na Internet.
+        <br />
+        <br />
+      Sua expertise no desenvolvimento de SIG, especialmente no QGIS, onde foi colaborador (com mais de 10 plugins), proporcionou experiências além do Ibama, como a participação no programa Planet Explorer (2015) e no projeto MapBiomas (2019). Nesses projetos, foram desenvolvidos plugins QGIS para acessar os dados. Seu desejo de ajudar as pessoas na área de Geoprocessamento sempre marcou sua trajetória profissional, atuando como instrutor de diversos cursos e prestando assistência a outros usuários de SIG. Atualmente, Luiz Motta está no Prevfogo (Centro Nacional de Prevenção e Combate aos Incêndios Florestais), fazendo parte da equipe de desenvolvimento do Sisfogo (Sistema de Gestão do Fogo). Além de seu trabalho ambiental, é apaixonado por aventuras off-road e é membro do Clube de Motociclistas “Resistência sem destino”.
+
+      </div>
+    ),
+  },
+  {
+    name: "Tom Kralidis",
+    image: "/images/tom-kralidis.jpg",
+    bio: (
+      <div>
+        Tom Kralidis trabalha no Serviço Meteorológico do Canadá e é um colaborador de longa data do FOSS4G e de padrões abertos.  Ele é o criador do pygeoapi, pycsw e de vários projetos no ecossistema geoespacial Python.  Tom é um dos principais arquitetos do WMO Information System (WIS), presidente da equipe de especialistas da WMO em padrões de metadados e copresidente do OGC API - Records Standards Working Group.  Tom é apaixonado por localização, software aberto, padrões e dados, e atualmente faz parte do Conselho de Administração da OSGeo.
+      </div>
+    ),
+  },
+  {
+    name: "Veronica Andreo",
+    image: "/images/veronica-andreo.jpg",
+    bio: (
+      <div>
+        Veronica Andreo é membro da equipe de desenvolvimento do GRASS e atua como presidente do Comitê de Direção do Projeto desde 2021. Atualmente, ela é pesquisadora visitante no Center for Geospatial Analytics, na North Carolina State University. Verônica tem doutorado em Biologia e mestrado em Sensoriamento Remoto e Aplicativos GIS. De volta à Argentina, ela trabalha como pesquisadora no CONICET e como professora no Instituto Gulich (CONAE - UNC). Sua pesquisa se concentra na descoberta de fatores ambientais de surtos e distribuição de doenças transmitidas por vetores por meio de análise e modelagem de dados de observação da Terra.
+      </div>
+    ),
+  },
+];
+
+<Heading color="red" bubble>
+  {"Keynotes da Conferência"}
+</Heading>
+
+<div className="grid items-center justify-center grid-cols-1 sm:grid-cols-3 sm:gap-10">
+  <Keynotes keynotes={keynotes} bioText="(clique aqui para biografia)" />
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+
+}
+export async function getStaticProps() {
+return {
+props: {
+metadata
+},
+}
+}

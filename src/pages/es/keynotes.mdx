@@ -1,0 +1,118 @@
+import Committees from "@/data/committees.json";
+import Image from "next/image";
+import Heading from "@/components/Heading";
+import MdxLayout from "@/components/MDXLayout";
+import Keynotes from "@/components/Keynotes";
+import { useRouter } from "next/router";
+
+export const metadata = {
+  title: "Keynotes",
+  description:
+    "Información de keynotes para la Conferencia FOSS4G 2024 celebrada en Belém, Brasil, del 02 al 08 de diciembre de 2024",
+};
+
+export const keynotes = [
+  {
+    name: "Ariel Anthieni",
+    image: "/images/committees/loc/ariel-anthieni.jpg",
+    bio: (
+      <div>
+        Ariel Anthieni es un destacado experto en tecnología de información
+        geoespacial con una sólida trayectoria de más de dos décadas. Es un
+        miembro del Board de OSGeo, donde ocupa el cargo de vicepresidente para
+        Latinoamérica y es chair del UN Committee de OSGeo. En estos roles,
+        lidera iniciativas que promueven la colaboración global y el uso de
+        tecnologías geoespaciales para abordar desafíos mundiales. Además, es
+        presidente de Geolibres, una organización dedicada a la promoción y el
+        desarrollo de tecnologías geoespaciales libres en Argentina.
+        <br />
+        <br />
+        Como CEO de Kan Territory & IT, ha llevado su pasión por las tecnologías
+        geoespaciales y los datos abiertos a nuevas alturas. Con una experiencia
+        notable en la administración pública, ocupó roles clave como el de Gerente
+        de Ingeniería de Datos en el Gobierno de la Ciudad de Buenos Aires, donde
+        lideró proyectos de integración de sistemas para la toma de decisiones territoriales.
+        Su enfoque en el uso de datos abiertos y tecnologías geoespaciales ha sido
+        un motor crucial para el desarrollo sostenible en economías emergentes.
+        <br />
+        <br />
+        Emprendedor apasionado y defensor ferviente de las tecnologías open
+        source, Ariel ha sido un miembro activo en comunidades internacionales
+        de datos abiertos y tecnologías geoespaciales, consolidando su
+        reputación como líder y visionario en el campo de la información
+        geoespacial.
+      </div>
+    ),
+  },
+  {
+    name: "Céline Jacquin",
+    image: "/images/celine-jacquin.jpg",
+    bio: (
+      <div>
+        Geógrafa y urbanista de la Universidad Sorbona y Paris-Est (Francia). Se ha dedicado a investigaciones y desarrollo de proyectos de desarrollo urbano en temas de vivienda, movilidad, gobierno abierto, promoviendo la información geográfica voluntaria. Dirigió estrategias de investigación, análisis de datos para la toma de decisiones, la evaluación, el empoderamiento ciudadano desde distintas instituciones como WRI, CONAHCYT, INEGI, y en paralelo como activista de datos a través de OpenStreetMap, Geochicas y otras comunidades voluntarias. Es actualmente Sr Manager regional en Humanitarian Openstreetmap Team.
+      </div>
+    ),
+  },
+  {
+    name: "Gilberto Câmara",
+    image: "/images/committees/academic/gilberto-camara.jpg",
+    bio: (
+      <div>
+        El profesor Gilberto Camara es reconocido internacionalmente por promover el libre acceso a datos geoespaciales y el monitoreo por satélite de la deforestación en la Amazonia; está afiliado al Instituto Nacional de Investigaciones Espaciales (INPE) de Brasil, del que fue Director (2006-2012). Gilberto ha publicado 180 artículos revisados por pares y citados 18.900 veces. Fue Director de la Secretaría del GEO (2018-2021). Es Doctor Honoris causa por la Universidad de Münster y recibió el premio William T. Pecora (NASA/USGS).
+      </div>
+    ),
+  },
+  {
+    name: "Luiz Motta",
+    image: "/images/committees/loc/luiz-motta.jpg",
+    bio: (
+            <div>
+      Luiz Motta ha estado vinculado a la tecnología de la información desde una edad temprana, habiendo completado un curso técnico en procesamiento de datos en 1984 a la edad de 17 años en la ciudad de Río de Janeiro. En su adolescencia, su pasión era la naturaleza, con una fuerte conexión con las playas y montañas de su ciudad. Debido a esta pasión, decidió estudiar Ingeniería Forestal, y durante sus estudios de licenciatura en la Universidad Federal de Viçosa, en el estado de Minas Gerais, desarrolló programas informáticos en sus proyectos de investigación. Estos proyectos dieron lugar más tarde a una tesis de máster, una de las primeras tesis en el campo de los Sistemas de Información Geográfica (SIG), titulada «Utilización de un Sistema de Información Geográfica en la Optimización del Transporte Forestal» (1995).
+        <br />
+        <br />
+      Tras dejar el mundo académico, trabajó con SIG en un centro de investigación (Embrapa, 1996), empresas públicas (IEF-MG, 2001), consultoras medioambientales y, finalmente, en 2003, cumplió el sueño de su vida al incorporarse a la carrera de Analista Medioambiental en el Instituto Brasileño de Medio Ambiente y Recursos Naturales Renovables (Ibama). En el Ibama, su lugar de trabajo estaba en la Amazonia, donde pudo ver cómo se llevaba a cabo la ocupación de la región amazónica. Posteriormente, fue trasladado a la sede del Ibama en Brasilia (capital de Brasil), donde se dedicó al desarrollo del Geoprocesamiento en la institución. Su trabajo tuvo un alcance mundial, ya que sus plugins y scripts de software SIG se compartieron en Internet.
+        <br />
+        <br />
+      Su experiencia en el desarrollo de SIG, especialmente en QGIS, donde fue colaborador (con más de 10 plugins), le proporcionó experiencias más allá del Ibama, como la participación en el programa Planet Explorer (2015) y en el proyecto MapBiomas (2019). En estos proyectos se desarrollaron plugins de QGIS para acceder a los datos. Su deseo de ayudar a las personas en el campo del Geoprocesamiento siempre ha marcado su trayectoria profesional, sirviendo como instructor para varios cursos y proporcionando asistencia a otros usuarios de SIG. Actualmente, Luiz Motta trabaja en Prevfogo (Centro Nacional de Prevención y Combate de Incendios Forestales), formando parte del equipo de desarrollo del Sisfogo (Sistema de Gestión de Incendios). Además de su trabajo medioambiental, es un apasionado de las aventuras todoterreno y miembro del Club de Motociclismo «Endurance Without Destination».
+      </div>
+    ),
+  },
+  {
+    name: "Tom Kralidis",
+    image: "/images/tom-kralidis.jpg",
+    bio: (
+      <div>
+        Tom Kralidis trabaja en el Servicio Meteorológico de Canadá y colabora desde hace tiempo con FOSS4G y los estándares abiertos.  Es el creador de pygeoapi, pycsw y numerosos proyectos del ecosistema geoespacial de Python.  Tom es uno de los principales arquitectos del Sistema de Información de la OMM (WIS), presidente del equipo de expertos de la OMM sobre normas de metadatos y copresidente del grupo de trabajo sobre API y normas de registros del OGC.  Tom es un apasionado de la localización, el software abierto, los estándares y los datos, y actualmente forma parte de la Junta Directiva de OSGeo.
+      </div>
+    ),
+  },
+  {
+    name: "Veronica Andreo",
+    image: "/images/veronica-andreo.jpg",
+    bio: (
+      <div>
+        Veronica Andreo es miembro del equipo de desarrollo de GRASS y preside el Comité Directivo del Proyecto desde 2021. Actualmente es profesora visitante en el Centro de Análisis Geoespacial de la Universidad Estatal de Carolina del Norte. Verónica tiene un doctorado en Biología y una maestría en Teledetección y Aplicaciones SIG. De vuelta en Argentina, trabaja como investigadora en el CONICET y como docente en el Instituto Gulich (CONAE - UNC). Su investigación se centra en descubrir los factores ambientales que impulsan los brotes y la distribución de enfermedades transmitidas por vectores a través del análisis y la modelización de datos de observación de la Tierra.
+      </div>
+    ),
+  },
+];
+
+<Heading color="red" bubble>
+  {"Keynotes de Conferencia"}
+</Heading>
+
+<div className="grid items-center justify-center grid-cols-1 sm:grid-cols-3 sm:gap-10">
+  <Keynotes keynotes={keynotes} bioText="(haz clic aquí para leer biografía)" />
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+
+}
+export async function getStaticProps() {
+return {
+props: {
+metadata
+},
+}
+}
