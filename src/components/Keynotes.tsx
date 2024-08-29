@@ -30,6 +30,10 @@ export const keynotesEn = [
         communities of open data and geospatial technologies, solidifying his
         reputation as a leader and visionary in the field of geospatial
         information.
+        <br />
+        <br />
+        <a href="https://instagram.com/@aanthieni.ok">https://instagram.com/@aanthieni.ok</a><br />
+        <a href="https://linkedin.com/in/aanthieni">https://linkedin.com/in/aanthieni</a>
       </div>
     ),
   },
@@ -50,6 +54,8 @@ export const keynotesEn = [
         through OpenStreetMap, Geochicas and other volunteer communities. She is
         currently Senior Manager at Humanitarian Openstreetmap Team for Latin
         America.
+        <br />
+        <a href="https://x.com/mapeadora">https://x.com/mapeadora</a>
       </div>
     ),
   },
@@ -64,7 +70,10 @@ export const keynotesEn = [
         Research (INPE), where he was Director (2006-2012). Gilberto published
         180 peer-reviewed papers cited 18,900 times. He was Director of the GEO
         Secretariat (2018-2021). He is Doctor Honoris causa from the University
-        of Münster and received the William T. Pecora award (NASA/USGS).
+        of Münster and received the William T. Pecora award (NASA/USGS).<br/>
+        <br /><a href="https://x.com/gcamara">https://x.com/gcamara</a><br />
+        <a href="https://gilbertocamara.org/">https://gilbertocamara.org/</a>
+      
       </div>
     ),
   },
@@ -111,6 +120,8 @@ export const keynotesEn = [
         (Fire Management System) development team. In addition to his
         environmental work, he is passionate about off-road adventures and is a
         member of the "Endurance Without Destination Motorcycle" Club.
+        <br /><br />
+      <a href="https://www.linkedin.com/in/luiz-motta-370a1b18/">https://www.linkedin.com/in/luiz-motta-370a1b18/</a>
       </div>
     ),
   },
@@ -127,6 +138,13 @@ export const keynotesEn = [
         Standards Working Group. Tom is passionate about location, open
         software, standards and data, and currently serves on the OSGeo Board of
         Directors.
+        <br />
+        <br />
+        <a href="https://kralidis.ca">https://kralidis.ca</a><br />
+        <a href="https://noc.social/@tomkralidis">https://noc.social/@tomkralidis</a><br />
+	      <a href="https://x.com/tomkralidis">https://x.com/tomkralidis</a><br />
+        <a href="https://github.com/tomkralidis">https://github.com/tomkralidis</a><br />
+        <a href="https://www.linkedin.com/in/tomkralidis">https://www.linkedin.com/in/tomkralidis</a>
       </div>
     ),
   },
@@ -143,7 +161,12 @@ export const keynotesEn = [
         researcher at CONICET and as a lecturer at Gulich Institute (CONAE -
         UNC). Her research focuses on uncovering environmental drivers of
         vector-borne disease outbreaks and distribution through Earth
-        Observation data analysis and modeling.
+        Observation data analysis and modeling.<br/><br/>
+        <a href="https://veroandreo.gitlab.io/">https://veroandreo.gitlab.io/</a>
+        <br/>
+        <a href="https://x.com/VeronicaAndreo">https://x.com/VeronicaAndreo</a><br/>
+        <a href="https://fosstodon.org/@VeronicaAndreo">https://fosstodon.org/@VeronicaAndreo</a><br/>
+        <a href="https://www.linkedin.com/in/veronica-andreo-0a4b3278/">https://www.linkedin.com/in/veronica-andreo-0a4b3278/</a>
       </div>
     ),
   },
