@@ -32,8 +32,13 @@ export const keynotesEn = [
         information.
         <br />
         <br />
-        <a href="https://instagram.com/@aanthieni.ok">https://instagram.com/@aanthieni.ok</a><br />
-        <a href="https://linkedin.com/in/aanthieni">https://linkedin.com/in/aanthieni</a>
+        <a href="https://instagram.com/@aanthieni.ok">
+          https://instagram.com/@aanthieni.ok
+        </a>
+        <br />
+        <a href="https://linkedin.com/in/aanthieni">
+          https://linkedin.com/in/aanthieni
+        </a>
       </div>
     ),
   },
@@ -70,10 +75,12 @@ export const keynotesEn = [
         Research (INPE), where he was Director (2006-2012). Gilberto published
         180 peer-reviewed papers cited 18,900 times. He was Director of the GEO
         Secretariat (2018-2021). He is Doctor Honoris causa from the University
-        of Münster and received the William T. Pecora award (NASA/USGS).<br/>
-        <br /><a href="https://x.com/gcamara">https://x.com/gcamara</a><br />
+        of Münster and received the William T. Pecora award (NASA/USGS).
+        <br />
+        <br />
+        <a href="https://x.com/gcamara">https://x.com/gcamara</a>
+        <br />
         <a href="https://gilbertocamara.org/">https://gilbertocamara.org/</a>
-      
       </div>
     ),
   },
@@ -120,8 +127,11 @@ export const keynotesEn = [
         (Fire Management System) development team. In addition to his
         environmental work, he is passionate about off-road adventures and is a
         member of the "Endurance Without Destination Motorcycle" Club.
-        <br /><br />
-      <a href="https://www.linkedin.com/in/luiz-motta-370a1b18/">https://www.linkedin.com/in/luiz-motta-370a1b18/</a>
+        <br />
+        <br />
+        <a href="https://www.linkedin.com/in/luiz-motta-370a1b18/">
+          https://www.linkedin.com/in/luiz-motta-370a1b18/
+        </a>
       </div>
     ),
   },
@@ -140,11 +150,21 @@ export const keynotesEn = [
         Directors.
         <br />
         <br />
-        <a href="https://kralidis.ca">https://kralidis.ca</a><br />
-        <a href="https://noc.social/@tomkralidis">https://noc.social/@tomkralidis</a><br />
-	      <a href="https://x.com/tomkralidis">https://x.com/tomkralidis</a><br />
-        <a href="https://github.com/tomkralidis">https://github.com/tomkralidis</a><br />
-        <a href="https://www.linkedin.com/in/tomkralidis">https://www.linkedin.com/in/tomkralidis</a>
+        <a href="https://kralidis.ca">https://kralidis.ca</a>
+        <br />
+        <a href="https://noc.social/@tomkralidis">
+          https://noc.social/@tomkralidis
+        </a>
+        <br />
+        <a href="https://x.com/tomkralidis">https://x.com/tomkralidis</a>
+        <br />
+        <a href="https://github.com/tomkralidis">
+          https://github.com/tomkralidis
+        </a>
+        <br />
+        <a href="https://www.linkedin.com/in/tomkralidis">
+          https://www.linkedin.com/in/tomkralidis
+        </a>
       </div>
     ),
   },
@@ -161,57 +181,99 @@ export const keynotesEn = [
         researcher at CONICET and as a lecturer at Gulich Institute (CONAE -
         UNC). Her research focuses on uncovering environmental drivers of
         vector-borne disease outbreaks and distribution through Earth
-        Observation data analysis and modeling.<br/><br/>
-        <a href="https://veroandreo.gitlab.io/">https://veroandreo.gitlab.io/</a>
-        <br/>
-        <a href="https://x.com/VeronicaAndreo">https://x.com/VeronicaAndreo</a><br/>
-        <a href="https://fosstodon.org/@VeronicaAndreo">https://fosstodon.org/@VeronicaAndreo</a><br/>
-        <a href="https://www.linkedin.com/in/veronica-andreo-0a4b3278/">https://www.linkedin.com/in/veronica-andreo-0a4b3278/</a>
+        Observation data analysis and modeling.
+        <br />
+        <br />
+        <a href="https://veroandreo.gitlab.io/">
+          https://veroandreo.gitlab.io/
+        </a>
+        <br />
+        <a href="https://x.com/VeronicaAndreo">https://x.com/VeronicaAndreo</a>
+        <br />
+        <a href="https://fosstodon.org/@VeronicaAndreo">
+          https://fosstodon.org/@VeronicaAndreo
+        </a>
+        <br />
+        <a href="https://www.linkedin.com/in/veronica-andreo-0a4b3278/">
+          https://www.linkedin.com/in/veronica-andreo-0a4b3278/
+        </a>
       </div>
     ),
   },
 ];
 
 export default function Keynotes({
+  version = "page",
   keynotes = keynotesEn,
   bioText = "",
 }: {
+  version?: "page" | "embed";
   keynotes?: Array<{ name: string; image: string; bio: JSX.Element }>;
   bioText: string;
 }) {
   const basePath = useRouter().basePath;
-  return keynotes.map((keynote) => (
-    <>
-      <label
-        key={keynote.name}
-        htmlFor={`keynote-${keynote.name}`}
-        className="group odd:bg-opacity-50 rounded-lg mx-auto odd:bg-f4g_orange hover:cursor-pointer hover:bg-f4g_orange hover:bg-opacity-80 max-w-[300px] hover:rounded-lg p-4"
-      >
-        <div
-          className={`aspect-square rounded-full border-f4g_red border-[6px] overflow-hidden m-1 sm:m-2`}
-        >
-          <img
-            width="512"
-            height="512"
-            src={`${basePath ?? ""}${keynote.image}`}
+  return version == "page"
+    ? keynotes.map((keynote) => (
+        <>
+          <label
+            key={keynote.name}
+            htmlFor={`keynote-${keynote.name}`}
+            className="group odd:bg-opacity-50 rounded-lg mx-auto odd:bg-f4g_orange hover:cursor-pointer hover:bg-f4g_orange hover:bg-opacity-80 max-w-[300px] hover:rounded-lg p-4"
+          >
+            <div
+              className={`aspect-square rounded-full border-f4g_red border-[6px] overflow-hidden m-1 sm:m-2`}
+            >
+              <img
+                width="512"
+                height="512"
+                src={`${basePath ?? ""}${keynote.image}`}
+              />
+            </div>
+            <div className="text-ubuntu text-f4g_redfont-bold text-center text-2xl flex justify-center items-start leading-tight">
+              {keynote["name"]}
+            </div>
+            <label className="text-ubuntu text-center group-hover:underline flex justify-center items-start leading-tight">
+              {bioText}
+            </label>
+          </label>
+          <input
+            type="checkbox"
+            id={`keynote-${keynote.name}`}
+            className="modal-toggle"
           />
-        </div>
-        <div className="text-ubuntu text-f4g_redfont-bold text-center text-2xl flex justify-center items-start leading-tight">
-          {keynote["name"]}
-        </div>
-        <label className="text-ubuntu text-center group-hover:underline flex justify-center items-start leading-tight">
-          {bioText}
-        </label>
-      </label>
-      <input
-        type="checkbox"
-        id={`keynote-${keynote.name}`}
-        className="modal-toggle"
-      />
-      <div className="modal" role="dialog">
-        <div className="modal-box">
+          <div className="modal" role="dialog">
+            <div className="modal-box">
+              <div
+                className={`aspect-square rounded-full border-f4g_red border-[6px] overflow-hidden m-1 sm:m-2`}
+              >
+                <img
+                  width="512"
+                  height="512"
+                  src={`${basePath ?? ""}${keynote.image}`}
+                />
+              </div>
+              <div className="text-ubuntu mb-4 text-f4g_redfont-bold text-center text-2xl flex justify-center items-start leading-tight">
+                {keynote["name"]}
+              </div>
+              <div className="text-sm">{keynote.bio}</div>
+            </div>
+            <label
+              className="modal-backdrop"
+              htmlFor={`keynote-${keynote.name}`}
+            >
+              Close
+            </label>
+          </div>
+        </>
+      ))
+    : keynotes.map((keynote) => (
+        <label
+          key={keynote.name}
+          htmlFor={`keynote-${keynote.name}`}
+          className="group rounded-lg mx-auto max-w-[300px] hover:rounded-lg p-1 sm:p-0"
+        >
           <div
-            className={`aspect-square rounded-full border-f4g_red border-[6px] overflow-hidden m-1 sm:m-2`}
+            className={`aspect-square rounded-full border-f4g_red border-[4px] overflow-hidden`}
           >
             <img
               width="512"
@@ -219,15 +281,9 @@ export default function Keynotes({
               src={`${basePath ?? ""}${keynote.image}`}
             />
           </div>
-          <div className="text-ubuntu mb-4 text-f4g_redfont-bold text-center text-2xl flex justify-center items-start leading-tight">
+          <div className="text-ubuntu text-f4g_redfont-bold text-center text-sm sm:text-xl flex justify-center items-start leading-tight mt-1 sm:mt-4">
             {keynote["name"]}
           </div>
-          <div className="text-sm">{keynote.bio}</div>
-        </div>
-        <label className="modal-backdrop" htmlFor={`keynote-${keynote.name}`}>
-          Close
         </label>
-      </div>
-    </>
-  ));
+      ));
 }

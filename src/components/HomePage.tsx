@@ -292,8 +292,8 @@ export default function HomePage({
       <section className="flex items-center justify-center my-12">
         <div className="relative w-full max-w-6xl">
           <Heading>{t['keynotes']}</Heading>
-          <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-3 sm:gap-10">
-            <Keynotes bioText={t['keynotesBioText']} />
+          <div className="grid items-center justify-center grid-cols-3 sm:grid-cols-6 sm:gap-10">
+            <Keynotes version="embed" bioText={t['keynotesBioText']} />
           </div>
         </div>
       </section>
