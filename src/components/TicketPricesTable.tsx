@@ -25,7 +25,7 @@ export default function TicketPricesTable() {
       "Excursion Belém do Pará": "Excursion Belém do Pará",
       "Early Bird": "Early Bird",
       "Full Price": "Full Price",
-      "Early Bird Dates": "Early Bird Period: Jun 10 2024 - Sep 6 2024"
+      "Early Bird Dates": "Early Bird Period: Jun 10 2024 - Sep 16 2024"
     },
     "es": {
       "Ticket Type": "Tipo de Entrada",
@@ -39,7 +39,7 @@ export default function TicketPricesTable() {
       "Excursion Belém do Pará": "Excursion Belém do Pará",
       "Early Bird": "Early Bird",
       "Full Price": "Full Price",
-      "Early Bird Dates": "Periodo Early Bird: 10 Jun 2024 - 6 Sep 2024"
+      "Early Bird Dates": "Periodo Early Bird: 10 Jun 2024 - 16 Sep 2024"
     },
     "pt": {
       "Ticket Type": "Tipo de Ingresso",
@@ -53,7 +53,7 @@ export default function TicketPricesTable() {
       "Excursion Belém do Pará": "Excursion Belém do Pará",
       "Early Bird": "Early Bird",
       "Full Price": "Full Price",
-      "Early Bird Dates": "Período Early Bird: 10 Jun 2024 - 6 Set 2024"
+      "Early Bird Dates": "Período Early Bird: 10 Jun 2024 - 16 Set 2024"
     },
   }
 
