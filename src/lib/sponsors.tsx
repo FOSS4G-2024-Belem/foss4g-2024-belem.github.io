@@ -10,6 +10,7 @@ import SourcepoleLogo from "@/images/logo/Sourcepole.png";
 import DevSeedLogo from "@/images/logo/DevelopmentSeed.png";
 import GeoOneLogo from "@/images/logo/GeoOne.png";
 import scconLogo from "@/images/logo/sccon.png";
+import KanLogo from "@/images/logo/kan.png";
 
 export const sponsors = {
   osgeo: {
@@ -92,6 +93,16 @@ export const sponsors = {
       <div>
         O poder de ver e medir as mudanças.<br/>
         <a href='https://www.sccon.com.br/' target="_blank">https://www.sccon.com.br/</a>
+      </div>
+    ),
+  },
+  kan: {
+    logo: KanLogo,
+    website: "https://kan.com.ar/",
+    statement: (
+      <div>
+        At KAN we develop solutions based on the technological process of data to extract real knowledge of the environment and your business.<br/>
+        <a href='https://kan.com.ar/' target="_blank">https://kan.com.ar/</a>
       </div>
     ),
   },
