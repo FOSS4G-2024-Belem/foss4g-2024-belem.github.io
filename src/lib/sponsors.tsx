@@ -12,6 +12,7 @@ import GeoOneLogo from "@/images/logo/GeoOne.png";
 import scconLogo from "@/images/logo/sccon.png";
 import KanLogo from "@/images/logo/kan.png";
 import TomTomLogo from "@/images/logo/tomtom.png";
+import QuarticleLogo from "@/images/logo/quarticle.png";
 
 export const sponsors = {
   osgeo: {
@@ -114,6 +115,17 @@ export const sponsors = {
       <div>
         Maps and location technology to keep the world moving.<br/>
         <a href='https://www.tomtom.com/ ' target="_blank">https://www.tomtom.com/</a>
+      </div>
+    ),
+  },
+  quarticle: {
+    logo: QuarticleLogo,
+    website: "https://quarticle.ro/",
+    statement: (
+      <div>
+        Quarticle is an innovative GIS solution provider created to help organizations harness the power of geospatial information. We transform complex data into versatile user-friendly visualization and analysis solutions.
+<br/>
+        <a href='https://quarticle.ro/' target="_blank">https://quarticle.ro/</a>
       </div>
     ),
   },
