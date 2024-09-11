@@ -11,6 +11,7 @@ import DevSeedLogo from "@/images/logo/DevelopmentSeed.png";
 import GeoOneLogo from "@/images/logo/GeoOne.png";
 import scconLogo from "@/images/logo/sccon.png";
 import KanLogo from "@/images/logo/kan.png";
+import TomTomLogo from "@/images/logo/tomtom.png";
 
 export const sponsors = {
   osgeo: {
@@ -103,6 +104,16 @@ export const sponsors = {
       <div>
         At KAN we develop solutions based on the technological process of data to extract real knowledge of the environment and your business.<br/>
         <a href='https://kan.com.ar/' target="_blank">https://kan.com.ar/</a>
+      </div>
+    ),
+  },
+  tomtom: {
+    logo: TomTomLogo,
+    website: "https://www.tomtom.com/",
+    statement: (
+      <div>
+        Maps and location technology to keep the world moving.<br/>
+        <a href='https://www.tomtom.com/ ' target="_blank">https://www.tomtom.com/</a>
       </div>
     ),
   },
