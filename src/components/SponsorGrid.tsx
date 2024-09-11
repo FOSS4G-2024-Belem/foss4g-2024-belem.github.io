@@ -16,22 +16,22 @@ export default function SponsorGrid({
     },
     0: {
       gap: "gap-4 6xl:gap-10",
-      maxW: "max-w-[800px]",
+      maxW: "max-w-screen sm:max-w-[800px]",
       text: "p-4 6xl:p-6 text-4xl 6xl:text-6xl leading-5",
     },
     1: {
       gap: "gap-3 sm:gap-8",
-      maxW: "max-w-[600px]",
+      maxW: "max-w-screen sm:max-w-[600px]",
       text: "p-3 6xl:p-5 text-2xl 6xl:text-4xl leading-5",
     },
     2: {
       gap: "gap-3 sm:gap-6",
-      maxW: "max-w-[450px]",
+      maxW: "max-w-screen sm:max-w-[450px]",
       text: "p-2 6xl:p-4 6xl:text-xl leading-4",
     },
     3: {
       gap: "gap-3 sm:gap-4",
-      maxW: "max-w-[300px]",
+      maxW: "max-w-screen sm:max-w-[300px]",
       text: "p-1 6xl:p-3 text-sm 6xl:text-lg leading-4",
     },
     4: {
