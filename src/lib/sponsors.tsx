@@ -14,6 +14,10 @@ import KanLogo from "@/images/logo/kan.png";
 import TomTomLogo from "@/images/logo/tomtom.png";
 import QuarticleLogo from "@/images/logo/quarticle.png";
 import IfpaLogo from "@/images/logo/ifpa.png";
+import QgisArgentinaLogo from "@/images/logo/qgis-arg.png";
+import UfraLogo from "@/images/logo/ufra.png";
+import ZenodoLogo from "@/images/logo/zenodo.png";
+
 
 export const sponsors = {
   osgeo: {
@@ -133,6 +137,21 @@ export const sponsors = {
   ifpa: {
     logo: IfpaLogo,
     website: "https://ifpa.edu.br/",
+    statement: null
+  },
+  qgisargentina: {
+    logo: QgisArgentinaLogo,
+    website: "",
+    statement: null,
+  },
+  ufra: {
+    logo: UfraLogo,
+    website: "https://novo.ufra.edu.br/",
+    statement: null
+  },
+  zenodo: {
+    logo: ZenodoLogo,
+    website: "https://zenodo.org/",
     statement: null
   }
 };
