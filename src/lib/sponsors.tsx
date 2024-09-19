@@ -13,6 +13,7 @@ import scconLogo from "@/images/logo/sccon.png";
 import KanLogo from "@/images/logo/kan.png";
 import TomTomLogo from "@/images/logo/tomtom.png";
 import QuarticleLogo from "@/images/logo/quarticle.png";
+import IfpaLogo from "@/images/logo/ifpa.png";
 
 export const sponsors = {
   osgeo: {
@@ -129,4 +130,9 @@ export const sponsors = {
       </div>
     ),
   },
+  ifpa: {
+    logo: IfpaLogo,
+    website: "https://ifpa.edu.br/",
+    statement: null
+  }
 };
