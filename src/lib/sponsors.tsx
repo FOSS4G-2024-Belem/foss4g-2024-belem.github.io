@@ -17,6 +17,7 @@ import IfpaLogo from "@/images/logo/ifpa.png";
 import QgisArgentinaLogo from "@/images/logo/qgis-arg.png";
 import UfraLogo from "@/images/logo/ufra.png";
 import ZenodoLogo from "@/images/logo/zenodo.png";
+import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
 
 
 export const sponsors = {
@@ -131,6 +132,17 @@ export const sponsors = {
         Quarticle is an innovative GIS solution provider created to help organizations harness the power of geospatial information. We transform complex data into versatile user-friendly visualization and analysis solutions.
 <br/>
         <a href='https://quarticle.ro/' target="_blank">https://quarticle.ro/</a>
+      </div>
+    ),
+  },
+  arkedgespace: {
+    logo: ArkEdgeSpaceLogo,
+    website: "https://production.d35ckxbzpc1jtm.amplifyapp.com/en",
+    statement: (
+      <div>
+        ArkEdgeSpace provides satellite business opportunities for all.
+<br/>
+        <a href='https://production.d35ckxbzpc1jtm.amplifyapp.com/en' target="_blank">https://production.d35ckxbzpc1jtm.amplifyapp.com/en</a>
       </div>
     ),
   },
