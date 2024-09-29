@@ -18,7 +18,7 @@ import QgisArgentinaLogo from "@/images/logo/qgis-arg.png";
 import UfraLogo from "@/images/logo/ufra.png";
 import ZenodoLogo from "@/images/logo/zenodo.png";
 import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
-import MergingMapsLogo from "@/images/logo/mergingmaps.png";
+import MerginMapsLogo from "@/images/logo/merginmaps.png";
 
 
 export const sponsors = {
@@ -147,8 +147,8 @@ export const sponsors = {
       </div>
     ),
   },
-  mergingmaps: {
-    logo: MergingMapsLogo,
+  merginmaps: {
+    logo: MerginMapsLogo,
     website: " https://merginmaps.com",
     statement: (
       <div>
