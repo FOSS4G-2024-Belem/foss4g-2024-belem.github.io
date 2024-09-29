@@ -18,6 +18,7 @@ import QgisArgentinaLogo from "@/images/logo/qgis-arg.png";
 import UfraLogo from "@/images/logo/ufra.png";
 import ZenodoLogo from "@/images/logo/zenodo.png";
 import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
+import MergingMapsLogo from "@/images/logo/mergingmaps.png";
 
 
 export const sponsors = {
@@ -143,6 +144,17 @@ export const sponsors = {
         ArkEdgeSpace provides satellite business opportunities for all.
 <br/>
         <a href='https://production.d35ckxbzpc1jtm.amplifyapp.com/en' target="_blank">https://production.d35ckxbzpc1jtm.amplifyapp.com/en</a>
+      </div>
+    ),
+  },
+  mergingmaps: {
+    logo: MergingMapsLogo,
+    website: " https://merginmaps.com",
+    statement: (
+      <div>
+        Mergin Maps is a field data collection tool built on the free and open-source QGIS which allows you to collect, store and synchronise your field data with your team.
+<br/>
+        <a href='https://merginmaps.com' target="_blank"> https://merginmaps.com</a>
       </div>
     ),
   },
