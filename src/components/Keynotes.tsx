@@ -200,6 +200,33 @@ export const keynotesEn = [
       </div>
     ),
   },
+  {
+    name: "Jody Garnett",
+    image: "/images/jody-garnett.jpg",
+    bio: (
+      <div>
+        While I am willing and able to work with anything,
+        a lot of my web presence is devoted to open-source spatial.
+        I am on the GeoTools, GeoServer and uDig steering committees.
+        I also volunteer with the Open Source Geospatial Foundation,
+        and am helping set up LocationTech (industry working group for the Eclipse Foundation).
+        <br />
+        As for motivation - it is all about communication.
+        I love working in decision support and communicating vast quantities of information in a
+        form that can be understood and acted upon.
+        Since the world is where we live, one of the best tools for communication is the use of a map.
+        On a technical front GIS represents a great challenge (along with Big Data and Business Intelligence)
+        where the data volume lets everyone work on real computer science.
+        <br />
+        <a href="https://www.linkedin.com/in/jodygarnett/">
+          https://www.linkedin.com/in/jodygarnett/
+        </a>
+        <br />
+        <a href="https://x.com/jodygarnett">https://x.com/jodygarnett</a>
+        <br />
+      </div>
+    ),
+  },
 ];
 
 export default function Keynotes({
