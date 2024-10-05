@@ -142,6 +142,23 @@ export default function HomePage({
             <div className="text-white [font-size:1.3rem] leading-7 italic [max-width:600px]">
               &quot;{t["section1Subtitle"]}&quot;
             </div>
+            <IntlLink href='http://localhost:3000/general_schedule.html' target="_blank">
+              <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
+                General Schedule
+              </div>
+            </IntlLink> &nbsp;
+
+            <IntlLink href='http://localhost:3000/workshop_schedule.html' target="_blank">
+              <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
+                Workshop Schedule
+              </div>
+            </IntlLink> &nbsp;
+
+            <IntlLink href='http://localhost:3000/academic_schedule.html' target="_blank">
+              <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
+                Academic Schedule
+              </div>
+            </IntlLink>
           </div>
         </div>
         <div
