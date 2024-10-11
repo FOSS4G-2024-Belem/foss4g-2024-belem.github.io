@@ -227,6 +227,30 @@ export const keynotesEn = [
       </div>
     ),
   },
+  {
+    name: "Camile Söthe",
+    image: "/images/CamileSothe.jpg",
+    bio: (
+      <div>
+        Camile Sothe is a Data Scientist at Planet Labs, specializing in leveraging multisource satellite
+         data and machine learning techniques to map forest attributes. She holds a PhD in Remote Sensing
+          from the Brazilian National Institute for Space Research (INPE),
+          as well as both a Master’s and Bachelor’s degree in Forest Engineering from
+          Santa Catarina State University (UDESC). Camile also completed a postdoctoral fellowship at
+           McMaster University in Canada, where she led the project “Carbon Storage and
+            Distribution in Terrestrial Ecosystems of Canada” and collaborated closely with Indigenous
+            communities and WWF-Canada. With a strong academic background and extensive technical expertise,
+             Camile is passionate about using technology to advance environmental conservation and is
+              dedicated to enhancing our understanding of forest ecosystems to
+              support sustainable management practices.
+        <br/>
+        <a href="https://www.linkedin.com/in/camile-sothe-45302a168/">
+          https://www.linkedin.com/in/camile-sothe/
+        </a>
+        <br />
+      </div>
+    ),
+  },
 ];
 
 export default function Keynotes({
