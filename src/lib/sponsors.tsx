@@ -19,6 +19,7 @@ import UfraLogo from "@/images/logo/ufra.png";
 import ZenodoLogo from "@/images/logo/zenodo.png";
 import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
 import MerginMapsLogo from "@/images/logo/merginmaps.png";
+import OpenGIS_ch from "@/images/logo/opengis_ch.png";
 
 
 export const sponsors = {
@@ -155,6 +156,17 @@ export const sponsors = {
         Mergin Maps is a field data collection tool built on the free and open-source QGIS which allows you to collect, store and synchronise your field data with your team.
 <br/>
         <a href='https://merginmaps.com' target="_blank"> https://merginmaps.com</a>
+      </div>
+    ),
+  },
+  opengis_ch: {
+    logo: OpenGIS_ch,
+    website: "https://www.opengis.ch/ ",
+    statement: (
+      <div>
+        The most powerful and efficient way to manage your data on-the-go.
+<br/>
+        <a href='https://www.opengis.ch/' target="_blank">https://www.opengis.ch/</a>
       </div>
     ),
   },
