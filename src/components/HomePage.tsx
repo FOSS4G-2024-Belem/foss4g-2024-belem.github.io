@@ -22,6 +22,7 @@ import Image from "next/image";
 import IntlLink from "@/components/IntlLink";
 import Heading from "@/components/Heading";
 import Keynotes from "@/components/Keynotes";
+import Sponsors from "@/components/SponsorSection";
 
 const enHomepagePhrases = {
   section1Date: "02-08 December 2024",
@@ -68,7 +69,8 @@ const enHomepagePhrases = {
   section6Organizers: "Organizers",
   section6CommunityPartners: "Community Partners",
   keynotes: "Conference Keynotes",
-  keynotesBioText: "(click here to read biography)"
+  keynotesBioText: "(click here to read biography)",
+//   {/*sponsors: "Conference Sponsors",*/}
 };
 
 export default function HomePage({
@@ -315,6 +317,15 @@ export default function HomePage({
         </div>
       </section>
       <section className="flex items-center justify-center my-12">
+        <div className="relative w-full max-w-6xl">
+          {/*<Heading>{t['sponsors']}</Heading>*/}
+          <div className="grid items-center justify-center sm:gap-10">
+            <Sponsors version="embed"/>
+          </div>
+        </div>
+      </section>
+
+<section className="flex items-center justify-center my-12">
         <div className="relative w-full max-w-6xl">
           <Image
             placeholder="blur"
