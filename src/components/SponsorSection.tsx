@@ -28,10 +28,10 @@ export default function SponsorsSection() {
       <ArrowHeading size={2}>Supporter Sponsors</ArrowHeading>
       <SponsorGrid level={5} sponsorNames={["geoone", "tomtom"]} />
 
-      <ArrowHeading size={2} color="orange">Community Partners</ArrowHeading>
-      <SponsorGrid level={-1} sponsorNames={["geochicas", "meninasdageo", "qgisbrasil", "qgisargentina"]} />
+      {/*<ArrowHeading size={2} color="orange">Community Partners</ArrowHeading>
+      <SponsorGrid level={-1} sponsorNames={["geochicas", "meninasdageo", "qgisbrasil", "qgisargentina"]} />*/}
 
-      <ArrowHeading size={2} color="orange">Media Partners</ArrowHeading>
+      <ArrowHeading size={2}>Media Partners</ArrowHeading>
       <SponsorGrid level={-1} sponsorNames={["zenodo", "ufra"]} />
     </div>
   );
