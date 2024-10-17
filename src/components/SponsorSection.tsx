@@ -32,7 +32,7 @@ export default function SponsorsSection() {
       <SponsorGrid level={-1} sponsorNames={["geochicas", "meninasdageo", "qgisbrasil", "qgisargentina"]} />*/}
 
       <ArrowHeading>Media Partners</ArrowHeading>
-      <SponsorGrid level={-1} sponsorNames={["zenodo", "ufra"]} />
+      <SponsorGrid level={0} sponsorNames={["zenodo", "ufra"]} />
     </div>
   );
 }
