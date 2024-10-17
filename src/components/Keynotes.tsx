@@ -140,14 +140,10 @@ export const keynotesEn = [
     image: "/images/tom-kralidis.jpg",
     bio: (
       <div>
-        Tom Kralidis is with the Meteorological Service of Canada and a longtime
-        contributor to FOSS4G and open standards. He is the creator of pygeoapi,
-        pycsw, and numerous projects in the geospatial Python ecosystem. Tom is
-        a lead architect of the WMO Information System (WIS), Chair of the WMO
-        Expert Team on Metadata Standards and co-chair of the OGC API - Records
-        Standards Working Group. Tom is passionate about location, open
-        software, standards and data, and currently serves on the OSGeo Board of
-        Directors.
+        Tom Kralidis is with the Meteorological Service of Canada and a longtime contributor to FOSS4G and open standards. He is the creator of pygeoapi, pycsw, and numerous projects in the geospatial Python ecosystem. Tom is a lead architect of the WMO Information System (WIS2),  and chairs the WMO Task Team on Open Source as well as the WMO Expert Team on Metadata Standards.  He also chairs the OGC Pub/Sub Standards working group and co-chairs the OGC API - Records Standards Working Group.
+        <br />
+        <br />
+        Tom is passionate about location, open software, standards and data, and currently serves on the OSGeo Board of Directors.
         <br />
         <br />
         <a href="https://kralidis.ca">https://kralidis.ca</a>
