@@ -320,7 +320,7 @@ export default function HomePage({
         <div className="relative w-full max-w-6xl">
           {/*<Heading>{t['sponsors']}</Heading>*/}
           <div className="grid items-center justify-center sm:gap-10">
-            <Sponsors version="embed"/>
+            <Sponsors/>
           </div>
         </div>
       </section>
