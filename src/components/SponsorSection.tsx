@@ -26,7 +26,7 @@ export default function SponsorsSection() {
       <SponsorGrid level={4} sponsorNames={["sourcepole", "devseed", "arkedgespace", "merginmaps", "opengis_ch"]} />
 
       <ArrowHeading>Supporter Sponsors</ArrowHeading>
-      <SponsorGrid level={5} sponsorNames={["geoone", "tomtom"]} />
+      <SponsorGrid level={4} sponsorNames={["geoone", "tomtom"]} />
 
       {/*<ArrowHeading size={2} color="orange">Community Partners</ArrowHeading>
       <SponsorGrid level={-1} sponsorNames={["geochicas", "meninasdageo", "qgisbrasil", "qgisargentina"]} />*/}
