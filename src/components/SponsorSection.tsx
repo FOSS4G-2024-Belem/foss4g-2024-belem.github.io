@@ -9,23 +9,12 @@ import Foss4g2022OpeningSession from "@/images/foss4g-2022/opening-session.jpg";
 export default function SponsorsSection() {
   return (
     <div className="space-y-12">
-     {/* Organizers */}
-      <div className="border border-f4g_orange max-w-[800px] mx-auto my-8">
-        <div className="bg-f4g_orange font-ubuntu text-white text-xl text-center py-1">
-          Organizers
-        </div>
-        <SponsorGrid
-          level={-1}
-          sponsorNames={["osgeo", "osgeobrasil", "geolibres", "ifpa"]}
-        />
-      </div>
-
       {/* Sponsors por nível */}
-      <ArrowHeading size={0}>Diamond Sponsor</ArrowHeading>
-      <SponsorGrid level={0} sponsorNames={[null]} />
+      {/*<ArrowHeading size={0}>Diamond Sponsor</ArrowHeading>
+      <SponsorGrid level={0} sponsorNames={[null]} />*/}
 
-      <ArrowHeading size={1}>Platinum Sponsors</ArrowHeading>
-      <SponsorGrid level={1} sponsorNames={[null, null]} />
+      {/*<ArrowHeading size={1}>Platinum Sponsors</ArrowHeading>
+      <SponsorGrid level={1} sponsorNames={[null, null]} />*/}
 
       <ArrowHeading size={2}>Gold Sponsors</ArrowHeading>
       <SponsorGrid level={2} sponsorNames={["kan"]} />

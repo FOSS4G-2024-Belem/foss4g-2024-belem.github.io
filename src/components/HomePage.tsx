@@ -70,7 +70,7 @@ const enHomepagePhrases = {
   section6CommunityPartners: "Community Partners",
   keynotes: "Conference Keynotes",
   keynotesBioText: "(click here to read biography)",
-  sponsors: "Conference Sponsors",
+//   {/*sponsors: "Conference Sponsors",*/}
 };
 
 export default function HomePage({
@@ -318,7 +318,7 @@ export default function HomePage({
       </section>
       <section className="flex items-center justify-center my-12">
         <div className="relative w-full max-w-6xl">
-          <Heading>{t['sponsors']}</Heading>
+          {/*<Heading>{t['sponsors']}</Heading>*/}
           <div className="grid items-center justify-center sm:gap-10">
             <Sponsors version="embed"/>
           </div>
