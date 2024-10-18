@@ -10,10 +10,10 @@ export default function SponsorsSection() {
   return (
     <div className="space-y-12">
       {/* Sponsors por nível */}
-      <ArrowHeading size={0}>Diamond Sponsor</ArrowHeading>
+      <ArrowHeading>Diamond Sponsor</ArrowHeading>
       <SponsorGrid level={0} sponsorNames={['re_earth']} />
 
-      {/*<ArrowHeading size={1}>Platinum Sponsors</ArrowHeading>
+      {/*<ArrowHeading>Platinum Sponsors</ArrowHeading>
       <SponsorGrid level={1} sponsorNames={[null, null]} />*/}
 
       <ArrowHeading>Gold Sponsors</ArrowHeading>
