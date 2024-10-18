@@ -20,6 +20,7 @@ import ZenodoLogo from "@/images/logo/zenodo.png";
 import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
 import MerginMapsLogo from "@/images/logo/merginmaps.png";
 import OpenGIS_ch from "@/images/logo/opengis_ch.png";
+import ReEarthLogo from "@/images/logo/Re_Earth.png";
 
 
 export const sponsors = {
@@ -167,6 +168,17 @@ export const sponsors = {
         The most powerful and efficient way to manage your data on-the-go.
 <br/>
         <a href='https://www.opengis.ch/' target="_blank">https://www.opengis.ch/</a>
+      </div>
+    ),
+  },
+  re_earth: {
+    logo: ReEarthLogo,
+    website: "https://www.opengis.ch/ ",
+    statement: (
+      <div>
+        Re:Earth is a comprehensive suite of services developed by Eukarya designed to handle all aspects of GIS data management on the web. This versatile platform enables the collection, creation, storage, management, transformation, distribution and visualizer of GIS data.
+      <br/>
+        <a href='https://lp.reearth.io' target="_blank">https://lp.reearth.io</a>
       </div>
     ),
   },
