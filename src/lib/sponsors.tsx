@@ -26,12 +26,12 @@ import ReEarthLogo from "@/images/logo/Re_Earth.png";
 export const sponsors = {
   osgeo: {
     logo: OsGeoLogo,
-    website: null,
+    website: 'https://www.osgeo.org/',
     statement: null,
   },
   osgeobrasil: {
     logo: OsGeoBrasil,
-    website: null,
+    website: 'https://osgeobrasil.org.br/',
     statement: null,
   },
   meninasdageo: {
@@ -41,7 +41,7 @@ export const sponsors = {
   },
   geolibres: {
     logo: Geolibres,
-    website: null,
+    website: 'https://geolibres.org.ar/',
     statement: null,
   },
   geochicas: {
