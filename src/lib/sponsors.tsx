@@ -173,7 +173,7 @@ export const sponsors = {
   },
   re_earth: {
     logo: ReEarthLogo,
-    website: "https://www.opengis.ch/ ",
+    website: "https://lp.reearth.io",
     statement: (
       <div>
         Re:Earth is a comprehensive suite of services developed by Eukarya designed to handle all aspects of GIS data management on the web. This versatile platform enables the collection, creation, storage, management, transformation, distribution and visualizer of GIS data.
