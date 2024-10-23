@@ -1,47 +1,47 @@
 import { useRouter } from "next/router";
 
 export const keynotesEn = [
-  {
-    name: "Ariel Anthieni",
-    image: "/images/committees/loc/ariel-anthieni.jpg",
-    bio: (
-      <div>
-        Ariel Anthieni is a prominent expert in geospatial information
-        technology with a solid track record of over two decades. He is a Board
-        member of OSGeo, where he serves as Vice President for Latin America and
-        is the Chair of the UN Committee of OSGeo. In these roles, he leads
-        initiatives that promote global collaboration and the use of geospatial
-        technologies to address global challenges. Additionally, he is the
-        President of Geolibres, an organization dedicated to the promotion and
-        development of free geospatial technologies in Argentina.
-        <br />
-        <br />
-        As the CEO of Kan Territory & IT, he has taken his passion for
-        geospatial technologies and open data to new heights. With notable
-        experience in public administration, he held key roles such as Data
-        Engineering Manager for the Government of the City of Buenos Aires,
-        where he led system integration projects for territorial
-        decision-making. His focus on the use of open data and geospatial
-        technologies has been a crucial driver for sustainable development in
-        emerging economies.
-        <br />
-        <br />A passionate entrepreneur and fervent advocate of open source
-        technologies, Ariel has been an active member of international
-        communities of open data and geospatial technologies, solidifying his
-        reputation as a leader and visionary in the field of geospatial
-        information.
-        <br />
-        <br />
-        <a href="https://instagram.com/@aanthieni.ok">
-          https://instagram.com/@aanthieni.ok
-        </a>
-        <br />
-        <a href="https://linkedin.com/in/aanthieni">
-          https://linkedin.com/in/aanthieni
-        </a>
-      </div>
-    ),
-  },
+//   {
+//     name: "Ariel Anthieni",
+//     image: "/images/committees/loc/ariel-anthieni.jpg",
+//     bio: (
+//       <div>
+//         Ariel Anthieni is a prominent expert in geospatial information
+//         technology with a solid track record of over two decades. He is a Board
+//         member of OSGeo, where he serves as Vice President for Latin America and
+//         is the Chair of the UN Committee of OSGeo. In these roles, he leads
+//         initiatives that promote global collaboration and the use of geospatial
+//         technologies to address global challenges. Additionally, he is the
+//         President of Geolibres, an organization dedicated to the promotion and
+//         development of free geospatial technologies in Argentina.
+//         <br />
+//         <br />
+//         As the CEO of Kan Territory & IT, he has taken his passion for
+//         geospatial technologies and open data to new heights. With notable
+//         experience in public administration, he held key roles such as Data
+//         Engineering Manager for the Government of the City of Buenos Aires,
+//         where he led system integration projects for territorial
+//         decision-making. His focus on the use of open data and geospatial
+//         technologies has been a crucial driver for sustainable development in
+//         emerging economies.
+//         <br />
+//         <br />A passionate entrepreneur and fervent advocate of open source
+//         technologies, Ariel has been an active member of international
+//         communities of open data and geospatial technologies, solidifying his
+//         reputation as a leader and visionary in the field of geospatial
+//         information.
+//         <br />
+//         <br />
+//         <a href="https://instagram.com/@aanthieni.ok">
+//           https://instagram.com/@aanthieni.ok
+//         </a>
+//         <br />
+//         <a href="https://linkedin.com/in/aanthieni">
+//           https://linkedin.com/in/aanthieni
+//         </a>
+//       </div>
+//     ),
+//   },
   {
     name: "Céline Jacquin",
     image: "/images/celine-jacquin.jpg",
