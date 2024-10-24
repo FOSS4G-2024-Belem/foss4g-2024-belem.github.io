@@ -325,7 +325,7 @@ export default function HomePage({
         </div>
       </section>
 
-<section className="flex items-center justify-center my-12">
+{/* <section className="flex items-center justify-center my-12">
         <div className="relative w-full max-w-6xl">
           <Image
             placeholder="blur"
@@ -401,7 +401,7 @@ export default function HomePage({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section
         className="flex items-center justify-center my-4 w-full bg-cover bg-right bg-no-repeat min-h-96 sm:mt-32"
