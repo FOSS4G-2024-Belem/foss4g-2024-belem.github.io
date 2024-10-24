@@ -21,17 +21,18 @@ import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
 import MerginMapsLogo from "@/images/logo/merginmaps.png";
 import OpenGIS_ch from "@/images/logo/opengis_ch.png";
 import ReEarthLogo from "@/images/logo/Re_Earth.png";
-
+import MapBiomasLogo from "@/images/logo/mapbiomas.png";
+import TethysLogo from "@/images/logo/tethys.png";
 
 export const sponsors = {
   osgeo: {
     logo: OsGeoLogo,
-    website: 'https://www.osgeo.org/',
+    website: "https://www.osgeo.org/",
     statement: null,
   },
   osgeobrasil: {
     logo: OsGeoBrasil,
-    website: 'https://osgeobrasil.org.br/',
+    website: "https://osgeobrasil.org.br/",
     statement: null,
   },
   meninasdageo: {
@@ -41,7 +42,7 @@ export const sponsors = {
   },
   geolibres: {
     logo: Geolibres,
-    website: 'https://geolibres.org.ar/',
+    website: "https://geolibres.org.ar/",
     statement: null,
   },
   geochicas: {
@@ -62,7 +63,9 @@ export const sponsors = {
         Google believes that open source is good for everyone. By being open and
         freely available, it enables and encourages collaboration and the
         development of technology. <br />
-        <a href='https://opensource.google/' target="_blank">https://opensource.google/</a>
+        <a href="https://opensource.google/" target="_blank">
+          https://opensource.google/
+        </a>
       </div>
     ),
   },
@@ -72,8 +75,16 @@ export const sponsors = {
     statement: (
       <div>
         Advanced online GIS mapping with QGIS Cloud and QGIS Desktop <br />
-        QGIS Cloud is your personal spatial data infrastructure (SDI) on the internet. Publish your QGIS projects as maps and data. Share spatial data with others. And all this very easily, without server, infrastructure or expert knowledge. If you know QGIS Desktop, then you know QGIS Cloud. Simply install the QGIS Cloud plugin from the official QGIS plugin repository and you are ready to go.<br />
-        <a href='https://qgiscloud.com/' target="_blank">https://qgiscloud.com/</a>
+        QGIS Cloud is your personal spatial data infrastructure (SDI) on the
+        internet. Publish your QGIS projects as maps and data. Share spatial
+        data with others. And all this very easily, without server,
+        infrastructure or expert knowledge. If you know QGIS Desktop, then you
+        know QGIS Cloud. Simply install the QGIS Cloud plugin from the official
+        QGIS plugin repository and you are ready to go.
+        <br />
+        <a href="https://qgiscloud.com/" target="_blank">
+          https://qgiscloud.com/
+        </a>
       </div>
     ),
   },
@@ -82,8 +93,14 @@ export const sponsors = {
     website: "https://developmentseed.org/",
     statement: (
       <div>
-        At Development Seed, we are leveraging massive earth data, cloud computing, geospatial AI, and thoughtful product development to make earth data more accessible to everyone by providing a clearer view of rapidly changing planet.<br />
-        <a href='https://developmentseed.org/' target="_blank">https://developmentseed.org/</a>
+        At Development Seed, we are leveraging massive earth data, cloud
+        computing, geospatial AI, and thoughtful product development to make
+        earth data more accessible to everyone by providing a clearer view of
+        rapidly changing planet.
+        <br />
+        <a href="https://developmentseed.org/" target="_blank">
+          https://developmentseed.org/
+        </a>
       </div>
     ),
   },
@@ -92,8 +109,13 @@ export const sponsors = {
     website: "https://geoone.com.br/",
     statement: (
       <div>
-        GeoOne develops and disseminates open-source software solutions for engineering and land regularization, empowering professionals in geoprocessing and GIS.<br/>
-        <a href='https://geoone.com.br/' target="_blank">https://geoone.com.br/</a>
+        GeoOne develops and disseminates open-source software solutions for
+        engineering and land regularization, empowering professionals in
+        geoprocessing and GIS.
+        <br />
+        <a href="https://geoone.com.br/" target="_blank">
+          https://geoone.com.br/
+        </a>
       </div>
     ),
   },
@@ -102,8 +124,11 @@ export const sponsors = {
     website: "https://www.sccon.com.br/",
     statement: (
       <div>
-        O poder de ver e medir as mudanças.<br/>
-        <a href='https://www.sccon.com.br/' target="_blank">https://www.sccon.com.br/</a>
+        O poder de ver e medir as mudanças.
+        <br />
+        <a href="https://www.sccon.com.br/" target="_blank">
+          https://www.sccon.com.br/
+        </a>
       </div>
     ),
   },
@@ -112,8 +137,12 @@ export const sponsors = {
     website: "https://kan.com.ar/",
     statement: (
       <div>
-        At KAN we develop solutions based on the technological process of data to extract real knowledge of the environment and your business.<br/>
-        <a href='https://kan.com.ar/' target="_blank">https://kan.com.ar/</a>
+        At KAN we develop solutions based on the technological process of data
+        to extract real knowledge of the environment and your business.
+        <br />
+        <a href="https://kan.com.ar/" target="_blank">
+          https://kan.com.ar/
+        </a>
       </div>
     ),
   },
@@ -122,8 +151,11 @@ export const sponsors = {
     website: "https://www.tomtom.com/",
     statement: (
       <div>
-        Maps and location technology to keep the world moving.<br/>
-        <a href='https://www.tomtom.com/ ' target="_blank">https://www.tomtom.com/</a>
+        Maps and location technology to keep the world moving.
+        <br />
+        <a href="https://www.tomtom.com/ " target="_blank">
+          https://www.tomtom.com/
+        </a>
       </div>
     ),
   },
@@ -132,9 +164,14 @@ export const sponsors = {
     website: "https://quarticle.ro/",
     statement: (
       <div>
-        Quarticle is an innovative GIS solution provider created to help organizations harness the power of geospatial information. We transform complex data into versatile user-friendly visualization and analysis solutions.
-<br/>
-        <a href='https://quarticle.ro/' target="_blank">https://quarticle.ro/</a>
+        Quarticle is an innovative GIS solution provider created to help
+        organizations harness the power of geospatial information. We transform
+        complex data into versatile user-friendly visualization and analysis
+        solutions.
+        <br />
+        <a href="https://quarticle.ro/" target="_blank">
+          https://quarticle.ro/
+        </a>
       </div>
     ),
   },
@@ -144,8 +181,13 @@ export const sponsors = {
     statement: (
       <div>
         ArkEdgeSpace provides satellite business opportunities for all.
-<br/>
-        <a href='https://production.d35ckxbzpc1jtm.amplifyapp.com/en' target="_blank">https://production.d35ckxbzpc1jtm.amplifyapp.com/en</a>
+        <br />
+        <a
+          href="https://production.d35ckxbzpc1jtm.amplifyapp.com/en"
+          target="_blank"
+        >
+          https://production.d35ckxbzpc1jtm.amplifyapp.com/en
+        </a>
       </div>
     ),
   },
@@ -154,9 +196,14 @@ export const sponsors = {
     website: " https://merginmaps.com",
     statement: (
       <div>
-        Mergin Maps is a field data collection tool built on the free and open-source QGIS which allows you to collect, store and synchronise your field data with your team.
-<br/>
-        <a href='https://merginmaps.com' target="_blank"> https://merginmaps.com</a>
+        Mergin Maps is a field data collection tool built on the free and
+        open-source QGIS which allows you to collect, store and synchronise your
+        field data with your team.
+        <br />
+        <a href="https://merginmaps.com" target="_blank">
+          {" "}
+          https://merginmaps.com
+        </a>
       </div>
     ),
   },
@@ -166,8 +213,10 @@ export const sponsors = {
     statement: (
       <div>
         The most powerful and efficient way to manage your data on-the-go.
-<br/>
-        <a href='https://www.opengis.ch/' target="_blank">https://www.opengis.ch/</a>
+        <br />
+        <a href="https://www.opengis.ch/" target="_blank">
+          https://www.opengis.ch/
+        </a>
       </div>
     ),
   },
@@ -176,16 +225,21 @@ export const sponsors = {
     website: "https://lp.reearth.io",
     statement: (
       <div>
-        Re:Earth is a comprehensive suite of services developed by Eukarya designed to handle all aspects of GIS data management on the web. This versatile platform enables the collection, creation, storage, management, transformation, distribution and visualizer of GIS data.
-      <br/>
-        <a href='https://lp.reearth.io' target="_blank">https://lp.reearth.io</a>
+        Re:Earth is a comprehensive suite of services developed by Eukarya
+        designed to handle all aspects of GIS data management on the web. This
+        versatile platform enables the collection, creation, storage,
+        management, transformation, distribution and visualizer of GIS data.
+        <br />
+        <a href="https://lp.reearth.io" target="_blank">
+          https://lp.reearth.io
+        </a>
       </div>
     ),
   },
   ifpa: {
     logo: IfpaLogo,
     website: "https://ifpa.edu.br/",
-    statement: null
+    statement: null,
   },
   qgisargentina: {
     logo: QgisArgentinaLogo,
@@ -195,11 +249,23 @@ export const sponsors = {
   ufra: {
     logo: UfraLogo,
     website: "https://novo.ufra.edu.br/",
-    statement: null
+    statement: null,
   },
   zenodo: {
     logo: ZenodoLogo,
     website: "https://zenodo.org/",
-    statement: null
-  }
+    statement: null,
+  },
+  tethys: {
+    logo: TethysLogo,
+    website: "https://tethysgeoscience.org/",
+    statement:
+      "Tethys Geoscience Foundation is a non-profit organization that supports the development of innovative tools that lead to informed decision-making in response to natural disasters, contribute to the creation of sustainable environmental policies, and provide improved management of Earth’s resources.",
+  },
+  mapbiomas: {
+    logo: MapBiomasLogo,
+    website: "http://mapbiomas.org/",
+    statement:
+      "Mapbiomas reveals transformations in a territory through science, with precision, agility and quality and to make knowledge about land use accessible, in order to pursue conservation and sustainable management of the natural resources as a way to fight climate changes.",
+  },
 };
