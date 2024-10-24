@@ -222,7 +222,7 @@ export const sponsors = {
   },
   re_earth: {
     logo: ReEarthLogo,
-    website: "https://lp.reearth.io",
+    website: "https://renewal2025.reearth.io/",
     statement: (
       <div>
         Re:Earth is a comprehensive suite of services developed by Eukarya
@@ -230,8 +230,8 @@ export const sponsors = {
         versatile platform enables the collection, creation, storage,
         management, transformation, distribution and visualizer of GIS data.
         <br />
-        <a href="https://lp.reearth.io" target="_blank">
-          https://lp.reearth.io
+        <a href="https://renewal2025.reearth.io/" target="_blank">
+        https://renewal2025.reearth.io/
         </a>
       </div>
     ),
