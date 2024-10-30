@@ -21,6 +21,7 @@ import ArkEdgeSpaceLogo from "@/images/logo/ArkEdgeSpace.png";
 import MerginMapsLogo from "@/images/logo/merginmaps.png";
 import OpenGIS_ch from "@/images/logo/opengis_ch.png";
 import ReEarthLogo from "@/images/logo/Re_Earth.png";
+import TIBLogo from "@/images/logo/tib.png";
 
 
 export const sponsors = {
@@ -181,6 +182,11 @@ export const sponsors = {
         <a href='https://lp.reearth.io' target="_blank">https://lp.reearth.io</a>
       </div>
     ),
+  },
+  tib: {
+    logo: TIBLogo,
+    website: "https://av.tib.eu/",
+    statement: null
   },
   ifpa: {
     logo: IfpaLogo,
