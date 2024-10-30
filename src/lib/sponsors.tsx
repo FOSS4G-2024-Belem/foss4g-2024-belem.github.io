@@ -23,6 +23,7 @@ import OpenGIS_ch from "@/images/logo/opengis_ch.png";
 import ReEarthLogo from "@/images/logo/Re_Earth.png";
 import MapBiomasLogo from "@/images/logo/mapbiomas.png";
 import TethysLogo from "@/images/logo/tethys.png";
+import TIBLogo from "@/images/logo/tib.png";
 
 export const sponsors = {
   osgeo: {
@@ -235,6 +236,11 @@ export const sponsors = {
         </a>
       </div>
     ),
+  },
+  tib: {
+    logo: TIBLogo,
+    website: "https://av.tib.eu/",
+    statement: null
   },
   ifpa: {
     logo: IfpaLogo,
