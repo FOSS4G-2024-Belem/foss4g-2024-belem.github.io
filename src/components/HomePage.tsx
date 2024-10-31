@@ -70,6 +70,7 @@ const enHomepagePhrases = {
   section6CommunityPartners: "Community Partners",
   keynotes: "Conference Keynotes",
   keynotesBioText: "(click here to read biography)",
+  schedule: "Conference Schedule"
 //   {/*sponsors: "Conference Sponsors",*/}
 };
 
@@ -144,23 +145,11 @@ export default function HomePage({
             <div className="text-white [font-size:1.3rem] leading-7 italic [max-width:600px]">
               &quot;{t["section1Subtitle"]}&quot;
             </div>
-            <a href='/general_schedule.html' target="_blank">
+            <IntlLink href="/schedule">
               <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
-                General Schedule
+                {t["schedule"]}
               </div>
-            </a> &nbsp;
-
-            <a href='/workshop_schedule.html' target="_blank">
-              <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
-                Workshop Schedule
-              </div>
-            </a> &nbsp;
-
-            <a href='/academic_schedule.html' target="_blank">
-              <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
-                Academic Schedule
-              </div>
-            </a>
+            </IntlLink>
           </div>
         </div>
         <div
