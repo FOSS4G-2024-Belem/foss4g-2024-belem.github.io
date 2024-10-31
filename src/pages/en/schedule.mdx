@@ -1,6 +1,5 @@
 import MdxLayout from "@/components/MDXLayout";
 import WeekSchedule from "@/images/week-schedule.png";
-import ImportantDates from "@/images/important-dates.png";
 import Heading from "@/components/Heading";
 import Image from "next/image";
 import IntlLink from "@/components/IntlLink";
@@ -29,13 +28,6 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
 </div>
 
 <div className="text-3xl mt-4 mb-2 md:text-7xl text-center md:mt-8 md:mb-4 font-ubuntu"></div>
-
-<div className="w-[90%] mx-auto mt-10">
-
-## Important Dates
-
-<Image placeholder="blur" src={ImportantDates} />
-</div>
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>
