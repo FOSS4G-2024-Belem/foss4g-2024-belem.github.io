@@ -1,0 +1,21 @@
+import PretalxSchedule from "@/components/PretalxSchedule";
+import Heading from "@/components/Heading";
+
+export const metadata = {
+  title: "FOSS4G 2024 Programa Académico",
+  description: "Programa Académico para la Conferencia FOSS4G 2024 celebrada en Belém, Brasil, del 02 al 08 de diciembre de 2024",
+};
+
+<div className="px-4 6xl:px-8">
+  <Heading bubble>{metadata.title}</Heading>
+</div>
+
+<PretalxSchedule eventSlug="foss4g-2024-academic-track" locale="es" />
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata,
+    },
+  };
+}

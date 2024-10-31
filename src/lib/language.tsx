@@ -168,8 +168,8 @@ export const intlHrefs = {
   },
   "/workshop-schedule": {
     en: "/workshop-schedule",
-    es: "/programa-oficinas",
-    pt: "/programa-workshops",
+    es: "/programa-workshops",
+    pt: "/programa-oficinas",
   },
 };
 
