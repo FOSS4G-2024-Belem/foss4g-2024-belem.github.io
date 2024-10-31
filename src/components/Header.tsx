@@ -144,9 +144,27 @@ const menuItems = [
     "label:pt": "Programa",
     links: [
       {
-        "label:en": "Conference Schedule",
-        "label:es": "Programa",
-        "label:pt": "Programa",
+        "label:en": "General Schedule",
+        "label:es": "Programa General",
+        "label:pt": "Programa Geral",
+        href: "/general-schedule",
+      },
+      {
+        "label:en": "Academic Schedule",
+        "label:es": "Programa Académico",
+        "label:pt": "Programa Acadêmico",
+        href: "/academic-schedule",
+      },
+      {
+        "label:en": "Workshop Schedule",
+        "label:es": "Programa Workshops",
+        "label:pt": "Programa Oficinas",
+        href: "/workshop-schedule",
+      },
+      {
+        "label:en": "Schedule Overview",
+        "label:es": "Resumen del Programa",
+        "label:pt": "Visão Geral da Programa",
         href: "/schedule",
       },
       {
