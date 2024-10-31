@@ -1,7 +1,9 @@
 import MdxLayout from "@/components/MDXLayout";
 import WeekSchedule from "@/images/week-schedule-pt.png";
 import ImportantDates from "@/images/important-dates-pt.png";
+import Heading from "@/components/Heading";
 import Image from "next/image";
+import IntlLink from "@/components/IntlLink";
 
 export const metadata = {
   title: "Programação",
@@ -9,11 +11,23 @@ export const metadata = {
   image: WeekSchedule
 };
 
-<div className="text-3xl mt-4 mb-2 md:text-7xl text-center md:mt-8 md:mb-4 font-ubuntu">02 a 08 de dezembro de 2024</div>
 
-<Image placeholder="blur" src={WeekSchedule} />
+export const Button = ({text, href}) => <IntlLink href={href}><button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-4xl font-ubuntu mx-1 md:mx-3 my-3">{text}</button></IntlLink>
 
-<div className="text-3xl mt-4 mb-2 md:text-7xl text-center md:mt-8 md:mb-4 font-ubuntu"></div>
+<div className="flex flex-col sm:flex-row items-center justify-center">
+  <div className="sm:w-1/2 my-4 text-center">
+    <div className="">
+      <Button text="Programa Geral" href="/general-schedule" />
+      <Button text="Programa Acadêmico" href="/academic-schedule" />
+      <Button text="Programa Oficinas" href="/workshop-schedule" />
+    </div>
+  </div>
+  <div className="sm:w-1/2">
+    <div className="text-xl mt-4 mb-2 md:text-4xl text-center font-ubuntu"><Heading bubble>02 a 08 de dezembro de 2024</Heading></div>
+
+    <Image placeholder="blur" src={WeekSchedule} />
+  </div>
+</div>
 
 <div className="w-[90%] mx-auto mt-10">
 
