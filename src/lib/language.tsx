@@ -156,6 +156,21 @@ export const intlHrefs = {
     es: "/keynotes",
     pt: "/keynotes",
   },
+  "/general-schedule": {
+    en: "/general-schedule",
+    es: "/programa-general",
+    pt: "/programa-geral",
+  },
+  "/academic-schedule": {
+    en: "/academic-schedule",
+    es: "/programa-academico",
+    pt: "/programa-academico",
+  },
+  "/workshop-schedule": {
+    en: "/workshop-schedule",
+    es: "/programa-oficinas",
+    pt: "/programa-workshops",
+  },
 };
 
 export const LanguageContext = createContext<{
