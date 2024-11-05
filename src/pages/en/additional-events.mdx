@@ -13,6 +13,7 @@ import CommunitySprint2 from "@/images/foss4g-2023/community-sprint2.jpg";
 import CommunitySprint3 from "@/images/foss4g-2023/community-sprint3.jpg";
 import SotmLogo from "@/images/logo/sotm-latam.png";
 import QgisLogo from "@/images/logo/qgis-latam.png";
+import IntlLink from "@/components/IntlLink";
 import Image from "next/image";
 
 export const metadata = {
@@ -177,6 +178,8 @@ export const metadata = {
   </div>
 </div>
 
+export const Button = ({text, href}) => <IntlLink href={href}><button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-2xl mx-2 my-2 font-ubuntu">{text}</button></IntlLink>
+
 <Heading bubble color="blue">
   State of the Map 2024 Latam
 </Heading>
@@ -198,10 +201,10 @@ export const metadata = {
 
     State of the Map is the most important annual event for the OpenStreetMap community and the perfect place to exchange ideas, get inspired, and contribute to the growth of one of the world's largest open map databases.
 
-    ##### More Information
-
-    For more information, check out the SOTM Latam website at:
-    * [https://2024.osmlatam.org/en/](https://2024.osmlatam.org/en/)
+    <div className="my-2 text-center sm:text-left -m-2">
+      <Button text="SOTM Latam 2024 Official Page" href="https://2024.osmlatam.org/en/" />
+      <Button text="SOTM Latam 2024 Registration" href="https://doity.com.br/sotm-latam-2024/inscricao" />
+    </div>
 
 
   </div>
@@ -228,8 +231,10 @@ export const metadata = {
 
     This gathering invites participants to build an inclusive, collaborative community that redefines the future of GIS in the region, fostering innovation, equity, and autonomy in Latin American geospatial development.
 
-    For more information, visit the website:
-    * [https://qgisbrasil.org/qgis-latam-2024/](https://qgisbrasil.org/qgis-latam-2024/)
+    <div className="my-2 -m-2">
+      <Button text="QGIS Latam 2024 Official Page" href="https://qgisbrasil.org/qgis-latam-2024/" />
+      <Button text="QGIS Latam 2024 Registration" href="https://doity.com.br/2-encontro-de-usuarios-qgis-latam" />
+    </div>
   </div>
 </div>
 
