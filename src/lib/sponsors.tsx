@@ -24,6 +24,7 @@ import ReEarthLogo from "@/images/logo/Re_Earth.png";
 import MapBiomasLogo from "@/images/logo/mapbiomas.png";
 import TethysLogo from "@/images/logo/tethys.png";
 import TIBLogo from "@/images/logo/tib.png";
+import ClickGeoLogo from "@/images/logo/clickgeo.png";
 
 export const sponsors = {
   osgeo: {
@@ -232,7 +233,7 @@ export const sponsors = {
         management, transformation, distribution and visualizer of GIS data.
         <br />
         <a href="https://renewal2025.reearth.io/" target="_blank">
-        https://renewal2025.reearth.io/
+          https://renewal2025.reearth.io/
         </a>
       </div>
     ),
@@ -240,7 +241,7 @@ export const sponsors = {
   tib: {
     logo: TIBLogo,
     website: "https://av.tib.eu/",
-    statement: null
+    statement: null,
   },
   ifpa: {
     logo: IfpaLogo,
@@ -273,5 +274,11 @@ export const sponsors = {
     website: "http://mapbiomas.org/",
     statement:
       "Mapbiomas reveals transformations in a territory through science, with precision, agility and quality and to make knowledge about land use accessible, in order to pursue conservation and sustainable management of the natural resources as a way to fight climate changes.",
+  },
+  clickgeo: {
+    logo: ClickGeoLogo,
+    website: "https://clickgeo.com.br/",
+    statement:
+      "ClickGeo, eleita a melhor instituição de ensino de Geotecnologias no Brasil.",
   },
 };
