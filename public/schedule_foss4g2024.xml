@@ -35,6 +35,7 @@
         <track name="Applications and solutions for the Amazon region" slug="123-applications-and-solutions-for-the-amazon-region" color="#423b3b" />
         
     </conference>
+
     <day index="4" date="2024-12-05" start="2024-12-05T04:00:00-03:00" end="2024-12-06T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="a82569be-7e10-5421-acc2-698c415d1173" id="3021">
@@ -2014,6 +2015,7 @@ This work received financial support from the State of São Paulo Research Found
         </room>
         
     </day>
+
     <day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="eb17ee7e-12c3-5fbe-989c-322d2d95d159" id="3023">
@@ -2647,7 +2649,8 @@ We will show that there is already a set of (FOSS) tools in place (e.g.: readers
         </room>
         
     </day>
-    <day index="5" date="2024-12-06" start="2024-12-06T04:00:00-03:00" end="2024-12-07T03:59:00-03:00">
+    
+	<day index="5" date="2024-12-06" start="2024-12-06T04:00:00-03:00" end="2024-12-07T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="54b549a8-fcd5-5862-9328-711b6f65e4d9" id="3022">
                 <room>Room Auditorio</room>
@@ -4363,8 +4366,8 @@ Currently, this presentation talks about pgRouting addressing one of the Sevente
     <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
         
     </day>
-    
-<day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
+
+    <day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
         <room name="Room I" guid="6b4b3afc-c024-5bd9-8540-27fe3d3b6b62">
             <event guid="b94b5c4c-66e9-5506-a379-3d0775e5a300" id="2910">
                 <room>Room I</room>
@@ -4392,7 +4395,7 @@ In 1992, the Brazilian Parliament enacted Law 4,829, creating subsidies for rura
 
 As a result of this accessible credit, I found that from 2013 to 2023,  almost BRL 9 Billion was loaned to properties with some deforestation in these three states (RO, PA, MT). Counting deforestation from August 2008 to July 2023, 37963 km² is the total amount of clearing in properties that received rural credit in those same three states, representing 39% of all deforestation for the period.</abstract>
                 <slug>foss4g-2024-academic-track-2910-the-relationship-between-rural-credit-and-deforestation</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4417,7 +4420,7 @@ As a result of this accessible credit, I found that from 2013 to 2023,  almost B
                 <duration>00:30</duration>
                 <abstract>The field of speleology is dependent upon the accurate mapping and analysis of data to gain an understanding of subterranean environments. Free and open-source software (FOSS) has facilitated advancements in spatial data management, offering robust tools for data collection, analysis, and fieldwork. Software solutions such as PostgreSQL with PostGIS, QGIS, GRASS, and QField facilitate efficient geospatial data management and data collection. The accurate location determination of caves is of paramount importance, given their significant ecological, historical, and cultural value. In Brazil, the implementation of rigorous environmental legislation has resulted in the establishment of a 250-meter buffer zone surrounding caves. This regulatory measure is designed to ensure the protection of these vulnerable ecosystems and to regulate activities within their vicinity. The radius may be modified based on the findings of environmental studies, thereby ensuring the preservation of caves while facilitating socio-economic development. This study presents EspeleoVale, a software as a service (SaaS) solution hosted on AWS. It employs open source scripting languages and frameworks, including AngularJS, PostgreSQL with PostGIS, and MapStore2 integrated with Geoserver, to effectively manage and visualize speleological data for a mining company in Brazil. By employing SQL queries and spatial functions, users can visualize cave locations and their restricted areas, thereby facilitating the assessment of project impacts on these geomorphological features. In this study, examples of visualization and spatial analysis are presented for five hypothetical caves and a hypothetical project, returning intersections, differences and merged areas, which are vital for the environmental protection of cavities and for knowing project restrictions. Thus, the integration of an RDBMS for spatial analysis and FOSS tools for data visualization fosters new developments and promotes more efficient speleology data management.</abstract>
                 <slug>foss4g-2024-academic-track-2854-from-cave-buffer-zones-to-protected-areas-speleology-data-management-with-free-and-open-source-software-foss-</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4464,7 +4467,7 @@ The processing of georeferenced data on a very high scale, using FOSSS GeoRondô
 
 Based on this, we are interested in presenting this new functionality to the national and international public present at FOSS4G, and who are looking for free solutions for different demands, in order to promote the dissemination and replication of the use of FOSSS GeoRondônia.</abstract>
                 <slug>foss4g-2024-academic-track-2680-free-and-open-source-software-solutions-in-the-georondnia-project-efficiency-in-georeferencing-of-rural-settlements-with-qgis-and-geoincra-plugin</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4489,7 +4492,7 @@ Based on this, we are interested in presenting this new functionality to the nat
                 <duration>00:30</duration>
                 <abstract>The Amazon faces significant logistical challenges due to its size and complex geographical features, such as the dense rainforest and vast hydrographic network. In Brazil, Amazonas stands out for its ecological diversity and difficulties of access, requiring innovative solutions for educational development. The Amazonas Education Media Centre (CEMEAM) uses In-Person Teaching with Technological Mediation (IPTTM) to overcome these obstacles, promoting digital inclusion and democratizing access to education. Implemented in 2007 by the Amazonas State Secretary of Education and School Sports (SEDUC-AM), it combines face-to-face classes with satellite videoconferences and other media, reaching more than 25,000 students in an area of 1,571,000 km². To help with spatial management, CEMEAM was presented with a proposal for a Geographic Information System in a web environment (WebGIS) using free software and plugins (QGIS and QGIS Cloud) as well as freely accessible products. The WebGIS enabled a variety of analyses and proved it could contribute to more efficient spatial management, adapted to regional specificities, such as the isolation of localities and the dependence of students on river transportation. Although it is not yet a formalized institutional tool, SIG Web demonstrates the potential of geotechnologies in educational management in the Amazon, serving as an important experiment to support CEMEAM in its needs.</abstract>
                 <slug>foss4g-2024-academic-track-2599-the-web-gis-as-an-auxiliary-management-tool-for-in-person-teaching-with-technological-mediation-in-the-amazon-rainforest-the-case-of-cemeam-amazonas-brazil-</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4533,7 +4536,7 @@ The analysis of how projects addressed training and education, including the pro
 
 Thus, we are building a comprehensive framework on the current state of the use of OpenStreetMap for training and intervention in favelas, identifying gaps, challenges, and opportunities for future research and projects.</abstract>
                 <slug>foss4g-2024-academic-track-2929-openstreetmap-in-the-training-of-local-actors-in-projects-aimed-at-community-based-interventions-in-favelas-a-systematic-review-supported-by-ai</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4562,7 +4565,7 @@ We will apply pre-processing techniques to the images to enhance the model’s a
 To map the urban area of Rio Paranaíba, an unmanned aerial vehicle (UAV) drone equipped with a high-resolution camera was used, capturing images with a 3.5 cm resolution. The UAV was operated autonomously, flying in parallel strips over the city. A 70% overlap between the images was used, resulting in the creation of an accurate orthomosaic of the region, favoring more accurate georeferencing of the trees. OpenStreetMap software was used to create the orthomosaic. GPS performed georeferencing during the flight. Street-level images were obtained with a camera that provides 360º coverage. For species classification, a training dataset was created from samples collected in the field, both aerial and ground-level. Various machine learning algorithms, such as Random Forest, Support Vector Machine (SVM), and Convolutional Neural Networks (CNN), were researched and evaluated for their accuracy in species classification.
 Tree identification through images of trunks and leaves presents significant challenges due to high intraclass variability and high interclass similarity. High intraclass variability refers to the substantial differences between images of trunks or leaves of the same tree species caused by lighting variations, capture angle, and tree condition. On the other hand, high interclass similarity refers to the very similar visual characteristics between different species, making it difficult to distinguish one from another based solely on appearance. Additionally, improper color balance adjustments by cameras can introduce unwanted shades, such as a greenish tint, further complicating accurate classification. These combined factors make using deep learning for tree classification a complex and challenging problem (Cotrim et al. 2019). This technique, which combines remote sensing with aerial and ground-level images and advanced machine learning techniques, is expected to present a significant advance in tree species classification. This approach allows for detailed analysis of trunk and leaf textures, potentially significantly improving species identification accuracy. Studies such as those by Kattenborn, Eichel and Fassnacht (2019) have demonstrated that CNN-based segmentation (U-net) can achieve an 84% accuracy in vegetation classification using high spatial resolution RGB images. The U-net is widely recognized for its effectiveness in image segmentation tasks, especially in high-precision and detail scenarios. Its architecture captures complex features, making it ideal for detecting and classifying specific elements in high-resolution images. Additionally, the U-net has shown consistent results in various remote sensing applications, making it a reliable choice for geospatial data analysis projects. Therefore, adopting the U-net in the project can ensure superior tree species identification and mapping performance. This work aligns closely with the themes addressed at the FOSS4G event, as it demonstrates the practical application of free and open-source software tools in an environmental monitoring context. QGIS, OpenDroneMap, and OpenStreetMap exemplify how open technologies can be integrated to solve complex georeferencing and species classification problems. Furthermore, the focus on urban areas and the combination of drone and street view data provides valuable insights for the geospatial community, showing the feasibility and benefits of free software for urban and environmental applications.</abstract>
                 <slug>foss4g-2024-academic-track-2902-georeferencing-of-urban-trees-using-drones-and-ground-level-imaging-and-classification-of-their-species-by-machine-learning</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4598,7 +4601,7 @@ In addition to the mapping, two activities were key to foster a feeling of owner
 The mapping process was completed by 2021, Erizo Juan Santamaría appeared on the digital maps. In OSM, the houses were included with their respective numbering according to the needs of the INVU, the streets and alleys with the names selected by the inhabitants, elements of public infrastructure, trees and the proper name of the neighborhood. The community was also represented on other commercial maps. Thanks to the dissemination of the short videos and press releases in the University's and national media, the mapping process of Erizo Juan Santamaría was known to the members of Municipal Council of Alajuela.  The Council dedicated an entire session to heard about the project and agreed to make official the names of the streets and alleys decided in the voting process by the neighbors. In addition, the Council managed to make official the names before the National Nomenclature Commission of the National Geographic Institute.
 The case of Erizo Juan Santamaría is a unique example in the country where, through participatory cartography, the production of free geospatial data is contributed to official cartography. The visibility of the neighborhood on digital maps makes it easier for the inhabitants to access services that were previously denied or restricted due to the insecurity that people offering the service felt about visiting the neighborhood, partly due to stigmatization and partly because the location led to an empty space on the digital map. Given the increasing use of digital maps to access services and make decisions, it is important to discuss the right of communities to appear on digital maps.</abstract>
                 <slug>foss4g-2024-academic-track-2771-study-case-of-erizo-juan-santamara-from-free-map-to-official-cartography</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4658,7 +4661,7 @@ Trust in Data: Participants review the data of their recorded dangerous takeover
 ## 4. Conclusion and Future Work
 This comprehensive evaluation aims to provide a thorough understanding of both the user experience and the technical performance of the system, ultimately guiding the data-driven foundation for improvements in urban mobility solutions. Insights gained from this work will inform future iterations of the project, ensuring the system collects high-quality data and meets the needs of cyclists, thereby effectively enhancing urban mobility and road safety not only for cyclists but for all users of the urban mobility system. Future works will include the development of an open source bike-related data analysis platform as a recommender system for bike infrastructure measures in cities.</abstract>
                 <slug>foss4g-2024-academic-track-2654-urban-cycling-intelligent-bicycle-sensors-for-road-safety-and-sustainability</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4751,7 +4754,7 @@ capabilities, expanding its application domains, and exploring
 new ways to integrate emerging technologies, continuing to drive
 innovation in this critical area.</abstract>
                 <slug>foss4g-2024-academic-track-2893-democratizing-ai-making-geotechnology-accessible-to-all</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4776,7 +4779,7 @@ innovation in this critical area.</abstract>
                 <duration>00:30</duration>
                 <abstract>Semantic interoperability is essential for integrating open geospatial collaborative and official data. While geosemantics has long been a topic of discussion, recent research has explored automated semantic integration without fully leveraging the capabilities of large language models (LLMs) in artificial intelligence. This study investigates using chatGPT-4 to semantically associate OpenStreetMap (OSM) tags with the Brazilian topographic mapping model, the Technical Specification for Structuring Vector Geospatial Data (ET-EDGV). Focusing on five classes within the buildings category, the study tested three data structuring methods: spreadsheets, OWL ontology, and XML. Results indicated that ontology and XML formats produced more accurate semantic associations than spreadsheets, with OWL yielding the most coherent results. These findings underscore the importance of properly structured data to capture hierarchical relationships between concepts better. The study also noted the need for precise and detailed queries, highlighting some limitations in chatGPT's ability to understand complex geospatial model inputs. Further research is recommended to enhance LLMs' potential in facilitating semantic interoperability and to explore the role of prompt engineering in optimizing these interactions.</abstract>
                 <slug>foss4g-2024-academic-track-2860-advancing-geospatial-data-integration-the-role-of-prompt-engineering-in-semantic-association-with-chatgpt</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4801,7 +4804,7 @@ innovation in this critical area.</abstract>
                 <duration>00:30</duration>
                 <abstract>Most historical sources, available in multiple formats (e.g., tabular and analog data), contain valuable geographic information. This data can be transformed to generate both quantitative and qualitative insights, enabling the creation of digital maps and unlocking significant potential for scientific analysis. However, the use of historical data presents several challenges: 1. Sources need to be digitized; 2. Collections are often spread across multiple archives; 3. Metadata is often unavailable; 4. Standardizing diverse sources and quantitatively reconstructing data from various periods is difficult; 5. The reliability of historical data can be uncertain; 6. There is limited spatial resolution; and 7. Inaccuracies and text legibility issues are common. These challenges underscore the need for novel methodologies aimed at enhancing the quality and quantity of such sources. This paper presents the findings of the exploratory project AgroecoDecipher (2022.09372.PTDC) dedicated to extracting a comprehensive database from historical textual records and analogue map files to trace agroecological patterns. Employing an exploratory methodology grounded in artificial intelligence (AI) and Geographic Information Systems (GIS), the projected solutions include the establish-ment of routines based on AI tools that combines GIS, machine learning (ML), and Large Language Models (LLMs). Approxi-mately 271 survey books from the 1950s were digitized at the municipal level, with a total sheet count exceeding 42,000. Addi-tionally, more than 100 analogue maps were digitized, processed, and vectorized, resulting in a detailed geodatabase map ar-chive. The results are promising and demonstrate that the integration of AI and geospatial tools has proven essential in trans-forming raw historical data.</abstract>
                 <slug>foss4g-2024-academic-track-2645-the-use-of-geoai-techniques-for-gathering-storing-and-analyzing-historical-agroecological-data</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4826,7 +4829,7 @@ innovation in this critical area.</abstract>
                 <duration>00:30</duration>
                 <abstract>Innovations, such as voice recognition and natural language processing (NLP), have significantly impacted various fields by enabling more natural interactions between humans and machines (Mahmoudi et al., 2023). In geoinformatics, these advances are crucial for visualising geospatial data, allowing the creation of interactive and dynamic maps (Craglia et al., 2012). Online mapping applications, like OpenStreetMap (OSM), have democratised spatial information by enabling public participation in its creation and maintenance (Haklay, 2010). Geolocation is essential in contemporary applications, such as navigation, emergency services, and location-based services. Google Colaboratory (or Colab) Notebook Environment stands out in promoting open science due to its accessibility, ease of use, and collaborative capabilities, and enabling the embodiment of the FAIR principles (Camara et al., 2021). This study aims to develop a voice interaction application in Google Colab Notebook Environment to answer the question: "Is it possible to develop a voice command application for geolocation and visualisation of geospatial data within the Google Colab environment?" The methodology includes FOSS libraries and tools such as geopy, speech_recognition, ffmpeg, librosa, and flask, subdivided into six stages: Audio Data Acquisition, Audio Processing, Speech Recognition, Geocoding, Visualization, and Interface Development. The complete code, under an open license, and how to reproduce this work are available on GitHub. Audio capture is performed using the Web Speech API in JavaScript (JS), which allows real-time voice recognition and integration with the MediaDevices API to access the user's microphone. This method provides an interface for high-quality audio recording, essential for speech recognition and geocoding accuracy. Audio processing involves converting the ".webm" format to ".wav" using ffmpeg, efficiently maintaining the original audio quality. The Librosa library loads the audio, adjusts the sampling rate, and extracts relevant features from the audio signal, such as spectrograms (Bisong, 2019). Speech recognition is performed with the SpeechRecognition library in Python, which provides an interface for various speech recognition services, including the Google Web Speech API. This choice is due to its high accuracy and support for multiple languages, ensuring the system's flexibility and accessibility to a diverse audience (Nassif et al., 2019). Geocoding transforms textual descriptions of locations into geographic coordinates, allowing the visual representation of these locations on an interactive map. The geopy library and the Nominatim service from OSM are used to convert addresses into latitude and longitude coordinates (Mooney &amp; Corcoran, 2012). For the visualisation of geocoded data, a web server was implemented using Flask, a microframework for Python that allows the creation of lightweight and efficient web applications. The user interface was developed with HTML, CSS, and JS, providing an intuitive and interactive experience. The results show that the user and machine interaction occurred satisfactorily. The first message displayed to the user instructs them to slowly state the name of the city, state, or country they wish to geolocate. The use of JS and the Web Speech API allowed the system to detect specific voice commands to start and stop recording, as indicated by the interface colors and states. This step is crucial for subsequent steps to ensure that the captured audio is clear and understandable. When the start command is recognised, the interface changes to indicate that the recording is in progress. The message "Command recognised: starting recording" confirms that the command was detected correctly. If the voice command is not recognised, the interface displays a message asking the user to repeat the command. After recording, the audio is saved in ".webm" format. If a previous audio file exists, it is automatically overwritten. This approach simplifies file management and avoids the accumulation of unnecessary data. Next, the audio is converted to ".wav" format using the ffmpeg library. Then, the audio is transcribed using the Web Speech API and the SpeechRecognition interface for the recognised language, along with the confirmation of the geocoded location and its respective latitude and longitude. The visual feedback proved essential for the user to confirm that the entered information was recognised, improving the system's usability. The displayed information includes city, region, country, latitude, and longitude. The interactive map allows the user to visualise and interact with the located area, altering the zoom level and receiving a voice message informing the map's current zoom level. This work presented the integration of tools that assist in advances in human-computer interaction in geoinformatics, offering an intuitive and accessible interface for users of different technical proficiency levels. The results confirm the feasibility of voice command geolocation in Google Colab, a platform that can be used for education, research, collaboration, and sharing in science, enabling this work's reproducibility. Future research can improve voice interaction features, explore geolocation methods such as bounding boxes, and reduce dependence on JS and Flask. Improving the requirements for peripheral devices could further increase the system's accuracy, accessibility and user experience. The importance of geospatial accessibility lies in enhancing service provision, urban planning, and social inclusion, facilitating mobility for people with disabilities, and improving urban infrastructure (Han et al., 2020).</abstract>
                 <slug>foss4g-2024-academic-track-2859-natural-language-processing-and-voice-recognition-for-geolocation-and-geospatial-visualization-in-notebook-environment</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4872,7 +4875,7 @@ Another outlet of the project is the “FieldMApp”, a mobile application desig
 
 Overall, the challenge of interoperating various data supplies, processing chains and custom-tailored interfaces – as typically encountered in interdisciplinary research projects – requires complex solutions, but can be achieved quite well by utilising a datacube approach with free and open source geo software building blocks. Our integrated system successfully demonstrates such a use case for the domain of remote sensing in agriculture.</abstract>
                 <slug>foss4g-2024-academic-track-2669-integrating-processing-and-presenting-big-geodata-with-earth-observation-datacubes-in-an-interdisciplinary-research-context</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4911,7 +4914,7 @@ Parameter selection was carried out iteratively in successive stages to improve 
 Additionally, significant time was observed in the densification process, which involves increasing the number of points in a 3D model to add more interest points for better image quality. Various techniques are used in this process, with interpolation being particularly noteworthy, as it uses the characteristics of nearby points to estimate geometry and generate additional points.
 Using minimal parameters, the model generation time was extended on this computer configuration, with high RAM usage. Significant storage was required, as the models increased in size at each processing stage, reaching approximately 20GB in the final stage. However, the results were satisfactory compared to the available paid software on the market. Therefore, the use of photogrammetry-generated models, combined with virtual reality to create realistic virtual environments, can be considered positive, with low cost and using free open-source software.</abstract>
                 <slug>foss4g-2024-academic-track-2903-photogrammetry-and-3d-modelling-applied-to-the-creation-of-virtual-reality-in-realistic-environments-analysis-of-free-software-for-image-processing</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4947,7 +4950,7 @@ The workflow results from experiments for the presented design mainly point out 
 Deep Pavements is an innovative and comprehensive toolset under continuous development with all modules maintained at Github, with the central module available at  &lt;https://github.com/kauevestena/deep_pavements_project&gt;. The framework enables creating pavement data that is seamlessly plugable into OSM.
  	As future challenges, we plan to filter lousy quality images that can happen on the primary data source (Ma et al., 2019) to detect other visually-identifiable pavement traits such as its decay, standardizing with OSM tags such as smoothness=*; to integrate photogrammetric tools for obtaining additional modeling of pavements, having as main interest in measuring pavement width, one of the most relevant info for accessibility assessment (Kim et al., 2011).</abstract>
                 <slug>foss4g-2024-academic-track-2703-deep-pavements-framework-combining-ai-tools-and-collaborative-terrestrial-imagery-for-pathway-mapping</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4972,7 +4975,7 @@ Deep Pavements is an innovative and comprehensive toolset under continuous devel
                 <duration>00:30</duration>
                 <abstract>With the advancement of technologies applied to Global Navigation Satellite Systems and the popularization of Remotely Piloted Aircraft, aerial photogrammetry has experienced significant advances, especially in geographic and environmental research. Drones equipped with high-resolution sensors have revolutionized data collection, essential for topographic mapping and vegetation analysis. However, many technologies for digital processing and spatial analysis of original images are proprietary and expensive, making access difficult for institutions and researchers, especially in Brazil. This scenario makes free and open-source software, such as WebODM, an important alternative to democratize access to high-quality tools. In view of this, this article analyzes the applicability of WebODM in academic works, through bibliometric analysis in scientific repositories. The search included variations in the software nomenclature and the data were analyzed quantitatively. The Elsevier and Scopus databases led with 59 and 39 publications, respectively, while the national Scielo Brasil database had only one article hosted. There has been a gradual increase in the number of publications involving WebODM since 2016, with a peak of 38 papers in 2023. In comparison, the term "Agisoft Metashape", a proprietary solution for digital aerial photogrammetric processing, returned 1,595 publications in the same search portals. As an initial contribution to the understanding of the state of the art, it was observed that the thematic axes involving remote sensing, photogrammetry, precision agriculture and agricultural management were those that concentrated the largest number of scientific productions on WebODM in the investigated period, exceeding 30 papers. It is concluded that WebODM has stood out as a relevant tool in scientific research, especially for the processing of images derived from drones. Future studies should qualitatively evaluate the results obtained with the use of WebODM in comparison with proprietary software.</abstract>
                 <slug>foss4g-2024-academic-track-2898-webodm-free-software-as-a-tool-for-digital-aerial-photogrammetric-processing-employability-in-scientific-productions</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -4986,6 +4989,94 @@ Deep Pavements is an innovative and comprehensive toolset under continuous devel
 
                 <url>https://talks.osgeo.org/foss4g-2024-academic-track/talk/WLKZ3Y/</url>
                 <feedback_url>https://talks.osgeo.org/foss4g-2024-academic-track/talk/WLKZ3Y/feedback/</feedback_url>
+            </event>
+            <event guid="35e62da9-5101-5442-8ddd-525991e3fb7c" id="2604">
+                <room>Room III</room>
+                <title>GeoAI in resource-constrained environments.</title>
+                <subtitle />
+                <type>Oral Presentation 2</type>
+                <date>2024-12-04T16:00:00-03:00</date>
+                <start>16:00</start>
+                <duration>00:30</duration>
+                <abstract>Advances in spatial and spectral resolution in private sector satellite imagery, together with geography aware algorithms, have created new venues for the use of Artificial Intelligence (AI) in geospatial applications, sometimes referred to as AI4Geo. However, these advancements are accompanied by significant costs in the procurement of data, computing resources, communication infrastructure and human expertise. We describe a case study in central Bali in which we developed multiple AI4Geo approaches to assist the WISNU foundation, a Non-Governmental Organization in Bali, Indonesia, in their ongoing efforts to manage community resources and to perform land mapping across small villages in Bali. 
+
+Concepts 
+The concept we explore here is multipath AI4Geo that seeks to find the “best” approach to AI4Geo for resource constrained environments. The assumption that larger models are always better does not hold where AI4Geo, trained on data from dominant western institutions, is applied in the majority world. Some of the most ambitious AI4Geo models are trained for land cover categories that are mostly of interest to the Northern Hemisphere. Given this imbalance, we ask how participants from low-resourced environments can best make use of AI4Geo.
+
+Methodology
+Based on field data from a study site in Bali, Indonesia, we have developed multiple open source AI4Geo land cover approaches to find the best way to represent agroforestry, a key indicator of sustainable and robust food production. We compare the image segmentation results from small models such as Random Forests (RF) and Support Vector Machines (SVM)  with large models such as U-Net  and ResNet152 not only along established model performance metrics such as f-score, but also in terms of their suitability for use in low-resource conditions. This generally includes limited ability to collect large data sets, limited computational infrastructure, limited AI expertise and limited internet connectivity. We then describe a mixed-method multi-pathway approach to produce good AI4Geo results while building capacity for the NGO to continue the integration of  AI4Geo into its operations while planning for an even more challenging AI4Geo future dominated by large homogenizing AI models. 
+
+Here are links to code experiments and instructions on generating the required input data for the U-Net model from geospatial shapefiles.
+
+Small models (RF, SVM based on the Orfeo library)
+https://github.com/realtechsupport/cocktail/tree/main/code 
+
+Large models (Custom designed U-Net and SATLAS based ResNet models)
+https://github.com/realtechsupport/cocktail/blob/main/sandbox/satlas/inference.ipynb 
+https://github.com/realtechsupport/cocktail/blob/main/sandbox/working_model/working_model_inference.ipynb 
+
+Results
+While RF, SVM and U-Net approaches were all able to detect agroforestry in 8-band, 3-meter spatial resolution datasets provided by Planet Labs, we found that the SVM algorithm was most responsive to the limitations of our dataset while producing useful results that we could verify in the field. SVM was furthermore painless to update with additional field data. Figure 1 summarizes the results from the image segmentation after model training.
+
+While U-Net’s f1 accuracy for agroforestry exceeds that of RF and SVM, it is likely an overestimate of the actual extent of agroforestry. We believe this to be the case because the U-Net architecture ingested patches of 16 x 16 pixels, and these dimensions exceed the size of  the smaller agroforestry plots detected in the field. The choice of the input patches was in turn a function of the dimensions of the U-Net architecture selected for its ability to minimize loss during training across all land cover categories. 
+
+As opposed to the three other models listed above, the large ResNet152 model was not trained on data Planet Lab satellite imagery but on Sentinel-2 imagery. Because Sentinel-2 only has a maximum spatial resolution of 10m/pixel it is not able to distinguish small scale landscape features, agroforestry that typically utilizes small plots in random arrangements. While the ResNet algorithm was trained on the largest dataset, with over 300 distinct labels across 137 classes represented across 64 million images, the class labels are not tuned to the spectral signatures of agroforestry and deliver only crude results in our selected study area, as Figure 2 shows. Moreover, The ResNet152 model that supports multi spectral Sentinel-2 input has over 80 million trainable parameters, exceeding our bespoke U-Net model by more than an order of magnitude, thus making its  use more costly.
+
+While we have not fine-tuned the Resnet152 model with our own highest resolution Planet Lab data due to spatial resolution mismatches, it seems clear that the effort would exceed the capacities of our partner organization WISNU. Our dilemma is that the most promising large models are unwieldy and not adapted to our land cover conditions while the smaller models we have end to end control over can be tuned with smaller dataset but run the risk of becoming obsolete in the AI arms race over time, where larger and more powerful models become standard-bearers. While the agroforestry specific results we observe are characteristic of our study area and the constraints our project operates under, the homogenizing forces of large models pose a condition all AI4Geo operations are faced with. For that reason, the territory of this project is significant beyond the immediate results we produce.
+
+Our solution to this dilemma is two-fold. We deploy multi-pathway AI4Geo across various technical complexity levels while retaining agency for local stakeholders. The Wisnu foundation does preliminary studies of Sentinel-2 satellite imagery through the QGIS environment to survey sites and build simple datasets. They then use QGIS integrated small model approaches such as Random Forests to build baseline segmentation maps of a given area. The research team will then collect Planet Labs based higher resolution data and use the cocktail suite of models, including U-Net, to deepen the study results. Parallel to this approach, we together use the SATLAS ResNet models to find synergies in those results. Across the approaches, we build land cover analysis results that optimize limited resources while producing solid analytical results.</abstract>
+                <slug>foss4g-2024-academic-track-2604-geoai-in-resource-constrained-environments-</slug>
+                <track>Academic Track</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024-academic-track/talk/NKNMCD/</url>
+                <feedback_url>https://talks.osgeo.org/foss4g-2024-academic-track/talk/NKNMCD/feedback/</feedback_url>
+            </event>
+            
+        </room>
+        <room name="Room IV" guid="78636bec-7de8-5d5c-bd16-e75b6b3fd87a">
+            <event guid="192dd0ad-2187-53af-9163-cdd01bf3b6db" id="2632">
+                <room>Room IV</room>
+                <title>Bridging the Gap: GPSSample – An Innovative Tool for Enumeration and Sampling in Health Surveys</title>
+                <subtitle />
+                <type>Oral Presentation 3</type>
+                <date>2024-12-04T16:30:00-03:00</date>
+                <start>16:30</start>
+                <duration>00:30</duration>
+                <abstract>Abstract: 
+Global Gap: Updated population estimates and total households (HHs) per area, typically obtained through a census, are used to construct unbiased sampling frames necessary for accurate estimates in health surveys. These population and HH estimates are used to select a smaller representative sample of enumeration areas (EAs) to visit for a public health study. Several methods exist to select which HHs to visit at the EA level including systematic sampling (every nth HH), geographically sampling structures using satellite imagery, segmenting an area, and mapping and listing all HHs in the selected EA.  Accurate estimates are essential for public health programming and response; however, forty-two countries have not conducted a census for over a decade (United Nations Statistics Division 2024). Instead, programs often generate an accurate sampling frame by enumerating HHs within selected EAs obtaining answers to eligibility criteria, drawing a sample from this enumerated list, and navigating back to selected HHs. This requires considerable resources. To date, no free mobile-based application exists to streamline these processes.
+Solution: The GPSSample application is a user-friendly sampling solution to select HHs within EAs. The study administrator makes a configuration in GPSSample creating the eligibility screening questions and specifying the number or percent of HHs to return to in each EA. An example screening question for an immunization coverage survey question is: “Are there any children living in this HH between six and fifty-nine months old?”.  In GPSSample, teams can rapidly enumerate HHs in an EA and collect answers to these screening questions. Teams send encrypted data to a supervisor via new local-only mobile hotspot QR codes. Next, the supervisor presses a button, easily generating a simple random sample from the sampling frame of enumerated HHs. The selected HH list is sent to teams. Using GPSSample, teams navigate back to selected HHs to conduct surveys. GPSSample integrates seamlessly with survey applications, including ODK Collect and Kobo Toolbox, opening the second app’s designated form.  Users send unique HH ids and cluster data from GPSSample to the specified HH survey form. Upon saving the HH survey, teams are returned to the GPSSample app to mark the status of the HH.  Teams use a map and a list view of selected HHs for monitoring field work. Supervisors can view EA and study level summary statistics in GPSSample to monitor field work.
+Furthermore, the GPSSample app can be used in surveys lacking any advanced information on population or areas of concern. It is not necessary for a country to have conducted a census. Supervisors can draw an area within GPSSample onsite, segment the area, and assign to field teams to rapidly enumerate locations before sampling them for the assessment or survey. This novel capacity in GPSSample highlights the flexibility and potential for use in outbreak investigations and emergency responses where HHs may be damaged or destroyed. Additionally, food outbreak investigations conducted at market stalls or stores may not be collated in a central list. While designed in the public health context, GPSSample is useful for other disciplines. 
+
+GPSSample is a free Android 8+ application available in six languages: English, French, Spanish, Portuguese, Russian, and Bahasa. It is designed for field practitioners with limited mobile networks or Wi-Fi. The app was developed using the Kotlin open-source language and it uses the open-source SQLite database. User guides, GPSSample Decoder application decrypting data, demonstration videos, and Quarto analyses are available through the GPSSample GitHub site.
+Use Cases and Road Map: Development lessons learned will be presented from two public health GPSSample application pilots in India and Kenya. We aim to engage the FOSS4G development community to enhance GPSSample’s geospatial functionalities and learn best practices on maintaining and updating open-source code.  GPSSample currently uses Mapbox. Ideally in a future version, users will also be able to select OpenStreetMap for the base map and the app will include navigation using offline turn-by-turn instructions. 
+
+References
+United Nations Statistics Division, 2024: 2020 World Population and Housing Census Programme. Available at: https://unstats.un.org/unsd/demographic-social/census/censusdates/. Accessed 6/24/2024, 2024.</abstract>
+                <slug>foss4g-2024-academic-track-2632-bridging-the-gap-gpssample-an-innovative-tool-for-enumeration-and-sampling-in-health-surveys</slug>
+                <track>Academic Track</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024-academic-track/talk/38D7T8/</url>
+                <feedback_url>https://talks.osgeo.org/foss4g-2024-academic-track/talk/38D7T8/feedback/</feedback_url>
             </event>
             
         </room>
@@ -5007,7 +5098,7 @@ The eMOTIONAL Cities SDI demonstrates that it is now possible to share geospatia
 The SDI is live at: http://emotional.byteroad.net/ and it includes 97 datasets from five different cities (e.g.: Lisbon, London, Copenhagen, Tartu and Lansing). It has collections that characterize the physical environment (e.g.: Normalized difference vegetation index (NDVI), Annual mean NO2 concentration), the built environment (e.g.: Buildings with repair needs ratio, Average age of buildings) socio-economic aspects (e.g.: Area Deprivation Index, Number of People Travel by Bicycle to Work) and health data (e.g.: Crude percent of adults with depression, Mortality rate), as well as results of experiments (e.g.: London outdoor walk test data: Air Quality Temperature, London outdoor walk test data: Sound Pressure levels). The data can be discovered and queried in the OGC API - Records searchable catalog: https://emotional.byteroad.net/catalogue
 In this article we would like to share our journey during the process of implementing the SDI, and how we navigated the technological and human challenges of adopting emerging technologies in constant development. We hope the results of this project can encourage scientists, urban planners and other experts who deal with geospatial data in some way, to embark on a similar journey and contribute towards making geospatial information FAIR; e.g.: Findable, Accessible, Interoperable and Reusable. At the same time, we hope to promote a family of GIS standards (e.g.: OGC API) that seeks to mitigate the learning curve that has always characterized them.</abstract>
                 <slug>foss4g-2024-academic-track-2650-a-spatial-data-infrastructure-using-modern-standards-lessons-learned-from-the-emotional-cities-project</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -5032,7 +5123,7 @@ In this article we would like to share our journey during the process of impleme
                 <duration>00:30</duration>
                 <abstract>OGC Standards and OSGeo Projects have been widely applied to different kinds of geospatial data and extended for the implementation of geospatial data science environments. However, there’s no review comprehensively summarising and discussing the progress of these open source technologies for publishing geospatial databases on the Web. The proposed Systematic Technology Review is a stylized version of the Systematic Literature Review, covering the documentation of OGC Standards and OSGeo Projects. The search strategy consisted of screening OGC and OSGeo websites for the latest version of OGC Standards' implementation (or community) specification and OSGeo Projects' developers manual. This review considered the technologies published until June 2024. A total of 80 OGC Standards and 52 OSGeo Projects were identified. To recognize the main topics of each technology in detail, the documentation was analysed by Latent Dirichlet Allocation - LDA using the Scikit-learn package in Python. Grid-search was used to find the optimal hyperparameters for the number of components and the decay of the learning rate. With the maximum number of iterations set to 100, the best model was obtained with 8 components and 0.1 learning decay. Then, the most probable topic was predicted for each documentation. The network of similarities arising from LDA was exported to Gephi for visualisation, where ForceAtlas2 layout algorithm was used to create a weighted undirected graph, keeping only edges with weight greater than 0.33. The latest developments in terms of the OGC Standards for data encoding took place in the GeoPackage standard. For accessing, processing or visualising data, the trend was the development of OGC API related standards. However, GML is the most implemented OGC Standard for data encoding in OSGeo Projects, along with Web Services like WMS, WFS, WCS and WPS for accessing, processing and visualising the data. Community Standards represented less than 10% of the OGC Standards, while Community Projects represented more than 50% of the OSGeo Projects. The adoption of these technologies were evaluated based on the number of Github forks and stars, as well as Docker pulls. With more than 100 million pulls, PostGIS is the most downloaded OSGeo Project, followed by GeoNetwork and Open Data Cube, with more than 5 million pulls each. But many of the analysed technologies lacked an official Docker image. In terms of Github forks and stars, the most shared and favoured OSGeo project is OpenLayers, followed by QGIS and GDAL. The Latent Dirichlet Allocation analyses found eight topics underlying the OGC Standards and OSGeo Projects. The keywords of the top four topics were conformance, layer, tile and response. Based on the analysis of the Implementation Standard and Community Standard documentations, the most similar OGC Standards were OGC API - Tiles and Two Dimensional Tile Matrix Set. On the other hand, based on the analysis of developer manuals, the most similar OSGeo Projects were GDAL and MDAL. The strongest relationship of an OGC Standard and an OSGeo Project occurred between WPS and ZOO-project, followed by WPS and PyWPS. Overall, the OSGeo Project most closely related to the entire set of OGC Standards was rasdaman, followed by MapServer and deegree. Notably, a large group of standards and projects showed scarce connections, mainly those that are domain specific, like PubSub, LAS and PipelineML among the OGC Standards and like Giswater and MobilityDB among the OSGeo Community Projects, or those that are the basis of the other technologies, like Simple Features, WKT and Coordinate Transformation standards and like PROJ and PostGIS projects. The presented Systematic Technology Review can promote the evolution of the current OGC Standards and OSGeo Projects, as well as the development of new technologies. It can also support developers of new solutions in the geospatial community. Specifically, this review is the basis for the proposal of a new library for the integrated access of INPE’s environmental databases. An important limitation of this systematic review is that it was not possible to find any PDF documentation for almost 20% of the existing technologies, which were excluded from the analysis.</abstract>
                 <slug>foss4g-2024-academic-track-2603-systematic-technology-review-of-ogc-standards-and-osgeo-projects</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -5065,7 +5156,7 @@ As of June 2024, SIMMAM has 423 active users and holds 75,340 aquatic mammal rec
 The option to allow government agencies to use the whole dataset is extremely important for management purposes, as it enables environmental agencies to use even unpublished data generated by research institutions. But as the data is not available for the general public, it does not compromise their future use in academic publications. Also, a limited visualization of private data in the WebGIS, where details of the record such as species and date are not shown, serves as an indication for other researchers that a specific institution has data on marine mammals in a specific area, fostering collaborations among institutions.
 We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIMMAM with the geospatial community and receive input to further improve the system. It shows a successful implementation of open geospatial technologies that is being used both by government and the academic community.</abstract>
                 <slug>foss4g-2024-academic-track-2886-simmam-3-0-updating-the-toolbox-for-the-conservation-of-marine-mammals</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -5117,7 +5208,7 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
 - Iris Rosa, Instituto Fogo Cruzado, Rio de Janeiro, Brazil
 - Davi Santos, Instituto Fogo Cruzado, Rio de Janeiro, Brazil</abstract>
                 <slug>foss4g-2024-academic-track-3054-poster-session-i</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -5161,7 +5252,7 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
 - Ananda Kellen Silva Rocha, Federal University of Acre, Cruzeiro do Sul, AC, Brazil
 - Anelena Lima de Carvalho, Professor, Federal University of Acre, Cruzeiro do Sul, AC, Brazil</abstract>
                 <slug>foss4g-2024-academic-track-3055-poster-session-ii</slug>
-                <track />
+                <track>Academic Track</track>
                 
                     
                 <language>en</language>
@@ -6470,5 +6561,5 @@ This session will be a practical, hands-on workshop including an outdoor flying 
         </room>
         
     </day>
-    
 </schedule>
+    
