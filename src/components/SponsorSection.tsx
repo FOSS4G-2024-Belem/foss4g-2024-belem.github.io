@@ -17,7 +17,7 @@ export default function SponsorsSection() {
       <SponsorGrid level={1} sponsorNames={[null, null]} />*/}
 
       <ArrowHeading>Gold Sponsors</ArrowHeading>
-      <SponsorGrid level={2} sponsorNames={["kan"]} />
+      <SponsorGrid level={2} sponsorNames={["kan", "geocat"]} />
 
       <ArrowHeading>Silver Sponsors</ArrowHeading>
       <SponsorGrid level={3} sponsorNames={["google", "sccon", "quarticle", "tethys"]} />

@@ -25,6 +25,7 @@ import MapBiomasLogo from "@/images/logo/mapbiomas.png";
 import TethysLogo from "@/images/logo/tethys.png";
 import TIBLogo from "@/images/logo/tib.png";
 import ClickGeoLogo from "@/images/logo/clickgeo.png";
+import GeoCatLogo from "@/images/logo/geocat.png";
 
 export const sponsors = {
   osgeo: {
@@ -281,4 +282,9 @@ export const sponsors = {
     statement:
       "ClickGeo, eleita a melhor instituição de ensino de Geotecnologias no Brasil.",
   },
+  geocat: {
+    logo: GeoCatLogo,
+    website: "https://www.geocat.net/",
+    statement: "GeoCat supports governments worldwide with Enterprise quality solutions that are sustainably developed, maintained and funded. Let's map the world, together."
+  }
 };
