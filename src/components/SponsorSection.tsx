@@ -17,7 +17,7 @@ export default function SponsorsSection() {
       <SponsorGrid level={1} sponsorNames={[null, null]} />*/}
 
       <ArrowHeading>Gold Sponsors</ArrowHeading>
-      <SponsorGrid level={2} sponsorNames={["kan", "geocat"]} />
+      <SponsorGrid level={2} sponsorNames={["geocat"]} />
 
       <ArrowHeading>Silver Sponsors</ArrowHeading>
       <SponsorGrid level={3} sponsorNames={["google", "sccon", "quarticle", "tethys"]} />
@@ -32,7 +32,7 @@ export default function SponsorsSection() {
       <SponsorGrid level={-1} sponsorNames={["geochicas", "meninasdageo", "qgisbrasil", "qgisargentina"]} />*/}
 
       <ArrowHeading>Media Partners</ArrowHeading>
-      <SponsorGrid level={0} sponsorNames={["zenodo", "ufra", "tib"]} />
+      <SponsorGrid level={-2} sponsorNames={["zenodo", "ufra", "tib"]} />
     </div>
   );
 }

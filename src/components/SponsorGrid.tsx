@@ -5,7 +5,7 @@ export default function SponsorGrid({
   level,
   sponsorNames,
 }: {
-  level: 0 | 1 | 2 | 3 | 4;
+  level: -2 | -1 | 0 | 1 | 2 | 3 | 4;
   sponsorNames: Array<keyof typeof sponsors | null>;
 }) {
   const levelMap = {
