@@ -9,6 +9,11 @@ export default function SponsorGrid({
   sponsorNames: Array<keyof typeof sponsors | null>;
 }) {
   const levelMap = {
+    [-2]: {
+      gap: "gap-3 sm:gap-8",
+      maxW: "max-w-32 6xl:max-w-36 max-h-12 6xl:max-h-16",
+      text: "p-3 6xl:p-5 text-2xl 6xl:text-4xl leading-5",
+    },
     [-1]: {
       gap: "gap-3 sm:gap-8",
       maxW: "max-w-40 6xl:max-w-40 max-h-16 6xl:max-h-20",
