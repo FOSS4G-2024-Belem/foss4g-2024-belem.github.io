@@ -61,183 +61,83 @@ export const sponsors = {
   google: {
     logo: GoogleLogo,
     website: "https://opensource.google/",
-    statement: (
-      <div>
-        Google believes that open source is good for everyone. By being open and
-        freely available, it enables and encourages collaboration and the
-        development of technology. <br />
-        <a href="https://opensource.google/" target="_blank">
-          https://opensource.google/
-        </a>
-      </div>
-    ),
+    statement:
+      "Google believes that open source is good for everyone. By being open and freely available, it enables and encourages collaboration and the development of technology.",
   },
   sourcepole: {
     logo: SourcepoleLogo,
     website: "https://qgiscloud.com/",
-    statement: (
-      <div>
-        Advanced online GIS mapping with QGIS Cloud and QGIS Desktop <br />
+    statement: `Advanced online GIS mapping with QGIS Cloud and QGIS Desktop <br />
         QGIS Cloud is your personal spatial data infrastructure (SDI) on the
         internet. Publish your QGIS projects as maps and data. Share spatial
         data with others. And all this very easily, without server,
         infrastructure or expert knowledge. If you know QGIS Desktop, then you
         know QGIS Cloud. Simply install the QGIS Cloud plugin from the official
-        QGIS plugin repository and you are ready to go.
-        <br />
-        <a href="https://qgiscloud.com/" target="_blank">
-          https://qgiscloud.com/
-        </a>
-      </div>
-    ),
+        QGIS plugin repository and you are ready to go.`,
   },
   devseed: {
     logo: DevSeedLogo,
     website: "https://developmentseed.org/",
-    statement: (
-      <div>
-        At Development Seed, we are leveraging massive earth data, cloud
+    statement: `At Development Seed, we are leveraging massive earth data, cloud
         computing, geospatial AI, and thoughtful product development to make
         earth data more accessible to everyone by providing a clearer view of
-        rapidly changing planet.
-        <br />
-        <a href="https://developmentseed.org/" target="_blank">
-          https://developmentseed.org/
-        </a>
-      </div>
-    ),
+        rapidly changing planet.`,
   },
   geoone: {
     logo: GeoOneLogo,
     website: "https://geoone.com.br/",
-    statement: (
-      <div>
-        GeoOne develops and disseminates open-source software solutions for
+    statement: `GeoOne develops and disseminates open-source software solutions for
         engineering and land regularization, empowering professionals in
-        geoprocessing and GIS.
-        <br />
-        <a href="https://geoone.com.br/" target="_blank">
-          https://geoone.com.br/
-        </a>
-      </div>
-    ),
+        geoprocessing and GIS.`,
   },
   sccon: {
     logo: scconLogo,
     website: "https://www.sccon.com.br/",
-    statement: (
-      <div>
-        O poder de ver e medir as mudanças.
-        <br />
-        <a href="https://www.sccon.com.br/" target="_blank">
-          https://www.sccon.com.br/
-        </a>
-      </div>
-    ),
+    statement: `O poder de ver e medir as mudanças.`,
   },
   kan: {
     logo: KanLogo,
     website: "https://kan.com.ar/",
-    statement: (
-      <div>
-        At KAN we develop solutions based on the technological process of data
-        to extract real knowledge of the environment and your business.
-        <br />
-        <a href="https://kan.com.ar/" target="_blank">
-          https://kan.com.ar/
-        </a>
-      </div>
-    ),
+    statement: `At KAN we develop solutions based on the technological process of data
+        to extract real knowledge of the environment and your business.`,
   },
   tomtom: {
     logo: TomTomLogo,
     website: "https://www.tomtom.com/",
-    statement: (
-      <div>
-        Maps and location technology to keep the world moving.
-        <br />
-        <a href="https://www.tomtom.com/ " target="_blank">
-          https://www.tomtom.com/
-        </a>
-      </div>
-    ),
+    statement: `Maps and location technology to keep the world moving.`,
   },
   quarticle: {
     logo: QuarticleLogo,
     website: "https://quarticle.ro/",
-    statement: (
-      <div>
-        Quarticle is an innovative GIS solution provider created to help
+    statement: `Quarticle is an innovative GIS solution provider created to help
         organizations harness the power of geospatial information. We transform
         complex data into versatile user-friendly visualization and analysis
-        solutions.
-        <br />
-        <a href="https://quarticle.ro/" target="_blank">
-          https://quarticle.ro/
-        </a>
-      </div>
-    ),
+        solutions.`,
   },
   arkedgespace: {
     logo: ArkEdgeSpaceLogo,
     website: "https://production.d35ckxbzpc1jtm.amplifyapp.com/en",
-    statement: (
-      <div>
-        ArkEdgeSpace provides satellite business opportunities for all.
-        <br />
-        <a
-          href="https://production.d35ckxbzpc1jtm.amplifyapp.com/en"
-          target="_blank"
-        >
-          https://production.d35ckxbzpc1jtm.amplifyapp.com/en
-        </a>
-      </div>
-    ),
+    statement: `ArkEdgeSpace provides satellite business opportunities for all.`,
   },
   merginmaps: {
     logo: MerginMapsLogo,
     website: " https://merginmaps.com",
-    statement: (
-      <div>
-        Mergin Maps is a field data collection tool built on the free and
+    statement: `Mergin Maps is a field data collection tool built on the free and
         open-source QGIS which allows you to collect, store and synchronise your
-        field data with your team.
-        <br />
-        <a href="https://merginmaps.com" target="_blank">
-          {" "}
-          https://merginmaps.com
-        </a>
-      </div>
-    ),
+        field data with your team.`,
   },
   opengis_ch: {
     logo: OpenGIS_ch,
     website: "https://www.opengis.ch/ ",
-    statement: (
-      <div>
-        The most powerful and efficient way to manage your data on-the-go.
-        <br />
-        <a href="https://www.opengis.ch/" target="_blank">
-          https://www.opengis.ch/
-        </a>
-      </div>
-    ),
+    statement: `The most powerful and efficient way to manage your data on-the-go.`,
   },
   re_earth: {
     logo: ReEarthLogo,
     website: "https://renewal2025.reearth.io/",
-    statement: (
-      <div>
-        Re:Earth is a comprehensive suite of services developed by Eukarya
+    statement: `Re:Earth is a comprehensive suite of services developed by Eukarya
         designed to handle all aspects of GIS data management on the web. This
         versatile platform enables the collection, creation, storage,
-        management, transformation, distribution and visualizer of GIS data.
-        <br />
-        <a href="https://renewal2025.reearth.io/" target="_blank">
-          https://renewal2025.reearth.io/
-        </a>
-      </div>
-    ),
+        management, transformation, distribution and visualizer of GIS data.`,
   },
   tib: {
     logo: TIBLogo,
@@ -268,7 +168,7 @@ export const sponsors = {
     logo: TethysLogo,
     website: "https://tethysgeoscience.org/",
     statement:
-      "Tethys Geoscience Foundation is a non-profit organization that supports the development of innovative tools that lead to informed decision-making in response to natural disasters, contribute to the creation of sustainable environmental policies, and provide improved management of Earth’s resources.",
+      "Tethys Geoscience Foundation is a non-profit organization that supports the development of innovative tools that lead to informed decision-making in response to natural disasters, contribute to the creation of sustainable environmental policies, and provide improved management of Earth's resources.",
   },
   mapbiomas: {
     logo: MapBiomasLogo,
@@ -285,6 +185,7 @@ export const sponsors = {
   geocat: {
     logo: GeoCatLogo,
     website: "https://www.geocat.net/",
-    statement: "GeoCat supports governments worldwide with Enterprise quality solutions that are sustainably developed, maintained and funded. Let's map the world, together."
-  }
+    statement:
+      "GeoCat supports governments worldwide with Enterprise quality solutions that are sustainably developed, maintained and funded. Let's map the world, together.",
+  },
 };
