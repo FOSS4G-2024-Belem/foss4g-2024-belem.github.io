@@ -93,6 +93,15 @@ export default function SponsorGrid({
                         {sponsors[sponsorName]["statement"] && (
                           <div className="">
                             {sponsors[sponsorName]["statement"]}
+                            <br />
+                            <a
+                              href={
+                                sponsors[sponsorName]["website"] ?? undefined
+                              }
+                              target="_blank"
+                            >
+                              {sponsors[sponsorName]["website"] ?? undefined}
+                            </a>
                           </div>
                         )}
                       </div>
