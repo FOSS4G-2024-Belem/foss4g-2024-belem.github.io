@@ -162,6 +162,12 @@ const menuItems = [
         href: "/workshop-schedule",
       },
       {
+        "label:en": "Schedule App",
+        "label:es": "App de Programa",
+        "label:pt": "App de Programa",
+        href: "/schedule",
+      },
+      {
         "label:en": "Schedule Overview",
         "label:es": "Resumen del Programa",
         "label:pt": "Visão Geral da Programa",

@@ -1,0 +1,45 @@
+import MdxLayout from "@/components/MDXLayout";
+import WeekSchedule from "@/images/week-schedule.png";
+import Heading from "@/components/Heading";
+import Image from "next/image";
+import IntlLink from "@/components/IntlLink";
+import AppMockupImage from "@/images/app-mockup.png";
+
+export const metadata = {
+  title: "Horario",
+  description: "Resumen del horario para la Conferencia FOSS4G 2024 que se celebrará en Belém, Brasil, del 02 al 08 de diciembre de 2024",
+  image: WeekSchedule
+};
+
+export const Button = ({text, href}) => <IntlLink href={href}><button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-4xl font-ubuntu mx-1 md:mx-3 my-3">{text}</button></IntlLink>
+
+<div className="flex flex-col sm:flex-row items-center justify-center">
+  <div className=" my-4 w-1/2">
+    <Image src={AppMockupImage} />
+    <div className="break-words">
+
+      Hemos publicado una aplicación para tabletas y móviles para Android, que puedes encontrar en el siguiente enlace:
+
+      <div className="text-center"><Button text="Programa FOSS4G en F-Droid" href="https://f-droid.org/packages/app.smarzaro.foss4g2024.schedule/" /></div>
+
+      Para descargar, haz clic en el siguiente enlace, desplázate hasta la parte inferior de la página y selecciona "Descargar APK"
+
+      Esta aplicación contiene todo el horario y te permite configurar alarmas para tus charlas favoritas para que no te las pierdas.
+
+      Queremos agradecer a [Tobias Preuss](https://github.com/sponsors/johnjohndoe) por ser el creador de esta aplicación, y también a [Rodrigo Smarzaro](https://github.com/Smarzaro) por ser responsable de hacer disponible el Horario al público a través de la aplicación.
+
+    </div>
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}

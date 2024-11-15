@@ -171,6 +171,11 @@ export const intlHrefs = {
     es: "/programa-workshops",
     pt: "/programa-oficinas",
   },
+  "/schedule-app": {
+    en: "/schedule-app",
+    es: "/programa-app",
+    pt: "/programa-app"
+  }
 };
 
 export const LanguageContext = createContext<{

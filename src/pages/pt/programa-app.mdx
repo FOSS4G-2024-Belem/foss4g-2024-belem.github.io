@@ -1,0 +1,45 @@
+import MdxLayout from "@/components/MDXLayout";
+import WeekSchedule from "@/images/week-schedule.png";
+import Heading from "@/components/Heading";
+import Image from "next/image";
+import IntlLink from "@/components/IntlLink";
+import AppMockupImage from "@/images/app-mockup.png";
+
+export const metadata = {
+  title: "Agenda",
+  description: "Visão geral da agenda para a Conferência FOSS4G 2024, realizada em Belém, Brasil, de 02 a 08 de dezembro de 2024",
+  image: WeekSchedule
+};
+
+export const Button = ({text, href}) => <IntlLink href={href}><button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-4xl font-ubuntu mx-1 md:mx-3 my-3">{text}</button></IntlLink>
+
+<div className="flex flex-col sm:flex-row items-center justify-center">
+  <div className=" my-4 w-1/2">
+    <Image src={AppMockupImage} />
+    <div className="break-words">
+
+      Publicamos um aplicativo para tablet e celular Android, que pode ser encontrado no seguinte link:
+
+      <div className="text-center"><Button text="Programa FOSS4G no F-Droid" href="https://f-droid.org/packages/app.smarzaro.foss4g2024.schedule/" /></div>
+
+      Para baixar, clique no seguinte link, role até o final da página e selecione "Download APK"
+
+      Este aplicativo contém toda a agenda e permite configurar alarmes para suas palestras favoritas, para que você não perca nenhuma delas.
+
+      Queremos agradecer ao [Tobias Preuss](https://github.com/sponsors/johnjohndoe) por ser o criador deste aplicativo, e também ao [Rodrigo Smarzaro](https://github.com/Smarzaro) por ser responsável por tornar a Agenda disponível ao público através do aplicativo!
+
+    </div>
+  </div>
+</div>
+
+export default function MDXPage({ children }) {
+  return <MdxLayout metadata={metadata}>{children}</MdxLayout>
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      metadata
+    },
+  }
+}

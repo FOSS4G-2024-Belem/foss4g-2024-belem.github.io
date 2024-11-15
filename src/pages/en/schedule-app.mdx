@@ -3,6 +3,7 @@ import WeekSchedule from "@/images/week-schedule.png";
 import Heading from "@/components/Heading";
 import Image from "next/image";
 import IntlLink from "@/components/IntlLink";
+import AppMockupImage from "@/images/app-mockup.png";
 
 export const metadata = {
   title: "Schedule",
@@ -13,22 +14,24 @@ export const metadata = {
 export const Button = ({text, href}) => <IntlLink href={href}><button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-4xl font-ubuntu mx-1 md:mx-3 my-3">{text}</button></IntlLink>
 
 <div className="flex flex-col sm:flex-row items-center justify-center">
-  <div className="sm:w-1/2 my-4 text-center">
-    <div className="">
-      <Button text="General Schedule" href="/general-schedule" />
-      <Button text="Academic Schedule" href="/academic-schedule" />
-      <Button text="Workshop Schedule" href="/workshop-schedule" />
-      <Button text="Schedule App" href="/schedule-app" />
-    </div>
-  </div>
-  <div className="sm:w-1/2">
-    <div className="text-xl mt-4 mb-2 md:text-4xl text-center font-ubuntu"><Heading bubble>December 02-08, 2024</Heading></div>
+  <div className=" my-4 w-1/2">
+    <Image src={AppMockupImage} />
+    <div className="break-words">
 
-    <Image placeholder="blur" src={WeekSchedule} />
+      We have published a tablet and mobile app for Android, which you can find on the following link:
+
+      <div className="text-center"><Button text="FOSS4G Schedule on F-Droid" href="https://f-droid.org/packages/app.smarzaro.foss4g2024.schedule/" /></div>
+
+      To download, click on the following link, scroll to the bottom of the page, and select "Download APK"
+
+      This app contains all the schedule and allows you to configure alarms on your favourite talks so you don't miss them.
+
+      We want to thank [Tobias Preuss](https://github.com/sponsors/johnjohndoe) for being the creator of this application, and also to [Rodrigo Smarzaro](https://github.com/Smarzaro) for being responsible for making the Schedule available to the public through the app!
+
+    </div>
   </div>
 </div>
 
-<div className="text-3xl mt-4 mb-2 md:text-7xl text-center md:mt-8 md:mb-4 font-ubuntu"></div>
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>
