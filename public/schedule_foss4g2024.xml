@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.7</version>
+    <version>0.9</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
-        <start>2024-12-04</start>
+        <start>2024-12-02</start>
         <end>2024-12-08</end>
         <days>5</days>
         <timeslot_duration>00:05</timeslot_duration>
@@ -57,7 +57,7 @@ Community Engagement and Collaboration: In this segment, I will illustrate Plane
 3.	Inclusive Access Programs: Planet offers initiatives like the NICFI and Education and Research programs, which provide users with free access to Planet data. By democratizing access to critical information, we empower researchers, conservationists, and local communities to utilize our data for informed decision-making and collaborative conservation efforts.
 Through this presentation, I hope to engage the audience in a dialogue about the crucial intersection of technology, conservation, and community involvement, underscoring the vital role of precise forest carbon monitoring in addressing global environmental challenges.</abstract>
                 <slug>foss4g-2024-3021-forest-carbon-monitoring-a-new-era-of-real-time-insights-for-collaborative-forest-protection</slug>
-                <track />
+                <track>Applications and solutions for the Amazon region</track>
                 
                     
                 <language>en</language>
@@ -86,7 +86,7 @@ Through this presentation, I hope to engage the audience in a dialogue about the
 
 	This keynote will provide a little bit of amusement, some fun photos, entertaining challenges that have been overcome, and ideas for what is next.</abstract>
                 <slug>foss4g-2024-3026-foss4g-developer-stories</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -172,7 +172,7 @@ In this talk we will explore how AI can be used to help automate some of geospat
 
 This talk will include an overview of AI for use in geospatial analysis, with a focus on using open data and open models. We will show some live demos to create accurate AOIs with natural language, as well as for advanced searching of landscape features in public datasets. Additionally we will give an overview of techniques like Retrieval Augmented Generation and LLM Agents and the potential for how these may be used to transform geospatial data science.</abstract>
                 <slug>foss4g-2024-2899-geoai-for-all-helping-answer-the-most-common-questions-in-geo</slug>
-                <track />
+                <track>AI4EO Challenges &amp; Opportunities</track>
                 
                     
                 <language>en</language>
@@ -288,7 +288,7 @@ Development of new functionalities that meet the emerging needs of users and mun
 Integration with other smart city technologies and platforms, promoting even more integrated and efficient urban management;
 Expanding access and use of the platform to a wider audience, encouraging the participation of more citizens and institutions in the use of geospatial information.</abstract>
                 <slug>foss4g-2024-2816-geoportal-pmpv</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -315,7 +315,7 @@ Expanding access and use of the platform to a wider audience, encouraging the pa
 
 We hope that you leave this talk inspired and excited about becoming part of the end to end mapping journey!</abstract>
                 <slug>foss4g-2024-2879-end-to-end-tech-for-humanitarian-response-and-disaster-relief</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -344,7 +344,7 @@ This powerful tool combines minimal design with advanced technology, enabling in
 
 Join us to explore how QField 3 can redefine your fieldwork, making it more effective and impactful for addressing both daily tasks and global challenges.</abstract>
                 <slug>foss4g-2024-2763-qfield-3-fieldwork-redefined</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -373,7 +373,7 @@ In this session, we will showcase real-world use cases that demonstrate how QFie
 
 Learn from success stories across various industries and discover how QField 3's seamless integration with QFieldCloud is making a tangible impact on fieldwork around the globe.</abstract>
                 <slug>foss4g-2024-2793-one-million-reasons-to-use-qfield</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -404,7 +404,7 @@ The criteria for selecting datasets are oriented towards ensuring compatibility 
 
 The ultimate goal is to highlight the importance of quality open data, which is essential for filling an existing gap in sanitation planning. This promotes the democratization of access to quality information and the use of free GIS tools, allowing the inclusion of local professionals in sanitation projects in developing countries, and consequently improving the results of these projects.</abstract>
                 <slug>foss4g-2024-2780-using-open-access-spatial-data-for-enhanced-sanitation-planning</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -437,7 +437,7 @@ Key areas of focus include:
 
 Through the Giswater plugin case study, this talk will showcase these concepts with practical examples. Attendees will gain valuable insights into building web-ready QGIS plugins that are robust, flexible, and user-friendly across diverse platforms.</abstract>
                 <slug>foss4g-2024-2804-creating-web-ready-qgis-plugins-insights-from-giswater-for-effective-qwc2-compatibility</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -492,7 +492,7 @@ Our experience is particularly relevant to the Amazon region, as the tool direct
 
 We welcome feedback and collaboration ideas from the FOSS4G community during the Q&amp;A session!</abstract>
                 <slug>foss4g-2024-2920-it-s-not-broken-but-fix-it-anyway-customizing-foss4g-tools-for-government-the-inteligeo-case-study</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -545,6 +545,43 @@ This talk benchmarks the following methods: PostGIS + PostgreSQL, Python RasterI
                 <url>https://talks.osgeo.org/foss4g-2024/talk/CCRDGC/</url>
                 <feedback_url />
             </event>
+            <event guid="f2dbdff5-755d-5893-99e4-2e0f95518d0b" id="3059">
+                <room>Room II</room>
+                <title>Shooting for Photorealistic 3DCG with Navara: Our Journey Begins</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-05T10:30:00-03:00</date>
+                <start>10:30</start>
+                <duration>00:30</duration>
+                <abstract>Join us on the ground floor of an exciting journey as we develop Navara, a revolutionary mapping engine designed to shatter the boundaries of 3D visualization. In this candid presentation, we'll share our early progress, tackle the tough questions, and map out the road ahead.
+
+What to Expect:
+
+Rethinking 3D Mapping: Why we're shaking things up and addressing the limitations that have held us back
+Navara's Vision: Our technical philosophy and core principles driving innovation
+Under the Hood: Early architectural decisions and their implications
+Overcoming Obstacles: Real-world challenges we're tackling to achieve photorealism
+Future Focus: Immediate priorities and long-term ambitions
+Who Should Attend:
+
+
+Developers, graphics engineers, and anyone passionate about 3D visualization are invited to join the conversation. Come prepared to dive into the technical nitty-gritty and explore the challenges of building a cutting-edge mapping engine from scratch.</abstract>
+                <slug>foss4g-2024-3059-shooting-for-photorealistic-3dcg-with-navara-our-journey-begins</slug>
+                <track>Use cases &amp; applications</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/GU7LEG/</url>
+                <feedback_url />
+            </event>
             <event guid="59601b03-c658-5e5a-a837-f2405fa1cab9" id="2806">
                 <room>Room II</room>
                 <title>Soar online open platform to make public and open maps accessible and shareable, and its QGIS Plugin</title>
@@ -560,7 +597,7 @@ Soar is a collaborative platform: maps come from both organizations and individu
 For greater interactivity, we have created map editing tools and a QGIS-Soar integration plugin.
 We propose to show in this short talk how to access and build upon the multitude of open data maps on Soar catalog using Soar-QGIS Plugin.</abstract>
                 <slug>foss4g-2024-2806-soar-online-open-platform-to-make-public-and-open-maps-accessible-and-shareable-and-its-qgis-plugin</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -587,7 +624,7 @@ We propose to show in this short talk how to access and build upon the multitude
 
 This talk will provide an overview of the Earth-Search STAC catalog, how to search it to discover items, and how best to access the backing data assets. We'll look at recent changes to catalog and discuss the progress and challenges of the Sentinel-2 reprocessing/reindexing effort. We'll also briefly discuss the architecture of the data orchestration pipeline and what open source tooling underlies its operation.</abstract>
                 <slug>foss4g-2024-2877-earth-search-a-stac-api-of-open-datasets-on-aws</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -670,7 +707,7 @@ The set of projects develops technical competencies with the great diversity of 
 In this talk we will explain the long term strategy to map the Amazon, will exemplify different projects, show the challenges for the region, and show the different mappings that the audience can join and invite their own communities.
 This talk will serve as an introduction to a practical activity that will be proposed to contribute to the mapping of Belém.</abstract>
                 <slug>foss4g-2024-2832-using-openstreetmap-and-its-technological-ecosystem-for-integrated-and-community-based-territorial-management-the-amazon-mappings</slug>
-                <track />
+                <track>Applications and solutions for the Amazon region</track>
                 
                     
                 <language>en</language>
@@ -697,7 +734,7 @@ This talk will serve as an introduction to a practical activity that will be pro
 
 During 5 years of data collection (2019-2023), the sampling program created a dataset of over 1,500 onboard samplings and 1 million sampled specimens of more than 470 different species. As the combination of environmental data with fisheries monitoring brings new approaches to assess the status of the ecosystem, the collected fisheries data, jointly with the daily fishing landings and Vessel Monitoring System (VMS), are all visualized in combination with georeferenced sea habitats (EMODnet), and climate and sea conditions (CMEMS) on the web browser. An open website (www.icatmar.cat) offers the following data visualizations: geolocalized fisheries samplings together with the mentioned data sources, biomass distribution per port or season, and length-frequency charts per species (https://icatmar.github.io/VISAP). To better implement fisheries management strategies, these E2E information systems may be used as a tool to access high-quality open data, facilitate their comprehension and ease the dialogue between science, fisheries, policymakers and civil society.</abstract>
                 <slug>foss4g-2024-2779-open-commercial-fisheries-monitoring-systems-for-management-from-data-collection-to-web-visualization</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -746,7 +783,7 @@ In the geospatial industry, the primary goal is to solve real-world problems eff
 
 Bridging the gaps between remote sensing AI research and industry applications is crucial for maximizing the potential of AI. By fostering collaboration, focusing on practical challenges, and embracing open science, we can develop AI-driven solutions that address the complex needs of the geospatial industry. This talk will provide insights and strategies for achieving this integration, highlighting case studies, best practices, and the transformative role of open science.</abstract>
                 <slug>foss4g-2024-2817-how-to-bridge-the-gaps-between-remote-sensing-ai-research-and-real-world-industry-challenges</slug>
-                <track />
+                <track>AI4EO Challenges &amp; Opportunities</track>
                 
                     
                 <language>en</language>
@@ -759,6 +796,32 @@ Bridging the gaps between remote sensing AI research and industry applications i
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/SKVEZ9/</url>
+                <feedback_url />
+            </event>
+            <event guid="4949ab15-fb34-5232-9a1e-ae7666c6b6a5" id="3064">
+                <room>Room II</room>
+                <title>What is Digital Earth Pacific</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-05T15:00:00-03:00</date>
+                <start>15:00</start>
+                <duration>00:30</duration>
+                <abstract>Digital Earth Pacific (DEP) is a transformative project aimed at developing an operational Earth observation infrastructure for the Pacific. With a focus on empowering Pacific communities, DEP strives to simplify access to Earth and ocean observation data and deliver new data products that cater to specific regional needs. This presentation provides an overview of the motivations, objectives, and methodologies of DEP, highlighting its user-centric approach and the potential impact on informed decision-making and sustainable development in the Pacific.
+By democratising access to data and building upon advancements in technology, DEP aims to enhance accessibility and streamline data retrieval processes. Through a co-design process involving stakeholders from various sectors, DEP ensures that the infrastructure and data products align with the specific requirements and challenges faced by the Pacific region. Ultimately, DEP seeks to empower Pacific communities to harness the power of Earth and ocean observation data, driving resilience and informed decision-making</abstract>
+                <slug>foss4g-2024-3064-what-is-digital-earth-pacific</slug>
+                <track>Use cases &amp; applications</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/PX9PAD/</url>
                 <feedback_url />
             </event>
             <event guid="6d07727e-9365-5fd3-bb7c-7955128a5136" id="2889">
@@ -777,7 +840,7 @@ In this talk, we’ll introduce Nebari, a cloud-based open source data science p
 
 We’ll demonstrate how Nebari can be leveraged to develop compute and data intensive applications in the cloud using packages from the modern Python geospatial stack. By the end, we hope to equip organizations with the tools and knowledge to promote better and more effective collaboration in geospatial data science. Organizations can choose to adopt Nebari as an out-of-the box platform for their teams, or use it as a blueprint for developing a custom platform built on top of open source libraries.</abstract>
                 <slug>foss4g-2024-2889-modern-geospatial-data-science-in-the-cloud-with-nebari</slug>
-                <track />
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -810,7 +873,7 @@ MAPi presents as its main tool for spatial data analysis the interface for creat
 Finally, the third axis of functionality, collaborative mapping, aims to provide, in a simplified way, tools for the production of spatial data. We understand here that this functionality can be a tool that enables the expansion and updating of data coverage that official agencies are unable to perform. In this way, we intend to create an area within the platform that allows the creation of forms with location fields to create spatial data to be viewed and analyzed together with the other data on the platform. Currently, only the integration with Mapillary partially accomplishes this goal through the consumption of the visualization of the cover layer, and visualization of the photo sequences available in Mapillary by its users.
 One potential application in education from collaborative mapping functionalities is the support in the discussion about neighborhood plans, that are  instruments foreseen under master plan development, like the example from the megacity of São Paulo. The tool is under test with basic education teachers that want to promote mapping activities with MAPi in urban geography classes, and also within mathematics classes where they can address methodological issues of the results of this mapping to support basic concepts related to statistics in the classroom. Our next challenges are the optimization of performance for large volumes of data and the implementation of more complex collaborative mapping functionalities in a Agile methodology, with constant interaction with teachers that envision MAPi´s potential to foster engagement of students in urban planning.</abstract>
                 <slug>foss4g-2024-2853-mapi-web-mapping-platform-for-education-and-urban-planning</slug>
-                <track />
+                <track>Education</track>
                 
                     
                 <language>en</language>
@@ -843,7 +906,7 @@ GeoSight is a self-service platform that equips UNICEF users at all country offi
 Open source approach is also one of the key elements of the Frontier Data Network - UNICEF’s strategic initiative designed to promote innovation and capacity building in data science, helping us make data-driven decisions that truly benefit children. Open source solutions are part of how we offer the underlying capabilities that are necessary to actually enable the production and provision of solutions.
 We believe that GeoSight can benefit many organizations, both private, NGOs and public, not only in the humanitarian and development sectors. We would like to encourage organizations and individual developers to contribute to GeoSight project and help us and our partners leverage open-source geospatial technology to support the lives of children around the world.</abstract>
                 <slug>foss4g-2024-2928-how-open-source-gis-drives-better-results-for-children</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -912,7 +975,7 @@ Every image is processed with computer vision to recreate the world in 3D and ex
 
 In this talk we’ll recap Mapillary for those that are less familiar, sharing some more recent case studies to help crystalize the utility of street-level imagery. We’ll then cover some of the platform changes of 2024, including the launch of the revised mobile apps (2.0). This leads into our latest recommendations for how to capture and upload street-level imagery effectively. We’ll conclude with a look at how you can download map features using the web interface and Python tools.</abstract>
                 <slug>foss4g-2024-2789-mapillary-2-0-how-street-level-imagery-helps-us-understand-the-world</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -939,7 +1002,7 @@ In this talk we’ll recap Mapillary for those that are less familiar, sharing s
 This talk will exemplify the support that HOT is giving in the state of Rio Grande do Sul in Brazil and in particular in the city of Porto Alegre since July 2024. 
 In this area of the country, the city government in particular has been helped to have a faster recovery of its educational and health social services, an indirect but concrete way to improve the welfare of the population, with geographic data and open technologies.</abstract>
                 <slug>foss4g-2024-2833-humanitarian-response-through-collaborative-data-and-opensource-tools-in-rio-grande-do-sul</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -981,7 +1044,7 @@ In our presentation, we will explore how the geOrchestra community, with support
 
 These advancements collectively contribute to the development of a sophisticated open-source data platform, incorporating a streamlined data ingestion system and more.</abstract>
                 <slug>foss4g-2024-2918-your-fos-open-data-platform-based-on-georchestra-geonetwork-ui</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -1022,7 +1085,7 @@ Through these examples, I hope to illustrate the potential of combining open-sou
 
 This presentation aims to interest professionals from various fields, including geospatial science, human rights, development, policy, and data science. It hopes to encourage further dialogue on the use of open geospatial data in human rights and sustainable development contexts and on applying HRBA to open-source geospatial data.</abstract>
                 <slug>foss4g-2024-2850-applying-a-human-rights-based-approach-to-open-source-geospatial-and-remote-sensing-data-enhancing-inclusivity-and-accountability-in-sustainable-development</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1059,7 +1122,7 @@ These examples and demonstrations are based on Free and Open Source geospatial s
 
 Hopefully, the presentation will give your a new perspective about what generative AI can bring to your data and your catalogs, with great insights and concrete applications.</abstract>
                 <slug>foss4g-2024-2858-generative-ai-in-your-fos-applications</slug>
-                <track />
+                <track>AI4EO Challenges &amp; Opportunities</track>
                 
                     
                 <language>en</language>
@@ -1076,19 +1139,30 @@ Hopefully, the presentation will give your a new perspective about what generati
             </event>
             <event guid="c9781c4c-eaf5-5353-9f8b-a67a56340583" id="2861">
                 <room>Room III</room>
-                <title>Technical Anatomy of Re:Earth: A No-Code WebGIS Platform with Multi-Format Support and Flexible Styling</title>
+                <title>Work with Re:Earth Visualizer, a new WebGL application based on Cesium</title>
                 <subtitle />
                 <type>Talk</type>
                 <date>2024-12-05T14:30:00-03:00</date>
                 <start>14:30</start>
                 <duration>00:30</duration>
-                <abstract>Re:Earth, an open-source WebGIS platform developed by Eukarya Inc., features a user-friendly interface that empowers users to create online map applications without coding. This presentation will delve into Re:Earth's innovative architecture, highlighting three key features:
-1. A plugin system enabling developers to extend functionality
-2. A layer abstraction system supporting multiple data formats with flexible styling
-3. Advanced 3D data visualization capabilities for city models
-We'll explore how Re:Earth's cutting-edge technology stack addresses real-world GIS challenges and demonstrate its potential to revolutionize web-based geospatial solutions. This talk is designed to appeal to both technology enthusiasts interested in Re:Earth's technical architecture and professionals seeking practical solutions to geospatial challenges in various industries.</abstract>
-                <slug>foss4g-2024-2861-technical-anatomy-of-re-earth-a-no-code-webgis-platform-with-multi-format-support-and-flexible-styling</slug>
-                <track />
+                <abstract>Visualizer, developed by the Eukarya team, is a next-generation WebGIS tool that has already been deployed across multiple projects, including the PLATEAU initiative, and is utilized in various industries such as education, disaster prevention, transportation, and architecture. In this presentation, I will introduce the primary features of Visualizer and the considerations behind its design. Key topics include:
+
+- Executing Complex Operations with a Simplified UI
+- How we streamlined Visualizer’s user interface to enable complex operations with ease.
+- New Layer System
+- The approach to abstracting geometry in the New Layer System to support diverse GIS formats and the efficient use of style code to manage layer styles.
+- Sketch Layer
+- How the Sketch Layer allows users to freely draw and store 2D and 3D shapes within layers.
+- Scroll-Based Storytelling System
+- Leveraging a scroll-based page design to create engaging story-driven projects.
+- Expanding Functionality through Plugins
+- How to extend the system dynamically through plugins, allowing real-time interaction with layers and the 3D globe.
+- Future Plans and Goals for Visualizer
+- An overview of Visualizer’s public roadmap and our ambitions for future development.
+
+Through this presentation, we hope to give you a comprehensive understanding of our application and encourage you to join our community to share your valuable feedback.</abstract>
+                <slug>foss4g-2024-2861-work-with-re-earth-visualizer-a-new-webgl-application-based-on-cesium</slug>
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1123,7 +1197,7 @@ Scientific platforms require comprehensive data exchange and metadata standards 
 
 We will address the trade-offs between these standards, considering factors such as data complexity, metadata requirements, and web compatibility. Recommendations will be made for future development, including enhancements to existing standards and the creation of best practice specifications for effective water data exchange.</abstract>
                 <slug>foss4g-2024-2882-unifying-standards-for-water-data-exchange-leveraging-ogc-api-edr-and-pygeoapi</slug>
-                <track />
+                <track>Open Standard</track>
                 
                     
                 <language>en</language>
@@ -1181,7 +1255,7 @@ Learn more about the LFTools plugin for QGIS: https://geoone.com.br/lftools-o-pl
                 <duration>00:30</duration>
                 <abstract>The serverless solution for wildfire monitoring in protected areas of Pará, hosted on AWS, addresses two main challenges. It provides high-level managers with a dashboard that offers a comprehensive view of affected areas. For firefighting brigades, it delivers alerts via WhatsApp and a webGIS to assist with planning and executing firefighting efforts. The solution employs technologies based on GDAL and PostGIS, integrating data from INPE, NASA, GFS, IBGE, and ICMBIO for efficient, near-real-time analysis.</abstract>
                 <slug>foss4g-2024-2935-wildfire-surveillance-and-tracking-in-protected-areas-of-par-a-serverless-solution-with-open-data-and-software</slug>
-                <track />
+                <track>Applications and solutions for the Amazon region</track>
                 
                     
                 <language>en</language>
@@ -1335,7 +1409,7 @@ Ultimately, we will demonstrate how government agencies can leverage Planscape t
 
 This library was presented at FOSS4G 2022. The "feature frenzy" highlights all of the features developed during the last year with live examples, including its extensible OOP paradigm, (re)projection support, symbols for XYM geometries, clustering, colour spaces, and vector field handling.</abstract>
                 <slug>foss4g-2024-2799-gleo-feature-frenzy</slug>
-                <track />
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -1446,7 +1520,7 @@ This talk shows how to use the Equal Earth map projection for web mapping with d
 
 A growing collection of information about using Equal Earth is available at [equal.bbox.earth](https://equal.bbox.earth/).</abstract>
                 <slug>foss4g-2024-2810-farewell-web-mercator</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1554,7 +1628,7 @@ Emphasis also on future benefits related to isolation:
 &lt;b&gt;Conclusion&lt;/b&gt;
 In this second example, the Water Distribution Concessionaire urgently needed to resupply Hospitals in a certain region of Porto Alegre. As alternatives were implemented, a number of houses and buildings also had their supply normalized. In this situation, only critical points should be supplied, directing the scarce resource only to emergency points. Network Topology enables this maneuver and the creation of strategies for network segmentation.</abstract>
                 <slug>foss4g-2024-2757-topology-for-spatial-distribution-networks</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1569,48 +1643,13 @@ In this second example, the Water Distribution Concessionaire urgently needed to
                 <url>https://talks.osgeo.org/foss4g-2024/talk/QDFYKL/</url>
                 <feedback_url />
             </event>
-            <event guid="b5101d7f-f035-5579-9e24-053968c5eb7c" id="3033">
-                <room>Room IV</room>
-                <title>WMO and FOSS4G: a new horizon of open geospatial tools for weather/climate/water data</title>
-                <subtitle />
-                <type>Keynote</type>
-                <date>2024-12-05T15:30:00-03:00</date>
-                <start>15:30</start>
-                <duration>00:45</duration>
-                <abstract>Open-source software has become increasingly crucial for the World Meteorological Organization (WMO) and its Members, particularly those in developing countries, Least Developed Countries (LDCs), and Small Island Developing States (SIDS).  The potential of open source can enable climate action for adaptation, while also addressing the challenges and opportunities presented by the current landscape of open-source development within the WMO.
-
-Open-source solutions also play a pivotal role as accelerators for the implementation of Early Warnings for All, a key UN initiative in which WMO is playing a critical role, aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, open-source software enables WMO Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries, LDCs and SIDS, where resource constraints often hinder the implementation of proprietary solutions.
-
-Moreover, open-source initiatives serve as powerful catalysts in supporting WMO Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, open-source tools offer a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization.
-
-For many years, WMO has been actively involved in developing and supporting open-source software as a low-barrier, low-cost solution for its Members. These efforts, combined with comprehensive training and mentoring activities, have been met with enthusiasm and success.
-
-This presentation will provide an overview of Open Source at WMO, its significant use, current status and future plans for increased development and use of Open Source software to help lower the implementation barrier to data exchange of weather/climate/water/environmental data.
-
-Join us as we explore how WMO is transforming global weather, water, and climate data sharing, and discover how this initiative, along with FOSS4G tools, is fostering collaboration, innovation, and societal benefits on a global scale, with a particular focus on supporting Climate Action and Early Warning for All.</abstract>
-                <slug>foss4g-2024-3033-wmo-and-foss4g-a-new-horizon-of-open-geospatial-tools-for-weather-climate-water-data</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/99SUVQ/</url>
-                <feedback_url />
-            </event>
             <event guid="f0a3439e-a2f2-54bd-a8d0-8e944aa1a6ae" id="2830">
                 <room>Room IV</room>
                 <title>Unleashing the Power of Open Data: Interoperable Solutions for a Connected World</title>
                 <subtitle />
                 <type>Talk</type>
-                <date>2024-12-05T16:30:00-03:00</date>
-                <start>16:30</start>
+                <date>2024-12-05T15:30:00-03:00</date>
+                <start>15:30</start>
                 <duration>00:30</duration>
                 <abstract>In an era where geographic data underpins critical decision-making across various sectors, the need for open, interoperable data systems has never been greater. This presentation explores the transformative potential of open data through the lens of Overture Maps Foundation. 
 
@@ -1628,7 +1667,7 @@ Join this discussion to learn about:
 
 This session will delve into the foundation's core principles, including the use of open-source tools, community-driven data contributions, and the implementation of best practices for data quality and governance. Attendees will gain insights into the technical architecture of Overture Maps, including its approach to data interoperability, and learn how to contribute to and benefit from this growing ecosystem. Come join us and learn about creating and using a single, coordinated, base map for the world!</abstract>
                 <slug>foss4g-2024-2830-unleashing-the-power-of-open-data-interoperable-solutions-for-a-connected-world</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -1641,6 +1680,41 @@ This session will delve into the foundation's core principles, including the use
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/RGWHXS/</url>
+                <feedback_url />
+            </event>
+            <event guid="b5101d7f-f035-5579-9e24-053968c5eb7c" id="3033">
+                <room>Room IV</room>
+                <title>WMO and FOSS4G: a new horizon of open geospatial tools for weather/climate/water data</title>
+                <subtitle />
+                <type>Keynote</type>
+                <date>2024-12-05T16:00:00-03:00</date>
+                <start>16:00</start>
+                <duration>00:45</duration>
+                <abstract>Open-source software has become increasingly crucial for the World Meteorological Organization (WMO) and its Members, particularly those in developing countries, Least Developed Countries (LDCs), and Small Island Developing States (SIDS).  The potential of open source can enable climate action for adaptation, while also addressing the challenges and opportunities presented by the current landscape of open-source development within the WMO.
+
+Open-source solutions also play a pivotal role as accelerators for the implementation of Early Warnings for All, a key UN initiative in which WMO is playing a critical role, aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, open-source software enables WMO Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries, LDCs and SIDS, where resource constraints often hinder the implementation of proprietary solutions.
+
+Moreover, open-source initiatives serve as powerful catalysts in supporting WMO Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, open-source tools offer a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization.
+
+For many years, WMO has been actively involved in developing and supporting open-source software as a low-barrier, low-cost solution for its Members. These efforts, combined with comprehensive training and mentoring activities, have been met with enthusiasm and success.
+
+This presentation will provide an overview of Open Source at WMO, its significant use, current status and future plans for increased development and use of Open Source software to help lower the implementation barrier to data exchange of weather/climate/water/environmental data.
+
+Join us as we explore how WMO is transforming global weather, water, and climate data sharing, and discover how this initiative, along with FOSS4G tools, is fostering collaboration, innovation, and societal benefits on a global scale, with a particular focus on supporting Climate Action and Early Warning for All.</abstract>
+                <slug>foss4g-2024-3033-wmo-and-foss4g-a-new-horizon-of-open-geospatial-tools-for-weather-climate-water-data</slug>
+                <track>Transition to FOSS4G</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/99SUVQ/</url>
                 <feedback_url />
             </event>
             
@@ -1671,21 +1745,73 @@ This session will delve into the foundation's core principles, including the use
                 <url>https://talks.osgeo.org/foss4g-2024/talk/B9DCFP/</url>
                 <feedback_url />
             </event>
-            <event guid="746a0cd3-d060-5fd4-b1ea-529f7f984105" id="2716">
+            <event guid="1539742e-2b27-5fee-9379-c9e2bedd34d4" id="2700">
                 <room>Room V</room>
-                <title>Building-Level Population Estimates Using Open Geospatial Data</title>
+                <title>Use of Open Source Software in the ESA Planetary Science Archive</title>
                 <subtitle />
                 <type>Talk</type>
                 <date>2024-12-05T10:30:00-03:00</date>
                 <start>10:30</start>
                 <duration>00:30</duration>
-                <abstract>Geospatial analyses in social science applications depend fundamentally on the quality and resolution of the underlying population data. There have been several significant efforts (e.g. WorldPop, Meta’s population density maps, etc.) in population mapping using satellite imagery to estimate population and population density particularly in hard to access regions of the world. In more urban and mixed-use settings, these estimates may be biased. We can derive higher resolution of population estimates down to a building level in these contexts by leveraging additional information such as planning assessments, zoning, building heights, etc. 
-In this project, we aimed to leverage open data to disaggregate population estimates down to a building level. Based on known open data sources, we began in the urban American context, starting with New York City. We compared estimates using Cadastral-based dasymetric mapping to high-resolution estimates from satellite imagery. Recent developments in open mapping, such as the addition of building heights in overture maps developed by Meta (presented at FOSS4G 2023), further enhance the quality of open data available to scale these to cities where open cadastral data might not be available. 
-Building-level urban population estimates can improve studies that otherwise rely on aerial interpolation of the underlying data. One use case we are excited to explore is using these building-level estimates to understand the people at risk from earthquakes and other natural disasters, supporting ongoing work by the United Nations Office for Disaster Risk Reduction (UNISDR) (presented at FOSS4G 2023).
+                <abstract>The European Space Agency (ESA) has adopted a variety of open-source software tools to manage, visualize, and distribute planetary data, with a particular emphasis on Mars. These tools are essential for both internal operations and for providing crucial data access to the global scientific community. Below, we detail the use of these technologies, collaboration on open-source projects, and the underlying GIS architecture developed by the Planetary Science Archive (PSA). [Link](https://psa.esa.int/psa)
 
-This project was one we started exploring in late 2020 and the connections we made at the last FOSS4G have given it a new life by leveraging work shared by others in this community and discovering new applications/users for this work. We hope to talk about this project at FOSS4G 2024 as an interesting research study, but also to demonstrate the value of building in the open and sharing with the vibrant open geospatial community.</abstract>
-                <slug>foss4g-2024-2716-building-level-population-estimates-using-open-geospatial-data</slug>
-                <track />
+## Tools Used
+
+1. **OpenLayers**:
+   - **Functionality**: A JavaScript library for creating interactive maps in web browsers.
+   - **Application**: Used to build web user interfaces that allow scientists to visualize geospatial data of Mars and other planets, offering an intuitive and accessible platform for the exploration and analysis of planetary data.
+
+2. **GeoServer**:
+   - **Functionality**: An open-source map server that enables the sharing and editing of geospatial data.
+   - **Application**: Used to serve spatial data via standard protocols like WMS (Web Map Service). This facilitates the visualization of footprints with different base maps.
+
+3. **Three.js**:
+   - **Functionality**: A JavaScript library for creating 3D graphics in web browsers.
+   - **Application**: It is employed to generate three-dimensional visualizations of the Rosetta comet.
+
+4. **PostgreSQL and PostGIS**:
+   - **Functionality**: PostgreSQL is an open-source relational database management system, and PostGIS is an extension that adds support for geographic objects.
+   - **Application**: Are used to store and manage complex geospatial data. PostGIS allows for advanced spatial queries, facilitating the analysis of large volumes of geospatial data and its integration with other GIS tools like GeoServer.
+
+## Collaborative Projects and Data Access
+
+1. **Astroquery**:
+   - **Description**: A Python library that facilitates access to online astronomical databases.
+   - **Collaboration**: ESA contributes to Astroquery to ensure that planetary data is easily accessible to researchers. This includes data from planetary exploration missions and astronomical observations, integrating these data into scientific analyses efficiently.
+
+2. **Antimeridian**:
+   - **Description**: Tool for processing spatial data crossing the antimeridian (the 180° line of longitude)..
+   - **Collaboration**: Open Source project, and the PSA plans to collaborate with the project by contributing code. This tool is crucial for planetary data where coordinates can be extended beyond the traditional range of 0° to 180° longitude, allowing for continuous and accurate representation of planetary maps..
+
+## New Interface and GIS Architecture
+
+ESA has developed a new interface for the Planetary Science Archive, integrating the aforementioned tools into a cohesive and user-friendly platform. This interface allows scientists to:
+- **Explore Interactive Data**: Navigate through interactive maps of Mars, Phobos and other planets, applying filters and visualizing different layers of geospatial data. Users can overlay geological, topographical, and spectral data layers to gain a more comprehensive view of the terrain and use the different functionalities, such as changing the projection (polar, equirectangular), extracting information by region of interest.
+- **3D Visualization**: Thanks to Three.js, users can explore the the 67P(Churyumov-Gerasimenko) comet in 3D for the Rosetta mission, rotate, and zoom into features for more detailed analysis. Ultimately, we use Three.js to represent irregular bodies such as comets, asteroids, and asteroids.
+- **Real-Time Data Access**: Researchers can access the latest information and perform real-time queries to obtain specific data according to their needs.
+- **Data Download**: Scientists can download datasets directly from the interface for use in their own analyses and studies, selecting and downloading specific subsets of data based on defined search criteria.
+
+## GIS Architecture
+
+The GIS architecture behind this new interface relies on a robust combination of open-source technologies:
+- **GeoServer Base Maps**: Acts as the distributor of base maps of Mars, Phobos, Cassis. They are cached using GWC to optimize access in all available projections.
+- **Frontend with OpenLayers and Three.js**: Provides 2D and 3D visualization capabilities, offering a rich and interactive user experience. OpenLayers is used for 2D interactive map visualization, while Three.js is employed to generate three-dimensional visualizations of planetary surfaces.
+- **Database with PostgreSQL and PostGIS**: Used to store and manage complex geospatial data. PostgreSQL and PostGIS enable advanced spatial queries, facilitating the analysis of large volumes of geospatial data and its integration with other GIS tools.
+- **Integration with Data Access Tools**: Projects like Astroquery and Antimeridian are integrated to facilitate the access and manipulation of specific data, solving complex issues like the management of data crossing the antimeridian. This integration allows scientists to access and analyze planetary data more efficiently and accurately.
+
+## Benefits for the Scientific Community
+
+The use of advanced technologies and a robust GIS architecture developed by ESA offers several significant benefits for planetary research:
+- **Open and Transparent Access**: Although the code is not public, ESA uses open-source tools that ensure data and resources are available to the entire scientific community. This promotes collaboration and knowledge sharing, allowing researchers to access information without restrictions and work together more efficiently. Another benefit for the scientific community is to be able to cross different instruments/missions in a single interface, e.g., give me all the CaSSIS and HRSC data of this particular crater. For more information about ESA projects, you can visit their [GitHub repository](https://github.com/esa).
+- **Solutions to Specific Problems**: Tools like Antimeridian [Antimeridian GitHub](https://github.com/gadomski/antimeridian) address unique technical challenges, ensuring precise and continuous representation of planetary data. This facilitates the analysis and interpretation of geospatial data, ensuring that visualizations and maps are accurate and reliable.
+
+## Conclusion
+
+The adoption of open-source software and the development of an advanced GIS architecture enable ESA to offer a powerful and accessible platform for planetary research. This benefits not only its own scientists but also the global scientific community, promoting knowledge sharing and collaboration in the exploration of the Solar System. Tools such as OpenLayers, GeoServer, Three.js, PostgreSQL, and PostGIS, along with collaborative projects like Astroquery and Antimeridian, are fundamental for the efficient management and precise visualization of planetary data.
+
+With all this, the summary of the talk is to show how free software is used in the PSA for planetary data and more specifically in Mars data.</abstract>
+                <slug>foss4g-2024-2700-use-of-open-source-software-in-the-esa-planetary-science-archive</slug>
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1697,7 +1823,7 @@ This project was one we started exploring in late 2020 and the connections we ma
                 <links />
                 <attachments />
 
-                <url>https://talks.osgeo.org/foss4g-2024/talk/BFGJB8/</url>
+                <url>https://talks.osgeo.org/foss4g-2024/talk/8S3CMH/</url>
                 <feedback_url />
             </event>
             <event guid="eb7128da-6bc3-5639-b1cd-6ec5e23b670e" id="2591">
@@ -1810,7 +1936,7 @@ Schultz, M.; Vossa, J.; Auera, M.; Carterb, S. and Zipf, A. 2017. Open land cove
 
 Volante, J. N. 2009. Monitoreo de la Cobertura y el Uso del Suelo a partir de sensores remotos. Instituto Nacional de Tecnología Agropecuaria, Instituto Nacional de Tecnología Agropecuaria.</abstract>
                 <slug>foss4g-2024-2785-osmlanduser-an-r-package-for-the-analysis-of-landuse-data-contributed-to-openstreetmap</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1843,7 +1969,7 @@ Mapea tu Cuadra (map your block) - A collaboration with URBE, a local collective
 EcoZonas - Ongoing collaboration with WRI and the Wuppertal Institute to help neighborhoods map and identify climate disaster risks in their communities. 
 We will showcase the technologies and lessons learned, as well as useful strategies to build better collaborations.</abstract>
                 <slug>foss4g-2024-2868-bridging-the-gap-how-to-help-communities-leverage-open-source-tools-for-crowdmapping-</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -1873,7 +1999,7 @@ To integrate the repository with QGIS, a custom plugin server was incorporated i
 The QGIS plugin repository has had a profound impact on the organization, delivering key benefits such as increased efficiency, enhanced accuracy, enhanced collaboration and knowledge sharing, and enhanced scalability. The automation of repetitive tasks has resulted in a notable reduction in the time and effort required for data processing, thereby enabling team members to direct their attention to tasks of greater critical importance. The implementation of bespoke analytical tools has enhanced the precision and dependability of geospatial analyses. The repository has fostered a collaborative environment in which team members can share their tools and expertise, thereby facilitating continuous improvement and innovation. The modular structure of the repository allows for the straightforward incorporation of new plugins, thereby ensuring that emerging needs and challenges can be addressed.
 Considering the repository's success, several prospective developments have been proposed. These include the expansion of the plugin library through the development of new plugins to address additional tasks and workflows, the incorporation of advanced geospatial analytics such as machine learning and spatial statistics to further enhance capabilities, the linking of the QGIS plugins with other enterprise systems such as databases and web services to create a more integrated and efficient geospatial data infrastructure, and the encouragement of participation from the broader FOSS4G community through the sharing of plugins and contributions to the global repository of geospatial tools and solutions.</abstract>
                 <slug>foss4g-2024-2887-streamlining-gis-workflows-developing-a-collaborative-qgis-plugin-repository</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1905,7 +2031,7 @@ This presentation will present how the G3W-suite works, what it can do and some 
 
 The talk, accompanied by examples of application of the features, is dedicated to both developers and users of various levels who want to manage their cartographic infrastructure based on QGIS.</abstract>
                 <slug>foss4g-2024-2846-g3w-suite-a-framework-for-publishing-and-managing-qgis-projects-as-webgis-services</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1918,6 +2044,31 @@ The talk, accompanied by examples of application of the features, is dedicated t
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/8MZ9XH/</url>
+                <feedback_url />
+            </event>
+            <event guid="8c88ea4d-f8e2-5510-951b-68af6f897c35" id="2857">
+                <room>Room V</room>
+                <title>ZOO-Project: news about the Open Source Generic Processing Engine</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-05T15:00:00-03:00</date>
+                <start>15:00</start>
+                <duration>00:30</duration>
+                <abstract>The ZOO-Project is an open-source processing platform released under the MIT/X11 Licence. It provides the polyglot ZOO-Kernel, a server implementation of the Web Processing Service (WPS) (1.0.0 and 2.0.0), and the OGC API - Processes standards published by the OGC. It contains ZOO-Services, a minimal set of ready-to-use services that can be used as a base to create more useful services. It provides the ZOO-API, initially only available from the JavaScript service implementation, which exposes ZOO-Kernel variables and functions to the language used to implement the service. It contains the ZOO-Client, a JavaScript API that can be used from a client application to interact with a WPS server.</abstract>
+                <slug>foss4g-2024-2857-zoo-project-news-about-the-open-source-generic-processing-engine</slug>
+                <track>State of software</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/VKNVJG/</url>
                 <feedback_url />
             </event>
             <event guid="33b00025-52c4-5fb5-973e-f01c7805650e" id="2925">
@@ -1936,7 +2087,7 @@ Unlike existing solutions that rely on slower GeoJSON encoding, Lonboard employs
 
 We will demonstrate Lonboard's capabilities using Overture Maps data, which is provided in GeoParquet format as monthly releases. This showcase will highlight how Lonboard's simple interface allows researchers and data scientists to effortlessly visualize and interact with cloud-native, optimized geospatial data at a global scale.</abstract>
                 <slug>foss4g-2024-2925-visualizing-overture-maps-data-with-lonboard-in-a-jupyter-notebook</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1961,7 +2112,7 @@ We will demonstrate Lonboard's capabilities using Overture Maps data, which is p
                 <duration>00:30</duration>
                 <abstract>Every day, almost 2.5 million edits are made in OpenStreetMap. To maintain the high quality and reliability of OSM data, keeping track of changes is crucial. In 2024, a new OSM data pipeline was built for [OSMCha](https://osmcha.org/), one of the main OpenStreetMap data validation tools. This pipeline is fully open-source, and it allows us to visualize and run data quality checks on each edit made on OSM. Besides the set of open-source tools and the Kubernetes deploy infrastructure, the resulting data is available for free under the AWS Open Data program. We’ll share how this new pipeline streamlines data integrity and enables developers to build downstream cloud-native applications to monitor the changes happening in OpenStreetMap. We will also demo Gradient, a web application that displays OSM edits using this new real-time OSM pipeline.</abstract>
                 <slug>foss4g-2024-2907-scaling-up-openstreetmap-data-validation-in-the-open</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -1996,7 +2147,7 @@ In conclusion, integrating Python into these workflows enhances flexibility and 
 
 This work received financial support from the State of São Paulo Research Foundation (FAPESP) (grant 2023/15663-7, 2024/05553-2, 2024/05727-0, 2024/05481-1).</abstract>
                 <slug>foss4g-2024-2829-enhancing-geospatial-data-processing-with-python-a-case-study-using-ibge-data</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2028,7 +2179,7 @@ This work received financial support from the State of São Paulo Research Found
                 <duration>00:30</duration>
                 <abstract>Welcoming speech and opening of FOSS4G 2024</abstract>
                 <slug>foss4g-2024-3023-opening-foss4g-2024</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -2076,15 +2227,25 @@ The script is being used to help monitor forest fires in the main areas of opera
             </event>
             <event guid="93c17e0d-df12-5592-a61c-4960ffa82c0d" id="3024">
                 <room>Room Auditorio</room>
-                <title>💎 Diamond Sponsor Talk  💎</title>
+                <title>💎 Diamond Sponsor Talk  💎 Re:Earth: Revolutionizing WebGIS - From Data to Insights Without Coding</title>
                 <subtitle />
                 <type>Sponsor</type>
                 <date>2024-12-04T11:00:00-03:00</date>
                 <start>11:00</start>
                 <duration>00:30</duration>
-                <abstract>Eukarya Inc. specializes in developing technological solutions that preserve and visualize cultural data and memories. Their primary focus is creating "soft archives," a platform that stores and adapts information like memories and historical data that couldn't be preserved through traditional systems. They have worked on open data projects such as PLATEAU VIEW 2.0, which enables the visualization of 3D city models in Japan. Eukarya uses its technology to support intellectual and cultural creation, exploring new ways to understand and use data​.</abstract>
-                <slug>foss4g-2024-3024--diamond-sponsor-talk-</slug>
-                <track />
+                <abstract>Discover Re:Earth, the cutting-edge open-source WebGIS platform by Eukarya Inc. that's transforming spatial data interaction. This innovative solution combines powerful visualization, seamless data management, and efficient processing in one user-friendly platform.
+
+In this presentation, we'll explore:
+
+- The genesis of Re:Earth and its mission to democratize GIS
+- How Re:Earth enables the creation of sophisticated online map applications - no coding required
+- Real-world applications and success stories from Japan
+- Our comprehensive approach to the entire data lifecycle - from acquisition to insight
+- Re:Earth's trajectory and our bold vision for the future of WebGIS
+
+Join us as we redefine the boundaries of WebGIS and unveil how Re:Earth is set to revolutionize spatial data analysis across industries. Whether you're a GIS professional, data scientist, or decision-maker, this talk will showcase how Re:Earth can transform your approach to geospatial challenges.</abstract>
+                <slug>foss4g-2024-3024--diamond-sponsor-talk-re-earth-revolutionizing-webgis-from-data-to-insights-without-coding</slug>
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -2104,14 +2265,14 @@ The script is being used to help monitor forest fires in the main areas of opera
                 <title>From field biology to the GRASS GIS board: A Journey of Open Source Discovery and Nurturing a New Generation of Contributors</title>
                 <subtitle />
                 <type>Keynote</type>
-                <date>2024-12-04T11:30:00-03:00</date>
-                <start>11:30</start>
+                <date>2024-12-04T12:00:00-03:00</date>
+                <start>12:00</start>
                 <duration>00:45</duration>
                 <abstract>My journey from field biologist to GRASS GIS board member exemplifies the accessibility of open source contributions. Curiosity and a willingness to learn propelled me into the world of geospatial analysis, leading to a deep appreciation for the power of open source tools and community. I had the chance to witness firsthand the transformative power of open collaboration and this was really inspiring and engaging. However, I also recognized the need to bridge the gap between the global open source community and regions such as Latin America.
  
 In this keynote, I will explore and reflect on strategies for breaking down barriers and fostering a more inclusive open source community, emphasizing the importance of mentorship, education, and accessible resources. By drawing on my personal experiences and lessons learned, I aim to inspire and empower attendees to become active contributors and leaders to build a more sustainable open source ecosystem!</abstract>
                 <slug>foss4g-2024-2941-from-field-biology-to-the-grass-gis-board-a-journey-of-open-source-discovery-and-nurturing-a-new-generation-of-contributors</slug>
-                <track />
+                <track>Education</track>
                 
                     
                 <language>en</language>
@@ -2153,7 +2314,7 @@ WoSIS infrastructure is powered entirely by Free and Open Source Software (FOSS)
 
 By leveraging open source technology and adhering to open data standards, WoSIS demonstrates the importance of transparent and accessible data infrastructures in driving scientific advancements and supporting sustainable development goals. This presentation will provide insights into the challenges and approaches in the use of FOSS4G in data harmonization for global data products and global data dissemination with WoSIS as a use case.</abstract>
                 <slug>foss4g-2024-2778-world-soil-information-service-wosis-practical-applications-of-open-source-technology-in-soil-data-management</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2182,7 +2343,7 @@ In addition, we will provide a case study of a current effort - that of STAPI - 
 
 This talk will dive into what worked for STAC and other community standards and how we are taking those lessons to develop a standardized way for collecting future geospatial data.</abstract>
                 <slug>foss4g-2024-2897-community-standards-and-satellite-tasking</slug>
-                <track />
+                <track>Open Standard</track>
                 
                     
                 <language>en</language>
@@ -2227,6 +2388,44 @@ In this talk we will give a comprehensive overview of the latest GRASS GIS devel
             
         </room>
         <room name="Room III" guid="eadfc9ff-2013-5fba-abcd-15248b3e2f6e">
+            <event guid="49b31203-4218-535c-a7b3-4d6e268c8888" id="3060">
+                <room>Room III</room>
+                <title>How CMS Will Empower GIS Data with Flow: Building a Next-Generation Content Management System</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-04T16:30:00-03:00</date>
+                <start>16:30</start>
+                <duration>00:30</duration>
+                <abstract>Join us for an in-depth, technical discussion about our journey in developing a specialized Content Management System (CMS) designed to handle the unique challenges of GIS data, powered by our custom workflow engine, Flow.
+
+What to Expect:
+
+The GIS Data Dilemma: Limitations of traditional CMS platforms and why we chose to build our own solution
+Seamless GIS Data Handling: Our vision for streamlined ingestion to deployment
+CMS Architecture: Key architectural decisions and technical challenges overcome
+Meet Flow: An inside look at our custom workflow engine's architecture and data processing role
+Current Challenges: Technical hurdles we're tackling in Flow's development
+Future Roadmap: Expanding capabilities and integration plans
+Who Should Attend:
+
+
+Developers, GIS specialists, and system architects interested in the challenges of building specialized content management systems are invited to join the conversation. We'll share our experiences, lessons learned, and ongoing development challenges in creating a purpose-built CMS for GIS data.</abstract>
+                <slug>foss4g-2024-3060-how-cms-will-empower-gis-data-with-flow-building-a-next-generation-content-management-system</slug>
+                <track>Use cases &amp; applications</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/DPMKQE/</url>
+                <feedback_url />
+            </event>
             <event guid="9bb4d596-5f89-5951-acdf-264bf28c7a40" id="2895">
                 <room>Room III</room>
                 <title>Exploring OGCAPI with GeoServer and GeoNetwork</title>
@@ -2249,7 +2448,7 @@ Jody and Gabe are enthusiastic GeoServer developers really using this presentati
 
 Attend this talk to learn about the transition to OGCAPI Protocols and help your organisation plan for the future.</abstract>
                 <slug>foss4g-2024-2895-exploring-ogcapi-with-geoserver-and-geonetwork</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2283,7 +2482,7 @@ This talk unpacks what this can look like for foss4g projects using real world e
 
 This talk explores the tensions, expectations, terrors and triumphs on this hot button topic.</abstract>
                 <slug>foss4g-2024-2915-approaching-security-with-kindness-and-compassion</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2375,7 +2574,7 @@ https://github.com/MerginMaps</abstract>
 
 In this presentation, the design and implementation of a geospatial data curation strategy utilizing FAIR principles will be described. Additionally. we will discuss our efforts around automation in data wrangling and metadata, as well as access, licensing, and digital preservation.</abstract>
                 <slug>foss4g-2024-2901-fair-principles-for-geospatial-data-curation</slug>
-                <track />
+                <track>Open Standard</track>
                 
                     
                 <language>en</language>
@@ -2429,7 +2628,7 @@ For creating and extending OSM vector tiles, workflows using [Tilemaker](https:/
 
 Since vector tiles are styled in the browser, the styling can be changed at runtime. This talk shows the tooling for customizing styles, but also goes into extending vector tile content with additional data for special interests.</abstract>
                 <slug>foss4g-2024-2811-shortbread-the-new-openstreetmap-vector-tile-schema</slug>
-                <track />
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -2482,7 +2681,7 @@ During our presentation we will showcase the first adoption of the application w
                 <duration>00:30</duration>
                 <abstract>Forest ecology research often requires detailed forest inventory data at the individual tree level, but such data are time-consuming and costly to collect using traditional ground-based manual survey methods. Recent advances in uncrewed aerial vehicles (UAVs, or drones), image processing, and deep learning are enabling a new era of forest research in which individual trees can be mapped, measured, and taxonomically identified across broad areas without extensive ground surveys. The Open Forest Observatory (OFO; openforestobservatory.org) is a new multi-institution organization that makes cutting-edge forest mapping tools and data accessible to ecologists and practitioners without extensive specialized computing background. Open-source OFO tools simplify and automate tasks including: (a) processing drone imagery into 3D canopy models and stitched imagery mosaics, (b) performing individual tree detection, geospatial crown delineation, and height measurement from drone-derived canopy height models, and (c) obtaining taxonomic classification of detected trees from raw drone images (including multiple views of each tree) using deep learning and 3D geometric reasoning. The OFO also hosts an extensive public database of raw and processed drone imagery from western U.S. forests (&gt; 35 km2) across broad gradients in forest structure, species composition, and disturbance history, and &gt; 100 field-based individual tree maps used for developing and validating the drone-based mapping tools. The growing database is available to host community-contributed datasets from forests globally. In relatively challenging (dense and structurally complex mixed-conifer forest conditions, current OFO overstory tree detection algorithms achieve precision and recall of 70-90%, and current tree height estimation achieves R2 of 0.95. In a challenging cross-site task, preliminary tree species classification using OFO multi-view computer vision tools achieved 76% accuracy across five species, compared with 54% accuracy of a baseline using a single top-down view from a stitched imagery mosaic. All tools and data are free for use by anyone to address ecology questions or build on the tools, and the OFO welcomes collaborations and contributions to data and code. Some current development priorities include (a) expanding multi-view mapping tools to support tree detection using computer vision, (b) optimizing tree detection and species classification algorithms across broad gradients of forest structure and species composition, and (c) developing cloud-native workflows for automated cataloging and processing of contributed drone-based and field-based forest data.</abstract>
                 <slug>foss4g-2024-2800-open-forest-observatory-open-source-drone-based-forest-mapping-tools-and-data-for-ecologists</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -2511,7 +2710,7 @@ During our presentation we will showcase the first adoption of the application w
                 <abstract>The summer of 2024 saw extreme floods and landslides in Switzerland, significantly affecting the Ticino, Grisons and Valais regions.
 This talk examines the critical role of QField's new plugin framework in complementing the aerial rapid mapping effort with crowdsourced oblique (terrestrial) imagery. We will discuss a quickly built proof-of-concept (POC) project that used QField's new customizable plugins, allowing first responders, civil protection agencies, and citizens to map and report damages efficiently. The session will introduce the plugin framework, its easy deployment through QFieldCloud, and its possible impact on field data collection workflows in enterprise and community settings.</abstract>
                 <slug>foss4g-2024-2769-qfield-plugins-to-the-rescue-natural-catastrophe-rapid-mapping-in-2024</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2649,25 +2848,21 @@ We will show that there is already a set of (FOSS) tools in place (e.g.: readers
         </room>
         
     </day>
-    
-	<day index="5" date="2024-12-06" start="2024-12-06T04:00:00-03:00" end="2024-12-07T03:59:00-03:00">
+
+    <day index="5" date="2024-12-06" start="2024-12-06T04:00:00-03:00" end="2024-12-07T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="54b549a8-fcd5-5862-9328-711b6f65e4d9" id="3022">
                 <room>Room Auditorio</room>
-                <title>De lo colaborativo al bien común : un recorrido que lleva a la cartografía abierta</title>
+                <title>From the collaborative to the common good : a journey towards open mapping</title>
                 <subtitle />
                 <type>Keynote</type>
                 <date>2024-12-06T09:00:00-03:00</date>
                 <start>09:00</start>
                 <duration>00:45</duration>
-                <abstract>En esta charla recorreré de forma coloquial el camino de mi persona por valores que entre descubrimientos, proyectos, iniciativas, temáticas y campos de aplicaciones muy amplios me han llevado a asentarme en el universo de OpenStreetMap para el bien colectivo, en particular en el campo humanitario y del desarrollo sustentable. 
-El objetivo de esta charla es expresar al público en general, al público técnico pero en particular al público jóven, un itinerario que muestra un amplio panorama de las posibilidades de contribución desde todo tipo de acciones, especialidades y conocimientos situados, desde la humildad, y los inmensos beneficios de esta tendencia.
-
-
-In this talk I will colloquially go through the path of my person through values that between discoveries, projects, initiatives, themes and very broad fields of applications have led me to settle in the universe of OpenStreetMap for the collective good, particularly in the humanitarian field and sustainable development. 
-The aim of this talk is to express to the general public, to the technical public but in particular to the young public, an itinerary that shows a wide panorama of the possibilities of contribution from all kinds of actions, specialties and knowledge located, from humility, and the immense benefits of this trend.</abstract>
-                <slug>foss4g-2024-3022-de-lo-colaborativo-al-bien-comn-un-recorrido-que-lleva-a-la-cartografa-abierta</slug>
-                <track />
+                <abstract>In this talk, I will colloquially go through the path of my person through values that, between discoveries, projects, initiatives, themes, and very broad fields of applications, have led me to settle in the universe of OpenStreetMap for the collective good, particularly in the humanitarian field and sustainable development. 
+This talk aims to express to the general public, to the technical public, but in particular, to the young public, an itinerary that shows a broad panorama of the possibilities of contribution from all kinds of actions, specialties, and knowledge located from humility, and the immense benefits of this trend.</abstract>
+                <slug>foss4g-2024-3022-from-the-collaborative-to-the-common-good-a-journey-towards-open-mapping</slug>
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -2698,7 +2893,7 @@ The aim of this talk is to express to the general public, to the technical publi
 - Invitation to the State of the Map.
 - Torch passing to FOSS4G 2025 hosts.</abstract>
                 <slug>foss4g-2024-3025-closing-general-sessions</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -2730,7 +2925,7 @@ In order to resurrect, appreciate, and preserve the art form of geometric patter
 
 Each Marajoara pattern appearing on the map has been studied and carefully selected to symbolize rivers, forests, urbanized areas, and other significant aspects of Belém, offering a visually distinct and culturally enriching experience to users. Our project not only highlights the beauty and importance of Marajoara art, but also promotes interaction and learning about the geography and culture of the region through a modern and accessible technological platform.</abstract>
                 <slug>foss4g-2024-2821-foss4g-indigenous-art-showcasing-marajoara-symbols-in-an-interactive-map-of-belm</slug>
-                <track />
+                <track>Education</track>
                 
                     
                 <language>en</language>
@@ -2759,7 +2954,7 @@ It is clear that Carolina saw and felt lines of division between her neighborhoo
 
 In order to better understand Carolina's relationship to the spaces she called “the favela” and “the city”, I carefully constructed a list of every place mentioned in Quarto de Despejo. Employing a combination of archival research, Internet searches, onsite visits, and modern GIS databases, our research team located and mapped as many of these locations as possible, using QGIS software. For a base layer, we fashioned a historical street grid by starting with OpenStreetMap and modifying the geometries to conform to old aerial photographs freely available online. We then used our newly-created databases to compose narrative maps of Carolina’s São Paulo, focusing on areas where she did and did not go, as well as places where she experienced different kinds of emotions, challenges, access to resources, and interactions with the state. These maps demonstrate how geographic and social barriers both seen and unseen influenced the daily lives of Paulistanos in the 1950s, a challenge that persists in Brazil today.</abstract>
                 <slug>foss4g-2024-2819-reconstructing-literary-geographies-on-the-margins-of-so-paulo-using-open-gis-resources</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2797,7 +2992,7 @@ Brasil MAIS has already demonstrated significant impact, contributing to over R$
 
 We'll conclude by examining how this integration serves as a model for similar global initiatives in environmental management and welcome input from the FOSS4G community on further improvements.</abstract>
                 <slug>foss4g-2024-2927-scaling-foss4g-for-national-environmental-monitoring-inteligeo-and-brasil-mais</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -2901,7 +3096,7 @@ Once the areas considered intersections are established, the street axes not pre
 From the structurals' design, it is possible to pair with all available geographic territorial information. The more data provided by municipalities, the greater the territory's knowledge and the possibility of relating these variables. Each structural has characteristics that make more sense to be deepened. In intersections, traffic lights, bus or cycling infrastructure, road hierarchies, and pedestrian crossings can be paired. In mid-blocks, the road width, road hierarchy, speed limit, electronic surveillance presence, speed reducers, block face length, etc., can be paired.
 Pairing information with structurals helps identify profiles of these spaces and create insights into road crashes in Brazilian municipalities. With this pairing, it is possible to analyze the distribution of road events between intersections or mid-blocks and their characteristics, the severity of occurrences, and identify critical points that should be prioritized in public policies. Additionally, it is an essential tool for effectiveness analyses and creating comparison groups for monitoring interventions. For example, with intersection structurals, it was possible to identify crossings with similar characteristics in São Paulo to evaluate whether those that received the "Frente Segura" intervention had a reduction in traffic incidents. The same was done with the "Melhor Uso do Leito Viário (MULV)" interventions carried out in mid-blocks of the city. These and other uses of the structurals can be seen on the publication page of the Brazilian Mobility Panel, from the Cordial Institute.</abstract>
                 <slug>foss4g-2024-2869-leveraging-geospatial-street-data-for-effective-urban-mobility-policies-a-comprehensive-methodology-for-road-safety-analysis-in-brazilian-cities-through-geoprocessing</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -2970,7 +3165,7 @@ So, GeoSGB now is a continuous development platform, with focus in increase qual
 
 The future perspectives involve the transformation itself into research line in geotechnologies and high-performance IT services. It shoud envolve plug-in development for data management, processing and visualization including use of artificial intelligence. In operational terms, adoption of OGC APIs, data internationalization and harmonization, associated with adoption of OGC specific standards, such as GeoSciML and WaterML contributes to become SGB a global supplier of geoscientific data.</abstract>
                 <slug>foss4g-2024-2809-opengeosgb-state-of-the-art-of-transition-to-an-open-source-semi-automated-fair-ready-geological-spatial-data-infrastructure-of-the-geological-survey-of-brazil</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -2995,7 +3190,7 @@ The future perspectives involve the transformation itself into research line in 
                 <duration>00:30</duration>
                 <abstract>QGIS Chairman Marco Bernasocchi and core developer  Matthias Kuhn (remote) will be available for an hour to answer any QGIS-related questions. With the two, interested parties have access to over 20 years of combined expert knowledge in the development, use and organisation of QGIS and QGIS-based products.</abstract>
                 <slug>foss4g-2024-2764-qgis-ask-me-anything-</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -3054,7 +3249,7 @@ This presentation will provide an update on the current status, latest developme
 
 In this talk, the authors present the long winding road to a successful community collaboration that lead to the documentation of almost 500 free and open source projects for geospatial and furthermore, the highlights will be on the outlook for the FOSS4G Observatory for the years to come: licence interoperability, standardisation compliance automatic identification, health of FOSS4G projects and more.</abstract>
                 <slug>foss4g-2024-2758-the-foss4g-observatory</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -3097,7 +3292,7 @@ We'll discuss the challenges faced, solutions implemented, and lessons learned f
 
 By sharing our experiences, we aim to help other organizations successfully deploy GeoNode and other FOSS4G solutions in production environments. We welcome questions and discussions on best practices for large-scale FOSS4G implementations.</abstract>
                 <slug>foss4g-2024-2931-deploying-geonode-in-production-lessons-from-brazilian-government-agencies</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -3161,7 +3356,7 @@ As a testament to the power of the network, YouthMappers students have collectiv
 
 This talk is rooted in a book chapter of the same name co-authored by the three presenters. The chapter will be published in the forthcoming open-access book Open Movements: Recognizing Challenges and Building Connections.</abstract>
                 <slug>foss4g-2024-2906-mapping-locally-globally-a-youthmappers-perspective-on-open-mapping</slug>
-                <track />
+                <track>Community &amp; Foundation</track>
                 
                     
                 <language>en</language>
@@ -3233,7 +3428,7 @@ The methodology begins with data collection and preparation, utilising high-reso
 While image basemap tiles and pyramids system is well know, Vector Tile Layers and API's still among the bleeding edge technologies that allows to show big vector datasets on the web efficiently. On this talk we will discuss how to move from a slow to a fast vector map rendering on the web. 
 Last but not least: a word on how to run it at home with spare parts you might have helping you go online while avoid high cloud computing costs.</abstract>
                 <slug>foss4g-2024-2782-open-source-tech-for-fast-vector-webmaps-brazilian-farms-use-case</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -3316,7 +3511,7 @@ Uber’s H3 index is a powerful tool that enhances how we handle and analyze geo
 
 During the talk, we will demonstrate these benefits with a live demo, showcasing how the H3 index can be implemented in a real-world scenario. Whether you are a developer seeking to optimize your application’s performance or a researcher aiming for precise spatial analysis, the H3 index offers a versatile and robust solution.</abstract>
                 <slug>foss4g-2024-2933-uber-s-open-source-h3-index-in-open-source-projects-simplifying-distance-calculation-and-data-storage</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -3347,7 +3542,7 @@ Our study has concentrated on two Pacific Island nations: Samoa and Vanuatu. For
 
 Furthermore, by integrating the flood maps produced by this study with geo-spatial asset data sets, particularly focusing on buildings, our study shows how we can quantify the exposure and potential losses to flooding events, employing the Riskscape multi-hazard risk modelling software. The outcomes generated by this innovative method offer valuable insights that can inform resource allocation decisions during the critical hours following a significant rainfall event, particularly in the context of a Post Disaster Needs Assessment (PDNA) study.</abstract>
                 <slug>foss4g-2024-2913-enhancing-resilience-to-pluvial-flooding-in-pacific-island-nations-a-novel-approach-to-rapid-rainfall-modelling-and-risk-assessment-</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -3431,7 +3626,7 @@ CONCLUSION
 
 ENI-Gema-Sisdai are open projects in favor of the nation, in which collaborations were carried out with more than a dozen research teams, institutions and public centers. There are more than twenty public portals of the ENI project, about 400 geographic layers with free format downloads in Gema and 5 open source libraries in Sisdai. All this is available in public sites.</abstract>
                 <slug>foss4g-2024-2791-gema-sisdai-open-data-free-software-projects-by-the-mexican-government</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -3444,31 +3639,6 @@ ENI-Gema-Sisdai are open projects in favor of the nation, in which collaboration
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/ZCLFTH/</url>
-                <feedback_url />
-            </event>
-            <event guid="8c88ea4d-f8e2-5510-951b-68af6f897c35" id="2857">
-                <room>Room II</room>
-                <title>ZOO-Project: news about the Open Source Generic Processing Engine</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-06T16:00:00-03:00</date>
-                <start>16:00</start>
-                <duration>00:30</duration>
-                <abstract>The ZOO-Project is an open-source processing platform released under the MIT/X11 Licence. It provides the polyglot ZOO-Kernel, a server implementation of the Web Processing Service (WPS) (1.0.0 and 2.0.0), and the OGC API - Processes standards published by the OGC. It contains ZOO-Services, a minimal set of ready-to-use services that can be used as a base to create more useful services. It provides the ZOO-API, initially only available from the JavaScript service implementation, which exposes ZOO-Kernel variables and functions to the language used to implement the service. It contains the ZOO-Client, a JavaScript API that can be used from a client application to interact with a WPS server.</abstract>
-                <slug>foss4g-2024-2857-zoo-project-news-about-the-open-source-generic-processing-engine</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/VKNVJG/</url>
                 <feedback_url />
             </event>
             <event guid="e377d965-40c8-5659-a1f3-08f8d79143fa" id="2919">
@@ -3489,7 +3659,7 @@ PRODES and DETER data are available in distinct web mapping panels that allow th
 TerraBrasilis uses a service-oriented paradigm that follows interoperable international spatial data standards and the specifications of the Brazilian National Spatial Data Infrastructure (INDE). TerraLib offers Open Geospatial Consortium (OGC)-compliant services such as Web Map Service (WMS), Web Feature Service (WFS), Web Service Coverage (WCS) and Catalog Service for the Web (CSW).
 TerraBrasilis publishes all of the data generated in DETER and PRODES, and it is constantly evolving. Recently, the portal has developed and integrated some panels that integrate data from PRODES and DETER, along with other data sources such as INPE's vegetation fire monitoring project in Brazil. The Situation Room panel, for example, allows the observation of critical areas of deforestation and vegetation fire, through a series of indicators based on data from DETER and other environmental indicators. In this talk, we will provide a general overview of the portal, the technical aspects of its development, and the data presented in TerraBrasilis.</abstract>
                 <slug>foss4g-2024-2919-terrabrasilis-an-open-source-solution-for-disseminating-information-about-the-brazilian-biomes-vegetation-cover</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -3536,7 +3706,7 @@ This session will cover the following topics:
 **Target Audience**
 This talk is aimed at geospatial professionals, software developers, environmental activists, policymakers, and anyone interested in the application of AI and open-source geospatial technology for environmental protection.</abstract>
                 <slug>foss4g-2024-2790-leveraging-ai-and-open-source-geospatial-software-to-combat-illegal-gold-mining-in-the-amazon</slug>
-                <track />
+                <track>Applications and solutions for the Amazon region</track>
                 
                     
                 <language>en</language>
@@ -3727,7 +3897,7 @@ The SIGBT initiative, therefore, presents itself as a successful example of a sy
 
 AmazoniaHack aims to provide multiple long-term benefits, including our goal this year to elevate Indigenous science in conservation solutions, and the ongoing accelerated deployment of hardware for acoustic monitoring of deforestation, as well as software and geospatial solutions. However, the primary beneficiaries of the two-day hackathon are Brazilian students who may otherwise be excluded from environmental innovation spaces. We have had dozens of students contact the organizing team after each event to ask if AmazoniaHack will take place every year, to seek support on continuing to work on their projects, to connect with hackathon partners, and to speak about their careers. This exemplifies some of the target impact of our transformative environmental education approach - collaboration and partnership development, impact on career paths, and knowledge and attitude shift towards specific environmental challenges.</abstract>
                 <slug>foss4g-2024-2862-amazoniahack-open-innovation-for-the-amazon-rainforest</slug>
-                <track />
+                <track>Applications and solutions for the Amazon region</track>
                 
                     
                 <language>en</language>
@@ -3740,33 +3910,6 @@ AmazoniaHack aims to provide multiple long-term benefits, including our goal thi
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/Y8ETTA/</url>
-                <feedback_url />
-            </event>
-            <event guid="9465d897-9af8-5a70-8f10-09ced6cd07dc" id="2781">
-                <room>Room III</room>
-                <title>Using Route Optimization Algorithms to Improve Sanitation Service Delivery</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-06T15:00:00-03:00</date>
-                <start>15:00</start>
-                <duration>00:30</duration>
-                <abstract>To address the urgent need for affordable, high quality, non-sewered sanitation solutions for urban residents, our organization distributes and manages urine-diverting, container-based toilets with accompanying safe emptying, transportation, and treatment of waste through a subscription model in urban informal settlements. Our goal is to reach one million residents over the next five years at a cost of less than $5 per person per year. To achieve this goal, we need to invest in scalable and efficient systems, particularly for waste collection logistics. 
-
-Currently, our waste collection routing and scheduling is performed manually and unsystematically. Managers decide which toilets to collect from each day based on filling rate data and assign a cluster of toilets to each waste collector. Collectors then have the autonomy to choose their own route for collecting those toilets based on their knowledge of the location and movement paths in the area. The process is time consuming, provides opportunities for expensive inefficiencies in routes, and is not scalable. To improve and automate the process, we leveraged route planning algorithms by modifying and piloting an existing route optimization tool. In the first phase of the project, we collected data for the tool such as GPS coordinates of toilets, locations of intermediate holding points where collectors can consolidate collections, considerations that collectors currently make when planning their routes, and challenges they face. We were also able to use existing street maps from OSM that included both formal roads and informal footpaths, which is critical data for the tool to perform well. The routes generated by the updated tool were estimated to reduce collection time by 48% and distance traveled by 62%. In the current phase of the project we are syncing the tool with our Customer Relationship Management (CRM) system to reduce the need for manual data entry and with an open-source mobile application( (OSMAnd) that will provide turn-by-turn navigation instructions based on the routes produced from the tool. We will then conduct a pilot in the Mathare informal settlement in Nairobi to measure actual time saved by using the tool for collections.</abstract>
-                <slug>foss4g-2024-2781-using-route-optimization-algorithms-to-improve-sanitation-service-delivery</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/YFRGRL/</url>
                 <feedback_url />
             </event>
             <event guid="79674658-d515-52f3-b79e-098756123249" id="2881">
@@ -3801,7 +3944,7 @@ During this presentation, we will walk you through these features and discuss th
 
 Join us to explore the cutting-edge capabilities of GeoServer Cloud and transform your geospatial data management.</abstract>
                 <slug>foss4g-2024-2881-elevating-geoserver-to-the-cloud-production-ready-features-for-optimal-performance</slug>
-                <track />
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -3840,7 +3983,7 @@ The success of GeoSampa and associated projects reveals that using open-source t
 As a developer of this project, I feel immense pride in having contributed to this digital and technological transformation in public administration. Seeing the positive impact of our work is extremely gratifying.
 Ultimately, São Paulo's example can inspire other cities to adopt similar practices, contributing to a future where technology and innovation serve efficient and inclusive urban development. Thus, the cartographic transition from map library to geoprocessing marks a new era in public administration, where geographic information is a valuable resource for decision-making and improving quality of life in cities.</abstract>
                 <slug>foss4g-2024-2784-cartographic-transition-from-map-library-to-geoprocessing-exploring-the-codes-behind-the-project-a-model-for-public-agencies</slug>
-                <track />
+                <track>Transition to FOSS4G</track>
                 
                     
                 <language>en</language>
@@ -3887,7 +4030,7 @@ These capabilities have been achieved through some major landmarks over time:
 
 This talk explores our journey implementing a local-first field mapping flow, with an example and demo to demonstrate its efficacy.</abstract>
                 <slug>foss4g-2024-2844-humanitarian-data-collection-in-browser-based-postgres</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -3915,7 +4058,7 @@ This talk explores our journey implementing a local-first field mapping flow, wi
                 <duration>00:30</duration>
                 <abstract>In this presentation, we will explore a practical example of using GeoServerCloud within a local cluster, specifically focusing on catalog configuration in the database. We'll simplify the complex process of deploying an application in a Kubernetes cluster using Helm. This task is challenging, especially when the application has a microservices architecture. Our goal is to bridge the technical gap, ensuring developers don't need to become DevOps experts to integrate GeoServerCloud into their applications.</abstract>
                 <slug>foss4g-2024-2768-geoservercloud-in-a-nutshell</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -3965,7 +4108,7 @@ Challenges for Small Landmass Countries:
 Conclusion:
    To maximize the benefits of open-source data for climate action, it is crucial to close the competency gap between data specialists and policymakers. By enhancing data literacy among policymakers and ensuring sustainable funding for open-source initiatives, countries can better harness these tools to develop robust, data-driven climate policies. This talk aims to shed light on these critical issues and propose actionable solutions to bridge existing gaps and promote effective climate decision-making.</abstract>
                 <slug>foss4g-2024-2796-assessing-the-gap-how-to-empower-climate-policy-with-open-source-data</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -4074,7 +4217,7 @@ Attend this presentation to check in with the Java crew with updates from:
 
 Happy mapping everyone please enjoy FOSS4G.</abstract>
                 <slug>foss4g-2024-2916-catching-up-with-geotools-jts-and-friends</slug>
-                <track />
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -4129,7 +4272,7 @@ With ROG, it's simple to create a new "Simple Feature" layer with no overlaps or
 
 In this presentation we will go more in detail on how we do use Postgis Topolgy in the ROG work and focus more on what obstacles that has been and are causing problems.</abstract>
                 <slug>foss4g-2024-2837-create-a-overlay-layer-with-attribute-values-by-finding-overlap-and-gap-across-multiple-and-in-large-polygon-layers-</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -4156,7 +4299,7 @@ In this presentation we will go more in detail on how we do use Postgis Topolgy 
 
 We will dive into how Quarticle, a company specializing in cloud-native applications and geospatial data solutions, developed a Kubernetes Operator tailored for GeoServer. This operator simplifies the management of GeoServer instances, enabling seamless automated deployments, scaling, updates, and configuration management in a Kubernetes environment.</abstract>
                 <slug>foss4g-2024-3016-k8s-operator-for-geoserver-quarticle-s-approach-to-automation</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -4197,7 +4340,7 @@ Speckle's flexible schema facilitates easy conversion to and from other native f
 
 Join us this December at FOSS4G to learn more! For those interested in exploring further, please visit our GitHub repository.</abstract>
                 <slug>foss4g-2024-2848-speckle-your-geospatial-3d-data-hub</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -4223,7 +4366,7 @@ Join us this December at FOSS4G to learn more! For those interested in exploring
                 <abstract>Reflections from a research study on GIS in secondary schools in South Africa resulted in the development of a collaborative certification for high school students. The study showed a need for more research into how GIS can be used more in secondary school pedagogy.  Results of a study done by the author on the status of GIS teaching in secondary schools in South Africa is investigated with the aim to determine if the use of Open Source software such as QGIS and open data such as OSM would facilitate the use of GIS as a teacher intervention. Teachers who participated in the study overwhelming agree that there are numerous benefits to using GIS in the classroom. They also expressed a keen willingness to attend GIS courses and learn more about FOSS4G tools. This study also showed how FOSS4G empowers teachers with the means to create exciting, real and relevant teaching content. A sample group evaluated how practical GIS lessons using QGIS and OSM can be used to teach geospatial skills.
 What this research study concluded is that comprehensive teacher training is required to make GIS practical lessons more effective in the classroom. This resulted in the development of a certified GIS course for teachers and the development of a coordinated Project Base Learning (PBL) task, which was named the Geospatial Data Science Certificate (GDSC). The GDSC is sponsored by Kartoza, endorsed by the Independent Examination Board (IEB), the Southern African Geography Teachers’ Association (SAGTA) and the University of Pretoria at a nominal cost to make it accessible to all students.  A pilot project was conducted over 2002 and launched in 2023 and the author believes it is ready to evolve into an international ‘Geolympiad’ whereby students can collaborate globally to solve real, pertinent issues.</abstract>
                 <slug>foss4g-2024-2820-the-geospatial-data-science-certificate-for-high-school-students-that-uses-foss4g-tools-and-project-based-learning-pbl-techniques-to-solve-spatial-problems</slug>
-                <track />
+                <track>Education</track>
                 
                     
                 <language>en</language>
@@ -4248,7 +4391,7 @@ What this research study concluded is that comprehensive teacher training is req
                 <duration>00:30</duration>
                 <abstract>Discover the design and benefits of GeoNode Cloud, showcasing its scalability, robustness, and versatility in managing large volumes of geospatial data.</abstract>
                 <slug>foss4g-2024-2855-geonode-cloud-your-geospatial-data-in-the-cloud</slug>
-                <track />
+                <track>State of software</track>
                 
                     
                 <language>en</language>
@@ -4279,7 +4422,7 @@ A key aspect of LCFM is its foundation on open-source software. Production proce
 
 In this presentation, we will introduce the LCFM service and showcase the first data products which will be publicly released in the beginning of 2025.  We will highlight the improvements the service brings and explore its potential for downstream applications.</abstract>
                 <slug>foss4g-2024-2762-the-copernicus-global-land-cover-and-tropical-forest-mapping-and-monitoring-service-a-free-and-open-dynamic-global-land-cover-service-at-10-m-resolution-for-the-years-2020-2026-</slug>
-                <track />
+                <track>Open Data</track>
                 
                     
                 <language>en</language>
@@ -4310,7 +4453,7 @@ The integration of OvertureMaps with GeoServer through WFS enables real-time dat
 
 Our presentation will delve into the technical aspects of implementing this proof of concept, discussing the integration process between OvertureMaps, WFS, and GeoServer.</abstract>
                 <slug>foss4g-2024-2822-exploring-opendata-dynamic-rendering-of-overturemaps-with-geoserver-and-wfs-without-local-storage</slug>
-                <track />
+                <track>Use cases &amp; applications</track>
                 
                     
                 <language>en</language>
@@ -4366,7 +4509,7 @@ Currently, this presentation talks about pgRouting addressing one of the Sevente
     <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
         
     </day>
-
+    
     <day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
         <room name="Room I" guid="6b4b3afc-c024-5bd9-8540-27fe3d3b6b62">
             <event guid="b94b5c4c-66e9-5506-a379-3d0775e5a300" id="2910">
@@ -4377,23 +4520,23 @@ Currently, this presentation talks about pgRouting addressing one of the Sevente
                 <date>2024-12-04T14:00:00-03:00</date>
                 <start>14:00</start>
                 <duration>00:30</duration>
-                <abstract>Tropical forests host half of Earth’s biodiversity (Dirzo &amp; Raven, 2003), 62% of global terrestrial vertebrate species (Pillay et al., 2022) and play a crucial role as a carbon sink (Mitchard, 2018). Despite their importance, every year, 3 to 4 million hectares of primary tropical forests are lost, mainly in Brazil, Indonesia and the Democratic Republic of Congo (DRC) (Hansen et al., 2013; Seymour, 2022), contributing to 22% of total greenhouse gas (GHG) emissions worldwide (IPCC, 2023).
+                <abstract>Tropical forests host half of Earth’s biodiversity (Dirzo &amp; Raven, 2003), 62% of global terrestrial vertebrate species (Pillay et al., 2022), and play a crucial role as a carbon sink (Mitchard, 2018). Despite their importance, every year, 3 to 4 million hectares of primary tropical forests are lost, mainly in Brazil, Indonesia, and the Democratic Republic of Congo (DRC) (Hansen et al., 2013; Seymour, 2022), contributing to 22% of total greenhouse gas (GHG) emissions worldwide along with agriculture, forestry and other land use (AFOLU) (IPCC, 2023).
 
 Preventing deforestation requires understanding its root causes, particularly the capital availability to the farm sector. In many tropical countries, rural credit is available as loans at subsidized interest rates to improve agricultural production or support agricultural costs (Servo, 2019). However, these loans may be leading to more deforestation. Some studies have analyzed this issue on a municipal scale, but few peer-reviewed studies have linked rural credit to individual property-scale deforestation. Recently, the NGO Greenpeace (Greenpeace, 2024) and the Climate Policy Initiative (Mourão et al., 2024) published two studies showing the relationship between rural credit and deforestation. Understanding this relationship can improve public policies to prevent deforestation from happening even before it starts.
 
-2.	Methods
-In this study, I used open data and FOSS4G to quantify the amount of Rural Credit released to rural properties that committed Deforestation. The datasets came from different open data sources. The Central Bank of Brazil provides data on rural credit on the SICOR System. The National Institute of Space Research (INPE) provides data on forests and deforestation on the Terrabrasilis system. The Brazilian Forest Service provided data for each property's Rural Environmental Registry (CAR), providing their boundaries. The Brazilian Institute of Geography and Statistics (IBGE) provides administrative boundaries (state and municipality) data.
+Methods
+In this study, I used open data and FOSS4G to quantify the amount of Rural Credit released to rural properties that committed Deforestation. The datasets came from different open data sources. The Central Bank of Brazil provides data on rural credit on the SICOR System. The National Institute of Space Research (INPE) provides data on deforestation in the Terrabrasilis system. The Brazilian Forest Service provided data for each property's Rural Environmental Registry (CAR), providing their boundaries. The Brazilian Institute of Geography and Statistics (IBGE) provides data for administrative boundaries (state and municipality).
 
-Using the Terra library in CRAN-R,. I processed the data sets from three states that contributed the most to deforestation: Rondônia, Mato Grosso and Pará. To check the results, I used a Spatialite database and QGIS desktop. The novelty here is that using R scripts made it possible to rebuild the relational database from SICOR in a geospatial environment, providing a reproducible environment. All steps are described below.
+Using the Terra library in CRAN-R,. I processed the data sets from three states that contributed the most to deforestation: Rondônia, Mato Grosso, and Pará. I used a Spatialite database and QGIS Geographic Information System to check the results. The novelty here is that by using R scripts, it was possible to rebuild the relational database from SICOR in a geospatial environment, providing a reproducible environment. All steps are described below.
 
-First, using R, all the data needed for the analysis was downloaded from their original source and loaded into the R environment. The second step, still using R, was to recreate the SICOR, CAR and PRODES Deforestation tables and populate them into a Spatialite (SQLite) database. This step provides a valuable tool for monitoring by both environmental agencies and the banks that provide loans for rural credit.
+First, using R, all the data needed for the analysis was downloaded from their source and loaded into the R environment. The second step, still using R, was to recreate the SICOR, CAR, and PRODES Deforestation tables and populate them into a Spatialite (SQLite) database. This step provides a valuable tool for monitoring by both environmental agencies and the banks that provide loans for rural credit.
 
-The next step was to intersect the deforestation data with the CAR property boundaries, calculating the amount of deforestation on each property using PRODES data between 2008 and 2023. Next, the total number of loans between 2013 and 2023 was identified for each property. All these steps were processed using the Terra library in R. The results are shown in the table below.
+The next step was to intersect the deforestation data with the CAR property boundaries, calculating the amount of deforestation on each property using PRODES data between 2008 and 2023. Next, the total number of loans between 2013 and 2023 was identified for each property. All these steps were processed using the Terra library in R.
 
-3.	Results
-In 1992, the Brazilian Parliament enacted Law 4,829, creating subsidies for rural credit, known as Safra Plan. As a result of this law, the interest rates of the Safra Plan have always been significantly lower than those practiced in the market. In March 2019, for example, while the average interest rate on loans for non-rural purposes stood at 31.6% per year, rural credit was observed at 10.8% p.y. on market rates, and even lower with controlled rates observing an average rate of 6.1% p.y.(Servo, 2019) .
+Results
+In 1992, the Brazilian Parliament enacted Law 4,829, creating subsidies for rural credit, known as Safra Plan. The interest rates of the Safra Plan have always been significantly lower than those practiced in the market. In March 2019, for example, while the average interest rate on loans for non-rural purposes stood at 31.6% per year, rural credit was observed at 10.8% p.y. on market rates, and even lower with controlled rates observing an average rate of 6.1% p.y.(Servo, 2019) .
 
-As a result of this accessible credit, I found that from 2013 to 2023,  almost BRL 9 Billion was loaned to properties with some deforestation in these three states (RO, PA, MT). Counting deforestation from August 2008 to July 2023, 37963 km² is the total amount of clearing in properties that received rural credit in those same three states, representing 39% of all deforestation for the period.</abstract>
+The results show that from 2013 to 2023, almost BRL 9 billion was loaned to properties with some deforestation in these three states (RO, PA, MT). Counting deforestation from August 2008 to July 2023, 9750 km² is the total amount of clearing in properties that received rural credit in those same three states, representing 10% of all deforestation for the period.</abstract>
                 <slug>foss4g-2024-academic-track-2910-the-relationship-between-rural-credit-and-deforestation</slug>
                 <track>Academic Track</track>
                 
@@ -5231,13 +5374,7 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
                 <date>2024-12-04T15:30:00-03:00</date>
                 <start>15:30</start>
                 <duration>00:30</duration>
-                <abstract>## Video-Mapa: An Open Source System for Monitoring
-
-- Jorge Pimentel Cintra, Transport Engineering Department, Polytechnic School of the University of São Paulo, SP, Brazil
-- Carlos Enrique Hernandez Simoes, Transport Engineering Department, Polytechnic School of the University of São Paulo, SP, Brazil
-- Paulo Sztutman, Transport Engineering Department, Polytechnic School of the University of São Paulo, SP, Brazil
-
-## Building an AI Dataset to Estimate Vegetation Carbon Using a QGIS-Based Annotation Tool
+                <abstract>## Building an AI Dataset to Estimate Vegetation Carbon Using a QGIS-Based Annotation Tool
 
 - Yoon Jeongho, Korea Environment Institute, Korea
 - Lee Sanghyuk, Korea Environment Institute, Korea
@@ -5284,7 +5421,7 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
         
     </day>
     
-<day index="1" date="2024-12-02" start="2024-12-02T04:00:00-03:00" end="2024-12-03T03:59:00-03:00">
+    <day index="1" date="2024-12-02" start="2024-12-02T04:00:00-03:00" end="2024-12-03T03:59:00-03:00">
         <room name="Room Guajará" guid="d9935fe8-32ca-5a26-89ad-7b7bda6b47a3">
             <event guid="1071762f-6fba-51e5-b67f-73b09a96cada" id="2934">
                 <room>Room Guajará</room>
@@ -5410,7 +5547,17 @@ In January of 2024, GPSSample was added to the Google Playstore, user-guides wer
 - Learn advanced geostatistical algorithms
 - Reproduce practical open source examples
 
-with the authors and maintainers of the [GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) framework.</description>
+with the authors and developers of the [GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) framework.
+
+### Software installation
+
+We highly recommend installing the software before the workshop:
+
+1. Julia Programming Language (version v1.11)
+2. VSCode Integrated Development Environment (IDE)
+3. Julia extension for VSCode IDE
+
+You can find detailed instructions [here](https://github.com/julia-vscode/julia-vscode#installing-juliavs-codevs-code-julia-extension).</description>
                 <recording>
                     <license />
                     <optout>false</optout>
@@ -5718,31 +5865,6 @@ Simoes, R.; Camara, G.; Queiroz, G.; Souza, F.; Andrade, P.R.; Santos, L.; Carva
             
         </room>
         <room name="Room Forte do Castelo" guid="6bac4f31-af0a-51c9-a645-67a5d93ab703">
-            <event guid="b6e09553-6761-5106-a39f-31933b6e3142" id="2872">
-                <room>Room Forte do Castelo</room>
-                <title>Development of platforms with React and MapLibre for modeling Digital Twins using IFC data for BIM</title>
-                <subtitle />
-                <type>Workshop</type>
-                <date>2024-12-02T09:00:00-03:00</date>
-                <start>09:00</start>
-                <duration>04:00</duration>
-                <abstract>Build your 2D and 3D platform with all data sources, including IFC for BIM, in one place, developed with open source software.</abstract>
-                <slug>foss4g-2024-workshop-2872-development-of-platforms-with-react-and-maplibre-for-modeling-digital-twins-using-ifc-data-for-bim</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                <description>In this 4-hour workshop, we will explore how to develop interactive platforms for city modeling and digital twins using React and MapLibre, with a special focus on integrating IFC data for BIM (Building Information Modeling). Digital twins are virtual replicas of physical entities, and standardized platforms are essential for their creation and management. You will learn how to build your own viewer, integrating various 2D and 3D data sources, and how to use these tools to perform real-life simulations.</description>
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/FCQBLP/</url>
-                <feedback_url />
-            </event>
             <event guid="c0d19283-0209-516a-9a50-f083e40328ad" id="2801">
                 <room>Room Forte do Castelo</room>
                 <title>Web maps with Gleo: from zero to WebGL innards</title>
@@ -6025,53 +6147,6 @@ The core requirement is to have Docker and Docker Compose installed on the syste
             
         </room>
         <room name="Room Mangueirão" guid="868dd788-882a-5599-bd9c-070ac7750665">
-            <event guid="0bea1509-cfa3-5699-8367-4f8d323fe3fb" id="2695">
-                <room>Room Mangueirão</room>
-                <title>Land change Science, for classifying and identifying environmental big challenges using Deep Learning</title>
-                <subtitle />
-                <type>Workshop</type>
-                <date>2024-12-03T09:00:00-03:00</date>
-                <start>09:00</start>
-                <duration>04:00</duration>
-                <abstract>Climate change and anthropogenic activities are rapidly transforming the Earth's surface. Consequently, researchers and public authorities are eager to gain a deeper understanding of how human actions interact with the environment. This workshop will incorporate Land Change Science (LCS), a recently emerged interdisciplinary field focused on investigating land use and cover dynamics, using satellite imagery and powerful tailored Python libraries. This workshop will allow participants to delve into the main role of LCS to address pressing environmental and social challenges. We will smoothly integrate theories, innovative machine learning models and practical applications to provide participants with hands-on experience in land change science with open source and geographical tools.</abstract>
-                <slug>foss4g-2024-workshop-2695-land-change-science-for-classifying-and-identifying-environmental-big-challenges-using-deep-learning</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                <description>Introduction and Background: Land Use and Cover - LUCL studies are essential for understanding and monitoring environmental processes related to vegetation dynamics. Researchers have demonstrated the field's value in various areas, such as assessing climate change effects, characterizing ecosystems, detecting forest disturbances, monitoring forest degradation, managing natural disasters, classifying crops, and conserving biodiversity.  
-
-This 4-hour workshop (which can be easily extended to a full-day workshop) aims to deliver an in-depth exploration of Land Changes Science – LCS, particularly the Land Use and Cover analysis - LUCL. The workshop will focus on a recent FOSS Python package we developed called scikit-eo, which is a tailored remote sensing analysis library designed to facilitate the classification and identification of changes in land use and cover, mapping forest degradation and overall environmental studies using satellite imagery.  
-
-What do we aim for: 
-
-- Introduce participants to the foundational concepts of LCS. 
-- Explore the methods and datasets for monitoring and analysing vegetation dynamics through LULC studies. 
-- Introduction to scikit-eo package and the integration of machine learning (ML) in enhancing the accuracy of land cover classification. 
-- Provide hands-on experience with variable selection processes and multivariate analysis in LULC studies Using a public and easy-to-replicate repository. 
-- Present case studies from various ecosystems to demonstrate the application of LCS. 
-
-Suggested Methodology: 
-We plan to lead a technical workshop, including the theoretical foundations plus hands-on activities, including:  
-- Topics to discuss: 
-1. Dataset selection and pre-processing stages mainly focused on variable selection including, vegetation indices, radar polarizations, and topographic variables (What do they offer and why, when are they relevant) 
-2. Variable grouping using selected variables and evaluating model performance using Random Forest (RF) classifiers and Monte Carlo Cross-Validation (MCCV). 
-Activities: 
-A. Introduction to scikit-eo package. 
-B. Data collection and pre-processing using satellite imagery from Copernicus Sentinel-2 and Sentinel-1. 
-C. Utilizing Convolutional Neural Networks (CNN) for training processes to assess performance and interpret outcomes. 
-
-The entire workshop will focus its activities using local case studies like the Peruvian Andes and tropical Brazil to illustrate these methodologies.</description>
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/VKUSDZ/</url>
-                <feedback_url />
-            </event>
             <event guid="3cd9bd6e-1d40-537b-9c26-bb814798bc5a" id="2642">
                 <room>Room Mangueirão</room>
                 <title>Cloud-Native Geospatial for Earth Observation</title>
@@ -6285,31 +6360,6 @@ In this hands-on session we will present and exemplify a subset of the imagery t
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/ZVWCZC/</url>
-                <feedback_url />
-            </event>
-            <event guid="dc36c84f-505f-5437-a951-d5a37721b836" id="2871">
-                <room>Room Mangal das Garças</room>
-                <title>GeoNode Cloud: Deployment with Kubernetes</title>
-                <subtitle />
-                <type>Workshop</type>
-                <date>2024-12-03T14:00:00-03:00</date>
-                <start>14:00</start>
-                <duration>04:00</duration>
-                <abstract>Explore the design and deployment of GeoNode Cloud in the cloud using Kubernetes and integrating GeoServer Cloud. Learn how to configure, scale and manage a robust and efficient GeoNode</abstract>
-                <slug>foss4g-2024-workshop-2871-geonode-cloud-deployment-with-kubernetes</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                <description>In this 4-hour workshop, we will delve into designing and deploying GeoNode Cloud in a cloud environment using Kubernetes. GeoNode Cloud is a cloud-native platform that allows us to manage and publish geospatial data, and its implementation in Kubernetes offers significant advantages in terms of scalability, resilience and management.</description>
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/Z3TLKC/</url>
                 <feedback_url />
             </event>
             
@@ -6531,35 +6581,7 @@ This session will be a practical, hands-on workshop including an outdoor flying 
             </event>
             
         </room>
-        <room name="Room River Guamá" guid="163ffa5a-bdd3-5162-97a6-8d56964eb041">
-            <event guid="dc9d257e-8c9d-5c00-a769-7af557fb4aef" id="2880">
-                <room>Room River Guamá</room>
-                <title>Automation of Geoprocessing in GRASS GIS with Airflow</title>
-                <subtitle />
-                <type>Workshop</type>
-                <date>2024-12-03T14:00:00-03:00</date>
-                <start>14:00</start>
-                <duration>04:00</duration>
-                <abstract>Learn to automate geoprocessing in GRASS GIS using Airflow as an orchestrator. Discover how to integrate and schedule geospatial workflows for efficient analysis and processing of large data volumes.</abstract>
-                <slug>foss4g-2024-workshop-2880-automation-of-geoprocessing-in-grass-gis-with-airflow</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                <description>In this 4-hour workshop, we will explore how to automate geospatial processes using GRASS GIS and Airflow. GRASS GIS is a tool for geographic data analysis and processing, and its integration with Airflow allows for efficient automation and orchestration of these processes, ensuring clear maintenance and scalability.</description>
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/GMX7HU/</url>
-                <feedback_url />
-            </event>
-            
-        </room>
         
     </day>
-</schedule>
     
+</schedule>
