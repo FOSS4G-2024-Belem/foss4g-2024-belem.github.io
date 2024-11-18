@@ -165,7 +165,7 @@ const menuItems = [
         "label:en": "Schedule App",
         "label:es": "App de Programa",
         "label:pt": "App de Programa",
-        href: "/schedule",
+        href: "/schedule-app",
       },
       {
         "label:en": "Schedule Overview",
