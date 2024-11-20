@@ -116,7 +116,7 @@ export const sponsors = {
   },
   arkedgespace: {
     logo: ArkEdgeSpaceLogo,
-    website: "https://production.d35ckxbzpc1jtm.amplifyapp.com/en",
+    website: "https://arkedgespace.com/en",
     statement: `ArkEdgeSpace provides satellite business opportunities for all.`,
   },
   merginmaps: {
