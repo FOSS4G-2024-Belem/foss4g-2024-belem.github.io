@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.9</version>
+    <version>0.10</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
         <start>2024-12-02</start>
         <end>2024-12-08</end>
-        <days>5</days>
+        <days>7</days>
         <timeslot_duration>00:05</timeslot_duration>
         <base_url>https://talks.osgeo.org</base_url>
         <logo>https://talks.osgeo.org/media/foss4g-2024/img/logo-horizontal_ip4boGg.png</logo>
@@ -35,7 +35,6 @@
         <track name="Applications and solutions for the Amazon region" slug="123-applications-and-solutions-for-the-amazon-region" color="#423b3b" />
         
     </conference>
-
     <day index="4" date="2024-12-05" start="2024-12-05T04:00:00-03:00" end="2024-12-06T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="a82569be-7e10-5421-acc2-698c415d1173" id="3021">
@@ -386,37 +385,6 @@ Learn from success stories across various industries and discover how QField 3's
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/GM8WTF/</url>
-                <feedback_url />
-            </event>
-            <event guid="fdba84b7-ea03-569a-88cd-8a6624ca6d0a" id="2780">
-                <room>Room I</room>
-                <title>Using Open-Access Spatial Data for Enhanced Sanitation Planning</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-05T15:30:00-03:00</date>
-                <start>15:30</start>
-                <duration>00:30</duration>
-                <abstract>This talk aims to explore the potential of using open-access spatial data to support the early stages of sanitation system planning. QGIS, an open-source Geographic Information System (GIS) software, will be used to process and analyze the data.
-
-The lack of reliable and up-to-date data in developing countries represents a significant barrier to the effective planning of sanitation projects. Despite the growth in the availability of new open-access data, its application in sanitation projects and planning is still limited. To fill this gap, the lecture aims to identify, catalog, and use essential primary spatial datasets - such as population data, building footprints, and street registers - available globally in order to support sanitation planning. By adopting a data-driven approach, it will be possible to select the most appropriate sanitation system according to the local context. These systems include both on-site solutions and centralized systems with sewage collection networks. 
-
-The criteria for selecting datasets are oriented towards ensuring compatibility with Open Geospatial Consortium (OGC) standards and adherence to FAIR principles. By implementing this approach in a selected case study area, the talk aims to demonstrate the feasibility and benefits of integrating open-access data related to demographics and existing infrastructure in sanitation planning.
-
-The ultimate goal is to highlight the importance of quality open data, which is essential for filling an existing gap in sanitation planning. This promotes the democratization of access to quality information and the use of free GIS tools, allowing the inclusion of local professionals in sanitation projects in developing countries, and consequently improving the results of these projects.</abstract>
-                <slug>foss4g-2024-2780-using-open-access-spatial-data-for-enhanced-sanitation-planning</slug>
-                <track>Open Data</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/8ASGFS/</url>
                 <feedback_url />
             </event>
             <event guid="ec45d1fa-df98-5722-8923-94abe71c2263" id="2804">
@@ -888,39 +856,6 @@ One potential application in education from collaborative mapping functionalitie
                 <url>https://talks.osgeo.org/foss4g-2024/talk/STYY3R/</url>
                 <feedback_url />
             </event>
-            <event guid="9e035ddf-265f-59f5-84c5-f243b5b5fd58" id="2928">
-                <room>Room II</room>
-                <title>How open-source GIS drives better results for children</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-05T16:30:00-03:00</date>
-                <start>16:30</start>
-                <duration>00:30</duration>
-                <abstract>UNICEF is leveraging geospatial technologies in order to geo-enable UNICEF’s data, systems and processes to transform data into easily accessible, readily available and actionable geospatial information. Such information is essential to address key questions, such as: “How many children are affected by climate change?”, “Where children have limited access to schools AND limited access to health services?” to support evidence-based advocacy and decision-making for better results for children.
-UNICEF has adopted a hybrid geospatial architecture, benefiting from both commercial and open-source GIS solutions. Open-source approach allows us to have more flexibility and enables cost-effective scalability of corporate GIS systems, making them available to all UNICEF users.
-GeoSight is an open-source web geospatial data platform developed by UNICEF for easy data visualization and analysis. It is specifically designed to simplify the creation of online maps for visualizing multiple indicators at a subnational level to support evidence-based decision-making. Using GeoSight, UNICEF users and partners can easily overlay multiple indicators representing various thematic areas, such as natural hazards, climate-related risks, but also conflicts, health, education, poverty and other socio-economic indicators.
-GeoSight is developed using Django backend and React at a frontend. It has a robust backend interface where users can manage indicator data, basemaps, contextual layers, styles as well as create new projects (dashboards) for publishing data. A dashboard is the main GeoSight product for end-users to interact with the data. It is consists of an interactive map (developed using MapLibre) with multiple indicator layers representing various statistics, typically at national or subnational levels. Indicator layers can be queried and analyzed at different administrative levels (e.g. province or district) at a specific date and time. Additionally, users can cross-query multiple indicators using filters. The map may also contain contextual layers (which can be any point, line, polygon or raster layers) as well as custom basemaps. 
-GeoSight has a robust API that allows for system-to-system integrations. This is a powerful feature, which is used for creating automated data pipelines that feed in data from multiple sources and make them available for all users.
-GeoSight is a self-service platform that equips UNICEF users at all country offices with an easy to use and powerful geospatial analytical system. The platform has been already used to support UNICEF response in many emergency contexts, including Ukraine and Gaza. It is also used as a dissemination tool for global and regional initiative such as Child Climate Risk Index-Disaster Risk Model (CCRI-DRM), WASH Insecurity Analysis (WIA) and many others.
-“UNICEF has over 70-year history of innovating for children and believes that new approaches, partnerships, and technologies that support the realization of children’s rights are critical to improving their lives. Early on, UNICEF established guiding principles for innovation and technology in development, which influences the Principles for Digital Development. One of these – Use Open Standards, Open Data, Open Source, and Open Innovation – explicitly advocates for the licensing of open source software to enable greater impact in international development and cooperation. This Principle has guided UNICEF’s approach in creating, investing in, and supporting innovations” (https://www.unicef.org/innovation/dpg-pathfinding-countries). Following this principle, UNICEF has made GeoSight source code publicly available under the terms of an AGPL-3.0 license.
-Open source approach is also one of the key elements of the Frontier Data Network - UNICEF’s strategic initiative designed to promote innovation and capacity building in data science, helping us make data-driven decisions that truly benefit children. Open source solutions are part of how we offer the underlying capabilities that are necessary to actually enable the production and provision of solutions.
-We believe that GeoSight can benefit many organizations, both private, NGOs and public, not only in the humanitarian and development sectors. We would like to encourage organizations and individual developers to contribute to GeoSight project and help us and our partners leverage open-source geospatial technology to support the lives of children around the world.</abstract>
-                <slug>foss4g-2024-2928-how-open-source-gis-drives-better-results-for-children</slug>
-                <track>Community &amp; Foundation</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/TQ8WPJ/</url>
-                <feedback_url />
-            </event>
             
         </room>
         <room name="Room III" guid="eadfc9ff-2013-5fba-abcd-15248b3e2f6e">
@@ -1098,6 +1033,39 @@ This presentation aims to interest professionals from various fields, including 
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/MWBRHZ/</url>
+                <feedback_url />
+            </event>
+            <event guid="9e035ddf-265f-59f5-84c5-f243b5b5fd58" id="2928">
+                <room>Room III</room>
+                <title>How open-source GIS drives better results for children</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-05T12:30:00-03:00</date>
+                <start>12:30</start>
+                <duration>00:30</duration>
+                <abstract>UNICEF is leveraging geospatial technologies in order to geo-enable UNICEF’s data, systems and processes to transform data into easily accessible, readily available and actionable geospatial information. Such information is essential to address key questions, such as: “How many children are affected by climate change?”, “Where children have limited access to schools AND limited access to health services?” to support evidence-based advocacy and decision-making for better results for children.
+UNICEF has adopted a hybrid geospatial architecture, benefiting from both commercial and open-source GIS solutions. Open-source approach allows us to have more flexibility and enables cost-effective scalability of corporate GIS systems, making them available to all UNICEF users.
+GeoSight is an open-source web geospatial data platform developed by UNICEF for easy data visualization and analysis. It is specifically designed to simplify the creation of online maps for visualizing multiple indicators at a subnational level to support evidence-based decision-making. Using GeoSight, UNICEF users and partners can easily overlay multiple indicators representing various thematic areas, such as natural hazards, climate-related risks, but also conflicts, health, education, poverty and other socio-economic indicators.
+GeoSight is developed using Django backend and React at a frontend. It has a robust backend interface where users can manage indicator data, basemaps, contextual layers, styles as well as create new projects (dashboards) for publishing data. A dashboard is the main GeoSight product for end-users to interact with the data. It is consists of an interactive map (developed using MapLibre) with multiple indicator layers representing various statistics, typically at national or subnational levels. Indicator layers can be queried and analyzed at different administrative levels (e.g. province or district) at a specific date and time. Additionally, users can cross-query multiple indicators using filters. The map may also contain contextual layers (which can be any point, line, polygon or raster layers) as well as custom basemaps. 
+GeoSight has a robust API that allows for system-to-system integrations. This is a powerful feature, which is used for creating automated data pipelines that feed in data from multiple sources and make them available for all users.
+GeoSight is a self-service platform that equips UNICEF users at all country offices with an easy to use and powerful geospatial analytical system. The platform has been already used to support UNICEF response in many emergency contexts, including Ukraine and Gaza. It is also used as a dissemination tool for global and regional initiative such as Child Climate Risk Index-Disaster Risk Model (CCRI-DRM), WASH Insecurity Analysis (WIA) and many others.
+“UNICEF has over 70-year history of innovating for children and believes that new approaches, partnerships, and technologies that support the realization of children’s rights are critical to improving their lives. Early on, UNICEF established guiding principles for innovation and technology in development, which influences the Principles for Digital Development. One of these – Use Open Standards, Open Data, Open Source, and Open Innovation – explicitly advocates for the licensing of open source software to enable greater impact in international development and cooperation. This Principle has guided UNICEF’s approach in creating, investing in, and supporting innovations” (https://www.unicef.org/innovation/dpg-pathfinding-countries). Following this principle, UNICEF has made GeoSight source code publicly available under the terms of an AGPL-3.0 license.
+Open source approach is also one of the key elements of the Frontier Data Network - UNICEF’s strategic initiative designed to promote innovation and capacity building in data science, helping us make data-driven decisions that truly benefit children. Open source solutions are part of how we offer the underlying capabilities that are necessary to actually enable the production and provision of solutions.
+We believe that GeoSight can benefit many organizations, both private, NGOs and public, not only in the humanitarian and development sectors. We would like to encourage organizations and individual developers to contribute to GeoSight project and help us and our partners leverage open-source geospatial technology to support the lives of children around the world.</abstract>
+                <slug>foss4g-2024-2928-how-open-source-gis-drives-better-results-for-children</slug>
+                <track>Community &amp; Foundation</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/TQ8WPJ/</url>
                 <feedback_url />
             </event>
             <event guid="28aa1d8d-5cb6-5578-a6b4-0f5d982b1edb" id="2858">
@@ -2385,6 +2353,35 @@ In this talk we will give a comprehensive overview of the latest GRASS GIS devel
                 <url>https://talks.osgeo.org/foss4g-2024/talk/3PHTV9/</url>
                 <feedback_url />
             </event>
+            <event guid="2b3c431f-1eaf-5f3b-852c-a61fe2724cf7" id="2444">
+                <room>Room II</room>
+                <title>pygeoapi project status</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-04T17:30:00-03:00</date>
+                <start>17:30</start>
+                <duration>00:30</duration>
+                <abstract>pygeoapi is an OGC API Reference Implementation. Implemented in Python, pygeoapi supports numerous OGC APIs via a core agnostic API, different web frameworks (Flask, Starlette, Django) and a fully integrated OpenAPI capability. Lightweight, easy to deploy and cloud-ready, pygeoapi's architecture facilitates publishing datasets and processes from multiple sources. The project also provides an extensible plugin framework, enabling developers to implement custom data adapters, filters and processes to meet their specific requirements and workflows. pygeoapi also supports the STAC specification in support of static data publishing.
+
+pygeoapi has a significant install base around the world, with numerous projects in academia, government and industry deployments. The project is also an OGC API Reference Implementation, lowering the barrier to publishing geospatial data for all users.
+
+This presentation will provide an update on the current status, latest developments in the project, including new core features and plugins. In addition, the presentation will highlight key projects using pygeoapi for geospatial data discovery, access and visualization.</abstract>
+                <slug>foss4g-2024-2444-pygeoapi-project-status</slug>
+                <track>State of software</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/VQNTSA/</url>
+                <feedback_url />
+            </event>
             
         </room>
         <room name="Room III" guid="eadfc9ff-2013-5fba-abcd-15248b3e2f6e">
@@ -2848,7 +2845,6 @@ We will show that there is already a set of (FOSS) tools in place (e.g.: readers
         </room>
         
     </day>
-
     <day index="5" date="2024-12-06" start="2024-12-06T04:00:00-03:00" end="2024-12-07T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="54b549a8-fcd5-5862-9328-711b6f65e4d9" id="3022">
@@ -3203,35 +3199,6 @@ The future perspectives involve the transformation itself into research line in 
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/FFN3YW/</url>
-                <feedback_url />
-            </event>
-            <event guid="2b3c431f-1eaf-5f3b-852c-a61fe2724cf7" id="2444">
-                <room>Room I</room>
-                <title>pygeoapi project status</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-06T16:30:00-03:00</date>
-                <start>16:30</start>
-                <duration>00:30</duration>
-                <abstract>pygeoapi is an OGC API Reference Implementation. Implemented in Python, pygeoapi supports numerous OGC APIs via a core agnostic API, different web frameworks (Flask, Starlette, Django) and a fully integrated OpenAPI capability. Lightweight, easy to deploy and cloud-ready, pygeoapi's architecture facilitates publishing datasets and processes from multiple sources. The project also provides an extensible plugin framework, enabling developers to implement custom data adapters, filters and processes to meet their specific requirements and workflows. pygeoapi also supports the STAC specification in support of static data publishing.
-
-pygeoapi has a significant install base around the world, with numerous projects in academia, government and industry deployments. The project is also an OGC API Reference Implementation, lowering the barrier to publishing geospatial data for all users.
-
-This presentation will provide an update on the current status, latest developments in the project, including new core features and plugins. In addition, the presentation will highlight key projects using pygeoapi for geospatial data discovery, access and visualization.</abstract>
-                <slug>foss4g-2024-2444-pygeoapi-project-status</slug>
-                <track>State of software</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/VQNTSA/</url>
                 <feedback_url />
             </event>
             
@@ -4510,7 +4477,7 @@ Currently, this presentation talks about pgRouting addressing one of the Sevente
         
     </day>
     
-    <day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
+<day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
         <room name="Room I" guid="6b4b3afc-c024-5bd9-8540-27fe3d3b6b62">
             <event guid="b94b5c4c-66e9-5506-a379-3d0775e5a300" id="2910">
                 <room>Room I</room>
@@ -5421,7 +5388,7 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
         
     </day>
     
-    <day index="1" date="2024-12-02" start="2024-12-02T04:00:00-03:00" end="2024-12-03T03:59:00-03:00">
+<day index="1" date="2024-12-02" start="2024-12-02T04:00:00-03:00" end="2024-12-03T03:59:00-03:00">
         <room name="Room Guajará" guid="d9935fe8-32ca-5a26-89ad-7b7bda6b47a3">
             <event guid="1071762f-6fba-51e5-b67f-73b09a96cada" id="2934">
                 <room>Room Guajará</room>
@@ -5443,11 +5410,20 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
 
 **Field Mapping:** Custom configuration and use of OSM Tracker to capture public transportation route data and other relevant information, with a focus on best practices for data collection in the field.
 
+Note: It's possible to use alternatives to OSM Tracker, but we'll demonstrate this specific app. Any app that creates GPX can be used.
+
 **Data Review and Cleaning:** Importing and reviewing captured data in QGIS, followed by a data cleaning and standardization process using JOSM.
 
 **GTFS Generation:** Creation of a GTFS (General Transit Feed Specification) file from the standardized data, ready to be used in transportation planning applications.
 
-This workshop will enable participants to acquire practical skills and essential tools to contribute to collaborative mapping projects and improve the quality of public transportation data in their community.</description>
+This workshop will enable participants to acquire practical skills and essential tools to contribute to collaborative mapping projects and improve the quality of public transportation data in their community.
+
+## Requirements
+
+This workshop requires participants to have the mentioned tools installed:
+- OSM account
+- OSM Tracker (Android)
+- JOSM</description>
                 <recording>
                     <license />
                     <optout>false</optout>
@@ -5556,8 +5532,9 @@ We highly recommend installing the software before the workshop:
 1. Julia Programming Language (version v1.11)
 2. VSCode Integrated Development Environment (IDE)
 3. Julia extension for VSCode IDE
+4. Project files and data
 
-You can find detailed instructions [here](https://github.com/julia-vscode/julia-vscode#installing-juliavs-codevs-code-julia-extension).</description>
+You can find detailed instructions [here](https://github.com/Arpeggeo/FOSS4G2024).</description>
                 <recording>
                     <license />
                     <optout>false</optout>
@@ -5895,65 +5872,6 @@ This workshop/tutorial will start with the simplest examples of how to embed a G
             
         </room>
         <room name="Room Tupinambá" guid="2c18961f-3d0e-56bd-869e-1187b5c8c1dd">
-            <event guid="47ed289a-ab29-586f-a1dd-b5f3b61b0162" id="2622">
-                <room>Room Tupinambá</room>
-                <title>Microwave Image Processing: Exploring realms of Earth  through spaceborne Radars using Python</title>
-                <subtitle />
-                <type>Short Workshop</type>
-                <date>2024-12-02T14:00:00-03:00</date>
-                <start>14:00</start>
-                <duration>02:00</duration>
-                <abstract>Remote Sensing has proved to be an important tool in monitoring our earth's ecosystem. Satellite imaging is a vital part of Remote Sensing. Predominantly, Satellite Imaging of the earth has been done in the optical domain and optical Images serve the majority of purpose for earth monitoring. But, these satellites do not have all-weather acquisition capability and this lacuna is filled by the satellite sensors working in the Microwave domain of the Electromagnetic spectrum. Synthetic Aperture Radar(SAR) is an Imaging Radar that acquires images of a particular area in the microwave region. This workshop deals with the processing of SAR Images and how these images can be beneficial in a variety of geographical applications.</abstract>
-                <slug>foss4g-2024-workshop-2622-microwave-image-processing-exploring-realms-of-earth-through-spaceborne-radars-using-python</slug>
-                <track />
-                
-                    
-                <language>en</language>
-                <description>Intended Audience : The workshop will be aimed at the audience belonging to any level of education. It will introduce them to the wonderful class of SAR images and how are these images useful from the perspective of various applications.
-
-Expected Outcomes (after the workshop, the audience will be) :
-
-i) Able to understand the acquisition of SAR imagery.
-
-ii) Able to understand the types of datasets utilized in remote sensing
-
-iii) Able to use the GDAL library to perform operations on images
-
-iv) Able to efficiently process SAR imagery using Python
-
- v) Able to draw a roadmap in order to utilize SAR imagery for various geographic applications
-
-Outline
-
-The workshop will be divided into the following sub-sessions :
-
-Sub-Session-1: Introduction to Microwave Remote Sensing (30 minutes) - This part will discuss the foundations of Microwave Remote Sensing. Theoretical aspects regarding the acquisition of images, the formation of images encompassing the generation of complex images and ground range detected images will be discussed.
-
-Sub-Session-2: Pythonic Way to SAR Image Processing (90 minutes): This part will focus on achieving the following Key points:
-
-1) Basic utilization of GDAL, Numpy and Matplotlib Libraries for opening and visualizing Images(15 minutes)
-
-2) Codes will be developed separately for calibration for each SAR sensor(esp. Sentinel-1, Radarsat-2) from scratch.(45 minutes)
-
-3) Utilization of the codes developed in (2) for various applications such as Oceanography, Forestry, etc.(30 minutes)
-
-Datasets: Free Imagery data sets of Sentinel-1 SAR will be utilized. In addition, Sample Data sets of Radarsat-2, RISAT- 1 which are freely downloadable will be utilized.The sample datasets will be provided. For better understanding of the datasets, the participants may download and utilize the Sentinel-1 SAR free Image dataset initially .Sentinel-1 Free SAR Imagery(https://scihub.copernicus.eu/dhus/#/home)
-
-Conduct of the workshop : The workshop will be conducted through the means of Jupyter Notebooks. Along with the sessions, the audience will be provided with the exercises to clear their concepts of SAR Imagery.
-
-Total Duration
-
-The duration of the workshop will be  2 hours.</description>
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/KGT7X9/</url>
-                <feedback_url />
-            </event>
             <event guid="b298caba-38da-57b1-8e8e-1a16f284e3a5" id="2581">
                 <room>Room Tupinambá</room>
                 <title>LFTools Tricks for Drone Image Processing with WebODM and QGIS</title>
@@ -6351,7 +6269,9 @@ The workshop will take 4 hours and requires no previous knowledge of GraphQL. Ho
                 <language>en</language>
                 <description>GRASS GIS provides numerous tools to process and analyze Earth Observation data. There are modules to search for, download, import and pre-process data from MODIS, Landsat, Sentinel, etc. Furthermore, GRASS offers tools for atmospheric and topographic corrections, quality assessment, cloud and shadow masking, pansharpening, estimation of spectral indices, object based image analysis (OBIA), clustering and classification algorithms, among others.
 
-In this hands-on session we will present and exemplify a subset of the imagery toolsets in combination with other GRASS GIS core modules and addons in a workflow starting from data download to the supervised classification of different scenes and visualization of results. We will specifically go through filtering and downloading data, importing, adding semantic labels, pre-processing, estimation of indices, and image classification. Eventually, the resulting maps will be exported to Cloud Optimized GeoTIFF (COG) files for further usage in QGIS, GeoServer, or elsewhere. This workshop will be run in a JupyterLab environment, taking advantage of the latest GRASS GIS Python features for Jupyter.</description>
+In this hands-on session we will present and exemplify a subset of the imagery toolsets in combination with other GRASS GIS core modules and addons in a workflow starting from data download to the supervised classification of different scenes and visualization of results. We will specifically go through filtering and downloading data, importing, adding semantic labels, pre-processing, estimation of indices, and image classification. Eventually, the resulting maps will be exported to Cloud Optimized GeoTIFF (COG) files for further usage in QGIS, GeoServer, or elsewhere. This workshop will be run in a JupyterLab environment, taking advantage of the latest GRASS GIS Python features for Jupyter.
+
+We'll work with the notebook [here](https://github.com/veroandreo/foss4g2024_grass4rs) within Google Colab.</description>
                 <recording>
                     <license />
                     <optout>true</optout>
@@ -6390,7 +6310,11 @@ Then we'll get hands-on and go deep to build up an in-depth understanding of how
                 
                     
                 <language>en</language>
-                
+                <description>This workshop will be presented via a combination of lecture and hands-on code notebooks.
+
+[Slides can be accessed here](https://docs.google.com/presentation/d/1qFckA0prY604I4dMkQlF1ZM-QSKS2ou4-YttgGQHzOU/). Notebooks and environment setup instructions can be found in the GitHub repo [jkeifer/cng-raster-formats](https://github.com/jkeifer/cng-raster-formats).
+
+All participants please try to get an environment running and ready to go prior to the workshop so we can have more time for content. There's a lot to cover in a relatively short time. Thank you!</description>
                 <recording>
                     <license />
                     <optout>false</optout>
@@ -6403,7 +6327,7 @@ Then we'll get hands-on and go deep to build up an in-depth understanding of how
             </event>
             <event guid="20a3c860-73af-5922-8772-70800345f8ad" id="2863">
                 <room>Room Ilha de Marajó</room>
-                <title>Create Interactive Web Maps Without Coding: A Hands-on Workshop with Re:Earth</title>
+                <title>Create Interactive Web Maps: A Hands-on Workshop with Re:Earth</title>
                 <subtitle />
                 <type>Workshop</type>
                 <date>2024-12-03T14:00:00-03:00</date>
@@ -6418,7 +6342,7 @@ Then we'll get hands-on and go deep to build up an in-depth understanding of how
 5. Create a simple plugin
 
 The first half of the workshop is designed for all skill levels, ensuring everyone can create basic interactive maps. The latter half delves into more advanced topics, allowing developers to learn about plugin development for Re:Earth Visualizer. By the end, you'll have the skills to publish your own interactive online maps and a deeper understanding of how Re:Earth can streamline your geospatial workflows. Whether you're a GIS professional, developer, or enthusiast, join us to unlock the potential of this innovative WebGIS platform.</abstract>
-                <slug>foss4g-2024-workshop-2863-create-interactive-web-maps-without-coding-a-hands-on-workshop-with-re-earth</slug>
+                <slug>foss4g-2024-workshop-2863-create-interactive-web-maps-a-hands-on-workshop-with-re-earth</slug>
                 <track />
                 
                     
