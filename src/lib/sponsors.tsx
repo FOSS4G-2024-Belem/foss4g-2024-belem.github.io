@@ -26,6 +26,7 @@ import TethysLogo from "@/images/logo/tethys.png";
 import TIBLogo from "@/images/logo/tib.png";
 import ClickGeoLogo from "@/images/logo/clickgeo.png";
 import GeoCatLogo from "@/images/logo/geocat.png";
+import MlitLogo from "@/images/logo/mlit.jpg";
 
 export const sponsors = {
   osgeo: {
@@ -188,4 +189,9 @@ export const sponsors = {
     statement:
       "GeoCat supports governments worldwide with Enterprise quality solutions that are sustainably developed, maintained and funded. Let's map the world, together.",
   },
+  mlit: {
+    logo: MlitLogo,
+    website: "https://www.mlit.go.jp/en/toshi/daisei/plateau_en_2.html",
+    statement: "Map the new World"
+  }
 };
