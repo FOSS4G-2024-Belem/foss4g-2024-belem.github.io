@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.10</version>
+    <version>0.12</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
-        <start>2024-12-02</start>
+        <start>2024-12-04</start>
         <end>2024-12-08</end>
-        <days>7</days>
+        <days>5</days>
         <timeslot_duration>00:05</timeslot_duration>
         <base_url>https://talks.osgeo.org</base_url>
         <logo>https://talks.osgeo.org/media/foss4g-2024/img/logo-horizontal_ip4boGg.png</logo>
@@ -385,6 +385,38 @@ Learn from success stories across various industries and discover how QField 3's
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/GM8WTF/</url>
+                <feedback_url />
+            </event>
+            <event guid="6610c6cb-bf25-52ef-8c18-7f3d792fc7cf" id="2838">
+                <room>Room I</room>
+                <title>The Digital Module of the IS_Agro Project: Using the medallion architecture as a basis for automating pipeline execution routines in Apache Airflow</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-05T15:30:00-03:00</date>
+                <start>15:30</start>
+                <duration>00:30</duration>
+                <abstract>The IS_Agro project is an initiative focused on the critical evaluation and subsequent adaptation of methodologies designed in global forums, with a view to their application in the national context based on the development of new agro-socio-environmental metrics and indicators (IASs) that aim to provide a more accurate and authentic representation of the agricultural landscape in the national territory. IASs are measures used to monitor and evaluate agricultural performance related to social, economic and environmental aspects, thus having great importance in guiding more sustainable political strategies and agricultural practices, whether by the public or private entity, serving “to evaluate the performance of agriculture in terms of its environmental, social and economic performance, providing comparative data and information between federative entities or countries, among several other applications” (EMBRAPA SOLOS, 2023). In this project, IASs are developed by different teams specialized in the proposed themes, whose works are previously approved and published in the scientific arena. To automate data collection, allocation, calculations and constant updates of the IASs, there is a team called the Digital Module, which develops solutions for each indicator, transforming them into digital algorithms. Structured, semi-structured and unstructured registration data are collected and stored in a data lakehouse, requiring a great deal of organization within the repository so that the data is always available and easily accessible. It was decided to implement the medallion architecture (medal architecture), which consists of allocating data in three layers with different purposes, while an open source platform was used for pipeline management and automation.
+
+The conception of this project as a digital platform linked to the Brazilian Agricultural Observatory aims to publish indicators and parameters derived from well-founded technical and scientific data, capable of evaluating the effective performance of the national agricultural sector at the municipal or state level, contributing to sectoral policies and planning and management processes aimed at building sustainable agriculture and the correct positioning of the country on the international scene. Thus, the general objective is to develop an intelligent environment that automates and manages the IAS pipelines in a data storage organization environment based on the medallion architecture to be the basis of the data panel for publishing the indicators.
+
+A data pipeline is a succession of connected phases that enable the collection, storage, modification, analysis, and representation of data, with the purpose of acquiring meaningful insights and supporting informed choices (CALANCA, 2023). A data lakehouse, the destination of the project pipelines, is “like a modern data platform built from a combination of a data lake and a data warehouse” (ORACLE CLOUD INFRASTRUCTURE, 2023), using “the flexible storage of unstructured data from a data lake and the management capabilities and tools of data warehouses, and then strategically deploying them together as a larger system” (ORACLE CLOUD INFRASTRUCTURE, 2023). The medallion architecture is the sequential structuring of data storage that aims to logically organize the data in the lakehouse, aiming to incrementally and progressively improve the structure and quality of the data as it flows through the three layers of the architecture (ARQUITETURA medallion, 2024). The terms bronze (raw data from the source), silver (transformation and validation of the data), and gold (refined and enriched data for use in projects) describe the quality of the data during the process (SKAYA et al, 2024) . Pipeline management is performed by Apache Airflow (version 2.44), an open-source platform for developing, scheduling, and monitoring batch-oriented workflows based on the Python programming language, which allows you to create workflows connected to virtually any technology (WHAT is Airflow™?, 2023). The Airflow execution environment was structured in Docker, an open-source platform that allows you to create and manage containers as modular virtual machines that contain the essentials for their execution. The developed image is available on GitHub.
+To be confirmed, the routines will be executed once a month. Raw data is collected by downloading and maintaining its original format, with a hash of each file being recorded to indicate that the data has been updated and download it again in the event of a change. This data is cleaned and processed as needed. At the end of the silver phase, a tabular structure will be created with geocode (integer, IBGE code of municipalities or states), date (timestamp, ISO 8601), source (text) and value (floating point, real number) and will be saved in the data lakehouse as .parquet, an open-source columnar storage format designed for highly compressed storage and efficient data retrieval, providing improved performance for handling complex mass data (OVERVIEW, 2022). The .parquet files saved in the data lake are available for use in the gold tier with one-to-many cardinality. In this last phase of the architecture, the necessary calculations are performed for each source of the indicators, with some sources that do not require calculations. The final phase is with the export of the gold data to tables in a project database in PostgreSQL, being ready for use by an API developed internally that allows the provision of data for the data panel to be developed (by another team) and published to society from the project website.
+
+This model has been adjusted and corrected throughout the development of the project in the Digital Module. Flexible, it is now considered ready to receive any indicator developed by other teams, as well as the development of the data panel for publication for use by society.</abstract>
+                <slug>foss4g-2024-2838-the-digital-module-of-the-isagro-project-using-the-medallion-architecture-as-a-basis-for-automating-pipeline-execution-routines-in-apache-airflow</slug>
+                <track>Use cases &amp; applications</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/MWYXS7/</url>
                 <feedback_url />
             </event>
             <event guid="ec45d1fa-df98-5722-8923-94abe71c2263" id="2804">
@@ -950,48 +982,6 @@ In this area of the country, the city government in particular has been helped t
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/SHFZBP/</url>
-                <feedback_url />
-            </event>
-            <event guid="7cb8ff67-0ee7-5393-a1d2-6ee967bdc8de" id="2918">
-                <room>Room III</room>
-                <title>Your FOS open data platform based on geOrchestra &amp; geonetwork-ui</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-05T11:30:00-03:00</date>
-                <start>11:30</start>
-                <duration>00:30</duration>
-                <abstract>geonetwork-ui is a GeoNetwork initiative to revamp user experience within geo &amp; open data management platforms.
-
-geOrchestra is a long-established open-source Spatial Data Infrastructure (SDI), grounded in the pillars of OsGeo:
-- GeoNetwork
-- GeoServer
-- MapStore
-- OpenLayers
-
-This solution has proven to be exceptionally robust, having been deployed at various levels including national, regional, institutional, academic, and research centers. As the landscape of metadata management transitions, embracing open data catalogs, data-centric usages, and modern applications, SDIs must evolve and adapt to this new paradigm.
-
-In our presentation, we will explore how the geOrchestra community, with support from the GeoNetwork community, has modernized its technology stack and offerings. This includes:
-- A comprehensive system for data ingestion and preparation.
-- A collaborative editor for open and geo-metadata.
-- A unified portal for accessing both open data and geo-data.
-- A versatile API that addresses a range of data use cases, including searching, paging, processing, analyzing, and aggregating datasets.
-- Enhanced capabilities for data visualization.
-
-These advancements collectively contribute to the development of a sophisticated open-source data platform, incorporating a streamlined data ingestion system and more.</abstract>
-                <slug>foss4g-2024-2918-your-fos-open-data-platform-based-on-georchestra-geonetwork-ui</slug>
-                <track>Open Data</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/K7NNXC/</url>
                 <feedback_url />
             </event>
             <event guid="97e615a8-9ee8-5b9e-b883-59f6c0f263d4" id="2850">
