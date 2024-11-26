@@ -192,6 +192,6 @@ export const sponsors = {
   mlit: {
     logo: MlitLogo,
     website: "https://www.mlit.go.jp/en/toshi/daisei/plateau_en_2.html",
-    statement: "Map the new World"
+    statement: "PLATEAU is a digital twin initiative led by Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT) that collaborates with various stakeholders to develop, utilize, and open up \"3D city models\" nationwide. Launched in FY2020, these digital twin data of cities have been created for around 200 cities across Japan by FY2023 and keep expanding the coverage. We have been developing over 100 use cases in diverse areas such as urban planning, disaster prevention, and environmental management.  PLATEAU have been working to develop an ecosystem for promoting open innovation in urban areas. The datasets are openly available in various format. In addition, releasing a wide range of knowledge including guidebooks, technical material and source code from our web site."
   }
 };
