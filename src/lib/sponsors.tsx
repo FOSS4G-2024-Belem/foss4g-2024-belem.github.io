@@ -27,6 +27,8 @@ import TIBLogo from "@/images/logo/tib.png";
 import ClickGeoLogo from "@/images/logo/clickgeo.png";
 import GeoCatLogo from "@/images/logo/geocat.png";
 import MlitLogo from "@/images/logo/mlit.jpg";
+import SemecLogo from "@/images/logo/semec.png";
+import NaceLogo from "@/images/logo/nace.png";
 
 export const sponsors = {
   osgeo: {
@@ -144,6 +146,16 @@ export const sponsors = {
     logo: TIBLogo,
     website: "https://av.tib.eu/",
     statement: null,
+  },
+  nace: {
+    logo: NaceLogo,
+    website: "",
+    statement: null,
+  },
+  semec: {
+    logo: SemecLogo,
+    website: "",
+    statement: null
   },
   ifpa: {
     logo: IfpaLogo,
