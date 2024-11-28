@@ -17,7 +17,7 @@ const config: Config = {
   ],
   daisyui: {
     themes: ["light"],
-    base: false
+    base: true
   },
   theme: {
     
