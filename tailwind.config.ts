@@ -22,6 +22,7 @@ const config: Config = {
   theme: {
     
     extend: {
+      
       aspectRatio: {
         "4/3": "4 / 3",
       },
@@ -34,6 +35,12 @@ const config: Config = {
         "6xl": "1152px",
       },
       colors: {
+        paleta0: "hsl(15, 86%, 25%)",
+        paleta1: "hsl(23, 80%, 35%)",
+        paleta2: "hsl(35, 55%, 54%)",
+        paleta3: "hsl(34, 97%, 85%)",
+        paleta4: "hsl(112, 12%, 46%)",
+        paleta5: "hsl(33, 41%, 33%)",
         f4g_red: "#552f27",
         f4g_blue: "#009575",
         f4g_orange: "#d86e39",
