@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.20</version>
+    <version>0.21</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
@@ -61,6 +61,31 @@ This talk aims to express to the general public, to the technical public, but in
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/RZAVVW/</url>
+                <feedback_url />
+            </event>
+            <event guid="0fc538a7-80a3-5d9d-a0c0-11e8cae5aeb9" id="3113">
+                <room>Room Auditorio</room>
+                <title>Cartografía 4.0: Gemelos Digitales Urbanos</title>
+                <subtitle />
+                <type>Keynote</type>
+                <date>2024-12-06T09:45:00-03:00</date>
+                <start>09:45</start>
+                <duration>00:45</duration>
+                <abstract>La presentación será en español y exploraremos las posibilidades que ofrece el software de código abierto para la creación de un gemelo digital utilizando la información disponible. También abordaremos el desarrollo de motores de inteligencia artificial que permitan generar datos para predecir comportamientos, destacando casos de aplicación en Latinoamérica.</abstract>
+                <slug>foss4g-2024-3113-cartografa-4-0-gemelos-digitales-urbanos</slug>
+                <track>Use cases &amp; applications</track>
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/H7LWMJ/</url>
                 <feedback_url />
             </event>
             <event guid="a99b1272-2230-5ac0-a634-70d7549e487b" id="2687">
@@ -4575,7 +4600,7 @@ Members from UNICEF, FAO, ONU, OSGEO, and FOSS4G</abstract>
     <day index="6" date="2024-12-07" start="2024-12-07T04:00:00-03:00" end="2024-12-08T03:59:00-03:00">
         
     </day>
-    <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
+    <day index="" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
         
     </day>
     
