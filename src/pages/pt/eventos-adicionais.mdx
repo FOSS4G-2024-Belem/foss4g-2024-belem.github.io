@@ -15,6 +15,8 @@ import SotmLogo from "@/images/logo/sotm-latam.png";
 import QgisLogo from "@/images/logo/qgis-latam.png";
 import IntlLink from "@/components/IntlLink";
 import Image from "next/image";
+import CasaApoena0 from "@/images/casa-apoena0.jpg"
+import CasaApoena1 from "@/images/casa-apoena1.jpg"
 
 export const metadata = {
   title: "Eventos Adicionais",
@@ -75,7 +77,9 @@ export const metadata = {
 
     Convidamos todas as pessoas que desejam comparecer ao espaço misto para conhecer o trabalho de mulheres, diferentes gêneros e pessoas aliadas que estarão presentes na FOSS4G 2024. Vejo vocês em Belém!
 
-    A reunião acontecerá no **dia 3 de dezembro, às 18h30 no Hotel Beira-Rio**, o mesmo local da reunião de Negócios a Negócios (B2B).
+    <Button text="Inscrição para o evento GeoChicas" href="https://mobilizon.it/events/ed623985-c205-4d35-8e3f-ee68262c984a" />
+
+    A reunião acontecerá no **dia 3 de dezembro, às 18h30 na Casa Apoena (Cidade Velha), Belém**, o mesmo local da reunião de Negócios a Negócios (B2B).
 
   </div>
 </div>
@@ -90,7 +94,7 @@ export const metadata = {
 
     **Sem apoio comercial, os produtos de código aberto não poderiam crescer e melhorar como fizeram nos últimos anos**, e a comunidade de código aberto está grata pelo apoio. E, para fornecer algo de valor para nossos patrocinadores comerciais, desejamos fornecer um momento para representantes de várias empresas se encontrarem e discutirem seus interesses.
 
-    O evento Business to Business (B2B) é um evento separado no FOSS4G com a oportunidade para empresas e partes interessadas se encontrarem e trocarem ideias, se atualizarem e falarem sobre negócios. Este ano, o B2B acontecerá no dia 3 de dezembro antes da conferência principal, no Hotel Beira Rio.
+    O evento Business to Business (B2B) é um evento separado no FOSS4G com a oportunidade para empresas e partes interessadas se encontrarem e trocarem ideias, se atualizarem e falarem sobre negócios. Este ano, o B2B acontecerá no dia 3 de dezembro antes da conferência principal, na Casa Apoena (Cidade Velha), Belém.
 
     Este B2B começará com uma breve introdução por uma representação do FLOC. Em seguida, cada participante terá a chance de apresentar sua empresa em um determinado número de minutos, dependendo do nível de patrocínio, com apenas **UM** slide que será projetado na tela durante o tempo da apresentação.
 
@@ -102,28 +106,25 @@ export const metadata = {
       - Patrocínio Prata: 2 minutos
       - Patrocínio Bronze: 1 minuto
 
-    A reunião acontecerá no **dia 3 de dezembro, das 16h30 às 18h00 no Hotel Beira Rio**, no salão de eventos.
+    A reunião acontecerá no **dia 3 de dezembro, das 16h30 às 18h00 no Casa Apoena (Cidade Velha), Belém**
 
   </div>
 
 <div className="sm:col-span-5 rounded-lg overflow-hidden order-first sm:order-last">
   <div className="hidden sm:block">
 
-  <Image placeholder="blur" src={BeiraRio1} className="h-72 my-4 object-cover shadow rounded-lg" />
-  <Image placeholder="blur" src={BeiraRio3} className="h-72 my-4 object-cover shadow rounded-lg" />
+  <Image placeholder="blur" src={CasaApoena0} className="h-72 my-4 object-cover shadow rounded-lg" />
+  <Image placeholder="blur" src={CasaApoena1} className="h-72 my-4 object-cover shadow rounded-lg" />
   </div>
   <div className="block sm:hidden my-2">
     <Carousel
       images={[
         {
-          image: BeiraRio1,
+          image: CasaApoena0,
         },
         {
-          image: BeiraRio3,
-        },
-        {
-          image: BeiraRio2,
-        },
+          image: CasaApoena1,
+        }
       ]}
       autoplay={true}
       autoplayDelay={5000}
@@ -172,9 +173,9 @@ export const metadata = {
 
     O Sprint de Código Comunitário é organizado de forma informal nas semanas e dias que antecedem a conferência. Fique atento a esta página para mais atualizações sobre o Sprint de Código, quais tópicos serão trabalhados e como participar, nas semanas e meses seguintes.
 
-    Enquanto isso, você pode consultar as [páginas de CodeSprint de conferências passadas](https://wiki.osgeo.org/wiki/FOSS4G_2022/Community_sprint) para ter uma ideia do que esperar.
+    <Button text="Inscrição para o Code Sprint" href="https://wiki.osgeo.org/wiki/FOSS4G_2024_Community_Sprint" />
 
-    O Sprint de Código será realizado **de 07 a 08 de dezembro, no Campus do IFPA Belém**, no final de semana após a conferência principal.
+    O Sprint de Código será realizado **de 07 a 08 de dezembro, no Instituto Nacional de Pesquisas Espaciais - INPE, Belém**, no final de semana após a conferência principal.
   </div>
 </div>
 
@@ -192,7 +193,7 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
     Neste ano, a conferência global de OpenStreetMap será realizada no Brasil, reunindo a comunidade internacional de mapeadores, desenvolvedores, ativistas e entusiastas de dados abertos. O evento é uma plataforma para compartilhar conhecimentos, explorar avanços no mapeamento digital e promover a colaboração em torno de dados geoespaciais livres e abertos.
 
     * Data: de 6 a 8 de dezembro 
-    * Local: Belém do Pará, Brasil
+    * Local: Palacete Pinho: R. São Boaventura, 135 - Cidade Velha, Belém
     * Temas principais: inovação no OpenStreetMap, projetos de mapeamento comunitário, ferramentas de análise de dados geoespaciais, sustentabilidade no mapeamento digital e muito mais.
 
     A conferência contará com uma variedade de atividades, incluindo palestras, workshops práticos, painéis de discussão e oportunidades de networking. Os participantes poderão descobrir novas ferramentas, conhecer projetos inovadores e se conectar com pessoas de todo o mundo interessadas em mapeamento aberto.
@@ -226,7 +227,7 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
 
     O Manifesto QGIS LATAM 2024, com o tema "O Sul é o Nosso Norte," celebra o 2º Encontro de Usuários QGIS na América Latina como um espaço de colaboração para a comunidade geoespacial da região. Inspirado na obra "América Invertida" de Joaquín Torres-García, o evento desafia as perspectivas tradicionais e promove uma visão geoespacial centrada nas necessidades e realidades latino-americanas.
 
-    Realizado em 7 de dezembro de 2024, no Instituto Federal do Pará, no Brasil, o encontro busca fortalecer as conexões entre profissionais e promover o software livre, com ênfase especial no QGIS como ferramenta de empoderamento e democratização tecnológica. A comunidade QGIS LATAM defende uma cartografia sem narrativas hegemônicas, orientada pelo e para o Sul Global.
+    Realizado em 7 de dezembro de 2024, no Instituto Nacional de Pesquisas Espaciais - INPE, Belém, Brasil, o encontro busca fortalecer as conexões entre profissionais e promover o software livre, com ênfase especial no QGIS como ferramenta de empoderamento e democratização tecnológica. A comunidade QGIS LATAM defende uma cartografia sem narrativas hegemônicas, orientada pelo e para o Sul Global.
 
     Este evento convida os participantes a construir uma comunidade inclusiva e colaborativa que redefine o futuro do GIS na região, promovendo inovação, equidade e autonomia no desenvolvimento geoespacial latino-americano.
 

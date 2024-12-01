@@ -6,6 +6,8 @@ import Hangar from "./venue/_hangar.mdx";
 import Ifpa from "./venue/_ifpa.mdx";
 
 import Hangar1 from "@/images/hangar/hangar1.jpg";
+import Inpe from "./venue/_inpe.mdx";
+import CasaApoena from "./venue/_casa-apoena.mdx";
 
 export const metadata = {
   title: "Sede",
@@ -17,7 +19,8 @@ export const metadata = {
 
 <Hangar />
 <Ifpa />
-<BeiraRio />
+<CasaApoena />
+<Inpe />
 
 export default function MDXPage({ children }) {
   return <MdxLayout metadata={metadata}>{children}</MdxLayout>

@@ -15,15 +15,18 @@ import SotmLogo from "@/images/logo/sotm-latam.png";
 import QgisLogo from "@/images/logo/qgis-latam.png";
 import IntlLink from "@/components/IntlLink";
 import Image from "next/image";
+import CasaApoena0 from "@/images/casa-apoena0.jpg";
+import CasaApoena1 from "@/images/casa-apoena1.jpg";
 
 export const metadata = {
   title: "Additional Events",
-  description: "Information about additional events taking place at the FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024",
-  image: GeoChicas2
+  description:
+    "Information about additional events taking place at the FOSS4G 2024 Conference held in Belém, Brasil on 02-08 December 2024",
+  image: GeoChicas2,
 };
 
 <div className="sm:hidden">
-<Heading bubble>Additional Events</Heading>
+  <Heading bubble>Additional Events</Heading>
 </div>
 
 <Heading bubble color="orange">
@@ -75,7 +78,9 @@ export const metadata = {
 
     We invite all people who want to come to the mixed space to learn about the work of women, different genders and allied people who will attend FOSS4G 2024. See you in Belém!
 
-    The meeting will take place on **December 3rd, at 6:30 pm at the Hotel Beira-Río**, the same venue as the Business to Business (B2B) meeting.
+     <Button text="Register for GeoChicas Event" href="https://mobilizon.it/events/ed623985-c205-4d35-8e3f-ee68262c984a" />
+
+    The meeting will take place on **December 3rd, at 6:30 pm at Casa Apoena (Cidade Velha), Belém**, the same venue as the Business to Business (B2B) meeting.
 
   </div>
 </div>
@@ -90,7 +95,7 @@ export const metadata = {
 
     **Without commercial backing, open source products would not be able to grow and improve as they have in the past years**, and the open source community is grateful for the support. And, to provide something of value for our commercial sponsors, we wish to provide a moment for representatives of various companies to meet and discuss their interests.
 
-    The Business to Business (B2B) event a separate event at FOSS4G with the opportunity for businesses and stakeholders to meet and exchange ideas, get updated and talk business. This year B2B will take place on December 3rd before the main conference, at the Hotel Beira Rio.
+    The Business to Business (B2B) event a separate event at FOSS4G with the opportunity for businesses and stakeholders to meet and exchange ideas, get updated and talk business. This year B2B will take place on December 3rd before the main conference, at the Casa Apoena.
 
     This B2B will start with a short introduction by a representation of the FLOC. Then, every participant gets a chance to present their business in a certain amount of minutes depending on the level of sponsorship with only **ONE** slide which will be projected on the screen for the time of the presentation.
 
@@ -102,28 +107,25 @@ export const metadata = {
       - Silver Sponsorship: 2 minutes
       - Bronze Sponsorship: 1 minute
 
-    The meeting will take place on **December 3rd, at 4:30 pm to 6 pm at the Hotel Beira Rio**, in the events hall
+    The meeting will take place on **December 3rd, at 4:30 pm to 6 pm at Casa Apoena**
 
   </div>
 
 <div className="sm:col-span-5 rounded-lg overflow-hidden order-first sm:order-last">
   <div className="hidden sm:block">
 
-  <Image placeholder="blur" src={BeiraRio1} className="h-72 my-4 object-cover shadow rounded-lg" />
-  <Image placeholder="blur" src={BeiraRio3} className="h-72 my-4 object-cover shadow rounded-lg" />
+  <Image placeholder="blur" src={CasaApoena0} className="h-72 my-4 object-cover shadow rounded-lg" />
+  <Image placeholder="blur" src={CasaApoena1} className="h-72 my-4 object-cover shadow rounded-lg" />
   </div>
   <div className="block sm:hidden my-2">
     <Carousel
       images={[
         {
-          image: BeiraRio1,
+          image: CasaApoena0,
         },
         {
-          image: BeiraRio3,
-        },
-        {
-          image: BeiraRio2,
-        },
+          image: CasaApoena1,
+        }
       ]}
       autoplay={true}
       autoplayDelay={5000}
@@ -172,13 +174,21 @@ export const metadata = {
 
     The Community Code Sprint is organized on an informal basis in the weeks and days leading up to the conference. Stay tuned to this page for more updates on the Code Sprint, which topics are to be worked on and how to join, in the weeks and months ahead.
 
-    In the meantime, you can refer to the [past conference CodeSprint pages](https://wiki.osgeo.org/wiki/FOSS4G_2022/Community_sprint) to give you an idea of what to expect.
+     <Button text="Register for Code Sprint" href="https://wiki.osgeo.org/wiki/FOSS4G_2024_Community_Sprint" />
 
-    The Code Sprint will be held **December 07-08, at the IFPA Campus Belém**, on the weekend after the main conference.
+
+    The Code Sprint will be held **December 07-08, at the INPE Campus Belém**, on the weekend after the main conference.
+
   </div>
 </div>
 
-export const Button = ({text, href}) => <IntlLink href={href}><button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-2xl mx-2 my-2 font-ubuntu">{text}</button></IntlLink>
+export const Button = ({ text, href }) => (
+  <IntlLink href={href}>
+    <button className=" border-f4g_red text-white bg-f4g_orange border rounded-lg py-2 px-3 text-lg md:text-2xl mx-2 my-2 font-ubuntu">
+      {text}
+    </button>
+  </IntlLink>
+);
 
 <Heading bubble color="blue">
   State of the Map 2024 Latam
@@ -192,7 +202,7 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
     This year, OpenStreetMap conference will take place in Brazil, bringing together the international community of mappers, developers, activists, and open data enthusiasts. The event is a platform to share knowledge, explore advancements in digital mapping, and promote collaboration around free and open geospatial data.
 
     * Date: from December 6 to 8
-    * Location: Belém do Pará, Brazil.
+    * Location: Palacete Pinho: R. São Boaventura, 135 - Cidade Velha, Belém
     * Key Topics: OpenStreetMap innovation, community mapping projects, geospatial data analysis tools, digital mapping sustainability, and more.
 
     The conference will feature a variety of activities, including talks, hands-on workshops, panel discussions, and networking opportunities. Participants will discover new tools, learn about innovative projects, and connect with people from around the world who are passionate about open mapping.
@@ -205,7 +215,6 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
       <Button text="SOTM Latam 2024 Official Page" href="https://2024.osmlatam.org/en/" />
       <Button text="SOTM Latam 2024 Registration" href="https://doity.com.br/sotm-latam-2024/inscricao" />
     </div>
-
 
   </div>
   <div className="sm:col-span-5 order-first sm:order-last">
@@ -227,7 +236,7 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
 
     The QGIS LATAM 2024 Manifesto, themed "The South is Our North," celebrates the 2nd Latin American QGIS Users Conference as a hub for collaboration within the region's geospatial community. Inspired by Joaquín Torres-García's "Inverted America," the event challenges traditional perspectives and advocates for a geospatial vision centered on Latin American needs and realities.
 
-    Held on December 7, 2024, at the Federal Institute of Pará in Brazil, the conference aims to strengthen connections among professionals and champion free software, with a special focus on QGIS as a tool for empowerment and technological democratization. The QGIS LATAM community envisions a cartography free of hegemonic narratives, driven by and for the Global South.
+    Held on December 7, 2024, at the Instituto Nacional de Pesquisas Espaciais - INPE, Belém, the conference aims to strengthen connections among professionals and champion free software, with a special focus on QGIS as a tool for empowerment and technological democratization. The QGIS LATAM community envisions a cartography free of hegemonic narratives, driven by and for the Global South.
 
     This gathering invites participants to build an inclusive, collaborative community that redefines the future of GIS in the region, fostering innovation, equity, and autonomy in Latin American geospatial development.
 
@@ -235,6 +244,7 @@ export const Button = ({text, href}) => <IntlLink href={href}><button className=
       <Button text="QGIS Latam 2024 Official Page" href="https://qgisbrasil.org/qgis-latam-2024/" />
       <Button text="QGIS Latam 2024 Registration" href="https://doity.com.br/2-encontro-de-usuarios-qgis-latam" />
     </div>
+
   </div>
 </div>
 
@@ -248,4 +258,6 @@ export async function getStaticProps() {
       metadata
     },
   }
+
+
 }
