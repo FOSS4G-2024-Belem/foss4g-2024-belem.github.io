@@ -1,0 +1,37 @@
+import Inpe0 from "@/images/inpe0.jpg";
+import Inpe1 from "@/images/inpe1.jpg";
+import Inpe2 from "@/images/inpe2.jpg";
+import Carousel from "@/components/Carousel";
+
+<div className={`grid grid-cols-1 mb-4 gap-4 ${!props.isEmbed && "mt-4 sm:grid-cols-12"}`}>
+  <div className={!props.isEmbed && "sm:col-span-5"}>
+    <div className="max-h-96">
+    <Carousel
+        images={[
+          {
+            image: Inpe0,
+          },
+          {
+            image: Inpe1,
+          },
+          {
+            image: Inpe2
+          }
+        ]}
+      />
+    </div>
+
+  </div>
+  <div className={!props.isEmbed && "sm:col-span-7"}>
+    #### INPE: Instituto Nacional de Investigaciones Espaciales, Belém
+    ---
+
+    El INPE (Instituto Nacional de Investigaciones Espaciales) en Belém, Pará, opera a través del Centro de Coordinación Amazónica (COEAM). Inicialmente llamado Centro Regional de la Amazonía (CRA), fue establecido en 2008 para monitorear bosques tropicales a nivel global utilizando imágenes satelitales. Desde entonces, ha desarrollado herramientas como DETER, un sistema de detección de deforestación en tiempo casi real, y ofrece programas de capacitación en teledetección y geoprocesamiento.
+
+    El COEAM también lidera proyectos que evalúan los impactos ambientales y gestionan los recursos naturales en la región, colaborando con instituciones nacionales e internacionales para proteger el ecosistema amazónico.
+
+    ##### Actividades en el INPE
+    - CodeSprint: 07-08 de diciembre
+    - QGIS Latam: 07 de diciembre
+  </div>
+</div>

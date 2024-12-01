@@ -1,0 +1,38 @@
+
+import Inpe0 from "@/images/inpe0.jpg";
+import Inpe1 from "@/images/inpe1.jpg";
+import Inpe2 from "@/images/inpe2.jpg";
+import Carousel from "@/components/Carousel";
+
+<div className={`grid grid-cols-1 mb-4 gap-4 ${!props.isEmbed && "mt-4 sm:grid-cols-12"}`}>
+  <div className={!props.isEmbed && "sm:col-span-5"}>
+    <div className="max-h-96">
+    <Carousel
+        images={[
+          {
+            image: Inpe0,
+          },
+          {
+            image: Inpe1,
+          },
+          {
+            image: Inpe2
+          }
+        ]}
+      />
+    </div>
+
+  </div>
+  <div className={!props.isEmbed && "sm:col-span-7"}>
+    #### INPE: National Institute for Space Research, Belém
+    ---
+
+    The INPE (National Institute for Space Research) in Belém, Pará, operates through the Amazonian Space Coordination Center (COEAM). Initially called the Regional Amazon Center (CRA), it was established in 2008 to monitor tropical forests globally using satellite imagery. Since then, it has developed tools like DETER, a near-real-time deforestation detection system, and offers training programs in remote sensing and geoprocessing.
+
+    COEAM also leads projects evaluating environmental impacts and managing natural resources in the region, collaborating with national and international institutions to protect the Amazon ecosystem​.
+
+    ##### Activities at INPE
+    - CodeSprint: Dec 07-08 
+    - QGIS Latam Dec 07
+  </div>
+</div>

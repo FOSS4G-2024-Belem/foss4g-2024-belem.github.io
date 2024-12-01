@@ -1,0 +1,33 @@
+import CasaApoena0 from "@/images/casa-apoena0.jpg";
+import CasaApoena1 from "@/images/casa-apoena1.jpg";
+import Carousel from "@/components/Carousel";
+
+<div className={`grid grid-cols-1 mb-4 gap-4 ${!props.isEmbed && "mt-4 sm:grid-cols-12"}`}>
+  <div className={!props.isEmbed && "sm:col-span-5"}>
+    <div className="max-h-96">
+    <Carousel
+          images={[
+            {
+              image: CasaApoena0,
+            },
+            {
+              image: CasaApoena1,
+            },
+          ]}
+        />
+    </div>
+
+  </div>
+  <div className={!props.isEmbed && "sm:col-span-7"}>
+    #### Casa Apoena
+    ---
+
+    A Casa Apoena é um espaço cultural e gastronômico localizado no bairro da Cidade Velha, em Belém, Pará. Ela tem como foco a promoção da cultura amazônica por meio da música, arte e da culinária regional tradicional. Projetada como um refúgio cultural, o espaço visa tornar acessível ao público a riqueza da cultura paraense.
+
+    O local recebe eventos com apresentações ao vivo, incluindo shows musicais e sets de DJs, misturando ritmos locais e latinos. Também oferece um espaço de convivência para desfrutar experiências culinárias que celebram os sabores da região amazônica.
+
+    ##### Atividades na Casa Apoena
+    - Business to Business (B2B) (03 de dezembro)
+    - Evento GeoChicas & Meninas da Geo (03 de dezembro)
+  </div>
+</div>
