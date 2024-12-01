@@ -91,7 +91,7 @@ export default function HomePage({
       >
         <div className="font-ubuntu text-white grid grid-cols-1 min-h-48 max-w-6xl w-full p-4 sm:p-4">
           <Countdown
-            date="2024-12-02"
+            date="2024-12-02T08:00:00-03:00"
             renderer={({ days, hours, minutes, seconds }) => (
               <div className="grid grid-cols-4 max-w-72 sm:max-w-96 -ml-2 sm:ml-0">
                 <div className="p-1 sm:p-2">
