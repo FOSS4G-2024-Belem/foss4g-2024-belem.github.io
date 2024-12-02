@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.21</version>
+    <version>0.22</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
@@ -5516,9 +5516,9 @@ We believe that presenting this work at FOSS4G 2024 will allow us to discuss SIM
     </day>
     
 <day index="1" date="2024-12-02" start="2024-12-02T04:00:00-03:00" end="2024-12-03T03:59:00-03:00">
-        <room name="Room Guajará" guid="d9935fe8-32ca-5a26-89ad-7b7bda6b47a3">
+        <room name="Room Guajará (C Block)" guid="d9935fe8-32ca-5a26-89ad-7b7bda6b47a3">
             <event guid="1071762f-6fba-51e5-b67f-73b09a96cada" id="2934">
-                <room>Room Guajará</room>
+                <room>Room Guajará (C Block)</room>
                 <title>Collaborative mapping of public transportation routes from scratch</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5562,7 +5562,7 @@ This workshop requires participants to have the mentioned tools installed:
                 <feedback_url />
             </event>
             <event guid="930bd046-e94e-5296-901d-a706f27812ac" id="2701">
-                <room>Room Guajará</room>
+                <room>Room Guajará (C Block)</room>
                 <title>Workshop on Use of GPSSample, a tool for Enumeration, Navigation and Sampling in Health Surveys</title>
                 <subtitle />
                 <type>Short Workshop</type>
@@ -5627,11 +5627,38 @@ In January of 2024, GPSSample was added to the Google Playstore, user-guides wer
                 <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/LDDA3Y/</url>
                 <feedback_url />
             </event>
+            <event guid="e5c543f5-63b4-5835-90b0-821063a8f0b6" id="2788">
+                <room>Room Guajará (C Block)</room>
+                <title>Overture Places + OSM: Deduplication and Verification</title>
+                <subtitle />
+                <type>Short Workshop</type>
+                <date>2024-12-02T16:00:00-03:00</date>
+                <start>16:00</start>
+                <duration>02:00</duration>
+                <abstract>Overture Maps Foundation provides millions of points of interest (POIs) as open map data. This gives OpenStreetMap users a chance to improve the map using open source geospatial tools in Python, along with various open APIs, to compare and validate the data. This workshop will let users learn how to do it in a place on the map of their own choosing.</abstract>
+                <slug>foss4g-2024-workshop-2788-overture-places-osm-deduplication-and-verification</slug>
+                <track />
+                
+                    
+                <language>en</language>
+                <description>Overture Maps Foundation has released open data with various points of interest around the world, which are compatible with OpenStreetMap to be validated and added to the map. In this workshop, attendees will be able to fork and modify collaborative Python notebook in order to learn how to fetch and preview Overture Places, as well as apply filters, including using a bounding box or place polygon to get POIs in a specific neighborhood or city. They will then have the chance to request data from OpenStreetMap that is in the same area and explore methods for finding which POIs already exist in OSM, how they might be updated by adopting some of the attributes from Overture, and also finding which Overture POIs are eligible to be added to OSM, ans how to check which might have evidence that they really exist.
+
+Attendees should have their own laptop, some basic Python knowledge, and an OpenStreetMap account to get started.</description>
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024-workshop/talk/VECPYT/</url>
+                <feedback_url />
+            </event>
             
         </room>
-        <room name="Room Mangueirão" guid="868dd788-882a-5599-bd9c-070ac7750665">
+        <room name="Room Mangueirão (C Block)" guid="868dd788-882a-5599-bd9c-070ac7750665">
             <event guid="256adf84-8858-5b46-a46d-0144c0b37570" id="2463">
-                <room>Room Mangueirão</room>
+                <room>Room Mangueirão (C Block)</room>
                 <title>Geospatial Data Science with Julia</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5673,7 +5700,7 @@ You can find detailed instructions [here](https://github.com/Arpeggeo/FOSS4G2024
                 <feedback_url />
             </event>
             <event guid="0b645fe0-2ebd-5510-93ee-3ead08447a89" id="2609">
-                <room>Room Mangueirão</room>
+                <room>Room Mangueirão (C Block)</room>
                 <title>Setting the scene – GEO Artificial intelligence: an intro</title>
                 <subtitle />
                 <type>Short Workshop</type>
@@ -5714,9 +5741,9 @@ During the first part of the workshop, instructors will dedicate a few minutes t
             </event>
             
         </room>
-        <room name="Room Círio de Nazaré" guid="6619c307-8d57-521f-8891-fe7bfbfec94b">
+        <room name="Room Círio de Nazaré (C Block)" guid="6619c307-8d57-521f-8891-fe7bfbfec94b">
             <event guid="e878b181-45fe-5263-9049-be2a5efe520a" id="2692">
-                <room>Room Círio de Nazaré</room>
+                <room>Room Círio de Nazaré (C Block)</room>
                 <title>Mergin Maps: an open source platform based on QGIS for data collection and collaboration</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5741,7 +5768,7 @@ During the first part of the workshop, instructors will dedicate a few minutes t
                 <feedback_url />
             </event>
             <event guid="6826d010-15e1-5523-b515-24929b70e780" id="2765">
-                <room>Room Círio de Nazaré</room>
+                <room>Room Círio de Nazaré (C Block)</room>
                 <title>QField and QFieldCloud - seamless fieldwork for QGIS</title>
                 <subtitle />
                 <type>Short Workshop</type>
@@ -5773,9 +5800,9 @@ Attendees should have a device with QField and an account on QFieldCloud.</descr
             </event>
             
         </room>
-        <room name="Room Açaí" guid="9c2f1eee-c360-572b-bbb3-977fec2eff46">
+        <room name="Room Açaí (C Block)" guid="9c2f1eee-c360-572b-bbb3-977fec2eff46">
             <event guid="d186767c-8f16-5dc3-a0ed-0e281e6b2450" id="2588">
-                <room>Room Açaí</room>
+                <room>Room Açaí (C Block)</room>
                 <title>pgRouting basic workshop</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5823,7 +5850,7 @@ Representing a city as a graph for pedestrians and vehicles.</abstract>
                 <feedback_url />
             </event>
             <event guid="363e0439-3f8b-5b35-9288-6c245386d116" id="2750">
-                <room>Room Açaí</room>
+                <room>Room Açaí (C Block)</room>
                 <title>Advanced PostGIS: Beyond the basics.</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5857,9 +5884,9 @@ There will also be an emphasis on exposing PostGIS data and functions to the web
             </event>
             
         </room>
-        <room name="Room Mangal das Garças" guid="67bf9940-c50c-565e-b093-44e4f89e913d">
+        <room name="Room Mangal das Garças (C Block)" guid="67bf9940-c50c-565e-b093-44e4f89e913d">
             <event guid="1dadff5a-6d39-54b7-a3dd-d4b14ebc8445" id="2777">
-                <room>Room Mangal das Garças</room>
+                <room>Room Mangal das Garças (C Block)</room>
                 <title>XYZ Cloud MAPPing 101</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5892,7 +5919,7 @@ Every participant should be able to create a cloud service and be able to digiti
                 <feedback_url />
             </event>
             <event guid="74c9d0d4-c73f-52ca-8ab4-8c4333ba6e5e" id="2697">
-                <room>Room Mangal das Garças</room>
+                <room>Room Mangal das Garças (C Block)</room>
                 <title>Brazil Data Cube Platform: Earth observation data cubes and satellite image time series analysis</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5940,9 +5967,9 @@ Simoes, R.; Camara, G.; Queiroz, G.; Souza, F.; Andrade, P.R.; Santos, L.; Carva
             </event>
             
         </room>
-        <room name="Room Ilha de Marajó" guid="330f94f8-b126-52d5-8d2b-8e1abc176253">
+        <room name="Room Ilha de Marajó (E Block)" guid="330f94f8-b126-52d5-8d2b-8e1abc176253">
             <event guid="70435c01-9483-518b-86ac-48e2e8831edf" id="2856">
-                <room>Room Ilha de Marajó</room>
+                <room>Room Ilha de Marajó (E Block)</room>
                 <title>ZOO-Project - OGC API - Processes - Introduction</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -5967,7 +5994,7 @@ Simoes, R.; Camara, G.; Queiroz, G.; Souza, F.; Andrade, P.R.; Santos, L.; Carva
                 <feedback_url />
             </event>
             <event guid="c0d19283-0209-516a-9a50-f083e40328ad" id="2801">
-                <room>Room Ilha de Marajó</room>
+                <room>Room Ilha de Marajó (E Block)</room>
                 <title>Web maps with Gleo: from zero to WebGL innards</title>
                 <subtitle />
                 <type>Short Workshop</type>
@@ -5994,7 +6021,7 @@ This workshop/tutorial will start with the simplest examples of how to embed a G
                 <feedback_url />
             </event>
             <event guid="b298caba-38da-57b1-8e8e-1a16f284e3a5" id="2581">
-                <room>Room Ilha de Marajó</room>
+                <room>Room Ilha de Marajó (E Block)</room>
                 <title>LFTools Tricks for Drone Image Processing with WebODM and QGIS</title>
                 <subtitle />
                 <type>Short Workshop</type>
@@ -6064,9 +6091,9 @@ This workshop is intended for professionals and students in the fields of geotec
             </event>
             
         </room>
-        <room name="Room Forte do Castelo" guid="6bac4f31-af0a-51c9-a645-67a5d93ab703">
+        <room name="Room Forte do Castelo (M Block)" guid="6bac4f31-af0a-51c9-a645-67a5d93ab703">
             <event guid="f2a7a84d-f0a0-5143-a9c0-8aa14e523ee1" id="2845">
-                <room>Room Forte do Castelo</room>
+                <room>Room Forte do Castelo (M Block)</room>
                 <title>Working with QGIS Server</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6091,7 +6118,7 @@ This workshop is intended for professionals and students in the fields of geotec
                 <feedback_url />
             </event>
             <event guid="bc485e63-4fba-5e48-a02e-41810b2ffd12" id="2443">
-                <room>Room Forte do Castelo</room>
+                <room>Room Forte do Castelo (M Block)</room>
                 <title>Doing Geospatial with Python</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6138,9 +6165,9 @@ The core requirement is to have Docker and Docker Compose installed on the syste
         
     </day>
     <day index="2" date="2024-12-03" start="2024-12-03T04:00:00-03:00" end="2024-12-04T03:59:00-03:00">
-        <room name="Room Guajará" guid="d9935fe8-32ca-5a26-89ad-7b7bda6b47a3">
+        <room name="Room Guajará (C Block)" guid="d9935fe8-32ca-5a26-89ad-7b7bda6b47a3">
             <event guid="8911a79d-4724-54aa-8c4c-721f77e902c2" id="2442">
-                <room>Room Guajará</room>
+                <room>Room Guajará (C Block)</room>
                 <title>Diving into pygeoapi</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6185,9 +6212,9 @@ The core requirement is to have Docker and Docker Compose installed on the syste
             </event>
             
         </room>
-        <room name="Room Mangueirão" guid="868dd788-882a-5599-bd9c-070ac7750665">
+        <room name="Room Mangueirão (C Block)" guid="868dd788-882a-5599-bd9c-070ac7750665">
             <event guid="20e200df-4f9b-5b0e-ba67-69632353ce7a" id="2839">
-                <room>Room Mangueirão</room>
+                <room>Room Mangueirão (C Block)</room>
                 <title>Community Drone Mapping - Drone Tasking Manager Practical Workshop</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6258,9 +6285,9 @@ This session will be a practical, hands-on workshop including an outdoor flying 
             </event>
             
         </room>
-        <room name="Room Círio de Nazaré" guid="6619c307-8d57-521f-8891-fe7bfbfec94b">
+        <room name="Room Círio de Nazaré (C Block)" guid="6619c307-8d57-521f-8891-fe7bfbfec94b">
             <event guid="c8cb456f-f5b7-5e61-8443-e9374d29b3e7" id="2866">
-                <room>Room Círio de Nazaré</room>
+                <room>Room Círio de Nazaré (C Block)</room>
                 <title>Publishing maps on the web with QGIS Server</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6303,9 +6330,9 @@ All the concepts and configurations will be reviewed and explained. Participants
             </event>
             
         </room>
-        <room name="Room Açaí" guid="9c2f1eee-c360-572b-bbb3-977fec2eff46">
+        <room name="Room Açaí (C Block)" guid="9c2f1eee-c360-572b-bbb3-977fec2eff46">
             <event guid="b300655f-5e38-5cd9-b549-708c689238cc" id="2755">
-                <room>Room Açaí</room>
+                <room>Room Açaí (C Block)</room>
                 <title>Creating a GraphQL API with Postgis</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6340,7 +6367,7 @@ The workshop will take 4 hours and requires no previous knowledge of GraphQL. Ho
                 <feedback_url />
             </event>
             <event guid="3cd9bd6e-1d40-537b-9c26-bb814798bc5a" id="2642">
-                <room>Room Açaí</room>
+                <room>Room Açaí (C Block)</room>
                 <title>Cloud-Native Geospatial for Earth Observation</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6418,9 +6445,9 @@ Supported by the CEOS Systems Engineering Office, this workshop offers a unique 
             </event>
             
         </room>
-        <room name="Room Mangal das Garças" guid="67bf9940-c50c-565e-b093-44e4f89e913d">
+        <room name="Room Mangal das Garças (C Block)" guid="67bf9940-c50c-565e-b093-44e4f89e913d">
             <event guid="2fae1590-d0ac-5351-95b2-70fd7de9c2be" id="2852">
-                <room>Room Mangal das Garças</room>
+                <room>Room Mangal das Garças (C Block)</room>
                 <title>GRASS GIS for Earth Observation data processing with Jupyter notebooks</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6449,7 +6476,7 @@ We'll work with the notebook [here](https://github.com/veroandreo/foss4g2024_gra
                 <feedback_url />
             </event>
             <event guid="cbdb01d1-048f-54b5-a206-b7ccad4fd0c6" id="2770">
-                <room>Room Mangal das Garças</room>
+                <room>Room Mangal das Garças (C Block)</room>
                 <title>Supercharge your fieldwork with QField plugins</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6475,9 +6502,9 @@ We'll work with the notebook [here](https://github.com/veroandreo/foss4g2024_gra
             </event>
             
         </room>
-        <room name="Room Ilha de Marajó" guid="330f94f8-b126-52d5-8d2b-8e1abc176253">
+        <room name="Room Ilha de Marajó (E Block)" guid="330f94f8-b126-52d5-8d2b-8e1abc176253">
             <event guid="7b51d0f8-ddef-5ac6-8354-c338aeccf345" id="2885">
-                <room>Room Ilha de Marajó</room>
+                <room>Room Ilha de Marajó (E Block)</room>
                 <title>Deep Dive into Cloud-Native Geospatial Raster Formats</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6517,7 +6544,7 @@ All participants please try to get an environment running and ready to go prior 
                 <feedback_url />
             </event>
             <event guid="20a3c860-73af-5922-8772-70800345f8ad" id="2863">
-                <room>Room Ilha de Marajó</room>
+                <room>Room Ilha de Marajó (E Block)</room>
                 <title>Create Interactive Web Maps: A Hands-on Workshop with Re:Earth</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6568,9 +6595,9 @@ The first half of the workshop is designed for all skill levels, ensuring everyo
             </event>
             
         </room>
-        <room name="Room Forte do Castelo" guid="6bac4f31-af0a-51c9-a645-67a5d93ab703">
+        <room name="Room Forte do Castelo (M Block)" guid="6bac4f31-af0a-51c9-a645-67a5d93ab703">
             <event guid="4c1e2589-939a-5ec7-8cab-4d3b9c9b0dd3" id="2914">
-                <room>Room Forte do Castelo</room>
+                <room>Room Forte do Castelo (M Block)</room>
                 <title>Introduction to GeoServer</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -6604,7 +6631,7 @@ This session is a great way to get started, geared towards those with no prior o
                 <feedback_url />
             </event>
             <event guid="ef1246c2-6c3d-505c-bfad-9752889b202e" id="2448">
-                <room>Room Forte do Castelo</room>
+                <room>Room Forte do Castelo (M Block)</room>
                 <title>Working with OpenLayers</title>
                 <subtitle />
                 <type>Workshop</type>
