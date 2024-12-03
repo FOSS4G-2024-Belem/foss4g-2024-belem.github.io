@@ -24,7 +24,6 @@ export default function PretalxSchedule({
           {/* @ts-ignore */}
           <pretalx-schedule
             {...scheduleProps}
-            onload={() => console.log("load")}
           />
         </div>
       </div>

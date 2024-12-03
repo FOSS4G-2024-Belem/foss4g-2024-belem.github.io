@@ -36,7 +36,6 @@ const nextConfig = {
       type: "asset/resource",
       generator: {
         filename: (pd) => {
-          console.log(pd["filename"]);
           return `static/chunks/${pd["filename"]}`;
         },
       },
