@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.22</version>
+    <version>0.24</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
@@ -1102,33 +1102,6 @@ The SIGBT initiative, therefore, presents itself as a successful example of a sy
                 <url>https://talks.osgeo.org/foss4g-2024/talk/Y8DPZC/</url>
                 <feedback_url />
             </event>
-            <event guid="b616b931-e7d2-55a3-af6d-d72eae2b8c3d" id="2862">
-                <room>Room III</room>
-                <title>AmazoniaHack: Open Innovation for the Amazon Rainforest</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-06T14:30:00-03:00</date>
-                <start>14:30</start>
-                <duration>00:30</duration>
-                <abstract>AmazoniaHack is an open innovation hackathon for the Amazon rainforest. The bilingual program, run in Portuguese is dedicated to support the preservation and rejuvenation of the Amazon Rainforest by fostering open innovation and leveraging technology co-created with indigenous communities, local organizations, and global participants. Our goals are to harmonize technological projects with local context, wisdom, and wishes to develop scalable projects for monitoring and preempting deforestation, to support sustainable land management, and to lower barriers to entry into the environmental innovation space. We further seek to foster a culture of inclusive innovation, where technologies co-developed with partners at hackathons serve as tools complementing and advancing traditional knowledge and practices.  We will share lessons learned and key takeaways from AmazoniaHack. We also share a call to action for the global open source geospatial community to support the incubation of an open source movement focused on combating deforestation in the Amazon.
-
-AmazoniaHack aims to provide multiple long-term benefits, including our goal this year to elevate Indigenous science in conservation solutions, and the ongoing accelerated deployment of hardware for acoustic monitoring of deforestation, as well as software and geospatial solutions. However, the primary beneficiaries of the two-day hackathon are Brazilian students who may otherwise be excluded from environmental innovation spaces. We have had dozens of students contact the organizing team after each event to ask if AmazoniaHack will take place every year, to seek support on continuing to work on their projects, to connect with hackathon partners, and to speak about their careers. This exemplifies some of the target impact of our transformative environmental education approach - collaboration and partnership development, impact on career paths, and knowledge and attitude shift towards specific environmental challenges.</abstract>
-                <slug>foss4g-2024-2862-amazoniahack-open-innovation-for-the-amazon-rainforest</slug>
-                <track>Applications and solutions for the Amazon region</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/Y8ETTA/</url>
-                <feedback_url />
-            </event>
             <event guid="6fd7a3ec-3b89-53e3-b0fe-d5f0c13d005f" id="2762">
                 <room>Room III</room>
                 <title>The Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service - a free and open dynamic global land cover service at 10 m resolution for the years 2020-2026.</title>
@@ -1402,61 +1375,6 @@ Happy mapping everyone please enjoy FOSS4G.</abstract>
                 <attachments />
 
                 <url>https://talks.osgeo.org/foss4g-2024/talk/WBEJCB/</url>
-                <feedback_url />
-            </event>
-            <event guid="e4a6f031-085c-58f4-9372-9ebc1c8147e3" id="2837">
-                <room>Room IV</room>
-                <title>Create a overlay layer with attribute values by finding overlap and gap across multiple and in large polygon layers.</title>
-                <subtitle />
-                <type>Talk</type>
-                <date>2024-12-06T12:30:00-03:00</date>
-                <start>12:30</start>
-                <duration>00:30</duration>
-                <abstract>What we mean here is that if we analyze 5 layers with 5 attribute columns in each layer and we have no spatial overlaps inside each layer. One spatial area may have from zero to 25 possible attribute values. If we have internal overlaps  in each layer also, there is no limit for how many attribute values a spatial area may have. To do this we have to resolve all overlaps and gaps across all involved polygons. 
-
-Is the "Simple Feature" data model for polygons and corresponding methods like ST_Intersection, ST_Difference and ST_Simplify(PreserveTopology) on the polygons a good choice?
-
-NIBIO has been utilizing https://github.com/larsop/esri_union based on "Simple Feature" for almost a decade for ROG operations. However, we believe we've reached a size and complexity limit with "Simple Feature" alone. 
-
-Also doing polygon border generalization/smooth/simplify work is difficult when working with polygons that intersects, because "Simple Feature" polygons is based on a data structure that does not contain info about other related polygons. That information has to be computed every time it’s needed.
-
-While working with “Simple Feature”, NIBIO has also used and sponsored Postgis and Postgis Topology work for many years, which has elevated our ROG work.
-
-A major issue with Postgis Topology is that the edges that construct the surfaces are exposed as separate persistent data objects and for instance we can easy check if all edge are used to split surfaces or not. This feature is absent for "Simple Feature" data type. For a WMS showing surfaces where simplification is not required, "Simple Feature" may be perfect. The problems begins when we need to compute relations for complex and multiple large layers due to the lack of abstractions of border and border relations in "Simple Feature".
-
-Relying solely on "Simple Feature" for spatial work is akin to saying, "I don’t need to transfer any company customer registers into a relational database because I can manage update, consistency checks, and data extraction with Excel macros and other utils". And why care about “one address” that are registered 2 times in a spreed sheet as long they equal? When a single person was responsible for updating the customer address register in the Excel sheet, they would encounter no concurrency issues either. So many have clung on to Excel for years to avoid the perceived "complexity" of relational databases.
-
-In 2016, I presented "Postgis Topology will replace simple feature", can be in the same gate as saying "Relational databases will replace Excel". Both these statements are flawed. A better title in 2016 would be “Postgis Topology extends the limitations related to Simple Feature”, in the same way that relational databases extend limitations related to tabular data in Excel.
-
-A common complaint about Postgis Topology is that it's too complex to setup, use and update, in a way this is similar to how people argument for not moving tabular data in to relational databases.
-
-To simplify and make Postgis Topology more easy accessible, NIBIO has made these repositories available:
-
-https://gitlab.com/nibioopensource/pgtopo_update_sql 
-https://gitlab.com/nibioopensource/pgtopo_update_rest 
-https://gitlab.com/nibioopensource/pgtopo_update_gui.
-
-Another critique is, "Postgis Toplogy does not scale". Similarly, a customer register created without indexing the foreign key column will not scale in a relational database either. In 2018, we managed to push 100 billion spatially and time-located weather observations from Netcdfs files into PostgreSQL at a rate of about 35 million observations per second using copy, unlogged, partitioned tables, and other tools. The key to performance is to work according to the rules of your relational database, which can be complex,  but relational databases do scale. 
-
-Here https://gitlab.com/nibioopensource/resolve-overlap-and-gap/ (now while waiting for Postgis 3.5 we work in branch https://gitlab.com/nibioopensource/resolve-overlap-and-gap/-/tree/performance_and_robustnes_spike_remove?ref_type=heads ) we use diverse technologies to manage datasets with around 80 million polygons and more than a billion points through Postgis Topology. Large jobs like this are broken down into thousands of smaller tasks, and the abstraction/normalization of edges in Postgis Topology is crucial for this. This kind division of tasks may also prepare us for GPU architecture in the future.
-
-With ROG, it's simple to create a new "Simple Feature" layer with no overlaps or gaps using the Postgis Topology structure and distinct on face_id. To control what input data source to use when we have overlaps inside one data source and/or across many data sources, you can do a simple order by attribute values and limit 1. And we do NOT duplicate any attribute values from the different input sources, because we point back to the original datasets and reuse the indexes there.
-
-In this presentation we will go more in detail on how we do use Postgis Topolgy in the ROG work and focus more on what obstacles that has been and are causing problems.</abstract>
-                <slug>foss4g-2024-2837-create-a-overlay-layer-with-attribute-values-by-finding-overlap-and-gap-across-multiple-and-in-large-polygon-layers-</slug>
-                <track>Use cases &amp; applications</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/foss4g-2024/talk/XTS8ZA/</url>
                 <feedback_url />
             </event>
             <event guid="29fc8f88-8103-5b5f-9002-1319d4d29d33" id="3016">
@@ -1776,11 +1694,47 @@ Currently, this presentation talks about pgRouting addressing one of the Sevente
                 <url>https://talks.osgeo.org/foss4g-2024/talk/DXMNAS/</url>
                 <feedback_url />
             </event>
+            <event guid="cd41bbd4-2d9e-5550-84b4-e3e3558238fd" id="2698">
+                <room>Room V</room>
+                <title>FOSSGIS e.V. - how to run a successfull Local Chapter</title>
+                <subtitle />
+                <type>Talk</type>
+                <date>2024-12-06T14:30:00-03:00</date>
+                <start>14:30</start>
+                <duration>00:30</duration>
+                <abstract>FOSSGIS e.V. is already 24 years old and has come a long way. FOSSGIS e.V. is very successful. We want to share how we got to where we are.
+We want to share our story with you and inspire you or give you ideas.
+
+What FOSSGIS e.V. does:
+- Runs an annual conference FOSSGIS &amp; other smaller events
+- Networking between users and companies
+- Build a strong &amp; vibrant community
+- Stimulate discussion in the working groups
+- Have fun - community sprints, mapping parties &amp; hacking weekends
+- Supports community and projects
+- And even more
+
+It would be great to connect and share with other chapters to spread the FOSS4G idea around the world.</abstract>
+                <slug>foss4g-2024-2698-fossgis-e-v-how-to-run-a-successfull-local-chapter</slug>
+                <track />
+                
+                    
+                <language>en</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/foss4g-2024/talk/AMNZVK/</url>
+                <feedback_url />
+            </event>
             
         </room>
         
     </day>
-
     <day index="3" date="2024-12-04" start="2024-12-04T04:00:00-03:00" end="2024-12-05T03:59:00-03:00">
         <room name="Room Auditorio" guid="4a5f8194-cddc-53b8-8c1a-305ddd1f3622">
             <event guid="eb17ee7e-12c3-5fbe-989c-322d2d95d159" id="3023">
@@ -5234,7 +5188,7 @@ Deep Pavements is an innovative and comprehensive toolset under continuous devel
                 <type>Oral Presentation 2</type>
                 <date>2024-12-04T16:15:00-03:00</date>
                 <start>16:15</start>
-                <duration>01:30</duration>
+                <duration>00:30</duration>
                 <abstract>Advances in spatial and spectral resolution in private sector satellite imagery, together with geography aware algorithms, have created new venues for the use of Artificial Intelligence (AI) in geospatial applications, sometimes referred to as AI4Geo. However, these advancements are accompanied by significant costs in the procurement of data, computing resources, communication infrastructure and human expertise. We describe a case study in central Bali in which we developed multiple AI4Geo approaches to assist the WISNU foundation, a Non-Governmental Organization in Bali, Indonesia, in their ongoing efforts to manage community resources and to perform land mapping across small villages in Bali. 
 
 Concepts 
@@ -6483,13 +6437,21 @@ We'll work with the notebook [here](https://github.com/veroandreo/foss4g2024_gra
                 <date>2024-12-03T14:00:00-03:00</date>
                 <start>14:00</start>
                 <duration>04:00</duration>
-                <abstract>Unlock the full potential of your fieldwork with QField's groundbreaking project and app-wide plugins. Join our hands-on workshop at FOSS4G to explore the powerful customization and functionality enhancements made possible by QField 3.3. Learn how to create and implement plugins tailored to your specific needs, streamline data collection, and improve field operations. Whether you're a beginner or an advanced user, this session will equip you with the skills to take your field mapping projects to the next level. Don't miss this opportunity to elevate your GIS capabilities and enhance your fieldwork efficiency with QField.</abstract>
+                <abstract>Unlock the full potential of your fieldwork with QField's groundbreaking project and app-wide plugins. Join our hands-on workshop at FOSS4G to explore the powerful customization and functionality enhancements made possible by QField 3.3. Learn how to create and implement plugins tailored to your specific needs, streamline data collection, and improve field operations. Whether you're a beginner or an advanced user, this session will equip you with the skills to take your field mapping projects to the next level. Don't miss this opportunity to elevate your GIS capabilities and enhance your fieldwork efficiency with QField.
+
+REQUIREMENTS:
+  + A computer with a web browser and your favorite text editor.
+  + The QField desktop application downloaded (execute the downloaded file to test that it runs):
+.... Windows: [qfield-v3.4.5-windows-x64.exe](https://github.com/opengisch/QField/releases/download/v3.4.5/qfield-v3.4.5-windows-x64.exe) 
+.... GNU/Linux:  [qfield-v3.4.5-linux-x64.AppImage](https://github.com/opengisch/QField/releases/download/v3.4.5/qfield-v3.4.5-linux-x64.AppImage) 
+.... Mac OS:  [qfield-v3.4.5-x64-osx.dmg](https://github.com/opengisch/QField/releases/download/v3.4.5/qfield-v3.4.5-x64-osx.dmg)
+  + QField app installed in your smartphone/tablet. (Optional, but nice to have for testing).</abstract>
                 <slug>foss4g-2024-workshop-2770-supercharge-your-fieldwork-with-qfield-plugins</slug>
                 <track />
                 
                     
                 <language>en</language>
-                <description>Plugins are written in QML/JS, while simple, programming knowledge is needed to follow the workshop actively.</description>
+                <description>Plugins are written in QML/JS, while simple, programming knowledge is needed to follow the workshop actively. Nonetheless, a QML intro from scratch will be provided.</description>
                 <recording>
                     <license />
                     <optout>false</optout>
@@ -6582,7 +6544,14 @@ The first half of the workshop is designed for all skill levels, ensuring everyo
 - Node.js (&gt;=20.11.0 version)
 - yarn（v.4.5.0）
 - Git
-- Code editor (VS Code recommended)</description>
+- Code editor (VS Code recommended)
+- Cesium ion Access token
+
+### Textbook
+- Workshop A
+  - https://eukarya.notion.site/Workshop-A-textbook-13d16e0fb16580e29f4cdb5eadd4a157
+- Workshop B
+  - https://eukarya.notion.site/Workshop-B-textbook-13716e0fb16580a2955cc4d6b19a114c</description>
                 <recording>
                     <license />
                     <optout>false</optout>
