@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.28</version>
+    <version>0.29</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
@@ -4579,7 +4579,7 @@ It would be great to connect and share with other chapters to spread the FOSS4G 
     <day index="6" date="2024-12-07" start="2024-12-07T04:00:00-03:00" end="2024-12-08T03:59:00-03:00">
         
     </day>
-    <day index="5" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
+    <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
         
     </day>
     
@@ -6735,17 +6735,14 @@ Core developers to the project will be on hand to walk you through the workshop 
             </event>
             
         </room>
-        
-    </day>
-    <day index="6" date="2024-12-07" start="2024-12-07T04:00:00-03:00" end="2024-12-08T03:59:00-03:00">
-        <room name="Auditório Palacete Pinho" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
+        <room name="Salón I Palacete Pinho" guid="596f6914-1795-598e-b22f-994e08948bba">
             <event guid="87796186-5d72-51b4-861e-617717c7b486" id="3123">
-                <room>Auditório Palacete Pinho</room>
+                <room>Salón I Palacete Pinho</room>
                 <title>Abertura SotM</title>
                 <subtitle />
                 <type>Operacional</type>
-                <date>2024-12-07T09:00:00-03:00</date>
-                <start>09:00</start>
+                <date>2024-12-06T20:00:00-03:00</date>
+                <start>20:00</start>
                 <duration>00:30</duration>
                 <abstract>.</abstract>
                 <slug>sotm2024-latam-3123-abertura-sotm</slug>
@@ -6764,6 +6761,12 @@ Core developers to the project will be on hand to walk you through the workshop 
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/B9PGUJ/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/B9PGUJ/feedback/</feedback_url>
             </event>
+            
+        </room>
+        
+    </day>
+    <day index="6" date="2024-12-07" start="2024-12-07T04:00:00-03:00" end="2024-12-08T03:59:00-03:00">
+        <room name="Auditório Palacete Pinho" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
             <event guid="0823c906-5e17-5f27-9ce1-7a0a766881ec" id="3034">
                 <room>Auditório Palacete Pinho</room>
                 <title>The OpenStreetMap Foundation and its Board of Directors: What it is, What it does, What it isn't</title>
@@ -6864,14 +6867,49 @@ El objetivo es que este conocimiento pueda replicarse en otras comunidades, prom
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/NCRW8B/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/NCRW8B/feedback/</feedback_url>
             </event>
+            <event guid="0d89385a-f3e9-52ff-a910-113403d70616" id="3003">
+                <room>Auditório Palacete Pinho</room>
+                <title>Taller de calidad de datos y mapeo de caminos en OSM</title>
+                <subtitle />
+                <type>Workshop (intermediate)</type>
+                <date>2024-12-07T13:00:00-03:00</date>
+                <start>13:00</start>
+                <duration>01:15</duration>
+                <abstract>Este taller tiene como objetivo ofrecer a los participantes una introducción sólida al mundo de OpenStreetMap (OSM), enfocándose en las herramientas esenciales y en la importancia de la calidad de los datos dentro de la plataforma. El taller está diseñado para personas con conocimientos básicos en herramientas tecnológicas y temas relacionados con información geográfica, que deseen adentrarse en el mapeo colaborativo, con un enfoque en el impacto humanitario.
+
+Comenzaremos con una visión general de qué es OSM, explorando sus ventajas comparativas en relación con otros sistemas de mapeo. También abordaremos el rol crucial que desempeña la Humanitarian OpenStreetMap Team (HOT) en la plataforma, destacando el impacto positivo que este trabajo tiene en situaciones de emergencia y proyectos humanitarios. En esta primera parte se ofrecerá una perspectiva clara sobre cómo OSM permite a cualquier persona contribuir al mapeo global y cómo las comunidades locales pueden ser actores fundamentales en la mejora y precisión del mapa.
+
+Seguidamente, abordaremos un tema clave: la calidad de los datos en OSM. Hablaremos sobre dos tipos principales de evaluaciones. La evaluación temática, que requiere un conocimiento profundo del terreno para identificar y corregir posibles errores, dependerá mucho de la participación de las comunidades locales que mejor conocen las particularidades del lugar. Por otro lado, la evaluación técnica se enfoca en inconsistencias topológicas y de etiquetado, que son más fáciles de detectar a través de herramientas automatizadas. Los participantes conocerán herramientas como JOSM Validator, Osmose, Keep Right y MapRoulette, que permiten identificar y corregir estos problemas técnicos de forma automática. Además, se mostrará cómo mejorar la calidad de los datos a través de comparaciones con fuentes externas, la revisión manual y el uso de trazas GPX o mapas de calor como los de Strava.
+
+En la parte dedicada al mapeo remoto, exploraremos cómo llevar a cabo proyectos desde cualquier parte del mundo. Los participantes aprenderán a utilizar plataformas como iD Editor, HOT Tasking Manager y MapRoulette para contribuir con datos de calidad a OSM. Se hará hincapié en las ventajas de esta modalidad de trabajo, aunque también se discutirán las limitaciones y los desafíos que plantea.
+
+Para finalizar, se desarrollará una actividad práctica de mapeo, centrada en las carreteras. Aquí, los participantes aprenderán las reglas esenciales de etiquetado y las normas topológicas que aseguran una correcta conexión de las vías y la coherencia del mapa. Esta sesión práctica permitirá a los asistentes aplicar de manera inmediata lo aprendido, aportando mejoras concretas al mapa.
+
+Este taller busca no solo enseñar herramientas, sino también generar conciencia sobre el impacto del mapeo colaborativo y el valor de los datos geoespaciales en contextos de desarrollo y emergencia.</abstract>
+                <slug>sotm2024-latam-3003-taller-de-calidad-de-datos-y-mapeo-de-caminos-en-osm</slug>
+                <track>Extrinsic or intrinsic quality assessment of OpenStreetMap data</track>
+                
+                    
+                <language>es</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/sotm2024-latam/talk/TNELZN/</url>
+                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/TNELZN/feedback/</feedback_url>
+            </event>
             <event guid="fecc4ae1-0823-5b71-9a3b-99fd087dc6ad" id="3131">
                 <room>Auditório Palacete Pinho</room>
                 <title>Geochicas</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T13:30:00-03:00</date>
-                <start>13:30</start>
-                <duration>00:45</duration>
+                <date>2024-12-07T15:15:00-03:00</date>
+                <start>15:15</start>
+                <duration>00:30</duration>
                 <abstract>.</abstract>
                 <slug>sotm2024-latam-3131-geochicas</slug>
                 <track>Cultural, political, and organizational aspects of data production and usage practices in OpenStreetMap</track>
@@ -6894,9 +6932,9 @@ El objetivo es que este conocimiento pueda replicarse en otras comunidades, prom
                 <title>Overture Presentation</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T14:30:00-03:00</date>
-                <start>14:30</start>
-                <duration>00:45</duration>
+                <date>2024-12-07T15:45:00-03:00</date>
+                <start>15:45</start>
+                <duration>00:30</duration>
                 <abstract>Overture.</abstract>
                 <slug>sotm2024-latam-3129-overture-presentation</slug>
                 <track>Extrinsic or intrinsic quality assessment of OpenStreetMap data</track>
@@ -6914,38 +6952,13 @@ El objetivo es que este conocimiento pueda replicarse en otras comunidades, prom
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/EQS9HG/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/EQS9HG/feedback/</feedback_url>
             </event>
-            <event guid="1b8ef964-eda2-5a11-923b-be840cac5612" id="3126">
-                <room>Auditório Palacete Pinho</room>
-                <title>OpenMic</title>
-                <subtitle />
-                <type>Operacional</type>
-                <date>2024-12-07T15:15:00-03:00</date>
-                <start>15:15</start>
-                <duration>00:35</duration>
-                <abstract>Momento de preguntas y respuestas.</abstract>
-                <slug>sotm2024-latam-3126-openmic</slug>
-                <track />
-                
-                    
-                <language>es</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/UVZUUJ/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/UVZUUJ/feedback/</feedback_url>
-            </event>
             <event guid="0b142ccd-1d6a-5acd-b729-5634d71c94ce" id="2996">
                 <room>Auditório Palacete Pinho</room>
                 <title>The Current State of Collaboration between Digital Twin and OSM</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T16:20:00-03:00</date>
-                <start>16:20</start>
+                <date>2024-12-07T16:30:00-03:00</date>
+                <start>16:30</start>
                 <duration>00:30</duration>
                 <abstract>In recent years, 3D city models have become increasingly important for urban planning, citizen engagement, and research, driven by rapid advancements in technology and infrastructure. These models allow for a more detailed and accurate representation of urban spaces, which enables city planners, researchers, and citizens to visualize changes and make more informed decisions. Many cities and countries around the world have adopted these models to address a wide variety of urban challenges, enhance public participation, and aid decision-making processes at multiple levels of governance.
 
@@ -6975,8 +6988,8 @@ In this talk, we will summarize the current status of merging PLATEAU 3D buildin
                 <title>Cartografía de establecimientos dedicados a la Agroecología en OpenStreetMap</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T16:50:00-03:00</date>
-                <start>16:50</start>
+                <date>2024-12-07T17:00:00-03:00</date>
+                <start>17:00</start>
                 <duration>00:30</duration>
                 <abstract>En la República Argentina se han fortalecido organizaciones de productores y productoras que llevan adelante sus emprendimientos en el marco de la Agroecología, se han creado redes de comercialización y se han implementado sistemas participativos de certificación y de garantías. En conjunto con ello, se han sancionado normativas que limitan el uso de agroquímicos en diferentes jurisdicciones y se han iniciado procesos de reconversión de las producciones existentes. 
 Este proceso de promoción y fortalecimiento de planteos productivos novedosos se enmarca en un entorno sociocultural y ambiental de disputa con otros modelos productivos y del uso y apropiación de los recursos naturales y también de uso y apropiación de los saberes y conocimientos, en tanto bienes comunes.
@@ -7009,8 +7022,8 @@ Esta propuesta de ponencia busca compartir los resultados y desafíos de esta ex
                 <title>Análisis ecológico del arbolado urbano y de áreas de antejardín en un barrio de Bello-Antioquia, Colombia</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T17:20:00-03:00</date>
-                <start>17:20</start>
+                <date>2024-12-07T17:30:00-03:00</date>
+                <start>17:30</start>
                 <duration>00:30</duration>
                 <abstract>Los antejardines son áreas del espacio público de propiedad privada, ubicada entre los paramentos o fachadas de los predios y el andén (Secretaría de Medio Ambiente de Medellín, 2015). A escala local, los antejardines junto con los árboles aislados y los parques de bolsillo favorecen el mejoramiento estético del espacio o el disfrute, además de la vida y estancia de la fauna silvestre que allí habite, por lo tanto, su tamaño, distribución y estado son decisivos en la calidad de sus habitantes (Moreno et al., 2015) humanos y no humanos.
 El barrio Ciudad Niquía a lo largo de su urbanización cuenta con áreas de antejardín con un promedio de 31.56 m2. Con base a la Norma Básica del municipio, los retiros definidos como antejardines serán de carácter ornamental y de protección, sin embargo, el uso que se les da actualmente es de garajes o comercio, siendo muy pocos los que tienen áreas verdes en su interior. 
@@ -7038,8 +7051,8 @@ Como plantea Cadenasso &amp; Pickett (2008), las ciudades se deben asumir como o
                 <title>Mapeo colaborativo en el Municipio de Palos Blancos, región Amazónica del Norte de La Paz -Bolivia</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T17:50:00-03:00</date>
-                <start>17:50</start>
+                <date>2024-12-07T18:00:00-03:00</date>
+                <start>18:00</start>
                 <duration>00:30</duration>
                 <abstract>El municipio de Palos Blancos, ubicado en la región amazónica de Bolivia, enfrenta grandes desafíos en la gestión territorial y la planificación urbana debido a la falta de datos geoespaciales actualizados y accesibles. Esta carencia limita la capacidad de las autoridades locales para tomar decisiones informadas y dificulta la implementación de políticas efectivas que mejoren la calidad de vida de la comunidad. Ante esta problemática, la Universidad Mayor de San Andrés (UMSA), a través de la Facultad de Agronomía y la estación experimental de Sapecho, en colaboración con las autoridades locales de Palos Blancos, impulsó un proyecto de mapeo colaborativo.
 El objetivo principal del proyecto fue fortalecer las capacidades de autoridades, estudiantes y actores comunitarios en Palos Blancos para gestionar el territorio de manera más eficiente y sostenible. Para alcanzar este objetivo, el proyecto se desarrolló en varias fases: socialización y sensibilización, capacitación en OpenStreetMap (OSM), implementación del proyecto de mapeo y seguimiento para mejoras continuas.
@@ -7069,8 +7082,8 @@ El impacto del proyecto no se limita a Palos Blancos; los principios y metodolog
                 <title>Mapeo como una herramienta para la gestión de riesgos y planes de desarrollo en regiones de la Amazonía Ecuatoriana</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T18:20:00-03:00</date>
-                <start>18:20</start>
+                <date>2024-12-07T18:30:00-03:00</date>
+                <start>18:30</start>
                 <duration>00:30</duration>
                 <abstract>Entre marzo y mayo de 2024, la Fundación Openlab Ecuador, con el apoyo del Equipo Humanitario de OpenStreetMap y Thinkia (un laboratorio ciudadano liderado por la Secretaría de Educación Superior, Ciencia, Tecnología e Innovación), desarrolló un proceso de capacitación que incluyó cuatro talleres presenciales y uno virtual en diferentes poblaciones de la Amazonía ecuatoriana. El objetivo fue capacitar e involucrar a universidades locales y gobiernos municipales en metodologías de mapeo colaborativo, utilizando herramientas de OpenStreetMap (OSM) y del Equipo Humanitario de OpenStreetMap (HOT), bajo un enfoque de la gestión de riesgos y del desarrollo integral local por medio de la recolección de datos geoespaciales abiertos.
 
@@ -7102,9 +7115,9 @@ Esta presentación tiene como propósito exponer la metodología de acercamiento
                 <title>Proyectos de mapeos amazónicos para la gestión territorial comunitaria.</title>
                 <subtitle />
                 <type>Keynote Speech (Academic)</type>
-                <date>2024-12-07T18:50:00-03:00</date>
-                <start>18:50</start>
-                <duration>00:50</duration>
+                <date>2024-12-07T19:00:00-03:00</date>
+                <start>19:00</start>
+                <duration>00:30</duration>
                 <abstract>Este panel invitará a conversar a personas que en teoría atienden el evento, y que han participado (en ocasión junto con el Equipo Humanitario de OpenStreetMap) en varios proyectos de capacitación comunitaria en la Amazonía de Perú, Ecuador, Colombia y Brasil. El tema central será hablar sobre procesos de construcción, junto con las comunidades, de estrategias de mapeo y monitoreo territorial a largo plazo, su capacitación, y en ocasiones, su dotación de recursos informáticos para lograrlo. La mayoría de estos proyectos se han enfocado en la capacitación y transferencia de conocimiento a personas clave dentro de sus comunidades, como profesores o líderes de cualquier tipo, para asegurar que este conocimiento se mantenga y pueda replicarse dentro de su comunidad e incluso en comunidades vecinas. Durante el panel, los responsables de los proyectos hablarán sobre las dificultades, los potenciales y los logros de sus experiencias, pero también compartirán su visión sobre cómo abordar estos proyectos, y también cuál es el rol de la cartografía ante las situaciones comunitarias y las amenazas que enfrenta la región amazónica.
 
 Este panel contará con 4 o 5 ponentes, cada uno dispondrá de 10 minutos para presentar su experiencia y reflexiones. Se buscará generar una dinámica conversacional fluida, y se permitirá al público opinar y compartir también sus experiencias.
@@ -7144,9 +7157,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 <title>Day Closure</title>
                 <subtitle />
                 <type>Operacional</type>
-                <date>2024-12-07T19:40:00-03:00</date>
-                <start>19:40</start>
-                <duration>00:30</duration>
+                <date>2024-12-07T19:30:00-03:00</date>
+                <start>19:30</start>
+                <duration>00:10</duration>
                 <abstract>Clausura día 2.</abstract>
                 <slug>sotm2024-latam-3125-day-closure</slug>
                 <track />
@@ -7167,48 +7180,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             
         </room>
         <room name="Salón I Palacete Pinho" guid="596f6914-1795-598e-b22f-994e08948bba">
-            <event guid="0d89385a-f3e9-52ff-a910-113403d70616" id="3003">
-                <room>Salón I Palacete Pinho</room>
-                <title>Taller de calidad de datos y mapeo de caminos en OSM</title>
-                <subtitle />
-                <type>Workshop (intermediate)</type>
-                <date>2024-12-07T13:00:00-03:00</date>
-                <start>13:00</start>
-                <duration>01:30</duration>
-                <abstract>Este taller tiene como objetivo ofrecer a los participantes una introducción sólida al mundo de OpenStreetMap (OSM), enfocándose en las herramientas esenciales y en la importancia de la calidad de los datos dentro de la plataforma. El taller está diseñado para personas con conocimientos básicos en herramientas tecnológicas y temas relacionados con información geográfica, que deseen adentrarse en el mapeo colaborativo, con un enfoque en el impacto humanitario.
-
-Comenzaremos con una visión general de qué es OSM, explorando sus ventajas comparativas en relación con otros sistemas de mapeo. También abordaremos el rol crucial que desempeña la Humanitarian OpenStreetMap Team (HOT) en la plataforma, destacando el impacto positivo que este trabajo tiene en situaciones de emergencia y proyectos humanitarios. En esta primera parte se ofrecerá una perspectiva clara sobre cómo OSM permite a cualquier persona contribuir al mapeo global y cómo las comunidades locales pueden ser actores fundamentales en la mejora y precisión del mapa.
-
-Seguidamente, abordaremos un tema clave: la calidad de los datos en OSM. Hablaremos sobre dos tipos principales de evaluaciones. La evaluación temática, que requiere un conocimiento profundo del terreno para identificar y corregir posibles errores, dependerá mucho de la participación de las comunidades locales que mejor conocen las particularidades del lugar. Por otro lado, la evaluación técnica se enfoca en inconsistencias topológicas y de etiquetado, que son más fáciles de detectar a través de herramientas automatizadas. Los participantes conocerán herramientas como JOSM Validator, Osmose, Keep Right y MapRoulette, que permiten identificar y corregir estos problemas técnicos de forma automática. Además, se mostrará cómo mejorar la calidad de los datos a través de comparaciones con fuentes externas, la revisión manual y el uso de trazas GPX o mapas de calor como los de Strava.
-
-En la parte dedicada al mapeo remoto, exploraremos cómo llevar a cabo proyectos desde cualquier parte del mundo. Los participantes aprenderán a utilizar plataformas como iD Editor, HOT Tasking Manager y MapRoulette para contribuir con datos de calidad a OSM. Se hará hincapié en las ventajas de esta modalidad de trabajo, aunque también se discutirán las limitaciones y los desafíos que plantea.
-
-Para finalizar, se desarrollará una actividad práctica de mapeo, centrada en las carreteras. Aquí, los participantes aprenderán las reglas esenciales de etiquetado y las normas topológicas que aseguran una correcta conexión de las vías y la coherencia del mapa. Esta sesión práctica permitirá a los asistentes aplicar de manera inmediata lo aprendido, aportando mejoras concretas al mapa.
-
-Este taller busca no solo enseñar herramientas, sino también generar conciencia sobre el impacto del mapeo colaborativo y el valor de los datos geoespaciales en contextos de desarrollo y emergencia.</abstract>
-                <slug>sotm2024-latam-3003-taller-de-calidad-de-datos-y-mapeo-de-caminos-en-osm</slug>
-                <track>Extrinsic or intrinsic quality assessment of OpenStreetMap data</track>
-                
-                    
-                <language>es</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/TNELZN/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/TNELZN/feedback/</feedback_url>
-            </event>
             <event guid="75d2cb26-fffe-57dd-bb32-9d7f17b067ac" id="2987">
                 <room>Salón I Palacete Pinho</room>
                 <title>Sidewalk Mapping Workshop</title>
                 <subtitle />
                 <type>Workshop (intermediate)</type>
-                <date>2024-12-07T16:20:00-03:00</date>
-                <start>16:20</start>
+                <date>2024-12-07T16:30:00-03:00</date>
+                <start>16:30</start>
                 <duration>01:30</duration>
                 <abstract>Accessibility is a crucial factor in shaping people’s everyday lives. Despite walking being one of the most common modes of transportation in urban areas, many people face challenges in moving around safely and easily due to inadequate pedestrian infrastructure. Sidewalks, which serve as primary pathways for pedestrians, are often poorly mapped. This issue is prevalent not only in authoritative government data but also in open-source platforms like OpenStreetMap (OSM).
 Within the OSM ecosystem, valuable tools exist for mapping pedestrian networks, including sidewalks. Mapping sidewalks as separate geometries enhances the accuracy of routing, path lengths, and topological connections, which are essential for accessibility. Accurate mapping enables users to better navigate cities, especially those with mobility challenges. However, despite the availability of these tools, sidewalks remain significantly underrepresented in OSM. This gap in mapping is partially due to a lack of awareness or hesitancy within the OSM community, where road mapping often takes priority over pedestrian networks.
@@ -7236,38 +7214,13 @@ By educating participants on the value of mapping sidewalks and providing practi
             
         </room>
         <room name="Salón II Palacete Pinho" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
-            <event guid="e5c5b6ba-edbc-546a-95dd-8e27e2122483" id="3130">
-                <room>Salón II Palacete Pinho</room>
-                <title>Mapeamento con inteligencia artificial</title>
-                <subtitle />
-                <type>Workshop</type>
-                <date>2024-12-07T13:00:00-03:00</date>
-                <start>13:00</start>
-                <duration>01:30</duration>
-                <abstract>.</abstract>
-                <slug>sotm2024-latam-3130-mapeamento-con-inteligencia-artificial</slug>
-                <track>Artificial Intelligence / Machine Learning from and with OpenStreetMap (e.g., AI-assisted mapping)</track>
-                
-                    
-                <language>en</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/SRPXTB/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/SRPXTB/feedback/</feedback_url>
-            </event>
             <event guid="8e7c2e7e-3ef2-59bc-9a29-b037ab0dec64" id="2946">
                 <room>Salón II Palacete Pinho</room>
                 <title>Waterways - creando una cuenca</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-07T16:20:00-03:00</date>
-                <start>16:20</start>
+                <date>2024-12-07T16:30:00-03:00</date>
+                <start>16:30</start>
                 <duration>01:30</duration>
                 <abstract>Waterways - creando una verdadera cuenca en OpenStreetMap
 
