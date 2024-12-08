@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.30</version>
+    <version>0.31</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
@@ -6740,7 +6740,7 @@ Core developers to the project will be on hand to walk you through the workshop 
     <day index="6" date="2024-12-07" start="2024-12-07T04:00:00-03:00" end="2024-12-08T03:59:00-03:00">
         <room name="Auditório" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
             <event guid="87796186-5d72-51b4-861e-617717c7b486" id="3123">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Abertura SotM</title>
                 <subtitle />
                 <type>Operacional</type>
@@ -6765,7 +6765,7 @@ Core developers to the project will be on hand to walk you through the workshop 
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/B9PGUJ/feedback/</feedback_url>
             </event>
             <event guid="0823c906-5e17-5f27-9ce1-7a0a766881ec" id="3034">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>The OpenStreetMap Foundation and its Board of Directors: What it is, What it does, What it isn't</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -6798,7 +6798,7 @@ This session is ideal for anyone curious about how the OSMF operates behind the 
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/7LC9C3/feedback/</feedback_url>
             </event>
             <event guid="abf42c9d-1563-5d42-92ec-e028a24031c5" id="2940">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>How TomTom is Empowering Mappers and Improving Lives Through OpenStreetMap</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -6837,7 +6837,7 @@ Through our ongoing efforts, we are committed to ensuring that the maps we creat
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/B88W38/feedback/</feedback_url>
             </event>
             <event guid="8906f9fb-bc55-5d8f-88b3-ebddba27c033" id="2998">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>OpenStreetMap como herramienta de visibilización de comunidades indígenas en La Amazonia</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -6865,7 +6865,7 @@ El objetivo es que este conocimiento pueda replicarse en otras comunidades, prom
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/NCRW8B/feedback/</feedback_url>
             </event>
             <event guid="0d89385a-f3e9-52ff-a910-113403d70616" id="3003">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Taller de calidad de datos y mapeo de caminos en OSM</title>
                 <subtitle />
                 <type>Workshop (intermediate)</type>
@@ -6900,7 +6900,7 @@ Este taller busca no solo enseñar herramientas, sino también generar concienci
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/TNELZN/feedback/</feedback_url>
             </event>
             <event guid="fecc4ae1-0823-5b71-9a3b-99fd087dc6ad" id="3131">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Geochicas</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -6925,7 +6925,7 @@ Este taller busca no solo enseñar herramientas, sino también generar concienci
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/387CNM/feedback/</feedback_url>
             </event>
             <event guid="25c9f995-c4fc-5108-a4b9-8c00bb5c76ef" id="3129">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Overture Presentation</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -6950,7 +6950,7 @@ Este taller busca no solo enseñar herramientas, sino también generar concienci
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/EQS9HG/feedback/</feedback_url>
             </event>
             <event guid="0b142ccd-1d6a-5acd-b729-5634d71c94ce" id="2996">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>The Current State of Collaboration between Digital Twin and OSM</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -6981,7 +6981,7 @@ In this talk, we will summarize the current status of merging PLATEAU 3D buildin
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/TMN9UW/feedback/</feedback_url>
             </event>
             <event guid="9bd59f6c-2dd5-53dd-afc4-203a6b7315a9" id="2961">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Cartografía de establecimientos dedicados a la Agroecología en OpenStreetMap</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7015,7 +7015,7 @@ Esta propuesta de ponencia busca compartir los resultados y desafíos de esta ex
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/FX3EKG/feedback/</feedback_url>
             </event>
             <event guid="88c5d4b3-0096-5fb4-9f7f-9d1d5a6f00b7" id="2972">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Análisis ecológico del arbolado urbano y de áreas de antejardín en un barrio de Bello-Antioquia, Colombia</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7043,114 +7043,8 @@ Como plantea Cadenasso &amp; Pickett (2008), las ciudades se deben asumir como o
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/QHUFXQ/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/QHUFXQ/feedback/</feedback_url>
             </event>
-            <event guid="e116139d-51e5-5448-9000-c1e488a1ab75" id="2948">
-                <room>Auditorium</room>
-                <title>Mapeo colaborativo en el Municipio de Palos Blancos, región Amazónica del Norte de La Paz -Bolivia</title>
-                <subtitle />
-                <type>Talk (General)</type>
-                <date>2024-12-07T18:00:00-03:00</date>
-                <start>18:00</start>
-                <duration>00:30</duration>
-                <abstract>El municipio de Palos Blancos, ubicado en la región amazónica de Bolivia, enfrenta grandes desafíos en la gestión territorial y la planificación urbana debido a la falta de datos geoespaciales actualizados y accesibles. Esta carencia limita la capacidad de las autoridades locales para tomar decisiones informadas y dificulta la implementación de políticas efectivas que mejoren la calidad de vida de la comunidad. Ante esta problemática, la Universidad Mayor de San Andrés (UMSA), a través de la Facultad de Agronomía y la estación experimental de Sapecho, en colaboración con las autoridades locales de Palos Blancos, impulsó un proyecto de mapeo colaborativo.
-El objetivo principal del proyecto fue fortalecer las capacidades de autoridades, estudiantes y actores comunitarios en Palos Blancos para gestionar el territorio de manera más eficiente y sostenible. Para alcanzar este objetivo, el proyecto se desarrolló en varias fases: socialización y sensibilización, capacitación en OpenStreetMap (OSM), implementación del proyecto de mapeo y seguimiento para mejoras continuas.
-Durante la fase de socialización, se llevaron a cabo talleres y encuentros personales que destacaron la importancia de los datos abiertos para mejorar la transparencia y la toma de decisiones en la gestión territorial. Estos esfuerzos colaborativos crearon un ambiente de confianza y compromiso entre todos los actores involucrados.
-La capacitación en OSM permitió a los participantes aprender a usar esta plataforma para mapear características geográficas clave, como infraestructuras y recursos naturales. Posteriormente, la implementación del proyecto de mapeo en Palos Blancos resultó en la creación de un mapa geoespacial detallado, que ha facilitado una mejor planificación urbana, la gestión de recursos naturales y la ejecución de políticas públicas más efectivas. Este proceso también fomentó un sentido de propiedad y responsabilidad entre los participantes, quienes ahora ven el mapeo como una herramienta esencial para la gestión territorial.
-El seguimiento del proyecto, que incluye la organización de "mapping parties," permite a la comunidad reunirse para mapear colectivamente nuevas áreas o actualizar la información existente, asegurando la sostenibilidad y precisión de los datos geoespaciales a lo largo del tiempo.
-Los resultados del proyecto han sido significativos tanto a nivel local como académico. Localmente, el proyecto ha transformado la forma en que las autoridades y la comunidad de Palos Blancos gestionan su territorio, proporcionando una herramienta poderosa para mejorar la toma de decisiones en áreas clave como la infraestructura, la agricultura y la conservación del medio ambiente. Académicamente, los estudiantes de la UMSA que participaron en el proyecto han adquirido valiosas habilidades en geoinformación, aplicables en sus futuras carreras.
-El impacto del proyecto no se limita a Palos Blancos; los principios y metodologías desarrollados pueden replicarse en otras regiones de Bolivia y más allá. Las conversaciones para implementar proyectos similares en otros municipios ya están en marcha, garantizando que la colaboración entre la UMSA, la comunidad de mapeadores y las autoridades locales continúe evolucionando para enfrentar nuevos desafíos.</abstract>
-                <slug>sotm2024-latam-2948-mapeo-colaborativo-en-el-municipio-de-palos-blancos-regin-amaznica-del-norte-de-la-paz-bolivia</slug>
-                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
-                
-                    
-                <language>es</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/3QKQF8/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/3QKQF8/feedback/</feedback_url>
-            </event>
-            <event guid="2263b78d-6c61-5c91-90d0-c033231cb42f" id="2975">
-                <room>Auditorium</room>
-                <title>Mapeo como una herramienta para la gestión de riesgos y planes de desarrollo en regiones de la Amazonía Ecuatoriana</title>
-                <subtitle />
-                <type>Talk (General)</type>
-                <date>2024-12-07T18:30:00-03:00</date>
-                <start>18:30</start>
-                <duration>00:30</duration>
-                <abstract>Entre marzo y mayo de 2024, la Fundación Openlab Ecuador, con el apoyo del Equipo Humanitario de OpenStreetMap y Thinkia (un laboratorio ciudadano liderado por la Secretaría de Educación Superior, Ciencia, Tecnología e Innovación), desarrolló un proceso de capacitación que incluyó cuatro talleres presenciales y uno virtual en diferentes poblaciones de la Amazonía ecuatoriana. El objetivo fue capacitar e involucrar a universidades locales y gobiernos municipales en metodologías de mapeo colaborativo, utilizando herramientas de OpenStreetMap (OSM) y del Equipo Humanitario de OpenStreetMap (HOT), bajo un enfoque de la gestión de riesgos y del desarrollo integral local por medio de la recolección de datos geoespaciales abiertos.
-
-La serie de talleres fue un esfuerzo conjunto y coordinado con universidades locales como la Universidad Ikiam, la Universidad Católica de Cuenca (sede Morona), la Universidad Estatal Amazónica (sedes Puyo y Lago Agrio), además del Gobierno Autónomo Descentralizado de Archidona. Estas instituciones están ubicadas entre 110 y 230 km de la ciudad de Quito y sirven a poblaciones que varían entre 8,000 y 105,000 habitantes.
-
-Durante los talleres, se capacitó a más de 250 profesores universitarios, estudiantes y técnicos municipales, de ramas del conocimiento relacionadas con la ingeniería ambiental, la geografía, el turismo, entre otras.
-
-La selección de los espacios para los talleres se basó en aprovechar la infraestructura y capacidad de convocatoria de las universidades locales en la región amazónica ecuatoriana. El objetivo fue capacitar en el uso de mapeo colaborativo y motivar la creación de una masa crítica de mapeadores locales que, posteriormente, puedan desarrollar proyectos específicos relacionados con la gestión de riesgos y los planes de desarrollo integral de la región amazónica.
-
-Esta presentación tiene como propósito exponer la metodología de acercamiento al territorio, basada en una currícula diseñada para enganchar los intereses locales. Además, de presentar los aprendizajes de cada encuentro, juntamente con el alcance sobre los datos recolectados en cada experiencia, en territorios con grandes necesidades de atención a políticas de gestión de riesgos, medioambientales y de desarrollo, en las cuales el uso de datos abiertos es fundamental para su desarrollo.</abstract>
-                <slug>sotm2024-latam-2975-mapeo-como-una-herramienta-para-la-gestin-de-riesgos-y-planes-de-desarrollo-en-regiones-de-la-amazona-ecuatoriana</slug>
-                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
-                
-                    
-                <language>es</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/NBVQ8B/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/NBVQ8B/feedback/</feedback_url>
-            </event>
-            <event guid="0355eca1-fcab-58fc-a832-58e387b3b7ff" id="2991">
-                <room>Auditorium</room>
-                <title>Proyectos de mapeos amazónicos para la gestión territorial comunitaria.</title>
-                <subtitle />
-                <type>Keynote Speech (Academic)</type>
-                <date>2024-12-07T19:00:00-03:00</date>
-                <start>19:00</start>
-                <duration>00:30</duration>
-                <abstract>Este panel invitará a conversar a personas que en teoría atienden el evento, y que han participado (en ocasión junto con el Equipo Humanitario de OpenStreetMap) en varios proyectos de capacitación comunitaria en la Amazonía de Perú, Ecuador, Colombia y Brasil. El tema central será hablar sobre procesos de construcción, junto con las comunidades, de estrategias de mapeo y monitoreo territorial a largo plazo, su capacitación, y en ocasiones, su dotación de recursos informáticos para lograrlo. La mayoría de estos proyectos se han enfocado en la capacitación y transferencia de conocimiento a personas clave dentro de sus comunidades, como profesores o líderes de cualquier tipo, para asegurar que este conocimiento se mantenga y pueda replicarse dentro de su comunidad e incluso en comunidades vecinas. Durante el panel, los responsables de los proyectos hablarán sobre las dificultades, los potenciales y los logros de sus experiencias, pero también compartirán su visión sobre cómo abordar estos proyectos, y también cuál es el rol de la cartografía ante las situaciones comunitarias y las amenazas que enfrenta la región amazónica.
-
-Este panel contará con 4 o 5 ponentes, cada uno dispondrá de 10 minutos para presentar su experiencia y reflexiones. Se buscará generar una dinámica conversacional fluida, y se permitirá al público opinar y compartir también sus experiencias.
-
-Un resultado será la invitación a conocer metodologías, materiales y manifestaciones de interés para realizar actividades por parte de los asistentes, con la posibilidad de reflexionar sobre posibles apoyos metodológicos con los ponentes.
-
-Una vez más cerca de las fechas del evento, se conformará el grupo final del panel, incluyendo posibles nuevos oradores que participarán en el State of the Map. 
-
-
-
-
-
-
-
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</abstract>
-                <slug>sotm2024-latam-2991-proyectos-de-mapeos-amaznicos-para-la-gestin-territorial-comunitaria-</slug>
-                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
-                
-                    
-                <language>es</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/E7GYT7/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/E7GYT7/feedback/</feedback_url>
-            </event>
             <event guid="67b5f24f-2e86-5cf8-89d6-23ddec701599" id="3125">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Day Closure</title>
                 <subtitle />
                 <type>Operacional</type>
@@ -7178,7 +7072,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         </room>
         <room name="Sala I" guid="596f6914-1795-598e-b22f-994e08948bba">
             <event guid="75d2cb26-fffe-57dd-bb32-9d7f17b067ac" id="2987">
-                <room>Room I</room>
+                <room>Sala I</room>
                 <title>Sidewalk Mapping Workshop</title>
                 <subtitle />
                 <type>Workshop (intermediate)</type>
@@ -7212,7 +7106,7 @@ By educating participants on the value of mapping sidewalks and providing practi
         </room>
         <room name="Sala II" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
             <event guid="8e7c2e7e-3ef2-59bc-9a29-b037ab0dec64" id="2946">
-                <room>Room II</room>
+                <room>Sala II</room>
                 <title>Waterways - creando una cuenca</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7245,10 +7139,10 @@ Para corregirlos se pueden usar varias herramientas: diferentes fotos satelitale
         </room>
         
     </day>
-    <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
+    <day index="" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
         <room name="Auditório" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
             <event guid="5764f9c2-bfbd-5660-9631-9a59513d16c7" id="3028">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Ecuador: Tierra de Fuego y Belleza</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7283,7 +7177,7 @@ En resumen, el proyecto representa un paso significativo hacia la mejora de la s
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/UULA3X/feedback/</feedback_url>
             </event>
             <event guid="d173c0c7-37d8-5fe0-9332-269868625d65" id="2981">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>El programa de microbecas de YouthMappers: comunidad, cohesión y sostenibilidad</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7317,13 +7211,13 @@ La propuesta de la charla consiste en presentar los procesos incluidos en planif
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/XCPKKD/feedback/</feedback_url>
             </event>
             <event guid="63f16f58-0c69-59b1-9982-8542dc4c01fb" id="2990">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Mapeo preventivo y de respuesta a desastres, formando comunidad experta: experiencias en América Latina</title>
                 <subtitle />
                 <type>Keynote Speech (Academic)</type>
                 <date>2024-12-08T09:30:00-03:00</date>
                 <start>09:30</start>
-                <duration>01:00</duration>
+                <duration>00:30</duration>
                 <abstract>Esta presentación mostrará las experiencias del Equipo Humanitario de Openstreetmap en los años 2023 y 2024 en materia de acompañamiento a diversos actores (gubernamentales, organizaciones, universidades, voluntarios) locales y nacionales de Ecuador, Perú, México y Brasil. Se destacará el apoyo brindado en sus esfuerzos de preparación y respuesta a desastres, principalmente relacionados con los fenómenos de El Niño y La Niña. Estos esfuerzos incluyen varios soportes técnicos, con un enfoque en la cartografía a través de OpenStreetMap, pero no se limitan a ello, ya que también involucran otras tecnologías comunes del ecosistema de OpenStreetMap. Al enseñar su uso estratégico, se facilita considerablemente el intercambio de datos entre distintas instituciones, un aspecto problemático en la gestión territorial en general, y en particular cuando se trata de la gestión en contextos de crisis.
 
 Entre los casos presentados se encuentran el mapatón nacional de Perú organizado por la Agencia Espacial, el mapa de riesgos nacional de la Secretaría de Gestión de Riesgos de Ecuador, el mapeo de comunidades asentadas en las faldas de volcanes en Ecuador, la respuesta al huracán Otis en México y a las inundaciones en Río Grande do Sul, Brasil. Estos ejemplos involucran la participación y articulación, en diferentes momentos, de numerosos actores gubernamentales y comunitarios, con el objetivo común de generar la mejor cartografía posible para la gestión de crisis en el menor tiempo.
@@ -7350,12 +7244,12 @@ Se abrirá a reflexión del público sobre ideas y retos para aportar a la persp
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/PUDX3E/feedback/</feedback_url>
             </event>
             <event guid="dc7e9bf4-30b4-54d3-9417-17c3ea33082b" id="2965">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Gestión territorial indígena: experiencias de colaboración en la amazonía peruana</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-08T11:00:00-03:00</date>
-                <start>11:00</start>
+                <date>2024-12-08T10:45:00-03:00</date>
+                <start>10:45</start>
                 <duration>00:30</duration>
                 <abstract>Título: Curso de Cartografía Socioambiental Colaborativa en la Amazonía Peruana: Un Enfoque Basado en la Comunidad
 
@@ -7407,13 +7301,86 @@ Para superar los desafíos tecnológicos, los organizadores priorizaron activida
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/CSZAQK/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/CSZAQK/feedback/</feedback_url>
             </event>
+            <event guid="0355eca1-fcab-58fc-a832-58e387b3b7ff" id="2991">
+                <room>Auditório</room>
+                <title>Proyectos de mapeos amazónicos para la gestión territorial comunitaria.</title>
+                <subtitle />
+                <type>Keynote Speech (Academic)</type>
+                <date>2024-12-08T11:15:00-03:00</date>
+                <start>11:15</start>
+                <duration>00:30</duration>
+                <abstract>Este panel invitará a conversar a personas que en teoría atienden el evento, y que han participado (en ocasión junto con el Equipo Humanitario de OpenStreetMap) en varios proyectos de capacitación comunitaria en la Amazonía de Perú, Ecuador, Colombia y Brasil. El tema central será hablar sobre procesos de construcción, junto con las comunidades, de estrategias de mapeo y monitoreo territorial a largo plazo, su capacitación, y en ocasiones, su dotación de recursos informáticos para lograrlo. La mayoría de estos proyectos se han enfocado en la capacitación y transferencia de conocimiento a personas clave dentro de sus comunidades, como profesores o líderes de cualquier tipo, para asegurar que este conocimiento se mantenga y pueda replicarse dentro de su comunidad e incluso en comunidades vecinas. Durante el panel, los responsables de los proyectos hablarán sobre las dificultades, los potenciales y los logros de sus experiencias, pero también compartirán su visión sobre cómo abordar estos proyectos, y también cuál es el rol de la cartografía ante las situaciones comunitarias y las amenazas que enfrenta la región amazónica.
+
+Este panel contará con 4 o 5 ponentes, cada uno dispondrá de 10 minutos para presentar su experiencia y reflexiones. Se buscará generar una dinámica conversacional fluida, y se permitirá al público opinar y compartir también sus experiencias.
+
+Un resultado será la invitación a conocer metodologías, materiales y manifestaciones de interés para realizar actividades por parte de los asistentes, con la posibilidad de reflexionar sobre posibles apoyos metodológicos con los ponentes.
+
+Una vez más cerca de las fechas del evento, se conformará el grupo final del panel, incluyendo posibles nuevos oradores que participarán en el State of the Map. 
+
+
+
+
+
+
+
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</abstract>
+                <slug>sotm2024-latam-2991-proyectos-de-mapeos-amaznicos-para-la-gestin-territorial-comunitaria-</slug>
+                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
+                
+                    
+                <language>es</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/sotm2024-latam/talk/E7GYT7/</url>
+                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/E7GYT7/feedback/</feedback_url>
+            </event>
+            <event guid="305a7a74-5fc6-5d9c-9a5a-4c8a0af0bae9" id="2966">
+                <room>Auditório</room>
+                <title>OSM for Cities: planejamento urbano com OpenStreetMap</title>
+                <subtitle />
+                <type>Talk (General)</type>
+                <date>2024-12-08T12:00:00-03:00</date>
+                <start>12:00</start>
+                <duration>00:30</duration>
+                <abstract>Os dados do OpenStreetMap (OSM) são extremamente úteis para projetos de planejamento urbano, pois oferecem informações detalhadas e atualizadas sobre a infraestrutura e os elementos urbanos. No entanto, acessá-los pode ser um desafio, especialmente para novos usuários ou para aqueles que não estão familiarizados com o projeto e suas particularidades. A grande quantidade de dados e a forma como estão organizados no OSM podem dificultar a extração de informações específicas de maneira simples e eficiente.
+
+Para resolver esse problema, desenvolvemos uma nova ferramenta que torna o acesso a esses dados muito mais fácil e direto, especialmente para profissionais envolvidos no planejamento urbano. A ferramenta rastreia diariamente os dados do OSM em nível de cidade, permitindo um acompanhamento contínuo das mudanças e atualizações. A plataforma processa as diferenças diárias de conjuntos de dados específicos do OSM, como localizações de escolas, hospitais, ciclovias, parques e outros elementos urbanos relevantes, essenciais para o planejamento eficaz das cidades. Esses dados são, então, disponibilizados em uma interface web simplificada, que permite fácil acesso e utilização por usuários de todos os níveis, mesmo aqueles com pouca experiência técnica.
+
+Além disso, a plataforma torna esses dados do OSM acessíveis diretamente ou por meio de aplicativos de terceiros, como sistemas de informação geográfica (SIG) e outras ferramentas de análise espacial. Isso permite que planejadores urbanos, engenheiros, arquitetos e outros profissionais utilizem as informações de maneira rápida e eficiente, integrando-as diretamente em seus processos de trabalho. A atualização diária dos dados garante que as informações sejam sempre precisas e reflitam as mudanças mais recentes na cidade, melhorando a tomada de decisões e o planejamento estratégico.
+
+Em nossa apresentação, vamos explorar a plataforma **OSM for Cities**, detalhando como ela funciona, seu fluxo de processamento de dados, e como pode ser comparada a outras formas de distribuição de dados do OSM. Vamos demonstrar como essa ferramenta facilita o acesso e o uso dos dados geoespaciais, destacando suas vantagens em termos de simplicidade, eficiência e acessibilidade. Acreditamos que o **OSM for Cities** pode se tornar uma solução essencial para quem busca utilizar dados do OpenStreetMap no planejamento urbano, contribuindo para cidades mais bem planejadas e sustentáveis.</abstract>
+                <slug>sotm2024-latam-2966-osm-for-cities-planejamento-urbano-com-openstreetmap</slug>
+                <track>Novel approaches to facilitate or improve data collection and/or data quality in OpenStreetMap (e.g., through gamification or citizen science approaches)</track>
+                
+                    
+                <language>pt-br</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/sotm2024-latam/talk/LWT3W3/</url>
+                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/LWT3W3/feedback/</feedback_url>
+            </event>
             <event guid="e6bb131b-93f4-5499-94eb-4388bd5bb589" id="2971">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Cartografía social para la resiliencia juvenil: Una colaboración entre YouthMappers, USAID Colombia y ACDI/VOCA</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-08T11:30:00-03:00</date>
-                <start>11:30</start>
+                <date>2024-12-08T12:30:00-03:00</date>
+                <start>12:30</start>
                 <duration>00:30</duration>
                 <abstract>Presentamos una visión general de la red YouthMappers y la primera colaboración formal entre YouthMappers y USAID Colombia. A través de esta alianza, los capítulos de YouthMappers apoyaron el Programa Jóvenes Resilientes de USAID y ACDI/VOCA, facilitando talleres de cartografía social con jóvenes en comunidades objetivo.
 
@@ -7448,39 +7415,8 @@ Vemos un gran potencial para futuras fases del programa, con la posibilidad de s
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/UYH97G/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/UYH97G/feedback/</feedback_url>
             </event>
-            <event guid="305a7a74-5fc6-5d9c-9a5a-4c8a0af0bae9" id="2966">
-                <room>Auditorium</room>
-                <title>OSM for Cities: planejamento urbano com OpenStreetMap</title>
-                <subtitle />
-                <type>Talk (General)</type>
-                <date>2024-12-08T12:00:00-03:00</date>
-                <start>12:00</start>
-                <duration>00:30</duration>
-                <abstract>Os dados do OpenStreetMap (OSM) são extremamente úteis para projetos de planejamento urbano, pois oferecem informações detalhadas e atualizadas sobre a infraestrutura e os elementos urbanos. No entanto, acessá-los pode ser um desafio, especialmente para novos usuários ou para aqueles que não estão familiarizados com o projeto e suas particularidades. A grande quantidade de dados e a forma como estão organizados no OSM podem dificultar a extração de informações específicas de maneira simples e eficiente.
-
-Para resolver esse problema, desenvolvemos uma nova ferramenta que torna o acesso a esses dados muito mais fácil e direto, especialmente para profissionais envolvidos no planejamento urbano. A ferramenta rastreia diariamente os dados do OSM em nível de cidade, permitindo um acompanhamento contínuo das mudanças e atualizações. A plataforma processa as diferenças diárias de conjuntos de dados específicos do OSM, como localizações de escolas, hospitais, ciclovias, parques e outros elementos urbanos relevantes, essenciais para o planejamento eficaz das cidades. Esses dados são, então, disponibilizados em uma interface web simplificada, que permite fácil acesso e utilização por usuários de todos os níveis, mesmo aqueles com pouca experiência técnica.
-
-Além disso, a plataforma torna esses dados do OSM acessíveis diretamente ou por meio de aplicativos de terceiros, como sistemas de informação geográfica (SIG) e outras ferramentas de análise espacial. Isso permite que planejadores urbanos, engenheiros, arquitetos e outros profissionais utilizem as informações de maneira rápida e eficiente, integrando-as diretamente em seus processos de trabalho. A atualização diária dos dados garante que as informações sejam sempre precisas e reflitam as mudanças mais recentes na cidade, melhorando a tomada de decisões e o planejamento estratégico.
-
-Em nossa apresentação, vamos explorar a plataforma **OSM for Cities**, detalhando como ela funciona, seu fluxo de processamento de dados, e como pode ser comparada a outras formas de distribuição de dados do OSM. Vamos demonstrar como essa ferramenta facilita o acesso e o uso dos dados geoespaciais, destacando suas vantagens em termos de simplicidade, eficiência e acessibilidade. Acreditamos que o **OSM for Cities** pode se tornar uma solução essencial para quem busca utilizar dados do OpenStreetMap no planejamento urbano, contribuindo para cidades mais bem planejadas e sustentáveis.</abstract>
-                <slug>sotm2024-latam-2966-osm-for-cities-planejamento-urbano-com-openstreetmap</slug>
-                <track>Novel approaches to facilitate or improve data collection and/or data quality in OpenStreetMap (e.g., through gamification or citizen science approaches)</track>
-                
-                    
-                <language>pt-br</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/LWT3W3/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/LWT3W3/feedback/</feedback_url>
-            </event>
             <event guid="14b6450a-d1d6-583f-969f-95b59cee07a0" id="2992">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Impulsando la Gestión Pública através de OpenStreetMap y Tecnologías Colaborativas: Un Enfoque en Ecuador</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7508,7 +7444,7 @@ En conclusión, los proyectos en Valle Hermoso y Quito destacan la relevancia de
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/HAQKCU/feedback/</feedback_url>
             </event>
             <event guid="75962f3b-d23f-5020-a5a7-acdad2a2fa93" id="2945">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Una Propuesta Para Visibilizar la Colección Viva “Arboretum y Palmetum León Morales Soto” en la Universidad Nacional de Colombia - Sede Medellín</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7543,7 +7479,7 @@ A modo de cierre, la implementación de un censo virtual de los individuos arbó
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/HZULMT/feedback/</feedback_url>
             </event>
             <event guid="923948d1-b6f4-5f39-b7d1-395716e6b2d5" id="2978">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Mapeo colaborativo para la resiliencia a la Inundación, Nueva Villa la Iguaná</title>
                 <subtitle />
                 <type>Talk (General)</type>
@@ -7574,38 +7510,13 @@ Se mapeó la infraestructura del barrio (viviendas, locales comerciales, postes 
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/XV8NTJ/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/XV8NTJ/feedback/</feedback_url>
             </event>
-            <event guid="6600964e-ef9a-553b-b149-977a465a2349" id="2997">
-                <room>Auditorium</room>
-                <title>Mapeamento do Fenômeno das Terras Caídas: dinâmica da paisagem e impactos socioambientais na comunidade São Luís do Macari, Tefé – AM</title>
-                <subtitle />
-                <type>Talk (General)</type>
-                <date>2024-12-08T15:30:00-03:00</date>
-                <start>15:30</start>
-                <duration>00:30</duration>
-                <abstract>Na região do médio Solimões, Amazônia central brasileira, é vivenciado dois períodos sazonais, um de seca e um de cheia do Rio Solimões. Por ser um ambiente dinâmico, as paisagens naturais mudam de acordo com o período, desencadeando fenômenos como a erosão fluvial, localmente denominados pelos ribeirinhos de “terras caídas”. Os fatores que que influenciam nesse processo são diversos, como a infiltração de água no solo, correntezas fortes do rio entre outros. Esses elementos contribuem para eventos que inicia lento até um eventual desabamento de terras em nível catastrófico (IGREJA, CARVALHO e FRANZINELLI, 2010, p.135). Esse fenômeno é comum na região, o que tem trazido impactos para a vida ribeirinha, transformando o ambiente das comunidades, causando diversas mudanças no cotidiano dos moradores, levando muitas vezes a migração. O objetivo dessa pesquisa foi analisar através de imagens de satélite temporais os principais eventos de terras caídas nos últimos anos e os impactos socioambientais para os ribeirinhos. A pesquisa foi desenvolvida na comunidade de São Luis do Macari, localizada na margem direita do Rio Solimões, município de Tefé, Estado do Amazonas. A metodologia baseou-se na revisão bibliográfica, levantamento de imagens de satélites, pesquisa a campo com registro fotográficos por aeronave remotamente pilotada (ARP), máquina fotográfica e celular, aquisição de pontos e trilhas com receptor do Sistema Global de Navegação por Satélite (GNSS). A partir dos dados coletados e analisados foi possível obter dados quantitativos e qualitativos sobre a perda de áreas processos erosivos fluviais, demostrando que as terras caídas é um problema grave que coloca diversas populações ribeirinhas em risco e vulnerabilidade. Ressaltando que esse fenômeno causa perdas de plantações, de território e migração de um local para o outro, perda estrutural como de escola, posto de saúde e que são necessárias ações de monitoramento constante, além do mapeamento e disponibilização dos dados em plataformas abertas como o OpenStreetMap.</abstract>
-                <slug>sotm2024-latam-2997-mapeamento-do-fenmeno-das-terras-cadas-dinmica-da-paisagem-e-impactos-socioambientais-na-comunidade-so-lus-do-macari-tef-am</slug>
-                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
-                
-                    
-                <language>pt-br</language>
-                
-                <recording>
-                    <license />
-                    <optout>false</optout>
-                </recording>
-                <links />
-                <attachments />
-
-                <url>https://talks.osgeo.org/sotm2024-latam/talk/VG3TRF/</url>
-                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/VG3TRF/feedback/</feedback_url>
-            </event>
             <event guid="f9a9ff49-6cb8-58c9-95a1-d48de0c9742a" id="2968">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Integración de Ciclovías y Ciclorutas en la Cartografía de OpenStreetMap: Un Pilar Esencial para la Movilidad Eficiente</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-08T16:30:00-03:00</date>
-                <start>16:30</start>
+                <date>2024-12-08T16:15:00-03:00</date>
+                <start>16:15</start>
                 <duration>00:30</duration>
                 <abstract>En las últimas décadas, la infraestructura ciclística ha evolucionado de ser un simple elemento recreativo a una pieza clave en la planificación urbana sostenible. Las ciclovías y ciclorutas no solo promueven estilos de vida más saludables, sino que también ayudan a mitigar el cambio climático al reducir las emisiones de gases de efecto invernadero. Sin embargo, su utilidad depende de su representación precisa en mapas digitales, cruciales para la movilidad diaria. Aquí es donde entra en juego OpenStreetMap (OSM), una plataforma colaborativa que puede mejorar significativamente la inclusión de detalles sobre ciclovías y ciclorutas, pero requiere una metodología sólida y actualizaciones constantes.
 
@@ -7633,12 +7544,12 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/EGUKZG/feedback/</feedback_url>
             </event>
             <event guid="1f4bf582-a235-567a-9cd5-4f400cdc8dd0" id="3133">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>Evolución del trabajo en América Latina en la obtención de direcciones y AFA Codes</title>
                 <subtitle />
                 <type>Talk (General)</type>
-                <date>2024-12-08T17:00:00-03:00</date>
-                <start>17:00</start>
+                <date>2024-12-08T16:45:00-03:00</date>
+                <start>16:45</start>
                 <duration>00:30</duration>
                 <abstract>.</abstract>
                 <slug>sotm2024-latam-3133-evolucin-del-trabajo-en-amrica-latina-en-la-obtencin-de-direcciones-y-afa-codes</slug>
@@ -7658,13 +7569,13 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/NB997Z/feedback/</feedback_url>
             </event>
             <event guid="ac1a3234-821c-58b1-be86-c7d833932bfa" id="3128">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>GeoDebate</title>
                 <subtitle />
                 <type>Operacional</type>
-                <date>2024-12-08T17:30:00-03:00</date>
-                <start>17:30</start>
-                <duration>01:00</duration>
+                <date>2024-12-08T17:15:00-03:00</date>
+                <start>17:15</start>
+                <duration>00:30</duration>
                 <abstract>Debate sobre OSM.</abstract>
                 <slug>sotm2024-latam-3128-geodebate</slug>
                 <track />
@@ -7683,13 +7594,13 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/99YMRE/feedback/</feedback_url>
             </event>
             <event guid="69d49d00-466e-566b-9590-ecc1506e4c8a" id="3127">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>SOTM Closure</title>
                 <subtitle />
                 <type>Operacional</type>
-                <date>2024-12-08T18:30:00-03:00</date>
-                <start>18:30</start>
-                <duration>01:00</duration>
+                <date>2024-12-08T17:45:00-03:00</date>
+                <start>17:45</start>
+                <duration>01:15</duration>
                 <abstract>Cierre del evento.</abstract>
                 <slug>sotm2024-latam-3127-sotm-closure</slug>
                 <track />
@@ -7708,12 +7619,12 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/WFTZTM/feedback/</feedback_url>
             </event>
             <event guid="9f9f4da1-bdce-575c-a8da-b10e0195c4ce" id="3135">
-                <room>Auditorium</room>
+                <room>Auditório</room>
                 <title>GeoBeer</title>
                 <subtitle />
                 <type>Operacional</type>
-                <date>2024-12-08T19:30:00-03:00</date>
-                <start>19:30</start>
+                <date>2024-12-08T19:00:00-03:00</date>
+                <start>19:00</start>
                 <duration>03:00</duration>
                 <abstract>.</abstract>
                 <slug>sotm2024-latam-3135-geobeer</slug>
@@ -7736,7 +7647,7 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
         </room>
         <room name="Sala I" guid="596f6914-1795-598e-b22f-994e08948bba">
             <event guid="55b530a3-b1d2-5cfc-b749-01f0737f93c5" id="3132">
-                <room>Room I</room>
+                <room>Sala I</room>
                 <title>Overture Workshop</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -7760,8 +7671,64 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/C9GXJA/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/C9GXJA/feedback/</feedback_url>
             </event>
+            <event guid="e116139d-51e5-5448-9000-c1e488a1ab75" id="2948">
+                <room>Sala I</room>
+                <title>Mapeo colaborativo en el Municipio de Palos Blancos, región Amazónica del Norte de La Paz -Bolivia</title>
+                <subtitle />
+                <type>Talk (General)</type>
+                <date>2024-12-08T10:45:00-03:00</date>
+                <start>10:45</start>
+                <duration>00:30</duration>
+                <abstract>El municipio de Palos Blancos, ubicado en la región amazónica de Bolivia, enfrenta grandes desafíos en la gestión territorial y la planificación urbana debido a la falta de datos geoespaciales actualizados y accesibles. Esta carencia limita la capacidad de las autoridades locales para tomar decisiones informadas y dificulta la implementación de políticas efectivas que mejoren la calidad de vida de la comunidad. Ante esta problemática, la Universidad Mayor de San Andrés (UMSA), a través de la Facultad de Agronomía y la estación experimental de Sapecho, en colaboración con las autoridades locales de Palos Blancos, impulsó un proyecto de mapeo colaborativo.
+El objetivo principal del proyecto fue fortalecer las capacidades de autoridades, estudiantes y actores comunitarios en Palos Blancos para gestionar el territorio de manera más eficiente y sostenible. Para alcanzar este objetivo, el proyecto se desarrolló en varias fases: socialización y sensibilización, capacitación en OpenStreetMap (OSM), implementación del proyecto de mapeo y seguimiento para mejoras continuas.
+Durante la fase de socialización, se llevaron a cabo talleres y encuentros personales que destacaron la importancia de los datos abiertos para mejorar la transparencia y la toma de decisiones en la gestión territorial. Estos esfuerzos colaborativos crearon un ambiente de confianza y compromiso entre todos los actores involucrados.
+La capacitación en OSM permitió a los participantes aprender a usar esta plataforma para mapear características geográficas clave, como infraestructuras y recursos naturales. Posteriormente, la implementación del proyecto de mapeo en Palos Blancos resultó en la creación de un mapa geoespacial detallado, que ha facilitado una mejor planificación urbana, la gestión de recursos naturales y la ejecución de políticas públicas más efectivas. Este proceso también fomentó un sentido de propiedad y responsabilidad entre los participantes, quienes ahora ven el mapeo como una herramienta esencial para la gestión territorial.
+El seguimiento del proyecto, que incluye la organización de "mapping parties," permite a la comunidad reunirse para mapear colectivamente nuevas áreas o actualizar la información existente, asegurando la sostenibilidad y precisión de los datos geoespaciales a lo largo del tiempo.
+Los resultados del proyecto han sido significativos tanto a nivel local como académico. Localmente, el proyecto ha transformado la forma en que las autoridades y la comunidad de Palos Blancos gestionan su territorio, proporcionando una herramienta poderosa para mejorar la toma de decisiones en áreas clave como la infraestructura, la agricultura y la conservación del medio ambiente. Académicamente, los estudiantes de la UMSA que participaron en el proyecto han adquirido valiosas habilidades en geoinformación, aplicables en sus futuras carreras.
+El impacto del proyecto no se limita a Palos Blancos; los principios y metodologías desarrollados pueden replicarse en otras regiones de Bolivia y más allá. Las conversaciones para implementar proyectos similares en otros municipios ya están en marcha, garantizando que la colaboración entre la UMSA, la comunidad de mapeadores y las autoridades locales continúe evolucionando para enfrentar nuevos desafíos.</abstract>
+                <slug>sotm2024-latam-2948-mapeo-colaborativo-en-el-municipio-de-palos-blancos-regin-amaznica-del-norte-de-la-paz-bolivia</slug>
+                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
+                
+                    
+                <language>es</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/sotm2024-latam/talk/3QKQF8/</url>
+                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/3QKQF8/feedback/</feedback_url>
+            </event>
+            <event guid="6600964e-ef9a-553b-b149-977a465a2349" id="2997">
+                <room>Sala I</room>
+                <title>Mapeamento do Fenômeno das Terras Caídas: dinâmica da paisagem e impactos socioambientais na comunidade São Luís do Macari, Tefé – AM</title>
+                <subtitle />
+                <type>Talk (General)</type>
+                <date>2024-12-08T11:15:00-03:00</date>
+                <start>11:15</start>
+                <duration>00:30</duration>
+                <abstract>Na região do médio Solimões, Amazônia central brasileira, é vivenciado dois períodos sazonais, um de seca e um de cheia do Rio Solimões. Por ser um ambiente dinâmico, as paisagens naturais mudam de acordo com o período, desencadeando fenômenos como a erosão fluvial, localmente denominados pelos ribeirinhos de “terras caídas”. Os fatores que que influenciam nesse processo são diversos, como a infiltração de água no solo, correntezas fortes do rio entre outros. Esses elementos contribuem para eventos que inicia lento até um eventual desabamento de terras em nível catastrófico (IGREJA, CARVALHO e FRANZINELLI, 2010, p.135). Esse fenômeno é comum na região, o que tem trazido impactos para a vida ribeirinha, transformando o ambiente das comunidades, causando diversas mudanças no cotidiano dos moradores, levando muitas vezes a migração. O objetivo dessa pesquisa foi analisar através de imagens de satélite temporais os principais eventos de terras caídas nos últimos anos e os impactos socioambientais para os ribeirinhos. A pesquisa foi desenvolvida na comunidade de São Luis do Macari, localizada na margem direita do Rio Solimões, município de Tefé, Estado do Amazonas. A metodologia baseou-se na revisão bibliográfica, levantamento de imagens de satélites, pesquisa a campo com registro fotográficos por aeronave remotamente pilotada (ARP), máquina fotográfica e celular, aquisição de pontos e trilhas com receptor do Sistema Global de Navegação por Satélite (GNSS). A partir dos dados coletados e analisados foi possível obter dados quantitativos e qualitativos sobre a perda de áreas processos erosivos fluviais, demostrando que as terras caídas é um problema grave que coloca diversas populações ribeirinhas em risco e vulnerabilidade. Ressaltando que esse fenômeno causa perdas de plantações, de território e migração de um local para o outro, perda estrutural como de escola, posto de saúde e que são necessárias ações de monitoramento constante, além do mapeamento e disponibilização dos dados em plataformas abertas como o OpenStreetMap.</abstract>
+                <slug>sotm2024-latam-2997-mapeamento-do-fenmeno-das-terras-cadas-dinmica-da-paisagem-e-impactos-socioambientais-na-comunidade-so-lus-do-macari-tef-am</slug>
+                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
+                
+                    
+                <language>pt-br</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/sotm2024-latam/talk/VG3TRF/</url>
+                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/VG3TRF/feedback/</feedback_url>
+            </event>
             <event guid="05c28124-ee1f-51fb-b37a-ad5aed01f6fc" id="2969">
-                <room>Room I</room>
+                <room>Sala I</room>
                 <title>Descubra o Panoramax, o projeto Street View livre e descentralizado</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -7811,7 +7778,7 @@ Para discutir a integração do projeto nos contextos brasileiro e latino-americ
         </room>
         <room name="Sala II" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
             <event guid="62361a73-00f5-54f0-8b41-eae289be1ff3" id="2994">
-                <room>Room II</room>
+                <room>Sala II</room>
                 <title>HOT's End-To-End Free Tech for Open Mapping</title>
                 <subtitle />
                 <type>Workshop</type>
@@ -7849,8 +7816,41 @@ This will be an amazing opportunity for generating lots of high quality data but
                 <url>https://talks.osgeo.org/sotm2024-latam/talk/ENQEPY/</url>
                 <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/ENQEPY/feedback/</feedback_url>
             </event>
+            <event guid="2263b78d-6c61-5c91-90d0-c033231cb42f" id="2975">
+                <room>Sala II</room>
+                <title>Mapeo como una herramienta para la gestión de riesgos y planes de desarrollo en regiones de la Amazonía Ecuatoriana</title>
+                <subtitle />
+                <type>Talk (General)</type>
+                <date>2024-12-08T10:45:00-03:00</date>
+                <start>10:45</start>
+                <duration>00:30</duration>
+                <abstract>Entre marzo y mayo de 2024, la Fundación Openlab Ecuador, con el apoyo del Equipo Humanitario de OpenStreetMap y Thinkia (un laboratorio ciudadano liderado por la Secretaría de Educación Superior, Ciencia, Tecnología e Innovación), desarrolló un proceso de capacitación que incluyó cuatro talleres presenciales y uno virtual en diferentes poblaciones de la Amazonía ecuatoriana. El objetivo fue capacitar e involucrar a universidades locales y gobiernos municipales en metodologías de mapeo colaborativo, utilizando herramientas de OpenStreetMap (OSM) y del Equipo Humanitario de OpenStreetMap (HOT), bajo un enfoque de la gestión de riesgos y del desarrollo integral local por medio de la recolección de datos geoespaciales abiertos.
+
+La serie de talleres fue un esfuerzo conjunto y coordinado con universidades locales como la Universidad Ikiam, la Universidad Católica de Cuenca (sede Morona), la Universidad Estatal Amazónica (sedes Puyo y Lago Agrio), además del Gobierno Autónomo Descentralizado de Archidona. Estas instituciones están ubicadas entre 110 y 230 km de la ciudad de Quito y sirven a poblaciones que varían entre 8,000 y 105,000 habitantes.
+
+Durante los talleres, se capacitó a más de 250 profesores universitarios, estudiantes y técnicos municipales, de ramas del conocimiento relacionadas con la ingeniería ambiental, la geografía, el turismo, entre otras.
+
+La selección de los espacios para los talleres se basó en aprovechar la infraestructura y capacidad de convocatoria de las universidades locales en la región amazónica ecuatoriana. El objetivo fue capacitar en el uso de mapeo colaborativo y motivar la creación de una masa crítica de mapeadores locales que, posteriormente, puedan desarrollar proyectos específicos relacionados con la gestión de riesgos y los planes de desarrollo integral de la región amazónica.
+
+Esta presentación tiene como propósito exponer la metodología de acercamiento al territorio, basada en una currícula diseñada para enganchar los intereses locales. Además, de presentar los aprendizajes de cada encuentro, juntamente con el alcance sobre los datos recolectados en cada experiencia, en territorios con grandes necesidades de atención a políticas de gestión de riesgos, medioambientales y de desarrollo, en las cuales el uso de datos abiertos es fundamental para su desarrollo.</abstract>
+                <slug>sotm2024-latam-2975-mapeo-como-una-herramienta-para-la-gestin-de-riesgos-y-planes-de-desarrollo-en-regiones-de-la-amazona-ecuatoriana</slug>
+                <track>Applications and solutions using OpenStreetMap for the Amazon region</track>
+                
+                    
+                <language>es</language>
+                
+                <recording>
+                    <license />
+                    <optout>false</optout>
+                </recording>
+                <links />
+                <attachments />
+
+                <url>https://talks.osgeo.org/sotm2024-latam/talk/NBVQ8B/</url>
+                <feedback_url>https://talks.osgeo.org/sotm2024-latam/talk/NBVQ8B/feedback/</feedback_url>
+            </event>
             <event guid="e039076a-24e2-5984-b2e8-4faec9864eb7" id="2999">
-                <room>Room II</room>
+                <room>Sala II</room>
                 <title>Mapeando el Futuro del Transporte Público en América Latina con OpenStreetMap: Casos y Taller Práctico</title>
                 <subtitle />
                 <type>Workshop</type>
