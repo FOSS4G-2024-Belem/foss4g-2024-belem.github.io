@@ -6738,7 +6738,7 @@ Core developers to the project will be on hand to walk you through the workshop 
         
     </day>
     <day index="6" date="2024-12-07" start="2024-12-07T04:00:00-03:00" end="2024-12-08T03:59:00-03:00">
-        <room name="Auditorium" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
+        <room name="Auditório" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
             <event guid="87796186-5d72-51b4-861e-617717c7b486" id="3123">
                 <room>Auditorium</room>
                 <title>Abertura SotM</title>
@@ -7176,7 +7176,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             </event>
             
         </room>
-        <room name="Room I" guid="596f6914-1795-598e-b22f-994e08948bba">
+        <room name="Sala I" guid="596f6914-1795-598e-b22f-994e08948bba">
             <event guid="75d2cb26-fffe-57dd-bb32-9d7f17b067ac" id="2987">
                 <room>Room I</room>
                 <title>Sidewalk Mapping Workshop</title>
@@ -7210,7 +7210,7 @@ By educating participants on the value of mapping sidewalks and providing practi
             </event>
             
         </room>
-        <room name="Room II" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
+        <room name="Sala II" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
             <event guid="8e7c2e7e-3ef2-59bc-9a29-b037ab0dec64" id="2946">
                 <room>Room II</room>
                 <title>Waterways - creando una cuenca</title>
