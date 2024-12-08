@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <schedule>
     <generator name="pretalx" version="2024.1.0" />
-    <version>0.31</version>
+    <version>0.27</version>
     <conference>
         <title>FOSS4G 2024</title>
         <acronym>foss4g-2024</acronym>
@@ -7139,7 +7139,7 @@ Para corregirlos se pueden usar varias herramientas: diferentes fotos satelitale
         </room>
         
     </day>
-    <day index="" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
+    <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
         <room name="Auditório" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
             <event guid="5764f9c2-bfbd-5660-9631-9a59513d16c7" id="3028">
                 <room>Auditório</room>
