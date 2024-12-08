@@ -7246,7 +7246,7 @@ Para corregirlos se pueden usar varias herramientas: diferentes fotos satelitale
         
     </day>
     <day index="7" date="2024-12-08" start="2024-12-08T04:00:00-03:00" end="2024-12-09T03:59:00-03:00">
-        <room name="Auditorium" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
+        <room name="Auditório" guid="ca35198a-aa86-5c3f-a3f8-3c80c2728893">
             <event guid="5764f9c2-bfbd-5660-9631-9a59513d16c7" id="3028">
                 <room>Auditorium</room>
                 <title>Ecuador: Tierra de Fuego y Belleza</title>
@@ -7734,7 +7734,7 @@ El éxito del proyecto piloto en Colombia demuestra que esta metodología es efe
             </event>
             
         </room>
-        <room name="Room I" guid="596f6914-1795-598e-b22f-994e08948bba">
+        <room name="Sala I" guid="596f6914-1795-598e-b22f-994e08948bba">
             <event guid="55b530a3-b1d2-5cfc-b749-01f0737f93c5" id="3132">
                 <room>Room I</room>
                 <title>Overture Workshop</title>
@@ -7809,7 +7809,7 @@ Para discutir a integração do projeto nos contextos brasileiro e latino-americ
             </event>
             
         </room>
-        <room name="Room II" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
+        <room name="Sala II" guid="6ef1be9e-a85e-5c65-9495-a3813bfabfa0">
             <event guid="62361a73-00f5-54f0-8b41-eae289be1ff3" id="2994">
                 <room>Room II</room>
                 <title>HOT's End-To-End Free Tech for Open Mapping</title>
