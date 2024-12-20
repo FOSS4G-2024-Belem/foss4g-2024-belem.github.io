@@ -23,6 +23,7 @@ import IntlLink from "@/components/IntlLink";
 import Heading from "@/components/Heading";
 import Keynotes from "@/components/Keynotes";
 import Sponsors from "@/components/SponsorSection";
+import Foss4gGroupPhoto from "@/images/foss4g-group-photo.jpg";
 
 const enHomepagePhrases = {
   section1Date: "02-08 December 2024",
@@ -86,41 +87,11 @@ export default function HomePage({
       <section
         className="relative flex items-center justify-center sm:-mt-48 bg-center bg-cover bg-no-repeat pt-[60px] pb-[100px] sm:py-[250px] [clip-path:polygon(0_0,100%_0%,100%_100%,0_91%)]"
         style={{
-          backgroundImage: `url(${HomepageBanner.src})`,
+          backgroundImage: `url(${Foss4gGroupPhoto.src})`,
         }}
       >
         <div className="font-ubuntu text-white grid grid-cols-1 min-h-48 max-w-6xl w-full p-4 sm:p-4">
-          <Countdown
-            date="2024-12-02T08:00:00-03:00"
-            renderer={({ days, hours, minutes, seconds }) => (
-              <div className="grid grid-cols-4 max-w-72 sm:max-w-96 -ml-2 sm:ml-0">
-                <div className="p-1 sm:p-2">
-                  <div className="flex items-center justify-center font-bold aspect-square text-2xl sm:text-4xl sm:p-3 shadow-xl rounded-full border-2 border-[#7c7491]">
-                    {days}
-                  </div>
-                  <div className="text-center">days</div>
-                </div>
-                <div className="p-1 sm:p-2">
-                  <div className="flex items-center justify-center font-bold aspect-square text-2xl sm:text-4xl sm:p-3 shadow-xl rounded-full border-2 border-[#7c7491]">
-                    {hours}
-                  </div>
-                  <div className="text-center">hours</div>
-                </div>
-                <div className="p-1 sm:p-2">
-                  <div className="flex items-center justify-center font-bold aspect-square text-2xl sm:text-4xl sm:p-3 shadow-xl rounded-full border-2 border-[#7c7491]">
-                    {minutes}
-                  </div>
-                  <div className="text-center">minutes</div>
-                </div>
-                <div className="p-1 sm:p-2">
-                  <div className="flex items-center justify-center font-bold aspect-square text-2xl sm:text-4xl sm:p-3 shadow-xl rounded-full border-2 border-[#7c7491]">
-                    {seconds}
-                  </div>
-                  <div className="text-center">seconds</div>
-                </div>
-              </div>
-            )}
-          />
+          
           <div className="font-ubuntu">
             <div
               className="text-[#ff6600] text-[3rem] sm:text-[5.5rem] [font-weight:500] -mb-2 sm:-mb-4"
