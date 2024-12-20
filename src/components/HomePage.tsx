@@ -71,7 +71,9 @@ const enHomepagePhrases = {
   section6CommunityPartners: "Community Partners",
   keynotes: "Conference Keynotes",
   keynotesBioText: "(click here to read biography)",
-  schedule: "Conference Schedule"
+  schedule: "Conference Schedule",
+  textZenodo: "Academic Papers on Zenodo",
+  textPhotos: "Photos from the event"
 //   {/*sponsors: "Conference Sponsors",*/}
 };
 
@@ -116,11 +118,22 @@ export default function HomePage({
             <div className="text-white [font-size:1.3rem] leading-7 italic [max-width:600px]">
               &quot;{t["section1Subtitle"]}&quot;
             </div>
-            <IntlLink href="/schedule">
-              <div className="inline-block text-white uppercase px-10 py-3 mt-8 rounded button bg-[#ff6600]">
-                {t["schedule"]}
-              </div>
-            </IntlLink>
+            <div>
+              <IntlLink href="https://zenodo.org/communities/foss4g2024/records">
+                <div className="inline-block text-white uppercase px-5 py-1 mt-8 rounded button bg-[#ff6600]">
+                  {t["textZenodo"]}
+                </div>
+              </IntlLink>
+            </div>
+
+            <div>
+              <IntlLink href="https://www.flickr.com/photos/narceliosapereira/albums/">
+                <div className="inline-block text-white uppercase px-5 py-1 mt-4 rounded button bg-[#ff6600]">
+                  {t["textPhotos"]}
+                </div>
+              </IntlLink>
+            </div>
+
           </div>
         </div>
         <div
