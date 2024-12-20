@@ -28,7 +28,7 @@ import Foss4gGroupPhoto from "@/images/foss4g-group-photo.jpg";
 const enHomepagePhrases = {
   section1Date: "02-08 December 2024",
   section1Subtitle:
-    "In the heart of the Amazon, Belém, geospatial technology transcends borders, revealing a map of unlimited possibilities...",
+    "Every line and point on the map tells a story. Thank you for helping us tell it, and for being a part of FOSS4G 2024!",
   section2Heading: "About FOSS4G",
   section2Text1:
     "Join the fascinating world of the FOSS4G international conference, where innovation and collaboration converge to drive the future of geoinformation. At this unmissable event, leaders and enthusiasts of geospatial technology come together to explore the latest trends in open source software.",
